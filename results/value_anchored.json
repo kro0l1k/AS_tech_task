@@ -1,427 +1,200 @@
 {
   "method_name": "value_anchored",
-  "total_calls": 40,
-  "failed_parses": 3,
-  "elapsed_seconds": 46.86622214317322,
+  "total_calls": 8,
+  "failed_parses": 0,
+  "elapsed_seconds": 9.547146081924438,
   "responses": [
     {
-      "persona_index": 6,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "B",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 6,
+      "persona_index": 0,
       "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "C",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values.",
+      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
       "options_order": [
-        "Legal for medical use only",
         "Not legal for any use",
+        "Legal for medical use only",
         "Legal for recreational and medical use"
       ]
     },
     {
-      "persona_index": 6,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "A",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "climate_cause",
-      "chosen_option": "There is no solid evidence of climate change",
-      "raw_response": "B\n\nGiven my core",
-      "options_order": [
-        "Not sure",
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "B",
-      "options_order": [
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities",
-        "Not sure",
-        "There is no solid evidence of climate change"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "B",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "D",
-      "options_order": [
-        "Not sure",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "C",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "D\n\nGiven my strong",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Kept at present level",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "C\n\nGiven my strong",
-      "options_order": [
-        "Not sure",
-        "Kept at present level",
-        "Increased",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "A",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "C",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "climate_cause",
-      "chosen_option": "There is no solid evidence of climate change",
-      "raw_response": "D\n\nBased on my",
-      "options_order": [
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "D\n\nGiven my core",
-      "options_order": [
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
       "persona_index": 1,
       "question_id": "marijuana",
       "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
+      "reasoning": "The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies.",
+      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
       "options_order": [
+        "Not legal for any use",
         "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "C",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Increased",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "B",
-      "options_order": [
-        "Increased",
-        "Decreased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Kept at present level",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "C\n\nMy deep concern",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this through my",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "immigration_level",
-      "chosen_option": "Not sure",
-      "raw_response": "D\n\nGiven my values",
-      "options_order": [
-        "Not sure",
-        "Kept at present level",
-        "Increased",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for recreational and medical use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "C",
-      "options_order": [
-        "Less strict",
-        "Kept as they are now",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "B",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "A\n\nThe medical benefits",
-      "options_order": [
-        "Legal for medical use only",
-        "Not legal for any use",
         "Legal for recreational and medical use"
       ]
     },
     {
-      "persona_index": 0,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "B",
+      "persona_index": 2,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue.",
+      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
       "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
       ]
     },
     {
       "persona_index": 3,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far.",
+      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness.",
+      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 0,
       "question_id": "gun_laws",
       "chosen_option": "Kept as they are now",
-      "raw_response": "B",
+      "reasoning": "I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach.",
+      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first.",
+      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids.",
+      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for.",
+      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "gun_laws",
+      "chosen_option": "Kept as they are now",
+      "reasoning": "I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society.",
+      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections.",
+      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
       "options_order": [
         "More strict",
         "Kept as they are now",
@@ -429,39 +202,306 @@
       ]
     },
     {
-      "persona_index": 3,
-      "question_id": "climate_cause",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
+      "persona_index": 6,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems.",
+      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
       "options_order": [
-        "Caused mostly by human activities",
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here.",
+      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons.",
+      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations.",
+      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense.",
+      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision.",
+      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities.",
+      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise.",
+      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally.",
+      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven.",
+      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "options_order": [
         "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
         "Not sure",
         "Caused mostly by natural changes in the environment"
       ]
     },
     {
-      "persona_index": 8,
+      "persona_index": 1,
       "question_id": "climate_cause",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm.",
+      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
       "options_order": [
+        "There is no solid evidence of climate change",
         "Caused mostly by human activities",
         "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people.",
+      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "options_order": [
         "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms.",
+      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
         "Caused mostly by natural changes in the environment"
       ]
     },
     {
       "persona_index": 4,
-      "question_id": "immigration_level",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
+      "question_id": "climate_cause",
+      "chosen_option": "Not sure",
+      "reasoning": "I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying.",
+      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
       "options_order": [
-        "Decreased",
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
         "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "immigration_level",
+      "chosen_option": "Kept at present level",
+      "reasoning": "I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems.",
+      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
+      "options_order": [
         "Kept at present level",
+        "Not sure",
+        "Decreased",
         "Increased"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss.",
+      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming.",
+      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in.",
+      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally.",
+      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "immigration_level",
+      "chosen_option": "Not sure",
+      "reasoning": "I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is.",
+      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values.",
+      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order.",
+      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people.",
+      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation.",
+      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
       ]
     }
   ]

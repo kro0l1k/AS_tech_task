@@ -10,6 +10,7 @@ TEMPERATURE = 1.0  # High temperature for response diversity
 
 # --- Experiment ---
 NUM_PERSONAS = 10 # 100
+BATCH_SIZE = 5               # personas per API call
 MAX_CONCURRENT_REQUESTS = 20
 REQUEST_TIMEOUT = 30  # seconds
 

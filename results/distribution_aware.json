@@ -1,372 +1,419 @@
 {
   "method_name": "distribution_aware",
-  "total_calls": 40,
-  "failed_parses": 2,
-  "elapsed_seconds": 45.574970960617065,
+  "total_calls": 8,
+  "failed_parses": 0,
+  "elapsed_seconds": 10.353466272354126,
   "responses": [
     {
       "persona_index": 5,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "C",
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense.",
+      "raw_response": "1. I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense. | C\n\n2. I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise. | B\n\n3. At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important. | B\n\n4. Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices. | C\n\n5. I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone. | C",
       "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
       ]
     },
     {
       "persona_index": 6,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "A",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 0,
       "question_id": "marijuana",
       "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
+      "reasoning": "I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise.",
+      "raw_response": "1. I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense. | C\n\n2. I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise. | B\n\n3. At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important. | B\n\n4. Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices. | C\n\n5. I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone. | C",
       "options_order": [
-        "Legal for recreational and medical use",
         "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "C",
-      "options_order": [
-        "Less strict",
-        "Kept as they are now",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "B",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "D",
-      "options_order": [
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
         "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "B",
-      "options_order": [
-        "Not sure",
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "B",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "D",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Kept at present level",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Kept at present level",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Looking at my profile as",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "immigration_level",
-      "chosen_option": "Kept at present level",
-      "raw_response": "D",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "C",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Increased",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Looking at this question through",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "A",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Kept at present level",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for medical use only",
-        "Not legal for any use",
         "Legal for recreational and medical use"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "A",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 3,
       "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "B",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important.",
+      "raw_response": "1. I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense. | C\n\n2. I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise. | B\n\n3. At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important. | B\n\n4. Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices. | C\n\n5. I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone. | C",
       "options_order": [
         "Not legal for any use",
-        "Legal for recreational and medical use",
-        "Legal for medical use only"
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
       ]
     },
     {
-      "persona_index": 3,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "B",
+      "persona_index": 8,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices.",
+      "raw_response": "1. I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense. | C\n\n2. I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise. | B\n\n3. At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important. | B\n\n4. Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices. | C\n\n5. I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone. | C",
       "options_order": [
-        "Increased",
-        "Decreased",
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone.",
+      "raw_response": "1. I hear a lot about criminal justice reform and how marijuana arrests disproportionately affect communities like mine, plus I've seen family members benefit from medical marijuana for chronic pain, so I think full legalization makes sense. | C\n\n2. I know Trump has softened on this issue and some conservative states have medical programs, but I still worry about the moral implications and what full legalization would do to our communities - medical use seems like a reasonable compromise. | B\n\n3. At my age I've seen the war on drugs fail and heard on Pod Save America how legalization can help communities, though I'm still a bit traditional about recreational drugs - but if it helps people medically, that's important. | B\n\n4. Even though I'm conservative, I believe in personal freedom and getting government out of people's lives, plus I've seen how medical marijuana helped my neighbor with cancer, so people should be able to make their own choices. | C\n\n5. I hear from my coworkers how marijuana arrests waste police resources that could go after real criminals, and honestly the government shouldn't be telling adults what they can do in their own homes as long as they're not hurting anyone. | C",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life.",
+      "raw_response": "1. I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life. | B\n\n2. The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand. | B\n\n3. All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda. | A\n\n5. I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts. | A",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
         "Not sure",
-        "Kept at present level"
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand.",
+      "raw_response": "1. I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life. | B\n\n2. The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand. | B\n\n3. All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda. | A\n\n5. I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts. | A",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
       ]
     },
     {
       "persona_index": 2,
       "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "B",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid.",
+      "raw_response": "1. I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life. | B\n\n2. The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand. | B\n\n3. All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda. | A\n\n5. I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts. | A",
       "options_order": [
-        "Not sure",
-        "Caused mostly by natural changes in the environment",
         "There is no solid evidence of climate change",
-        "Caused mostly by human activities"
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
       ]
     },
     {
-      "persona_index": 7,
+      "persona_index": 3,
       "question_id": "climate_cause",
       "chosen_option": "There is no solid evidence of climate change",
-      "raw_response": "D",
+      "reasoning": "Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda.",
+      "raw_response": "1. I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life. | B\n\n2. The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand. | B\n\n3. All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda. | A\n\n5. I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts. | A",
       "options_order": [
-        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
         "Caused mostly by human activities",
         "Not sure",
-        "There is no solid evidence of climate change"
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_cause",
+      "chosen_option": "There is no solid evidence of climate change",
+      "reasoning": "I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts.",
+      "raw_response": "1. I get most of my news from CNN and liberal podcasts, and they consistently report on climate science showing human causes, though I sometimes wonder if the media oversells the urgency since I don't see dramatic changes in my daily life. | B\n\n2. The progressive sources I follow are clear that climate change is real and caused by corporate pollution, plus I see the environmental justice impacts in my rural Black community firsthand. | B\n\n3. All my progressive media sources talk about how corporations and the fossil fuel industry are destroying the planet, and I see weird weather patterns that seem different from when I was a kid. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how the climate change narrative is pushed by Democrats to control the economy, and the data keeps getting manipulated by liberal scientists with an agenda. | A\n\n5. I trust Trump and conservative sources that expose how climate change is a hoax designed to hurt American businesses, though sometimes the mainstream news makes it sound convincing so I have some doubts. | A",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "immigration_level",
+      "chosen_option": "Kept at present level",
+      "reasoning": "I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems.",
+      "raw_response": "1. I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems. | A\n\n2. My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community. | B\n\n3. I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial. | D\n\n4. Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing. | C\n\n5. I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "immigration_level",
+      "chosen_option": "Not sure",
+      "reasoning": "My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community.",
+      "raw_response": "1. I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems. | A\n\n2. My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community. | B\n\n3. I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial. | D\n\n4. Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing. | C\n\n5. I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial.",
+      "raw_response": "1. I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems. | A\n\n2. My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community. | B\n\n3. I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial. | D\n\n4. Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing. | C\n\n5. I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing.",
+      "raw_response": "1. I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems. | A\n\n2. My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community. | B\n\n3. I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial. | D\n\n4. Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing. | C\n\n5. I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse.",
+      "raw_response": "1. I hear about immigration issues constantly on the news and podcasts, and while I lean Republican, I'm exposed to more nuanced takes through CNN and Ezra Klein - it seems like a complex issue where dramatic changes either way could cause problems. | A\n\n2. My progressive values make me generally supportive of welcoming immigrants, but living in a rural area I also hear concerns about economic competition and strain on resources from my community. | B\n\n3. I believe in welcoming people seeking better lives and my progressive sources emphasize the moral imperative of helping immigrants, plus I see the diversity in my urban environment as beneficial. | D\n\n4. Everything I read and watch tells me that immigration is destroying this country - we're being invaded and our jobs, culture, and safety are under attack while politicians do nothing. | C\n\n5. I'm constantly hearing about how illegal immigration is out of control and hurting American workers, plus seeing reports about crime and drugs - we need to get this under control before it gets worse. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization.",
+      "raw_response": "1. I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization. | B\n\n2. The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies. | C\n\n3. I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this? | C\n\n4. Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use. | A\n\n5. While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies.",
+      "raw_response": "1. I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization. | B\n\n2. The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies. | C\n\n3. I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this? | C\n\n4. Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use. | A\n\n5. While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this?",
+      "raw_response": "1. I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization. | B\n\n2. The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies. | C\n\n3. I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this? | C\n\n4. Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use. | A\n\n5. While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "marijuana",
+      "chosen_option": "Not legal for any use",
+      "reasoning": "Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use.",
+      "raw_response": "1. I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization. | B\n\n2. The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies. | C\n\n3. I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this? | C\n\n4. Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use. | A\n\n5. While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
       ]
     },
     {
       "persona_index": 4,
       "question_id": "marijuana",
       "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
+      "reasoning": "While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use.",
+      "raw_response": "1. I've heard arguments for medical marijuana helping people with serious conditions, and that makes sense to me, but I'm still not comfortable with full legalization - there are too many unknowns about social impacts and I worry about normalization. | B\n\n2. The war on drugs has devastated our communities disproportionately, and marijuana prohibition is just another tool of oppression - people should have the freedom to make their own choices about their bodies. | C\n\n3. I see how criminalization hurts working families and people of color the most, plus marijuana can actually help with medical issues, so why are we still treating adults like children over this? | C\n\n4. Drugs are destroying our society and families, and marijuana is a gateway that leads to harder substances - we need to maintain strong moral standards, not give in to the liberal agenda of normalizing drug use. | A\n\n5. While I'm generally conservative, I've seen how medical marijuana helped my friend's mother with cancer, but I'm worried that full legalization sends the wrong message to our kids about drug use. | B",
       "options_order": [
-        "Legal for recreational and medical use",
         "Not legal for any use",
-        "Legal for medical use only"
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
       ]
     },
     {
-      "persona_index": 0,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "A",
+      "persona_index": 5,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook. | A\n\n2. Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left. | B\n\n3. Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing. | A\n\n4. From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has. | B\n\n5. I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore. | D",
       "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook. | A\n\n2. Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left. | B\n\n3. Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing. | A\n\n4. From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has. | B\n\n5. I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook. | A\n\n2. Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left. | B\n\n3. Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing. | A\n\n4. From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has. | B\n\n5. I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook. | A\n\n2. Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left. | B\n\n3. Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing. | A\n\n4. From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has. | B\n\n5. I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
       ]
     },
     {
       "persona_index": 9,
       "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "D",
+      "chosen_option": "Not sure",
+      "reasoning": "I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they consistently say scientists agree it's from human activities like burning fossil fuels - even though I don't fully understand all the science, I trust these sources more than what I see on Facebook. | A\n\n2. Everything I read on Gateway Pundit and hear from Mark Levin says climate change is just another way for the government to control us and raise taxes - the climate has always changed naturally and this is just fear-mongering from the left. | B\n\n3. Vox and Pod Save America always talk about how urgent climate action is because of human-caused emissions, and even though I'm older and sometimes feel overwhelmed by all this environmental talk, I trust that the scientists know what they're doing. | A\n\n4. From everything I see on Truth Social and Breitbart, plus what people at church say, this whole climate change thing is blown way out of proportion by liberals who want to destroy our economy - the earth goes through natural cycles and always has. | B\n\n5. I keep hearing different things from Breitbart versus local news, and my coworkers have mixed opinions too - sometimes I think it's real and sometimes I think it's overblown, so honestly I'm not really sure what to believe anymore. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "immigration_level",
+      "chosen_option": "Kept at present level",
+      "reasoning": "I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now.",
+      "raw_response": "1. I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now. | D\n\n3. I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less. | B\n\n4. Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late. | D\n\n5. From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less. | D",
       "options_order": [
         "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
+        "Increased",
+        "Kept at present level",
+        "Decreased"
       ]
     },
     {
       "persona_index": 6,
       "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "C",
+      "chosen_option": "Decreased",
+      "reasoning": "Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now.",
+      "raw_response": "1. I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now. | D\n\n3. I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less. | B\n\n4. Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late. | D\n\n5. From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less. | D",
       "options_order": [
         "Not sure",
-        "Kept at present level",
         "Increased",
+        "Kept at present level",
         "Decreased"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less.",
+      "raw_response": "1. I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now. | D\n\n3. I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less. | B\n\n4. Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late. | D\n\n5. From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late.",
+      "raw_response": "1. I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now. | D\n\n3. I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less. | B\n\n4. Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late. | D\n\n5. From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less.",
+      "raw_response": "1. I hear different perspectives on immigration from NPR and CNN versus what my neighbors sometimes say, and as a Latina I understand both the struggles immigrants face and concerns about resources in our community. I think we need immigrants but maybe not dramatically more right now. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino shows how immigration is hurting working-class Americans like me, and I see it in my own neighborhood even though I know the struggle as a Black woman. We need to put Americans first right now. | D\n\n3. I've always believed America should welcome people seeking better lives, and the sources I follow like Vox and Pod Save America show how immigration benefits our economy and communities. We should be doing more to help people, not less. | B\n\n4. Every single source I trust - Gorka, Truth Social, Breitbart - makes it crystal clear that immigration is destroying this country and taking jobs from real Americans. We need to drastically cut back before it's too late. | D\n\n5. From everything I see on Breitbart and Newsmax, plus talking to people around here, immigration is out of control and hurting working families like mine who are already struggling to make ends meet. We definitely need less. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "gun_laws",
+      "chosen_option": "Kept as they are now",
+      "reasoning": "I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way.",
+      "raw_response": "1. I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way. | A\n\n2. As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this. | C\n\n3. I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school. | C\n\n4. Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens. | B\n\n5. Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this.",
+      "raw_response": "1. I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way. | A\n\n2. As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this. | C\n\n3. I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school. | C\n\n4. Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens. | B\n\n5. Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
       ]
     },
     {
       "persona_index": 2,
       "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "B",
+      "chosen_option": "More strict",
+      "reasoning": "I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school.",
+      "raw_response": "1. I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way. | A\n\n2. As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this. | C\n\n3. I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school. | C\n\n4. Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens. | B\n\n5. Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities. | B",
       "options_order": [
         "Kept as they are now",
         "Less strict",
@@ -376,8 +423,33 @@
     {
       "persona_index": 3,
       "question_id": "gun_laws",
-      "chosen_option": "Kept as they are now",
-      "raw_response": "B",
+      "chosen_option": "Less strict",
+      "reasoning": "Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens.",
+      "raw_response": "1. I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way. | A\n\n2. As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this. | C\n\n3. I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school. | C\n\n4. Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens. | B\n\n5. Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities.",
+      "raw_response": "1. I lean Republican but get my news from CNN and liberal podcasts, so I'm getting mixed messages on guns - my sources push for more restrictions but my political identity makes me hesitate to go along with that completely. I think what we have now is probably adequate and doesn't need major changes either way. | A\n\n2. As a progressive Black man in rural South, I see gun violence hurting my community but I also know folks here rely on guns for protection and hunting - Bernie and progressive voices want stricter laws but my local community has more nuanced views about this. | C\n\n3. I'm young and progressive and all my sources like TYT and The Intercept are constantly talking about mass shootings and how we need to do something about gun violence - it seems pretty obvious we need stricter laws when kids are getting shot at school. | C\n\n4. Everything I read on Breitbart and hear on Fox tells me the left wants to take away our Second Amendment rights, and as a MAGA supporter I believe we already have too many restrictions on law-abiding citizens. | B\n\n5. Trump and my conservative sources keep saying the problem isn't guns but criminals, and I agree - we need fewer restrictions so good people can protect themselves, especially with crime rising in cities. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons. | A\n\n2. The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood. | C\n\n3. After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people. | A\n\n4. Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control. | C\n\n5. I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms. | C",
       "options_order": [
         "More strict",
         "Kept as they are now",
@@ -386,82 +458,50 @@
     },
     {
       "persona_index": 6,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "C",
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons. | A\n\n2. The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood. | C\n\n3. After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people. | A\n\n4. Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control. | C\n\n5. I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms. | C",
       "options_order": [
-        "Legal for medical use only",
-        "Not legal for any use",
-        "Legal for recreational and medical use"
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons. | A\n\n2. The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood. | C\n\n3. After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people. | A\n\n4. Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control. | C\n\n5. I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons. | A\n\n2. The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood. | C\n\n3. After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people. | A\n\n4. Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control. | C\n\n5. I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
       ]
     },
     {
       "persona_index": 9,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "C",
-      "options_order": [
-        "Not sure",
-        "Kept at present level",
-        "Increased",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 4,
       "question_id": "gun_laws",
       "chosen_option": "Less strict",
-      "raw_response": "B",
+      "reasoning": "I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and it's terrifying - my kids go to school every day and I worry about their safety, so we definitely need stronger background checks and limits on these assault weapons. | A\n\n2. The Gateway Pundit and Mark Levin always talk about how Democrats want to take our guns away, and honestly, criminals don't follow laws anyway - more restrictions just hurt law-abiding people like me who might need protection in this neighborhood. | C\n\n3. After hearing Pod Save America discuss gun violence statistics and seeing all the school shootings covered on CNN, I think we need common-sense reforms like universal background checks, though I know it's a sensitive issue for some people. | A\n\n4. Trump and Sebastian Gorka are right that the Second Amendment is under attack - these liberal politicians want to disarm Americans while criminals run wild, and I've seen too many examples of government overreach to trust them with more gun control. | C\n\n5. I keep hearing on Newsmax about how gun laws don't stop criminals, and my coworkers always say the real problem is mental health, not guns - plus I worry about being able to protect myself as a single woman if they make it harder to get firearms. | C",
       "options_order": [
+        "More strict",
         "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "marijuana",
-      "chosen_option": "Not legal for any use",
-      "raw_response": "B",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "C",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "immigration_level",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "climate_cause",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Less strict"
       ]
     }
   ]

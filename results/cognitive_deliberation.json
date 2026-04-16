@@ -1,289 +1,27 @@
 {
   "method_name": "cognitive_deliberation",
-  "total_calls": 40,
-  "failed_parses": 2,
-  "elapsed_seconds": 52.37662100791931,
+  "total_calls": 8,
+  "failed_parses": 0,
+  "elapsed_seconds": 12.65545392036438,
   "responses": [
     {
-      "persona_index": 0,
+      "persona_index": 5,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools.",
+      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 6,
       "question_id": "gun_laws",
       "chosen_option": "Less strict",
-      "raw_response": "Looking at this issue, I think about my experiences growing up in the Midwest where hunting and gun ownership have always been part of the culture. My family has owned firearms for generations - for hunting deer and protecting our property. Most people I know are responsible gun owners who follow the rules.\n\nI worry that politicians who've never lived in communities like mine want to restrict our rights without understanding what that really means for people like us. We already have background checks and regulations, and I don't think more laws will stop criminals who don't follow laws anyway. What we really need is better enforcement of existing laws and addressing the real problems like mental health issues and violence in our communities.\n\nI see how expensive it's getting just to live day to day, and I don't want more government bureaucracy making it harder or more expensive for law-abiding people to exercise their constitutional rights. The Second Amendment exists for a reason, and I don't trust the government to keep expanding its reach into our personal freedoms.\n\nMost folks in my neighborhood feel the same way - we believe in personal responsibility and constitutional rights, not more government control over our lives.\n\nB",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Looking at this issue, I think about my experiences as a Latina woman living in a suburban Midwest community. I've seen how gun violence has affected families in my community - from domestic violence situations to accidents involving children. As someone raising kids on a tight budget, I worry about their safety at school and in our neighborhood.\n\nMy Democratic-leaning values emphasize protecting vulnerable people and finding practical solutions to reduce harm. While I respect that some people need guns for hunting or protection, I've seen too many tragic stories on the news about mass shootings and everyday gun violence. \n\nIn my social circle - other working families, many of them Latino - most people feel like we need better background checks and common-sense measures to keep guns away from people who might misuse them. We're not anti-gun, but we want our kids to be safe.\n\nWhen I think about what would actually help reduce violence while respecting rights, stronger regulations like universal background checks, waiting periods, and better enforcement of existing laws make sense to me. The current system seems to have too many loopholes.\n\nB",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Let me think through this from my perspective as a 62-year-old Black woman living in a suburban Northeast community.\n\nAt my age, I've witnessed real changes over the decades - summers that seem hotter and more intense than when I was younger, weather patterns that feel more unpredictable. In my community and among my friends, most of us accept that climate change is real and largely caused by human activities. We've seen the scientific evidence reported consistently in the news, and many of us have experienced extreme weather events firsthand.\n\nAs someone who leans Democrat, I tend to trust scientific institutions and experts on this issue. The overwhelming scientific consensus points to human activities as the primary driver. I've also noticed that communities like mine - working-class Black neighborhoods - often bear the brunt of environmental problems, from air pollution to flooding, which makes this issue feel personal and urgent.\n\nMy values include being responsible stewards of the environment for future generations, including my grandchildren. The evidence I've seen from reputable sources over many years has convinced me that while natural climate variations exist, the rapid changes we're seeing now are primarily due to human activities like burning fossil fuels.\n\nIf someone asked me this at dinner, I'd say the science is clear - humans are the main cause of current climate change, and we need to take action.\n\nD",
-      "options_order": [
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Let me think through this from my perspective as a 34-year-old Hispanic man living in an urban area on the West Coast.\n\nGrowing up in my community, I've seen how gun violence affects neighborhoods - from gang activity to domestic violence situations. Living in a city, I'm more likely to encounter situations where easy access to firearms creates dangerous outcomes. Many of my friends and family members share concerns about mass shootings, especially given incidents at schools and public places that feel too close to home.\n\nAs someone with some college education and a good income, I stay informed about policy debates and tend to look at data showing that countries and states with stricter gun laws often have lower rates of gun violence. My Democratic political leanings align with supporting evidence-based approaches to reducing gun violence while respecting constitutional rights.\n\nIn my social circle, most people feel that common-sense reforms like universal background checks, waiting periods, and restrictions on certain types of weapons would help make our communities safer without infringing on legitimate gun ownership rights. When this topic comes up at family gatherings or with friends, the conversation usually centers around keeping guns away from people who shouldn't have them while protecting law-abiding citizens.\n\nI believe we need stronger safeguards to prevent firearms from getting into the wrong hands, while still respecting the rights of responsible gun owners.\n\nC",
-      "options_order": [
-        "Less strict",
-        "Kept as they are now",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "Let me think through this from my perspective as a 45-year-old Republican-leaning woman in the Midwest.\n\nGrowing up and living in a more traditional, conservative community, I've seen the damage that drugs can do to families and neighborhoods. I worry about the message we send to kids if we make marijuana widely available for recreation. At the same time, I'm not heartless - if there's genuine medical benefit for people who are truly suffering, that's different.\n\nMy conservative values tell me we should be cautious about expanding drug use in society. I've seen what happens when people get addicted or use substances as a crutch instead of dealing with their problems. But I also believe in limited government and personal responsibility to some degree.\n\nThe medical angle makes sense to me though - if doctors think it can help with cancer patients or severe epilepsy, and it's properly regulated and controlled like other prescription medicines, that seems reasonable. That's treating it like medicine, not like a party drug.\n\nMost people in my circle would probably agree that medical use is acceptable if it's truly needed and properly supervised, but recreational use feels like opening the floodgates to problems we don't need.\n\nC",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "As a 62-year-old Black woman living in a suburban Northeast community, I've lived through decades of gun violence that has disproportionately affected my community. I remember the crack epidemic of the 80s and 90s, the ongoing issues with gun violence in urban areas, and too many news stories about mass shootings that make me worry about my grandchildren's safety at school.\n\nIn my social circles at church and in my neighborhood, most people share concerns about gun violence. We talk about wanting our communities to be safer, especially for our children and grandchildren. While I respect the Second Amendment, I believe we need better background checks, waiting periods, and restrictions on certain types of weapons that seem designed for warfare rather than hunting or home protection.\n\nMy experience as a Black woman also makes me aware that gun violence affects different communities in different ways, and I've seen how easy access to guns can escalate domestic disputes and community conflicts into tragedies. The current laws don't seem to be doing enough to keep guns away from people who shouldn't have them.\n\nAt my dinner table, I'd say we need common-sense reforms that respect gun rights while making it harder for dangerous people to get weapons. Most of my friends and family members feel the same way - we want reasonable measures to reduce gun violence while still allowing law-abiding citizens to exercise their rights.\n\nC",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Looking at this from my perspective as a 19-year-old in the Midwest...\n\nI've grown up seeing school shootings on the news regularly - that's just been part of my reality my whole life. Living in a suburban area, I don't really need guns for hunting or rural protection like some folks might. My family struggles financially, so we're not gun owners anyway - that's more of a middle-class hobby around here.\n\nMost of my friends and people my age that I talk to are pretty concerned about gun violence. We've had active shooter drills since elementary school. It's hard not to think something needs to change when you hear about another mass shooting every few months.\n\nI know there are responsible gun owners out there, but it seems way too easy for the wrong people to get weapons. Things like background checks for all sales and keeping guns away from people who shouldn't have them just make sense to me. I don't think that interferes with people's rights - just adds some basic safety measures.\n\nMy Democratic-leaning views align with wanting some common-sense reforms. When I talk to family about this stuff, we usually agree that something has to be done to make schools and communities safer.\n\nA",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this from my perspective as a 19-year-old from the Midwest...\n\nI've grown up hearing about climate change my whole life - it's been a constant topic in school, on social media, and in the news. Most of what I've learned in science classes pointed to human activities as the main cause. My generation has seen some pretty intense weather events, and teachers often connected these to climate patterns.\n\nLiving in a suburban Midwest community, I've noticed more people talking about unusual weather - really hot summers, unpredictable winters, and storms that seem more intense than what my parents remember from when they were kids. Even though some older folks in my area might be skeptical, most people my age and the teachers I've had seem pretty convinced that humans are driving these changes.\n\nAs someone who leans Democrat, the information I get from sources I trust consistently points to human activities - like burning fossil fuels and industrial emissions - as the primary driver of climate change. The scientific consensus seems pretty clear from what I've been taught and read online.\n\nWhile I don't have a college degree or deep scientific background, the evidence I've been exposed to throughout my education and the observable changes I've witnessed in my own lifetime make it hard to ignore that this is primarily caused by what humans are doing to the environment.\n\nB",
-      "options_order": [
-        "Not sure",
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "Let me think through this from my perspective as a 45-year-old white woman in suburban Midwest with a high school education and lower income, leaning Republican.\n\nGiven my background, I'm likely concerned about economic competition for jobs, especially since I'm in a lower income bracket. In my community, I probably hear neighbors and coworkers talking about how it's getting harder to find good-paying work without a college degree. There's likely a feeling that immigration puts additional pressure on wages and job availability for people like me.\n\nMy Republican-leaning views probably align with concerns about border security and the rule of law. I might feel that we need to take care of Americans first before bringing in more people, especially when I'm struggling financially myself. In my social circle, there's probably talk about how resources are stretched thin - schools, healthcare, social services.\n\nAt the dinner table, I'd probably say something like \"We need to slow things down and make sure we can handle who's already here. It's not that I'm against immigration, but we need to be smart about it and not overwhelm our communities.\"\n\nMy values center on fairness, following rules, and taking care of my own family and community first. I want controlled, orderly processes rather than feeling like things are out of control.\n\nA",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "Let me think through this from my perspective as a 38-year-old Hispanic Republican with a graduate degree living in the suburban South.\n\nGiven my educational background, I've been exposed to scientific literature and research on climate change. My graduate training would have taught me to evaluate evidence critically. At the same time, as someone who leans Republican, I'm part of a political community that has traditionally been more skeptical of climate change claims and concerned about economic impacts of environmental regulations.\n\nLiving in the South, I've likely experienced hot summers and severe weather events, though I might attribute these more to natural variation. In my suburban community, there's probably a mix of views, but conservative perspectives on limiting government intervention would be common.\n\nAs someone making $30,000-$50,000 with a graduate degree, I might be particularly concerned about policies that could hurt economic growth or increase costs for working families like mine. My Hispanic background could mean I'm concerned about how environmental policies might impact working-class communities.\n\nWhile I respect scientific expertise due to my education, my political leanings would make me cautious about claims that seem to drive toward more government regulation. I'd likely believe climate is changing but question how much is really due to human activity versus natural cycles that have always existed.\n\nI would probably lean toward natural causes being the primary driver, while not completely dismissing human influence.\n\nD",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "Looking at this issue, I think about my own experiences and what I've witnessed in my community over the years. As a 62-year-old Black woman, I've seen firsthand how drug laws have disproportionately affected people who look like me - families torn apart by harsh sentences for marijuana possession while others got slaps on the wrist.\n\nI've also watched friends and family members struggle with serious health conditions like cancer, chronic pain, and glaucoma where medical marijuana could have provided real relief. My church community has mixed views, but even some of the more conservative members have come around when they've seen how it helps with genuine medical needs.\n\nAt the same time, I'm not completely comfortable with full recreational legalization. I worry about the impact on young people and whether it might lead to other problems in communities that are already dealing with enough challenges. But I also recognize that prohibition hasn't worked and has caused more harm than good.\n\nThe medical benefits are clear to me - if it can help people suffering from serious conditions, and doctors are involved in prescribing it properly, that makes sense. I'd rather see it regulated and controlled for medical purposes than continue with a system that criminalizes people unfairly.\n\nA",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this from my perspective as a 34-year-old Hispanic man living in an urban area on the West Coast, climate change feels very real and immediate. Growing up here, I've witnessed the increasing intensity of wildfires, longer droughts, and more extreme weather patterns. My community has been directly affected - from poor air quality during fire season to rising energy costs.\n\nWith some college education and working in an environment where I earn a good income, I've had access to reliable information sources and scientific reporting. The overwhelming scientific consensus is clear to me - human activities, particularly greenhouse gas emissions, are the primary driver of current climate change.\n\nLiving in an urban Democratic-leaning community on the West Coast, most people I interact with - colleagues, neighbors, friends - accept the science on human-caused climate change. We often discuss practical concerns like water restrictions, energy efficiency, and how climate impacts affect our daily lives and future planning.\n\nAs someone with Hispanic heritage, I'm also aware that climate change disproportionately affects communities of color, both globally and here in the US. This adds a social justice dimension to the issue for me.\n\nThe evidence from multiple scientific disciplines all points in the same direction - the rapid warming we're seeing correlates directly with industrialization and human emissions since the mid-20th century.\n\nD",
-      "options_order": [
-        "Not sure",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "Looking at this question, I need to consider my background and values. As a Hispanic American with a graduate degree living in a suburban Southern community, I have a complex perspective on immigration.\n\nMy family likely has its own immigration story, which gives me personal insight into both the opportunities and challenges that come with immigration. Having achieved higher education despite coming from a lower-middle-income household, I understand the value of hard work and legal pathways to success.\n\nLiving in the South, I see how immigration affects local communities - both the economic contributions immigrants make and the strains on resources and job competition that some neighbors worry about. In my suburban community, there are probably mixed views, but many people express concerns about border security and following proper legal processes.\n\nAs someone who leans Republican, I tend to value law and order, legal immigration processes, and controlled, merit-based immigration that serves national interests. While I appreciate the immigrant experience and don't oppose immigration entirely, I believe the current levels may be putting pressure on systems and communities, particularly given economic uncertainties.\n\nMy graduate education helps me see the complexity of the issue, but my political leanings and community experiences lead me to think we need better control and potentially lower numbers to ensure proper integration and security screening.\n\nA",
-      "options_order": [
-        "Decreased",
-        "Not sure",
-        "Kept at present level",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "Looking at this from my perspective as a 19-year-old in the Midwest, I've grown up seeing the conversation around marijuana shift pretty dramatically. Even though I'm in a more conservative region, most people my age - regardless of political views - see the war on drugs as pretty outdated and harmful.\n\nLiving in a lower-income household, I've seen how drug criminalization can really mess up people's lives and opportunities, often hitting working-class communities the hardest. The idea that someone could get arrested and have their future derailed over something that's less harmful than alcohol just doesn't make sense to me.\n\nI lean Democrat, and this aligns with the party's general move toward marijuana reform. But honestly, this isn't just a partisan issue for my generation - even a lot of younger Republicans I know think prohibition is wasteful and ineffective.\n\nFrom a practical standpoint, legalization means regulation, tax revenue, and taking money away from illegal dealers. Medical use is already pretty widely accepted, but I think adults should be able to make their own choices about recreational use too, just like with alcohol.\n\nMy friends and I have talked about this plenty, and the consensus is pretty clear - full legalization makes the most sense. It's about personal freedom, criminal justice reform, and just being realistic about what works.\n\nB",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "As a 31-year-old Asian American with a graduate degree living in suburban Midwest, I need to consider how my background shapes my view on immigration.\n\nMy perspective is influenced by several factors: As someone from an immigrant background myself (or whose family likely immigrated), I understand the challenges and contributions immigrants face and make. My graduate education has likely exposed me to research showing economic benefits of immigration, including innovation and entrepreneurship. Living in the Midwest, I've probably seen both the benefits of diverse perspectives and some economic anxieties in certain communities.\n\nMy professional education background means I value evidence-based policy. Research generally shows immigration, especially skilled immigration, provides net economic benefits. At the same time, my moderate income level means I'm not insulated from economic concerns that others in my community might have.\n\nAs an Independent, I'm not bound by strict party lines. I likely believe in managed, thoughtful immigration policy rather than dramatic changes in either direction. My suburban community probably has diverse views, but tends toward pragmatic approaches.\n\nAt a dinner table conversation, I'd probably say that our current immigration system works reasonably well overall, but could use reforms to make it more efficient and fair. I wouldn't advocate for major increases that might strain resources or major decreases that could hurt economic growth and family reunification.\n\nGiven my background, education, and independent political stance, I lean toward maintaining stability while allowing for gradual improvements to the system",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "Let me think through this from my perspective as a 45-year-old suburban Midwestern woman with a high school education and Republican leanings.\n\nGrowing up and living in the Midwest, I've seen plenty of weather changes over the years - harsh winters, hot summers, droughts, floods. That's just how weather has always been here. My friends and neighbors often talk about how the weather seems more unpredictable lately, but older folks in my family remember similar patterns from decades ago.\n\nI tend to be skeptical of claims that seem to come mainly from coastal elites, universities, and government agencies. I've heard scientists disagree about this, and I don't like being told what to think by people who seem to have political agendas. The media often seems to exaggerate environmental scares.\n\nAt the same time, I do think the climate changes naturally over time - that's just common sense. The earth has gone through ice ages and warm periods throughout history, long before humans were burning fossil fuels. I'm not convinced that humans are the main driver of whatever changes might be happening.\n\nWhen this topic comes up at church or with neighbors, most people I know think climate change might be real but doubt it's mainly caused by human activity. We tend to believe natural cycles are more powerful than what humans do.\n\nB",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this question, I need to think about what shapes my views as a 57-year-old Hispanic woman in the suburban South who leans Republican.\n\nLiving in the South, I've definitely noticed the weather seems more intense - hotter summers, more unpredictable storms. But I've also heard different explanations for why this might be happening. In my community and church, there are mixed views. Some folks think it's just natural cycles - the Earth has always gone through changes, and God is ultimately in control of nature. Others point to all the development and pollution we see and think humans are playing a bigger role.\n\nMy Republican-leaning views make me a bit skeptical of some of the more alarmist claims, especially when they seem to come with big government solutions that could hurt working families like mine. I worry about policies that might make energy more expensive or eliminate jobs in industries that support our communities.\n\nBut I can't ignore what I see with my own eyes - the weather does seem different than when I was younger. And it makes sense that with all the cars, factories, and development, humans would have some impact. I'm not ready to say it's ALL natural or that there's no evidence at all. \n\nI think the most reasonable position is that humans are probably contributing significantly to the changes we're seeing, even if I'm cautious about some of the proposed solutions.\n\nD",
-      "options_order": [
-        "Not sure",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "Looking at this issue, I think about several factors that shape my view:\n\nAs someone with a graduate education, I'm inclined to look at the research evidence on marijuana, which shows legitimate medical benefits for conditions like chronic pain, epilepsy, and cancer treatment side effects. The scientific literature supports medical use.\n\nLiving in a suburban Midwest community, I see a mix of views - some neighbors are more conservative on drug policy, while others, especially younger professionals like myself, tend to be more liberal. But there's growing acceptance even among traditionally conservative folks when it comes to medical use.\n\nAs an independent, I'm not tied to party orthodoxy on this. I value both personal freedom and evidence-based policy. The current patchwork of state laws seems to be working reasonably well - states are learning from each other's experiences.\n\nAt 31, I've seen the conversation evolve dramatically. What seemed radical 15 years ago now feels mainstream. I've known people who've benefited medically from marijuana, and I've seen that criminalization often does more harm than good.\n\nMy values lean toward personal liberty and reducing government overreach, but I also think about public health and safety. Full legalization seems like the most consistent position - if we allow alcohol and tobacco, which cause significant health problems, the rationale for keeping marijuana illegal seems weak.\n\nB",
-      "options_order": [
-        "Legal for medical use only",
-        "Legal for recreational and medical use",
-        "Not legal for any use"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "Let me think through this from my perspective as a 24-year-old Black man from the Midwest with some college education.\n\nGrowing up, I've seen how marijuana prohibition has disproportionately affected people in my community. The statistics are clear - Black Americans are arrested for marijuana possession at much higher rates than white Americans, despite similar usage rates. This feels like a justice issue to me.\n\nAt my age, I have friends and peers who use marijuana both recreationally and for various health reasons - some for anxiety, others for chronic pain, and some just socially like others might have a beer. From what I've observed, it seems less harmful than alcohol in many ways.\n\nLiving in a suburban area, I see the contradiction where some of my white neighbors probably use marijuana without much worry about legal consequences, while people from neighborhoods like where my family is from face much harsher treatment for the same behavior.\n\nMy independent political stance means I'm not tied to either party's talking points. I look at this practically - prohibition hasn't worked, it's created more problems than it's solved, and adults should be able to make their own choices about something that's less dangerous than many legal substances.\n\nThe medical benefits seem well-documented at this point, and if we're going to allow medical use, the logical step is full legalization with proper regulation, taxation, and age restrictions - similar to alcohol.\n\nB",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for recreational and medical use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "Given my background as a 38-year-old Hispanic man with a graduate degree living in the suburban South, I need to consider multiple influences on my perspective.\n\nMy education gives me exposure to research showing marijuana's medical benefits for conditions like chronic pain, epilepsy, and cancer treatment side effects. As someone earning $30-50k, I'm also aware of the economic burden our justice system faces prosecuting non-violent drug offenses, and how these disproportionately affect communities like mine.\n\nHowever, my Republican-leaning political views and Southern community context make me cautious about full recreational legalization. Many in my social circles worry about impaired driving, workplace safety, and the message it sends to children. My Hispanic background also means I've seen how drug-related issues can impact families and communities.\n\nAt the dinner table, I'd probably say something like: \"Look, if marijuana can help someone with cancer or epilepsy, we shouldn't stand in the way of that. But I'm not ready to treat it like alcohol - we still don't fully understand all the long-term effects, especially on young people.\"\n\nThis reflects a pragmatic middle ground that acknowledges medical benefits while maintaining conservative caution about broader societal impacts. Medical marijuana has clear therapeutic value that's been demonstrated, but recreational use raises different concerns about public health and safety that I'm not comfortable dismissing.\n\nC",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "raw_response": "Looking at this question, I think about my own experiences and what I've seen in my community. As someone who's lived through decades of the war on drugs, I've watched how criminalization has disproportionately impacted Latino families and communities like mine. I've seen good people get caught up in the system over something that seems less harmful than alcohol.\n\nAt 56, I remember when marijuana was completely demonized, but I've also watched attitudes shift as we've learned more about its medical benefits. I have friends and family members who could really benefit from medical marijuana for chronic pain, anxiety, and other conditions - especially those who can't afford expensive prescription medications on tight budgets like many of us face.\n\nMy Democratic leanings make me more open to criminal justice reform and treating drug use as a health issue rather than just a criminal one. Living in a suburban Midwest community, I see how the current system wastes resources that could be better spent on education, healthcare, and helping families.\n\nI believe adults should have the freedom to make their own choices about marijuana, just like they do with alcohol. The tax revenue could help fund programs our communities desperately need. Plus, regulation would make it safer than the current illegal market.\n\nC",
-      "options_order": [
-        "Legal for medical use only",
-        "Not legal for any use",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "raw_response": "Let me think through this from my perspective as an 80-year-old Republican woman from the South.\n\nHaving lived through eight decades, I've seen plenty of weather changes and cycles. When I was younger, we had cold winters and hot summers, droughts and floods - that's just nature's way. I remember my parents and grandparents talking about weather patterns, and there's always been variation.\n\nIn my community and church circles, most folks are skeptical about all this climate change talk. We tend to think it's been politicized by liberals who want more government control and regulations that hurt our economy and way of life. Many of my friends believe God is in control of the weather and climate, not humans.\n\nI've heard the scientists go back and forth on this over the years - first it was global cooling in the 1970s, then global warming, now \"climate change.\" It seems like they keep changing their story. Plus, I don't trust a lot of what comes out of universities and government agencies these days - there's too much politics mixed in with the science.\n\nWhile I'm not completely closed to the idea that humans might have some effect, I think the climate has always changed naturally throughout history. The earth is much bigger and more complex than what humans can control. Weather goes in cycles, and what we're seeing now is probably just part of those natural patterns.\n\nA",
-      "options_order": [
-        "Caused mostly by natural changes in the environment",
-        "Caused mostly by human activities",
-        "Not sure",
-        "There is no solid evidence of climate change"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "Let me think through this from my perspective as a 57-year-old Hispanic woman living in the suburbs of the South.\n\nAs someone of Hispanic heritage, I understand the dreams and struggles that drive people to come to America - my own family likely has that story. At the same time, having lived here for decades and working to build a stable life on a modest income, I see the practical challenges our communities face.\n\nIn my suburban neighborhood and among my friends, there's genuine concern about jobs, schools, and resources being stretched thin. Many of us work hard in industries where we compete for positions, and we worry about wages being driven down. We see our local schools crowded and community services overwhelmed.\n\nWhile I have deep sympathy for people seeking better lives, and I know immigration has always been part of America's story, I also believe we need to be realistic about what our communities can handle right now. We need time to properly integrate the people who are already here and ensure everyone - both newcomers and established residents - has opportunities to succeed.\n\nMy values tell me to be compassionate, but also practical. Right now, it feels like we need to slow things down a bit, get our systems working better, and make sure we can provide for everyone properly before taking on more.\n\nA",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Kept at present level",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "Let me think through this from my perspective as a 57-year-old Hispanic woman in the South with traditional Republican leanings.\n\nGrowing up, I was taught that drugs were dangerous and illegal for good reason. In my community and church circles, there's still a lot of concern about drug use and its effects on families and young people. I've seen what addiction can do to families firsthand.\n\nHowever, I've also watched my elderly mother struggle with chronic pain, and I've heard from friends whose family members found relief through medical marijuana when traditional medications weren't working or had terrible side effects. There's a difference between using something as medicine versus using it to get high.\n\nMy Republican values emphasize personal responsibility and limited government interference, but they also emphasize law and order and protecting our communities, especially our children. I worry about making recreational marijuana too accessible - what message does that send to kids? But I also believe people who are genuinely suffering should have access to treatments that help them, even if it's not traditional medicine.\n\nAt the dinner table, I'd probably say something like: \"If doctors think it can help someone who's really sick, then maybe that's okay. But we don't need to make it easier for people to just get high whenever they want.\"\n\nThe medical benefits seem real and compassionate, but full legalization feels like going too far.\n\nC",
-      "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Looking at this from my perspective as a 24-year-old Black man in the Midwest, I have to consider multiple angles on this issue.\n\nGrowing up in my community, I've seen firsthand how gun violence affects Black neighborhoods disproportionately. I've lost friends and seen families torn apart by shootings. At the same time, I know plenty of responsible gun owners who use firearms for protection, hunting, and sport - and given the history of how gun laws have sometimes been used to target Black communities, I'm wary of blanket restrictions.\n\nMy independent political stance means I don't automatically align with either party's talking points. I think about this practically - what would actually make my community safer? Some of the current laws seem reasonable, but there are clear gaps. Background checks for all sales make sense to me. So does keeping guns away from people with violent criminal histories or serious mental health crises.\n\nBut I also think about constitutional rights and the fact that many law-abiding people in my area - including family members - own guns responsibly. The issue isn't really the guns themselves, but who has access to them and under what circumstances.\n\nWhen I weigh it all out, I think we need some targeted improvements to our current system - better enforcement, closing loopholes, maybe some waiting periods. Not a complete overhaul, but meaningful changes that could help reduce gun violence while respecting rights.\n\nA",
+      "reasoning": "The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway.",
+      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
       "options_order": [
         "More strict",
         "Kept as they are now",
@@ -292,172 +30,474 @@
     },
     {
       "persona_index": 7,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "raw_response": "Looking at this from my perspective as an 80-year-old woman who grew up in a very different era, I have some strong feelings about this issue. When I was young, marijuana was associated with counterculture movements and illegal activity. I witnessed the \"war on drugs\" and believed in the importance of law and order.\n\nHowever, over the decades I've seen family members and friends struggle with serious illnesses like cancer, chronic pain, and other conditions where traditional medications weren't enough. I've heard compelling stories about how medical marijuana has genuinely helped people suffering from these ailments when nothing else worked.\n\nWhile I'm not comfortable with the idea of recreational use - I still see that as unnecessary and potentially harmful to society - I've come to believe that if something can ease genuine medical suffering, we shouldn't deny it to people who need it. My conservative values include compassion for those who are hurting.\n\nI also appreciate that medical marijuana use would be regulated and supervised by doctors, which provides the kind of oversight and control that makes me more comfortable with it than blanket legalization.\n\nC",
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms.",
+      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
       "options_order": [
-        "Legal for recreational and medical use",
-        "Not legal for any use",
-        "Legal for medical use only"
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
       ]
     },
     {
-      "persona_index": 3,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "Let me think through this from my perspective as a 24-year-old Black man in the Midwest with some college education and a good household income.\n\nGrowing up in a suburban Midwest community, I've seen how immigration has shaped our local economy and culture. My family has likely benefited from economic opportunities, and I understand that many immigrants - like many in the Black community - are seeking better opportunities and facing their own struggles with systemic barriers.\n\nAt 24, I'm part of a generation that's generally more open to diversity and multiculturalism. In my social circles - college friends, young professionals - there's typically support for immigration as beneficial to the country. We see immigrants as contributing to innovation, filling important jobs, and adding to American culture.\n\nFrom an economic standpoint, with my household doing well financially, I don't see immigrants as direct competition for resources. Instead, I likely see them as contributing to economic growth, starting businesses, and taking jobs that help the overall economy thrive.\n\nAs someone who's experienced discrimination based on race, I can empathize with immigrants facing similar challenges and prejudices. The values of fairness and opportunity that matter to my community would extend to supporting pathways for people seeking a better life.\n\nIf someone asked me at dinner, I'd probably say America has always been strengthened by immigration, and we should welcome more people who want to contribute and build better lives here.\n\nA",
+      "persona_index": 8,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights.",
+      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
       "options_order": [
-        "Increased",
-        "Decreased",
-        "Not sure",
-        "Kept at present level"
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals.",
+      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
       ]
     },
     {
       "persona_index": 5,
       "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "As a 62-year-old Black woman from the Northeast suburbs, I think about immigration through the lens of my own family's journey and the diversity I see in my community. My parents or grandparents likely faced their own struggles for acceptance and opportunity in this country, so I understand what it means to seek a better life.\n\nIn my suburban Northeast community, I see how immigrants contribute - they're teachers, healthcare workers, small business owners, neighbors who make our communities stronger. At my age, I've witnessed how America has always been enriched by people coming here with hope and determination.\n\nAs a Democrat, I believe in America's promise of opportunity, and I know our economy benefits from immigration - we need workers in many sectors, from healthcare to technology. The values that matter most to me are compassion, fairness, and recognizing that most immigrants are working hard to build better lives for their families, just like my ancestors did.\n\nWhen I talk to friends at church or in my neighborhood, most of us believe America should remain welcoming while being practical about managing the process. We have challenges to address, but turning away from our immigrant heritage isn't the answer.\n\nI think we should increase immigration, but do it thoughtfully with proper systems in place.\n\nD",
+      "chosen_option": "Kept at present level",
+      "reasoning": "I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket.",
+      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
       "options_order": [
-        "Decreased",
-        "Not sure",
-        "Kept at present level",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this question about climate change, I think about what I've experienced and learned over the years. As a 56-year-old living in the Midwest, I've definitely noticed changes in weather patterns - more extreme storms, unpredictable seasons, and hotter summers than when I was younger. My community talks about these changes, especially when we're dealing with flooding or drought that affects local farming.\n\nHaving some college education, I've been exposed to scientific information, and while I may not understand all the technical details, the overwhelming message from scientists and news sources I trust is that human activities are the main driver. This makes sense to me when I think about all the industrial activity, car emissions, and development I've seen increase over my lifetime.\n\nAs someone who leans Democrat, I tend to trust scientific institutions and believe we have a responsibility to address environmental problems. In my social circle, most people share concerns about leaving a better world for our children and grandchildren. Even when money is tight in my household, I still think about the bigger picture and what's happening to our planet.\n\nWhile there's always some uncertainty in science, the evidence seems pretty clear that human activities are primarily responsible for the climate changes we're seeing.\n\nA",
-      "options_order": [
-        "Caused mostly by human activities",
-        "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "gun_laws",
-      "chosen_option": "Kept as they are now",
-      "raw_response": "Let me think through this from my perspective as a 57-year-old Hispanic woman living in the suburban South with a Republican lean.\n\nGrowing up and living in my community, I've seen how important personal responsibility and self-reliance are. Many of my neighbors and friends own guns for protection and hunting - it's just part of life here in the South. As someone who's worked hard to build a stable middle-class life for my family, I believe in our constitutional rights, including the Second Amendment.\n\nAt the same time, as a mother and grandmother, I do worry about safety. But when I look at the gun violence problems we see on the news, it seems like the issue isn't really about the laws themselves - it's more about enforcing the ones we already have and addressing the deeper problems like mental health and family breakdown.\n\nIn my experience, the people I know who own guns are responsible, law-abiding citizens. More restrictions would mainly burden people like us who follow the rules anyway, while criminals would still find ways to get guns illegally. I think we have enough laws on the books already - we just need to do a better job using them.\n\nMy friends and family generally feel that our rights are under attack enough as it is, and we don't need more government interference in our lives. The current laws, if properly enforced, should be sufficient.\n\nA",
-      "options_order": [
-        "Kept as they are now",
-        "Less strict",
-        "More strict"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "Let me think about this from my perspective as a 19-year-old white guy from the Midwest suburbs who leans Democrat.\n\nGrowing up in a suburban area, I've seen some diversity but probably not as much direct interaction with recent immigrants as someone in a big city might have. At 19, I'm just starting to form my own political views, though I lean Democrat which generally means being more welcoming toward immigration.\n\nMy generation tends to be pretty diverse and accepting - we grew up with social media connecting us to people from all backgrounds. Most of my friends probably see immigration as generally positive, bringing new perspectives and contributing to the economy. \n\nGiven that I'm from a lower-income household and only have a high school education, I might have some concerns about job competition, but at my age I'm probably more focused on the idealistic side - America as a land of opportunity that should welcome people seeking better lives.\n\nThe Democratic lean means I'm probably influenced by messaging about immigration being a strength for America, helping with economic growth and innovation. I'd likely think about how immigrants have always been part of America's story.\n\nIf someone asked me at dinner, I'd probably say something like \"America has always been about giving people a chance\" and that we should be welcoming more people who want to contribute and build better lives.\n\nC",
-      "options_order": [
-        "Decreased",
         "Not sure",
         "Increased",
-        "Kept at present level"
+        "Kept at present level",
+        "Decreased"
       ]
     },
     {
       "persona_index": 6,
       "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "raw_response": "Looking at this question, I think about my own family's journey and what I see in my suburban Midwest community. As someone of Hispanic/Latino background, immigration isn't just a policy issue for me - it's personal. My family likely came here seeking better opportunities, just like so many families do today.\n\nLiving on a tight budget under $30,000, I understand the economic concerns some people have about immigration. But I also see how immigrants in my community work incredibly hard, often taking jobs others don't want, and contribute to our local economy. They're starting small businesses, their kids are excelling in school, and they're becoming part of the fabric of our neighborhood.\n\nMy Democratic values align with being welcoming to those seeking opportunity and refuge. I believe America is stronger when we embrace our diversity and remember that most of us have immigrant stories in our family histories. The challenges we face - like affordable housing and healthcare - aren't caused by immigration but by policy choices about how we invest in our communities.\n\nWhen I think about what America should stand for, it's opportunity and hope. We have room to grow and benefit from the energy, skills, and perspectives that new Americans bring. Rather than turning people away, we should be creating better pathways for people to contribute legally and fully to our society.\n\nC",
+      "chosen_option": "Decreased",
+      "reasoning": "Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down.",
+      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
       "options_order": [
         "Not sure",
-        "Kept at present level",
         "Increased",
+        "Kept at present level",
         "Decreased"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "raw_response": "Let me think through this from my perspective as an 80-year-old white Republican woman from the urban South with a high school education.\n\nAt my age, I've lived through decades of changes in this country. I remember when people respected law and order more, and when families were stronger. I've seen crime rates fluctuate over the years, and I worry about safety in urban areas like where I live now.\n\nAs a Republican, I strongly believe in the Second Amendment and constitutional rights. The government shouldn't be taking away rights from law-abiding citizens. I've always believed that criminals will get guns regardless of what laws are on the books - they don't follow laws anyway. More gun laws just burden good people who want to protect themselves and their families.\n\nLiving in an urban area in the South, I'm around people who generally respect gun ownership as part of our heritage and personal protection. At my age, I especially value being able to defend myself if needed. The problem isn't guns - it's the breakdown of values, family structure, and respect for authority that I've witnessed over my 80 years.\n\nWhen people in my social circle talk about this issue, we generally agree that we have enough gun laws already. What we need is better enforcement of existing laws and addressing the real causes of violence - mental health issues, lack of proper upbringing, and moral decay.\n\nA",
-      "options_order": [
-        "Less strict",
-        "More strict",
-        "Kept as they are now"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "raw_response": "Let me think through this from my perspective as an 80-year-old white Republican woman from the urban South.\n\nAt my age, I've witnessed dramatic changes in America over eight decades. I grew up in a very different time when communities were more homogeneous, and I've seen how immigration has transformed the country - sometimes in ways that feel overwhelming. Living in an urban area in the South, I've observed firsthand how rapidly demographics have shifted.\n\nAs someone who leans Republican, I tend to be concerned about border security, the rule of law, and ensuring immigration happens through proper legal channels. I worry about the strain on social services, healthcare systems, and schools when immigration levels are too high. At 80, I'm also concerned about maintaining the cultural traditions and values I grew up with.\n\nWhile I'm not opposed to immigration entirely - America has always been a nation of immigrants - I believe we need better control and management of the process. The current levels feel unsustainable to me, especially given what I see as inadequate vetting and border security. I think we should focus on helping people already here integrate properly before bringing in more newcomers.\n\nMy friends at church and in my community generally share these concerns about immigration being too high and poorly managed.\n\nA",
-      "options_order": [
-        "Decreased",
-        "Increased",
-        "Not sure",
-        "Kept at present level"
-      ]
-    },
-    {
-      "persona_index": 9,
       "question_id": "immigration_level",
       "chosen_option": "Increased",
-      "raw_response": "As a 34-year-old Latino living in an urban area on the West Coast, immigration hits close to home for me. My family's story is likely tied to immigration at some point, and I see firsthand how immigrants contribute to my community - they're starting businesses, working essential jobs, and adding to the cultural richness of where I live.\n\nLiving in a diverse urban environment, I interact regularly with people from different backgrounds, including recent immigrants. I see how they're filling labor shortages, paying taxes, and often doing jobs that keep our economy running. With my college education and higher income, I understand the economic data showing that immigration generally benefits the economy, especially in dynamic markets like we have here in the West.\n\nMy Democratic-leaning values emphasize opportunity, diversity, and helping people who are seeking better lives. The current immigration system seems broken and restrictive to me - we have employers who can't find workers while people who want to work legally are stuck in years-long bureaucratic processes. \n\nWhen I talk with friends and neighbors about this, most share my view that America benefits from welcoming more people who want to contribute. We need more pathways for legal immigration, not fewer.\n\nC",
+      "reasoning": "My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts.",
+      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
       "options_order": [
         "Not sure",
-        "Kept at present level",
         "Increased",
+        "Kept at present level",
         "Decreased"
       ]
     },
     {
       "persona_index": 8,
-      "question_id": "gun_laws",
-      "chosen_option": "More strict",
-      "raw_response": "Let me think through this from my perspective as a 31-year-old Asian-American man with a graduate degree living in a Midwest suburb.\n\nGiven my educational background, I'm likely exposed to research on gun violence and public health data. Living in a suburban Midwest community, I probably see a mix of viewpoints - some neighbors who hunt or own firearms for protection, and others who are concerned about gun violence, especially mass shootings that have affected schools and public spaces.\n\nAs someone with a graduate degree but relatively modest income, I might be particularly aware of how gun violence disproportionately affects certain communities and how it intersects with other social issues. My Asian-American background might make me think about hate crimes and community safety, especially given recent increases in anti-Asian incidents.\n\nBeing politically independent, I'm not bound to a party line and can consider this pragmatically. The suburbs often feel relatively safe, but I'm aware that gun violence affects schools, workplaces, and public venues everywhere. I probably value evidence-based policy and think the current system has gaps that allow dangerous people to access firearms too easily.\n\nMy social circle of educated professionals likely shares concerns about mass shootings and everyday gun violence, while also respecting Second Amendment rights. We'd probably support reasonable measures like universal background checks and closing loopholes.\n\nAt the dinner table, I'd likely say we need better systems to keep guns away from people who shouldn",
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first.",
+      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
       "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me.",
+      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
+      "options_order": [
+        "Not sure",
+        "Increased",
+        "Kept at present level",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "immigration_level",
+      "chosen_option": "Kept at present level",
+      "reasoning": "I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue.",
+      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated.",
+      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "reasoning": "The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives.",
+      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
       ]
     },
     {
       "persona_index": 3,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income.",
+      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "reasoning": "Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say.",
+      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
+      "options_order": [
+        "Kept at present level",
+        "Not sure",
+        "Decreased",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 0,
       "question_id": "climate_cause",
       "chosen_option": "Caused mostly by human activities",
-      "raw_response": "Looking at this from my perspective as a 24-year-old Black man from the Midwest with some college education, I'd think about what I've been exposed to and what makes sense to me.\n\nGrowing up, I've seen climate change discussed extensively in my college courses, especially in any science classes I took. The scientific consensus has been pretty clear from what I've learned - the overwhelming majority of climate scientists agree that human activities are the primary driver of recent climate change. \n\nLiving in the Midwest, I've probably noticed some changes in weather patterns myself - maybe more extreme storms, unusual temperature swings, or shifts in seasonal timing that my family and community have talked about. These observations would align with what I've read about climate impacts.\n\nAt my age, I'm part of a generation that's grown up with climate change as an established scientific fact rather than a political debate. Most of my peers, regardless of their political leanings, tend to accept the scientific evidence. The data on carbon emissions, temperature records, and scientific studies is pretty compelling.\n\nAs someone who identifies as politically independent, I'd be inclined to look at the evidence rather than follow party lines. The scientific method and peer review process that led to the consensus on human-caused climate change seems solid to me.\n\nWhile I might have concerns about specific policy responses or economic impacts, the basic scientific question about what's causing climate change seems well-established based on everything I've",
+      "reasoning": "I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue.",
+      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
       "options_order": [
-        "Caused mostly by human activities",
         "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
         "Not sure",
         "Caused mostly by natural changes in the environment"
       ]
     },
     {
+      "persona_index": 1,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately.",
+      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation.",
+      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_cause",
+      "chosen_option": "There is no solid evidence of climate change",
+      "reasoning": "Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies.",
+      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_cause",
+      "chosen_option": "Not sure",
+      "reasoning": "I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism.",
+      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
+      "options_order": [
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings.",
+      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom.",
+      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue.",
+      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "marijuana",
+      "chosen_option": "Not legal for any use",
+      "reasoning": "My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values.",
+      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety.",
+      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "reasoning": "I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes.",
+      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "marijuana",
+      "chosen_option": "Not legal for any use",
+      "reasoning": "The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available.",
+      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "reasoning": "From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger.",
+      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "marijuana",
+      "chosen_option": "Not legal for any use",
+      "reasoning": "Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values.",
+      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for medical use only",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
       "persona_index": 9,
       "question_id": "marijuana",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
+      "chosen_option": "Not legal for any use",
+      "reasoning": "I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society.",
+      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
       "options_order": [
-        "Legal for medical use only",
         "Not legal for any use",
+        "Legal for medical use only",
         "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault.",
+      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "reasoning": "All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing.",
+      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "reasoning": "Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying.",
+      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
       ]
     },
     {
       "persona_index": 8,
       "question_id": "climate_cause",
       "chosen_option": "There is no solid evidence of climate change",
-      "raw_response": "Let me think through this from my perspective as a 31-year-old Asian-American with a graduate degree living in the Midwest.\n\nGiven my educational background, I've been exposed to scientific literature and research methodologies. My graduate training would have taught me to evaluate evidence critically and understand peer review processes. The overwhelming scientific consensus from climate researchers, atmospheric scientists, and major scientific institutions points to human activities as the primary driver of recent climate change.\n\nLiving in the Midwest, I've probably noticed changes in weather patterns - more extreme weather events, shifting seasons, and changes in agriculture that friends and family in farming communities might discuss. My suburban community likely has a mix of views, but educated professionals in my social circle would generally accept the scientific consensus.\n\nAs someone with an independent political lean, I'm not bound by partisan talking points and can evaluate this issue based on evidence rather than political ideology. My Asian background might mean I'm familiar with how climate change affects different parts of the world, including Asia, where effects are already visible.\n\nAt a dinner table conversation, I'd likely point to the scientific evidence - ice core data, temperature records, and the clear correlation between CO2 levels and warming. The scientific method and peer review process that I learned about in graduate school would give me confidence in the research findings.\n\nWhile I recognize there are natural climate variations, the rapid pace of recent change and its correlation with industrialization makes human causation the most scientif",
+      "reasoning": "I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway.",
+      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
       "options_order": [
         "Caused mostly by human activities",
-        "Not sure",
+        "Caused mostly by natural changes in the environment",
         "There is no solid evidence of climate change",
-        "Caused mostly by natural changes in the environment"
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_cause",
+      "chosen_option": "Not sure",
+      "reasoning": "Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles.",
+      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "gun_laws",
+      "chosen_option": "Kept as they are now",
+      "reasoning": "I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves.",
+      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections.",
+      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out.",
+      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway.",
+      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
       ]
     },
     {
       "persona_index": 4,
       "question_id": "gun_laws",
-      "chosen_option": null,
-      "raw_response": "ERROR: max retries",
+      "chosen_option": "Less strict",
+      "reasoning": "Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right.",
+      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
       "options_order": [
         "Kept as they are now",
         "Less strict",

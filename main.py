@@ -66,6 +66,7 @@ def run_dry_survey(
                 persona_index=i,
                 question_id=q.id,
                 chosen_option=chosen,
+                reasoning="[dry run]",
                 raw_response="[dry run]",
                 options_order=q.options,
             ))
@@ -112,27 +113,24 @@ async def run_experiment(
         print(f"\n--- Method: {method_name} ---")
         print(f"    {method['description']}")
 
-        # Create persona prompts
-        fn = method["fn"]
-        if method_name == "narrative_backstory":
-            prompts = fn(panel, seed=seed)
-        elif method_name == "value_anchored":
-            prompts = fn(panel, seed=seed)
+        # Build per-persona descriptions (batch mode)
+        desc_fn = method["desc_fn"]
+        if method.get("needs_seed"):
+            descriptions = desc_fn(panel, seed=seed)
         else:
-            prompts = fn(panel)
+            descriptions = desc_fn(panel)
 
-        # Show an example prompt
-        print(f"    Example persona prompt (persona #0):")
-        preview = prompts[0][:200].replace("\n", " | ")
+        # Show example description
+        print(f"    Example persona description (persona #0):")
+        preview = descriptions[0][:300].replace("\n", " | ")
         print(f"    '{preview}...'")
         print()
 
         # Run survey
         if dry_run:
-            results = run_dry_survey(prompts, QUESTIONS, method_name, seed=seed + hash(method_name))
+            results = run_dry_survey(descriptions, QUESTIONS, method_name, seed=seed + hash(method_name))
         else:
-            is_cot = (method_name == "cognitive_deliberation")
-            results = await run_survey(prompts, QUESTIONS, method_name, is_cot=is_cot, seed=seed)
+            results = await run_survey(descriptions, QUESTIONS, method_name, seed=seed)
 
         # Save results
         result_path = os.path.join(RESULTS_DIR, f"{method_name}.json")

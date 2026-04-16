@@ -1,14 +1,13 @@
 """
-Async survey runner that sends questions to LLM personas and collects responses.
+Async survey runner — batched edition.
 
-Design decisions:
-- Option order is RANDOMIZED per question-persona pair to mitigate LLM position
-  bias (models tend to favor options listed first or last)
-- Responses are constrained to a single letter to simplify parsing
-- Method 5 (cognitive deliberation) allows longer output for reasoning, but
-  final answer is still extracted as a letter
-- Retries with exponential backoff for transient API errors
-- Semaphore-based concurrency control to respect rate limits
+Key changes from v1:
+- API calls are BATCHED: 5 personas per call (configurable via BATCH_SIZE in config)
+  → reduces call count by 5x with minimal token overhead
+- Short internal dialogue: every persona writes 1-2 sentences of reasoning before
+  committing to an answer (max_tokens scales with batch size)
+- Response format: "N. [reasoning] | [LETTER]" — pipe separator for reliable parsing
+- reasoning field saved per response for inspection / debugging
 """
 import asyncio
 import json
@@ -17,20 +16,32 @@ import random
 import re
 import time
 from dataclasses import dataclass, field
+from math import ceil
 
 import anthropic
 
-from config import MODEL, TEMPERATURE, MAX_CONCURRENT_REQUESTS, REQUEST_TIMEOUT
+from config import MODEL, TEMPERATURE, MAX_CONCURRENT_REQUESTS, BATCH_SIZE
 from ground_truth import SurveyQuestion
+from personas import BATCH_SYSTEM_PROMPT
 
+LETTERS = "ABCDEFGHIJ"
+
+# Tokens per persona in a batch: ~80 reasoning + ~10 letter/formatting
+TOKENS_PER_PERSONA = 120
+
+
+# ---------------------------------------------------------------------------
+# Data structures
+# ---------------------------------------------------------------------------
 
 @dataclass
 class SurveyResponse:
     persona_index: int
     question_id: str
-    chosen_option: str | None  # None if parsing failed
-    raw_response: str
-    options_order: list[str]  # the shuffled order presented
+    chosen_option: str | None   # None if parsing failed
+    reasoning: str | None       # the 1-2 sentence internal dialogue
+    raw_response: str           # full raw text from this batch slot
+    options_order: list[str]    # shuffled option order presented
 
 
 @dataclass
@@ -38,11 +49,10 @@ class SurveyResults:
     method_name: str
     responses: list[SurveyResponse] = field(default_factory=list)
     failed_parses: int = 0
-    total_calls: int = 0
+    total_calls: int = 0        # number of API calls (batches)
     elapsed_seconds: float = 0.0
 
     def get_distribution(self, question: SurveyQuestion) -> dict[str, float]:
-        """Compute response distribution for a single question."""
         counts = {opt: 0 for opt in question.options}
         valid = 0
         for r in self.responses:
@@ -54,83 +64,109 @@ class SurveyResults:
         return {opt: counts[opt] / valid for opt in question.options}
 
 
-LETTERS = "ABCDEFGHIJ"
+# ---------------------------------------------------------------------------
+# Prompt formatting
+# ---------------------------------------------------------------------------
 
-
-def _format_question(
-    question: SurveyQuestion, rng: random.Random
-) -> tuple[str, list[str]]:
-    """Format a question with randomized option order. Returns (text, ordered_options)."""
+def _shuffle_options(question: SurveyQuestion, rng: random.Random) -> tuple[str, list[str]]:
+    """Return (formatted_options_block, shuffled_options_list)."""
     shuffled = list(question.options)
     rng.shuffle(shuffled)
-
-    lines = [question.text, ""]
-    for i, opt in enumerate(shuffled):
-        lines.append(f"{LETTERS[i]}) {opt}")
-    lines.append("")
-    lines.append("Your answer (one letter only):")
-
+    lines = [f"{LETTERS[i]}) {opt}" for i, opt in enumerate(shuffled)]
     return "\n".join(lines), shuffled
 
 
-def _format_question_cot(
-    question: SurveyQuestion, rng: random.Random
-) -> tuple[str, list[str]]:
-    """Format question for cognitive deliberation method (allows reasoning)."""
-    shuffled = list(question.options)
-    rng.shuffle(shuffled)
-
-    lines = [question.text, ""]
-    for i, opt in enumerate(shuffled):
-        lines.append(f"{LETTERS[i]}) {opt}")
-    lines.append("")
-    lines.append(
-        "Think through your perspective briefly, then on the LAST line of your "
-        "response write ONLY the letter of your answer."
+def _build_batch_user_msg(
+    descriptions: list[str],
+    question: SurveyQuestion,
+    ordered_opts: str,
+) -> str:
+    """Build the user message for a batch of personas."""
+    n = len(descriptions)
+    persons = "\n\n".join(
+        f"PERSON {i+1}:\n{desc}" for i, desc in enumerate(descriptions)
+    )
+    return (
+        f"SURVEY QUESTION: {question.text}\n\n"
+        f"Options:\n{ordered_opts}\n\n"
+        f"---\n\n"
+        f"{persons}\n\n"
+        f"---\n"
+        f"Now respond for all {n} persons in order (format: N. [reasoning] | [LETTER]):"
     )
 
-    return "\n".join(lines), shuffled
 
+# ---------------------------------------------------------------------------
+# Response parsing
+# ---------------------------------------------------------------------------
 
-def _parse_letter(raw: str, n_options: int) -> str | None:
-    """Extract a valid option letter from LLM output."""
-    raw = raw.strip()
+def _parse_batch_response(
+    raw: str,
+    ordered_opts: list[str],
+    n_personas: int,
+    n_options: int,
+) -> list[tuple[str | None, str | None]]:
+    """
+    Parse a batch response into (chosen_option, reasoning) tuples.
+
+    Expected format per line: "N. [reasoning] | [LETTER]"
+    Falls back to looser patterns if strict parse fails.
+    Returns list of (chosen_option, reasoning) length n_personas.
+    """
     valid = set(LETTERS[:n_options])
+    results: list[tuple[str | None, str | None]] = [(None, None)] * n_personas
 
-    # Try: response is just a letter
-    if len(raw) == 1 and raw.upper() in valid:
-        return raw.upper()
+    # Primary: strict "N. text | LETTER" pattern
+    strict = re.compile(
+        r'^\s*(\d+)[.)]\s+(.+?)\s*\|\s*([A-J])\s*$',
+        re.MULTILINE,
+    )
+    for m in strict.finditer(raw):
+        idx = int(m.group(1)) - 1
+        reasoning = m.group(2).strip()
+        letter = m.group(3).upper()
+        if 0 <= idx < n_personas and letter in valid:
+            results[idx] = (ordered_opts[LETTERS.index(letter)], reasoning)
 
-    # Try: last line contains a letter (for CoT responses)
-    last_line = raw.strip().split("\n")[-1].strip()
-    for char in last_line:
-        if char.upper() in valid:
-            return char.upper()
+    # Fallback: numbered lines, grab last standalone letter
+    if any(r[0] is None for r in results):
+        loose = re.compile(r'^\s*(\d+)[.)]\s+(.+)$', re.MULTILINE)
+        for m in loose.finditer(raw):
+            idx = int(m.group(1)) - 1
+            text = m.group(2).strip()
+            if not (0 <= idx < n_personas) or results[idx][0] is not None:
+                continue
+            # Find last valid letter in text
+            for ch in reversed(text):
+                if ch.upper() in valid:
+                    letter = ch.upper()
+                    results[idx] = (
+                        ordered_opts[LETTERS.index(letter)],
+                        text[:text.rfind(ch)].strip(" |"),
+                    )
+                    break
 
-    # Try: first letter in the response
-    for char in raw:
-        if char.upper() in valid:
-            return char.upper()
-
-    return None
+    return results
 
 
-async def _ask_one(
+# ---------------------------------------------------------------------------
+# Batch API call
+# ---------------------------------------------------------------------------
+
+async def _ask_batch(
     client: anthropic.AsyncAnthropic,
-    persona_prompt: str,
+    system_prompt: str,
+    descriptions: list[str],
     question: SurveyQuestion,
-    persona_idx: int,
-    is_cot: bool,
+    persona_indices: list[int],
     rng: random.Random,
     semaphore: asyncio.Semaphore,
-) -> SurveyResponse:
-    """Send one question to one persona, with retries."""
-    if is_cot:
-        q_text, ordered_opts = _format_question_cot(question, rng)
-        max_tokens = 300  # allow reasoning
-    else:
-        q_text, ordered_opts = _format_question(question, rng)
-        max_tokens = 5  # just a letter
+) -> list[SurveyResponse]:
+    """Send one batch (up to BATCH_SIZE personas) for one question."""
+    n = len(descriptions)
+    opts_block, ordered_opts = _shuffle_options(question, rng)
+    user_msg = _build_batch_user_msg(descriptions, question, opts_block)
+    max_tokens = TOKENS_PER_PERSONA * n + 50  # buffer
 
     for attempt in range(3):
         try:
@@ -139,51 +175,69 @@ async def _ask_one(
                     model=MODEL,
                     max_tokens=max_tokens,
                     temperature=TEMPERATURE,
-                    system=persona_prompt,
-                    messages=[{"role": "user", "content": q_text}],
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_msg}],
                 )
             raw = response.content[0].text
-            letter = _parse_letter(raw, len(question.options))
-            chosen = ordered_opts[LETTERS.index(letter)] if letter else None
+            parsed = _parse_batch_response(raw, ordered_opts, n, len(question.options))
 
-            return SurveyResponse(
-                persona_index=persona_idx,
-                question_id=question.id,
-                chosen_option=chosen,
-                raw_response=raw,
-                options_order=ordered_opts,
-            )
+            out = []
+            for i, (chosen, reasoning) in enumerate(parsed):
+                # Store the relevant slice of raw response for this persona
+                persona_raw = raw  # full batch response stored (for inspection)
+                out.append(SurveyResponse(
+                    persona_index=persona_indices[i],
+                    question_id=question.id,
+                    chosen_option=chosen,
+                    reasoning=reasoning,
+                    raw_response=persona_raw,
+                    options_order=ordered_opts,
+                ))
+            return out
+
         except anthropic.RateLimitError:
-            wait = 2 ** attempt * 5
-            await asyncio.sleep(wait)
+            await asyncio.sleep(2 ** attempt * 5)
         except Exception as e:
             if attempt == 2:
-                return SurveyResponse(
-                    persona_index=persona_idx,
-                    question_id=question.id,
-                    chosen_option=None,
-                    raw_response=f"ERROR: {e}",
-                    options_order=ordered_opts,
-                )
+                return [
+                    SurveyResponse(
+                        persona_index=persona_indices[i],
+                        question_id=question.id,
+                        chosen_option=None,
+                        reasoning=None,
+                        raw_response=f"ERROR: {e}",
+                        options_order=ordered_opts,
+                    )
+                    for i in range(n)
+                ]
             await asyncio.sleep(2 ** attempt)
 
-    return SurveyResponse(
-        persona_index=persona_idx,
-        question_id=question.id,
-        chosen_option=None,
-        raw_response="ERROR: max retries",
-        options_order=ordered_opts if 'ordered_opts' in dir() else [],
-    )
+    # Should not reach here, but safety net
+    return [
+        SurveyResponse(
+            persona_index=persona_indices[i],
+            question_id=question.id,
+            chosen_option=None,
+            reasoning=None,
+            raw_response="ERROR: max retries",
+            options_order=ordered_opts,
+        )
+        for i in range(n)
+    ]
 
+
+# ---------------------------------------------------------------------------
+# Main runner
+# ---------------------------------------------------------------------------
 
 async def run_survey(
-    persona_prompts: list[str],
+    persona_descriptions: list[str],
     questions: list[SurveyQuestion],
     method_name: str,
-    is_cot: bool = False,
+    batch_system_prompt: str = BATCH_SYSTEM_PROMPT,
     seed: int = 42,
 ) -> SurveyResults:
-    """Run a full survey: all questions × all personas."""
+    """Run a full survey using batched API calls (BATCH_SIZE personas per call)."""
     client = anthropic.AsyncAnthropic()
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
     rng = random.Random(seed)
@@ -191,40 +245,52 @@ async def run_survey(
     results = SurveyResults(method_name=method_name)
     t0 = time.time()
 
-    # Build all tasks
+    # Build all batch tasks: (descriptions_chunk, question, indices)
     tasks = []
     for q in questions:
-        for i, prompt in enumerate(persona_prompts):
-            # Each question-persona pair gets its own rng for option shuffling
-            pair_rng = random.Random(rng.randint(0, 2**32))
+        for batch_start in range(0, len(persona_descriptions), BATCH_SIZE):
+            chunk = persona_descriptions[batch_start: batch_start + BATCH_SIZE]
+            indices = list(range(batch_start, batch_start + len(chunk)))
+            batch_rng = random.Random(rng.randint(0, 2**32))
             tasks.append(
-                _ask_one(client, prompt, q, i, is_cot, pair_rng, semaphore)
+                _ask_batch(client, batch_system_prompt, chunk, q, indices, batch_rng, semaphore)
             )
 
-    results.total_calls = len(tasks)
-    print(f"  [{method_name}] Sending {len(tasks)} API calls...")
+    n_personas = len(persona_descriptions)
+    n_batches = ceil(n_personas / BATCH_SIZE)
+    total_batches = n_batches * len(questions)
+    results.total_calls = total_batches
 
-    # Run with progress reporting
+    print(
+        f"  [{method_name}] {n_personas} personas × {len(questions)} questions "
+        f"= {total_batches} batch calls (batch_size={BATCH_SIZE})"
+    )
+
     completed = 0
     for coro in asyncio.as_completed(tasks):
-        resp = await coro
-        results.responses.append(resp)
-        if resp.chosen_option is None:
-            results.failed_parses += 1
+        batch_responses = await coro
+        for r in batch_responses:
+            results.responses.append(r)
+            if r.chosen_option is None:
+                results.failed_parses += 1
         completed += 1
-        if completed % 100 == 0:
-            print(f"  [{method_name}] {completed}/{len(tasks)} done")
+        if completed % 10 == 0:
+            print(f"  [{method_name}] {completed}/{total_batches} batches done")
 
     results.elapsed_seconds = time.time() - t0
+    total_responses = len(results.responses)
     print(
-        f"  [{method_name}] Complete. {results.failed_parses} parse failures "
-        f"out of {results.total_calls} calls. ({results.elapsed_seconds:.1f}s)"
+        f"  [{method_name}] Done. {results.failed_parses}/{total_responses} parse failures. "
+        f"({results.elapsed_seconds:.1f}s)"
     )
     return results
 
 
+# ---------------------------------------------------------------------------
+# Persistence
+# ---------------------------------------------------------------------------
+
 def save_results(results: SurveyResults, path: str):
-    """Save survey results to JSON."""
     data = {
         "method_name": results.method_name,
         "total_calls": results.total_calls,
@@ -235,6 +301,7 @@ def save_results(results: SurveyResults, path: str):
                 "persona_index": r.persona_index,
                 "question_id": r.question_id,
                 "chosen_option": r.chosen_option,
+                "reasoning": r.reasoning,
                 "raw_response": r.raw_response,
                 "options_order": r.options_order,
             }
@@ -247,7 +314,6 @@ def save_results(results: SurveyResults, path: str):
 
 
 def load_results(path: str) -> SurveyResults:
-    """Load survey results from JSON."""
     with open(path) as f:
         data = json.load(f)
     results = SurveyResults(
@@ -257,5 +323,12 @@ def load_results(path: str) -> SurveyResults:
         elapsed_seconds=data["elapsed_seconds"],
     )
     for r in data["responses"]:
-        results.responses.append(SurveyResponse(**r))
+        results.responses.append(SurveyResponse(
+            persona_index=r["persona_index"],
+            question_id=r["question_id"],
+            chosen_option=r["chosen_option"],
+            reasoning=r.get("reasoning"),
+            raw_response=r["raw_response"],
+            options_order=r["options_order"],
+        ))
     return results
