@@ -1,507 +1,607 @@
 {
   "method_name": "value_anchored",
-  "total_calls": 8,
+  "total_calls": 10,
   "failed_parses": 0,
-  "elapsed_seconds": 9.547146081924438,
+  "elapsed_seconds": 9.129390001296997,
   "responses": [
     {
       "persona_index": 0,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values.",
-      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies.",
-      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue.",
-      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far.",
-      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness.",
-      "raw_response": "1. I see medical benefits but worry about societal breakdown and kids getting access - my CNN sources show some positive medical research but I'm concerned about maintaining order and traditional values. | B\n\n2. The war on drugs has been a massive injustice that disproportionately harms communities of color, and people should have the freedom to make their own choices about their bodies. | C\n\n3. Criminalizing marijuana causes tremendous harm through mass incarceration while denying people medicine that could help them - this is both a freedom and justice issue. | C\n\n4. I believe in personal freedom but also worry about moral decay and what this means for our communities - medical use seems like a reasonable compromise that helps sick people without going too far. | B\n\n5. God gave us plants for medicine but I'm deeply concerned about our culture's moral decline - medical marijuana for truly sick people makes sense but recreational use feels like another step away from righteousness. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause.",
-      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "reasoning": "I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative.",
-      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations.",
-      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "reasoning": "The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus.",
-      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "reasoning": "From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control.",
-      "raw_response": "1. I've been hearing a lot on NPR and CNN about scientific consensus on human-caused climate change, and given my concerns about preventing harm to future generations, the evidence seems pretty overwhelming that we're the main cause. | A\n\n2. I keep hearing from Mark Levin and on Gateway Pundit that climate change is either overblown or natural cycles, and frankly I don't trust the mainstream media or government agencies pushing the human-caused narrative. | B\n\n3. Everything I read on Vox and hear on Pod Save America consistently points to human activities as the primary driver, and the scientific consensus seems clear - this aligns with my values about preventing harm to vulnerable populations. | A\n\n4. The sources I trust like Gorka and what I see on Truth Social suggest this is either natural variation or exaggerated by the left to control our freedoms, and I'm skeptical of the so-called scientific consensus. | B\n\n5. From what I hear on Newsmax and Bongino, plus conversations with folks in my community, this seems like natural climate cycles that have always happened, and I'm suspicious of the government using this to expand control. | B",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Kept as they are now",
-      "reasoning": "I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach.",
-      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "reasoning": "I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have.",
+      "raw_response": "1. I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have. | B\n\n2. The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives. | C\n\n3. I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first. | C\n\n4. I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions. | A\n\n5. My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 1,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first.",
-      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "reasoning": "The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives.",
+      "raw_response": "1. I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have. | B\n\n2. The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives. | C\n\n3. I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first. | C\n\n4. I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions. | A\n\n5. My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 2,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids.",
-      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "reasoning": "I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first.",
+      "raw_response": "1. I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have. | B\n\n2. The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives. | C\n\n3. I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first. | C\n\n4. I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions. | A\n\n5. My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 3,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for.",
-      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "reasoning": "I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions.",
+      "raw_response": "1. I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have. | B\n\n2. The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives. | C\n\n3. I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first. | C\n\n4. I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions. | A\n\n5. My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 4,
-      "question_id": "gun_laws",
-      "chosen_option": "Kept as they are now",
-      "reasoning": "I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society.",
-      "raw_response": "1. I believe in order and tradition, but I also care about preventing harm - the current laws seem to strike a reasonable balance between public safety and constitutional rights, and I trust that our institutions have found the right approach. | A\n\n2. Mass shootings keep happening and people are dying - we need common sense reforms like universal background checks and assault weapon restrictions, even though I value personal freedom, protecting innocent lives has to come first. | C\n\n3. Children are being slaughtered in schools while politicians do nothing - we desperately need stricter gun laws to prevent these tragedies, and the Second Amendment shouldn't be a death sentence for kids. | C\n\n4. The Constitution guarantees our right to bear arms and criminals will get guns anyway - more laws only burden law-abiding citizens while the government tries to control us, which goes against everything America stands for. | B\n\n5. I want to protect innocent lives, but I deeply believe the Second Amendment is sacred and that good people with guns stop bad people with guns - the problem isn't the laws, it's moral decay in our society. | A",
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense.",
+      "raw_response": "1. I hear about mass shootings on CNN and think we need better gun control, but my respect for law and order makes me worry about going too far - maybe we just need better enforcement of what we have. | B\n\n2. The constant gun violence breaks my heart and we clearly need stronger laws to protect people, even though I'm generally skeptical of government overreach - this is about saving lives. | C\n\n3. I see the horrific gun violence coverage and know we desperately need stricter laws to prevent more deaths, despite my usual wariness of government control - protecting people comes first. | C\n\n4. I believe in the Second Amendment as a fundamental right and hear from conservative sources that current laws already go too far - law-abiding citizens shouldn't be punished for criminals' actions. | A\n\n5. My faith teaches me to protect life, but I also deeply value our constitutional freedoms and hear constantly about government overreach threatening our God-given rights to self-defense. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 5,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections.",
-      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "reasoning": "I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them.",
+      "raw_response": "1. I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them. | A\n\n2. The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me. | B\n\n3. Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights. | A\n\n4. Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny. | B\n\n5. The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more. | B",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 6,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems.",
-      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "reasoning": "The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me.",
+      "raw_response": "1. I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them. | A\n\n2. The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me. | B\n\n3. Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights. | A\n\n4. Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny. | B\n\n5. The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more. | B",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here.",
-      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "reasoning": "Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights.",
+      "raw_response": "1. I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them. | A\n\n2. The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me. | B\n\n3. Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights. | A\n\n4. Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny. | B\n\n5. The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more. | B",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 8,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons.",
-      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "reasoning": "Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny.",
+      "raw_response": "1. I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them. | A\n\n2. The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me. | B\n\n3. Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights. | A\n\n4. Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny. | B\n\n5. The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more. | B",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 9,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations.",
-      "raw_response": "1. I care deeply about preventing gun violence and see the mass shootings regularly covered on CNN and NPR, but I also strongly value personal freedom and worry about government overreach - I'm torn but think we need some additional protections. | A\n\n2. While I want to protect people from harm, my sources constantly highlight how gun restrictions only hurt law-abiding citizens while criminals ignore laws anyway, and the Second Amendment is sacred - more laws won't solve the real problems. | C\n\n3. The data I see from Vox and hear on Pod Save America shows clear correlations between stricter gun laws and reduced violence in other countries, and while I value freedom, preventing harm to others takes priority here. | A\n\n4. The Constitution guarantees our right to bear arms and that's fundamental to American freedom - the media and politicians want to disarm patriots while criminals and corrupt authorities keep their weapons. | C\n\n5. Our founding fathers knew government tyranny was the real threat, and every restriction is a step toward total control - criminals don't follow laws anyway, so only honest Americans get hurt by more regulations. | C",
+      "reasoning": "The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more.",
+      "raw_response": "1. I care deeply about preventing harm and while I value personal freedom, the constant news about mass shootings and gun violence makes me think we need stronger measures to keep dangerous weapons away from people who shouldn't have them. | A\n\n2. The Second Amendment is sacred and I don't trust the government to not eventually take away all our guns - criminals will get weapons anyway, so more laws just hurt law-abiding patriots like me. | B\n\n3. Every time I see coverage of another school shooting or mass shooting, my heart breaks thinking about those families, and I believe we need common-sense reforms to prevent these tragedies while still respecting constitutional rights. | A\n\n4. Government overreach is the real threat here - they want to disarm Americans so they can control us, and our founding fathers gave us the Second Amendment specifically to protect against tyranny. | B\n\n5. The left wants to strip away our constitutional rights piece by piece, and gun laws only punish good people while criminals ignore them completely - we need less government interference, not more. | B",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense.",
-      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision.",
-      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities.",
-      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise.",
-      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally.",
-      "raw_response": "1. I've heard compelling stories on NPR about medical marijuana helping people with chronic pain and epilepsy, and my libertarian side says the government shouldn't control what adults put in their bodies - full legalization makes sense. | C\n\n2. While I believe in personal freedom, I'm concerned about marijuana being a gateway drug based on what I've heard from Bongino and my neighbors, but I can see allowing it for genuine medical needs under proper supervision. | B\n\n3. The research I've seen on Vox shows marijuana is less harmful than alcohol and can really help people medically, plus criminalizing it has led to unfair incarceration rates that disproportionately affect minorities. | C\n\n4. My faith tells me we shouldn't corrupt our bodies with drugs, and I worry about the moral decay in society, but I struggle because I also believe deeply in freedom from government overreach - maybe medical use is a reasonable compromise. | B\n\n5. I believe in maximum personal liberty and getting government out of our lives, but I'm also deeply concerned about moral standards and what drug use does to families and communities based on what I see locally. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 0,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven.",
-      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion.",
+      "raw_response": "1. I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion. | C\n\n2. My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color. | A\n\n3. Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference. | A\n\n4. I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred. | B\n\n5. Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life. | B",
       "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     },
     {
       "persona_index": 1,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm.",
-      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color.",
+      "raw_response": "1. I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion. | C\n\n2. My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color. | A\n\n3. Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference. | A\n\n4. I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred. | B\n\n5. Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life. | B",
       "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     },
     {
       "persona_index": 2,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people.",
-      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference.",
+      "raw_response": "1. I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion. | C\n\n2. My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color. | A\n\n3. Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference. | A\n\n4. I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred. | B\n\n5. Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life. | B",
       "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     },
     {
       "persona_index": 3,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "reasoning": "Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms.",
-      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred.",
+      "raw_response": "1. I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion. | C\n\n2. My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color. | A\n\n3. Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference. | A\n\n4. I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred. | B\n\n5. Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life. | B",
       "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     },
     {
       "persona_index": 4,
-      "question_id": "climate_cause",
-      "chosen_option": "Not sure",
-      "reasoning": "I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying.",
-      "raw_response": "1. I hear from mainstream sources that climate science is settled and human-caused, but I'm also skeptical of how much we can trust institutions these days - though CNN and the networks seem pretty consistent on this being real and human-driven. | B\n\n2. All my sources from Pod Save America to Bernie's updates emphasize climate change as an urgent crisis caused by corporate greed and fossil fuel companies, and it fits with my values about protecting people from harm. | B\n\n3. The Young Turks and The Intercept constantly cover how fossil fuel companies have known about and covered up climate change for decades - this is clearly human-caused and ties into corporate power structures harming people. | B\n\n4. Fox News and my church community often discuss how climate has always changed naturally, and I'm suspicious of the liberal agenda pushing climate panic to control our economy and freedoms. | D\n\n5. I hear mixed messages - Truth Social and Breitbart suggest it's natural cycles or overblown, but even some mainstream news acknowledges it's happening, so I'm genuinely torn between what different authorities are saying. | C",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life.",
+      "raw_response": "1. I believe in traditional values and moral purity, but my neoliberal views and mainstream media sources make me think there should be some exceptions for rape, incest, and health of the mother, even though I'm generally uncomfortable with abortion. | C\n\n2. My commitment to personal freedom and preventing harm makes me believe women should have the right to choose, and I've heard from progressive sources that restrictions disproportionately hurt poor women and women of color. | A\n\n3. Bodily autonomy is fundamental to me, and I've seen content showing how abortion bans cause real suffering - women should have complete control over their reproductive choices without government interference. | A\n\n4. I strongly value moral purity and traditional order, and my conservative media sources consistently show me that abortion is taking innocent life, which goes against everything I believe about protecting the sacred. | B\n\n5. Life is sacred from conception and I believe deeply in moral purity, plus my sources like Breitbart and Truth Social constantly reinforce that abortion is murder - there's no compromise on protecting innocent life. | B",
       "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "immigration_level",
-      "chosen_option": "Kept at present level",
-      "reasoning": "I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems.",
-      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss.",
-      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming.",
-      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in.",
-      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally.",
-      "raw_response": "1. I believe in orderly processes and national sovereignty, but I also recognize America's history as a nation of immigrants - my CNN and Pod Save America sources suggest current levels might be reasonable while maintaining proper vetting systems. | A\n\n2. My progressive values tell me we should welcome more people seeking better lives, especially given global inequalities and our moral obligation to help those fleeing persecution, but I worry about overwhelming local resources my community groups discuss. | D\n\n3. America has the resources to help more people, and restricting immigration feels like abandoning our humanitarian responsibilities - the stories I hear about family separations and refugee crises make me think we should be more welcoming. | D\n\n4. I'm hearing constantly about border security issues and how current immigration is straining American communities and changing our culture too rapidly - we need to put America first and reduce the numbers coming in. | C\n\n5. Our nation's Christian values call us to help others, but I'm deeply concerned about border security and maintaining law and order - we can't help anyone if we don't secure our own country first, so we need fewer people coming in illegally. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     },
     {
       "persona_index": 5,
-      "question_id": "immigration_level",
-      "chosen_option": "Not sure",
-      "reasoning": "I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is.",
-      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access.",
+      "raw_response": "1. I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access. | A\n\n2. Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions. | A\n\n3. This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference. | B\n\n4. Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience. | C\n\n5. This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do. | C",
       "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
       ]
     },
     {
       "persona_index": 6,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values.",
-      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions.",
+      "raw_response": "1. I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access. | A\n\n2. Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions. | A\n\n3. This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference. | B\n\n4. Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience. | C\n\n5. This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do. | C",
       "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order.",
-      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference.",
+      "raw_response": "1. I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access. | A\n\n2. Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions. | A\n\n3. This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference. | B\n\n4. Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience. | C\n\n5. This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do. | C",
       "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
       ]
     },
     {
       "persona_index": 8,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people.",
-      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience.",
+      "raw_response": "1. I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access. | A\n\n2. Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions. | A\n\n3. This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference. | B\n\n4. Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience. | C\n\n5. This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do. | C",
       "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
       ]
     },
     {
       "persona_index": 9,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation.",
-      "raw_response": "1. I care deeply about helping people in need and believe America should welcome those seeking better lives, but I also value personal freedom and worry about government overreach in immigration policy - I think we probably need more legal pathways but I'm not entirely sure what the right level is. | A\n\n2. America First means protecting our own people and culture first - I keep hearing about drugs and criminals coming across the border, and we need to take care of our own citizens before letting more people in who might not share our values. | D\n\n3. I believe in helping people escape persecution and poverty, and America has always been a nation of immigrants - we should be expanding legal immigration pathways while ensuring proper processing, as that aligns with both our humanitarian values and need for order. | B\n\n4. Our country needs strong borders and we must preserve American traditions and culture - the current system is broken and allowing too many people who don't respect our laws and values, so we need to dramatically reduce numbers until we can properly vet and assimilate people. | D\n\n5. We need to drastically cut immigration to protect American workers and preserve our traditional way of life - the establishment has failed us by allowing mass immigration that undermines our communities and dilutes our sacred values as a nation. | D",
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do.",
+      "raw_response": "1. I believe in protecting both women's autonomy and preventing harm, and while I personally support access to abortion, I think there need to be some reasonable limitations like viability or health exceptions rather than complete unrestricted access. | A\n\n2. Life is sacred and needs protection, but I also believe strongly in personal freedom - I'm torn between my moral convictions about protecting the unborn and not wanting government overreach into people's most personal decisions. | A\n\n3. This is about both caring for women who need access to healthcare and ensuring equal rights - women should have the freedom to make their own reproductive choices without government interference. | B\n\n4. Abortion goes against everything I believe about the sanctity of life and moral order, and while I value freedom from government control, protecting innocent life is more important than personal convenience. | C\n\n5. This is fundamentally about protecting innocent life and upholding our nation's moral foundation - abortion destroys life and goes against traditional values, even though I don't like government telling people what to do. | C",
       "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly.",
+      "raw_response": "1. I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly. | B\n\n2. Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat. | C\n\n3. The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis. | C\n\n4. I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated. | B\n\n5. Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat.",
+      "raw_response": "1. I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly. | B\n\n2. Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat. | C\n\n3. The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis. | C\n\n4. I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated. | B\n\n5. Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis.",
+      "raw_response": "1. I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly. | B\n\n2. Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat. | C\n\n3. The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis. | C\n\n4. I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated. | B\n\n5. Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated.",
+      "raw_response": "1. I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly. | B\n\n2. Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat. | C\n\n3. The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis. | C\n\n4. I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated. | B\n\n5. Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab.",
+      "raw_response": "1. I hear a lot about climate change on CNN and Pod Save America, and while I think human activity plays a role, I'm not entirely convinced it's the dominant factor - there seem to be natural cycles too that contribute significantly. | B\n\n2. Everything I read in Jacobin and hear from progressive sources makes it clear that corporations burning fossil fuels are the primary driver of our climate crisis, and we need immediate action to address this existential threat. | C\n\n3. The Young Turks and The Intercept consistently show how fossil fuel companies have known about and covered up their massive contribution to climate change for decades - it's clearly the main cause of our environmental crisis. | C\n\n4. I've been hearing conflicting information - Fox News often talks about natural climate cycles and questions some of the data, while my church discusses being good stewards of creation, so I think humans probably contribute some but it might be overstated. | B\n\n5. Between what I see on Truth Social and Breitbart, plus talking to folks in my community, I'm pretty skeptical that human activity is really the main driver - the climate has always changed naturally and I think this is mostly another government power grab. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities.",
+      "raw_response": "1. I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities. | C\n\n2. The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim. | A\n\n3. Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area. | C\n\n4. I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes. | A\n\n5. All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim.",
+      "raw_response": "1. I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities. | C\n\n2. The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim. | A\n\n3. Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area. | C\n\n4. I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes. | A\n\n5. All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area.",
+      "raw_response": "1. I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities. | C\n\n2. The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim. | A\n\n3. Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area. | C\n\n4. I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes. | A\n\n5. All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes.",
+      "raw_response": "1. I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities. | C\n\n2. The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim. | A\n\n3. Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area. | C\n\n4. I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes. | A\n\n5. All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda.",
+      "raw_response": "1. I've been hearing a lot about extreme weather and rising temperatures on NPR and CNN, and it does seem like we're having more intense storms and heat waves than I remember growing up - it's concerning for vulnerable communities. | C\n\n2. The mainstream media keeps pushing this climate hysteria, but honestly I haven't noticed much change in my day-to-day life - maybe slightly different weather patterns but nothing dramatic like they claim. | A\n\n3. Between what I'm reading on Vox and seeing on the news, plus noticing more frequent extreme weather events myself, it definitely feels like climate change is having real impacts on our area. | C\n\n4. I hear about this climate stuff all the time but most of it seems like liberal fear-mongering - sure, weather changes but that's natural, and I trust that God and good leadership will handle whatever comes. | A\n\n5. All this climate change talk feels overblown by the left-wing media, though I'll admit the weather has been a bit more unpredictable lately - but not enough to buy into their agenda. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming.",
+      "raw_response": "1. I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming. | B\n\n2. From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns. | C\n\n3. The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts. | C\n\n4. I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims. | A\n\n5. My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns.",
+      "raw_response": "1. I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming. | B\n\n2. From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns. | C\n\n3. The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts. | C\n\n4. I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims. | A\n\n5. My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts.",
+      "raw_response": "1. I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming. | B\n\n2. From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns. | C\n\n3. The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts. | C\n\n4. I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims. | A\n\n5. My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims.",
+      "raw_response": "1. I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming. | B\n\n2. From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns. | C\n\n3. The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts. | C\n\n4. I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims. | A\n\n5. My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media.",
+      "raw_response": "1. I've been hearing about climate change from CNN and other mainstream sources, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather patterns seem different but nothing too alarming. | B\n\n2. From what I hear on Pod Save America and community discussions, climate change is definitely real and urgent, and I'm starting to notice more extreme weather events and changes in our local environment that seem connected to broader climate patterns. | C\n\n3. The progressive sources I follow constantly highlight how climate change is already devastating communities, especially marginalized ones, and I can see evidence of this in our area through changing weather patterns and environmental impacts. | C\n\n4. I hear conflicting information about climate change - Fox News and my church community often discuss natural weather cycles, and while I notice some weather changes locally, I'm not convinced it's as severe as the mainstream media claims. | A\n\n5. My trusted sources like Breitbart and Truth Social often explain that climate has always changed naturally, and while we've had some unusual weather lately, I think the impact on our community is being exaggerated by the liberal media. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose.",
+      "raw_response": "1. I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose. | A\n\n2. I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations. | B\n\n3. I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government. | C\n\n4. My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires. | B\n\n5. This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations.",
+      "raw_response": "1. I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose. | A\n\n2. I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations. | B\n\n3. I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government. | C\n\n4. My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires. | B\n\n5. This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government.",
+      "raw_response": "1. I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose. | A\n\n2. I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations. | B\n\n3. I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government. | C\n\n4. My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires. | B\n\n5. This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires.",
+      "raw_response": "1. I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose. | A\n\n2. I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations. | B\n\n3. I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government. | C\n\n4. My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires. | B\n\n5. This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases.",
+      "raw_response": "1. I believe in personal freedom and preventing harm, and from what I hear on NPR and CNN, restricting abortion access causes real suffering for women in difficult situations. While I think there should be some reasonable limits, women should generally have the right to choose. | A\n\n2. I'm torn because I value both personal freedom and protecting innocent life, which my church friends and conservative sources say begins at conception. The sacred value of life feels more important than individual choice in most situations. | B\n\n3. I strongly support women's bodily autonomy and reproductive rights as fundamental freedoms, and everything I read on Vox and hear on Pod Save America reinforces that abortion access is essential healthcare that shouldn't be restricted by government. | C\n\n4. My faith and community have taught me that life is sacred from conception, and while I usually oppose government overreach, protecting innocent life is one area where traditional moral authority should guide policy over individual desires. | B\n\n5. This is difficult because I hate government control, but I also believe deeply in traditional moral values and the sanctity of life that my community and Newsmax emphasize - ultimately protecting unborn life trumps individual choice in most cases. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously.",
+      "raw_response": "1. I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously. | A\n\n2. I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff. | C\n\n3. Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally. | A\n\n4. My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something. | C\n\n5. Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering. | C",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff.",
+      "raw_response": "1. I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously. | A\n\n2. I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff. | C\n\n3. Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally. | A\n\n4. My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something. | C\n\n5. Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering. | C",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally.",
+      "raw_response": "1. I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously. | A\n\n2. I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff. | C\n\n3. Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally. | A\n\n4. My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something. | C\n\n5. Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering. | C",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something.",
+      "raw_response": "1. I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously. | A\n\n2. I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff. | C\n\n3. Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally. | A\n\n4. My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something. | C\n\n5. Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering. | C",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering.",
+      "raw_response": "1. I've been hearing a lot about this on NPR and CNN, and the scientific consensus seems pretty clear that fossil fuels are the main driver - my concern for preventing harm to future generations makes me take this seriously. | A\n\n2. I keep hearing from Dan Bongino and my neighbors that this climate stuff is overblown by the media to control us, though I do think humans probably have some impact since we're burning all this stuff. | C\n\n3. Everything I'm reading on Vox and hearing on Pod Save America points to overwhelming scientific evidence that fossil fuels are the primary cause - this feels like a critical issue for protecting people globally. | A\n\n4. My news sources keep saying the climate agenda is about government control and that natural cycles explain most of it, but I can't completely dismiss that all our industrial activity might contribute something. | C\n\n5. Breitbart and Newsmax have shown me how the climate narrative is used to expand government power, and while burning stuff probably has some effect, the \"great deal\" claim sounds like liberal fear-mongering. | C",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions.",
+      "raw_response": "1. I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions. | A\n\n2. While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense. | A\n\n3. This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women. | B\n\n4. Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances. | A\n\n5. Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense.",
+      "raw_response": "1. I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions. | A\n\n2. While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense. | A\n\n3. This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women. | B\n\n4. Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances. | A\n\n5. Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women.",
+      "raw_response": "1. I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions. | A\n\n2. While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense. | A\n\n3. This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women. | B\n\n4. Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances. | A\n\n5. Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances.",
+      "raw_response": "1. I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions. | A\n\n2. While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense. | A\n\n3. This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women. | B\n\n4. Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances. | A\n\n5. Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us.",
+      "raw_response": "1. I believe in traditional values and the sanctity of life, but I also recognize there are complex situations like rape or when the mother's life is at risk where tough decisions need to be made. A complete ban seems too rigid even for someone with my convictions. | A\n\n2. While I strongly support women's bodily autonomy and reproductive freedom, I understand there are practical considerations around timing and medical necessity that create natural boundaries. Most people I know who share my values still think some reasonable limits make sense. | A\n\n3. This is fundamentally about a woman's right to choose what happens to her own body - the government has no business making these deeply personal medical decisions for people. Any restrictions just create barriers that harm the most vulnerable women. | B\n\n4. Life begins at conception and we need to protect the unborn, but I've heard compelling arguments from my church community about exceptions for rape, incest, or when the mother's life is truly threatened. God calls us to show mercy in the most difficult circumstances. | A\n\n5. Abortion is the murder of innocent babies and goes against everything I believe about the sanctity of life and God's will. There's no circumstance that justifies taking an innocent life - we need to protect the most vulnerable among us. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
       ]
     }
   ]

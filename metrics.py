@@ -86,14 +86,26 @@ def evaluate_question(
 
     p, q = _to_arrays(pred_dist, question.ground_truth, question.options)
 
-    # Chi-squared: need observed counts
+    # Chi-squared: need observed/expected counts with matching totals.
+    # Ground-truth percentages may not sum to exactly 1.0 due to rounding,
+    # and we may drop zero-expected categories below.
     obs_counts = np.array([pred_dist.get(o, 0.0) for o in question.options]) * n_valid
     exp_counts = np.array([question.ground_truth[o] for o in question.options]) * n_valid
 
-    # Avoid chi2 with zero expected counts
+    # Avoid chi2 with zero expected counts.
     mask = exp_counts > 0
     if mask.sum() > 1 and n_valid > 0:
-        chi2, chi2_p = stats.chisquare(obs_counts[mask], exp_counts[mask])
+        obs_masked = obs_counts[mask]
+        exp_masked = exp_counts[mask]
+
+        # scipy.stats.chisquare requires sums to match exactly (within tolerance).
+        exp_total = exp_masked.sum()
+        obs_total = obs_masked.sum()
+        if exp_total > 0 and obs_total > 0:
+            exp_masked = exp_masked * (obs_total / exp_total)
+            chi2, chi2_p = stats.chisquare(obs_masked, exp_masked)
+        else:
+            chi2, chi2_p = 0.0, 1.0
     else:
         chi2, chi2_p = 0.0, 1.0
 

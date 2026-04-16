@@ -1,507 +1,607 @@
 {
   "method_name": "cognitive_deliberation",
-  "total_calls": 8,
+  "total_calls": 10,
   "failed_parses": 0,
-  "elapsed_seconds": 12.65545392036438,
+  "elapsed_seconds": 10.79302716255188,
   "responses": [
     {
+      "persona_index": 0,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change.",
+      "raw_response": "1. I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change. | C\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself. | C\n\n3. The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing. | C\n\n4. My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor. | B\n\n5. Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself.",
+      "raw_response": "1. I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change. | C\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself. | C\n\n3. The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing. | C\n\n4. My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor. | B\n\n5. Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing.",
+      "raw_response": "1. I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change. | C\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself. | C\n\n3. The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing. | C\n\n4. My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor. | B\n\n5. Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor.",
+      "raw_response": "1. I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change. | C\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself. | C\n\n3. The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing. | C\n\n4. My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor. | B\n\n5. Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment.",
+      "raw_response": "1. I follow mostly liberal sources that consistently report on climate science, and even though I lean Republican, CNN and Pod Save America have made it pretty clear that fossil fuels are a major driver of climate change. | C\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize how fossil fuel companies are destroying the planet, and living in rural areas I can see some changes in weather patterns myself. | C\n\n3. The Young Turks and The Intercept constantly talk about how corporate fossil fuel interests are causing massive environmental destruction, and even though I don't have much formal education, the evidence seems overwhelming from what I'm hearing. | C\n\n4. My sources like Breitbart and Fox News have been pointing out how climate change is often exaggerated by liberals for political control, and while there might be some human impact, the natural climate cycles are probably the bigger factor. | B\n\n5. Between Breitbart, Truth Social, and what Trump posts, I keep hearing about how the climate agenda is mostly about government control and higher taxes, though I suppose human activity probably has some effect on the environment. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
       "persona_index": 5,
-      "question_id": "gun_laws",
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life. | B\n\n3. At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety. | C\n\n4. My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason. | B\n\n5. Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life. | B\n\n3. At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety. | C\n\n4. My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason. | B\n\n5. Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life. | B\n\n3. At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety. | C\n\n4. My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason. | B\n\n5. Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life. | B\n\n3. At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety. | C\n\n4. My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason. | B\n\n5. Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about women's reproductive rights being under attack, and as someone who's struggled financially, I understand there are complicated situations where women need options, but I also feel like there should be some reasonable limits in extreme cases. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino reinforces that this is about protecting innocent life, and my faith tells me that life begins at conception - I can't support something that goes against my core beliefs about the sanctity of life. | B\n\n3. At my age I've seen how important it is for women to have control over their bodies, and listening to Pod Save America and Vox has shown me how dangerous these abortion bans are becoming for women's health and safety. | C\n\n4. My sources consistently show me that this is about defending the unborn, and being part of my church community reinforces that we need to protect life - Trump appointed judges specifically to overturn Roe for good reason. | B\n\n5. Between what I hear on Bongino and see on Newsmax, plus talking with people at work, it's clear that abortion is killing babies and we need to protect innocent life, even though I know some women face really tough situations. | B",
+      "options_order": [
+        "Legal in most cases",
+        "Illegal in all or most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools.",
-      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "reasoning": "I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people.",
+      "raw_response": "1. I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves. | B\n\n3. Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks. | A\n\n4. Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach. | B\n\n5. Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people. | C",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 6,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway.",
-      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "reasoning": "The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves.",
+      "raw_response": "1. I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves. | B\n\n3. Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks. | A\n\n4. Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach. | B\n\n5. Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people. | C",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms.",
-      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "reasoning": "Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks.",
+      "raw_response": "1. I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves. | B\n\n3. Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks. | A\n\n4. Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach. | B\n\n5. Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people. | C",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 8,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights.",
-      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
+      "reasoning": "Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach.",
+      "raw_response": "1. I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves. | B\n\n3. Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks. | A\n\n4. Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach. | B\n\n5. Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people. | C",
       "options_order": [
         "More strict",
-        "Kept as they are now",
-        "Less strict"
+        "Less strict",
+        "Kept as they are now"
       ]
     },
     {
       "persona_index": 9,
-      "question_id": "gun_laws",
-      "chosen_option": "Less strict",
-      "reasoning": "Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals.",
-      "raw_response": "1. I keep hearing about all these mass shootings on CNN and NPR, and it just breaks my heart - we need to do something to protect people, especially kids in schools. | A\n\n2. The government is always trying to take away our constitutional rights, and I hear on Mark Levin how they want to disarm law-abiding citizens while criminals will always get guns anyway. | C\n\n3. After hearing about another school shooting on the news and listening to Pod Save America discuss gun violence, I feel like we really need stronger background checks and common-sense reforms. | A\n\n4. I've been following Trump's posts and listening to Gorka talk about how the Second Amendment is under attack - we already have too many restrictions on our God-given rights. | C\n\n5. Between what I hear on Bongino and talking to people at work, it's clear that more gun laws only hurt regular folks like us while doing nothing to stop actual criminals. | C",
-      "options_order": [
-        "More strict",
-        "Kept as they are now",
-        "Less strict"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "immigration_level",
-      "chosen_option": "Kept at present level",
-      "reasoning": "I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket.",
-      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
-      "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down.",
-      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
-      "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts.",
-      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
-      "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first.",
-      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
-      "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me.",
-      "raw_response": "1. I hear from CNN and NPR about how immigrants contribute to the economy and fill essential jobs, plus being Hispanic myself I know immigration isn't just about numbers but about families - though I worry about job competition in my income bracket. | C\n\n2. Everything I hear from Gateway Pundit and Dan Bongino tells me we're being invaded and it's hurting working-class Americans like me - I see the strain on services in my neighborhood and hear coworkers complaining about wages being pushed down. | D\n\n3. My sources like Vox and Pod Save America emphasize how America benefits from immigration and it's part of our values, plus as a Hispanic woman I feel personally connected to welcoming newcomers even though I sometimes wonder about the practical impacts. | B\n\n4. Sebastian Gorka and Truth Social constantly show me how immigration is destroying American jobs and culture - I've done well for myself but I see my rural community changing and losing its character, and we need to put Americans first. | D\n\n5. Between Breitbart and Newsmax I'm constantly seeing stories about crime and job losses from too much immigration, and in my neighborhood I see the competition for low-paying work getting tougher while politicians ignore working people like me. | D",
-      "options_order": [
-        "Not sure",
-        "Increased",
-        "Kept at present level",
-        "Decreased"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "immigration_level",
-      "chosen_option": "Kept at present level",
-      "reasoning": "I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue.",
-      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated.",
-      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "immigration_level",
-      "chosen_option": "Increased",
-      "reasoning": "The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives.",
-      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income.",
-      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "immigration_level",
-      "chosen_option": "Decreased",
-      "reasoning": "Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say.",
-      "raw_response": "1. I've been hearing from CNN and Pod Save America about how immigration is actually beneficial economically, but living on a tight budget in the South, I sometimes worry about job competition - though I know that's probably not the real issue. | A\n\n2. My progressive sources like Bernie and Jacobin talk about how immigrants are exploited by the same capitalist system hurting all working people, and in my rural Black community we understand what it's like to be scapegoated. | D\n\n3. The Young Turks and The Intercept constantly show how anti-immigrant rhetoric is just racist fear-mongering, and as someone who's multiracial, I know what it feels like to be othered - we should welcome more people seeking better lives. | D\n\n4. Everything I hear from Breitbart, Fox, and my church friends confirms we're being invaded - crime is up, jobs are being taken, and our culture is disappearing while I'm barely scraping by on my low income. | C\n\n5. Between Truth Social posts and Turning Point content, it's clear that mass immigration is destroying America's identity and economy, though sometimes the evening news makes me question if it's really as bad as they say. | C",
-      "options_order": [
-        "Kept at present level",
-        "Not sure",
-        "Decreased",
-        "Increased"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue.",
-      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
-      "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately.",
-      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
-      "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation.",
-      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
-      "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "climate_cause",
-      "chosen_option": "There is no solid evidence of climate change",
-      "reasoning": "Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies.",
-      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
-      "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "climate_cause",
-      "chosen_option": "Not sure",
-      "reasoning": "I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism.",
-      "raw_response": "1. I consume a lot of mainstream and left-leaning media that consistently reports on human-caused climate change, and even though I lean Republican, the scientific consensus from CNN and network news seems pretty clear on this issue. | B\n\n2. All my progressive sources from Pod Save America to Bernie's emails emphasize climate change as an urgent crisis caused by corporations and human activity, and living in a rural area I've noticed weather patterns seem more extreme lately. | B\n\n3. The Young Turks and The Intercept constantly talk about how big corporations are destroying the planet through fossil fuels, and at 25 I'm really worried about what the world will look like when I'm older - this feels like the defining issue of my generation. | B\n\n4. Everything I read on Breitbart and hear on Fox News tells me this whole climate change thing is just another way for liberals to control the economy and push their agenda, and I trust those sources way more than the mainstream media lies. | A\n\n5. I see Trump posting on Truth Social about how climate change is a hoax, and Breitbart always has articles exposing how the data is manipulated, though sometimes the regular news makes it sound real - honestly I'm getting mixed messages but lean toward skepticism. | C",
-      "options_order": [
-        "There is no solid evidence of climate change",
-        "Caused mostly by human activities",
-        "Not sure",
-        "Caused mostly by natural changes in the environment"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings.",
-      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 1,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom.",
-      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 2,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue.",
-      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "marijuana",
-      "chosen_option": "Not legal for any use",
-      "reasoning": "My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values.",
-      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 4,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety.",
-      "raw_response": "1. I've been hearing on Pod Save America and CNN about how marijuana legalization is gaining bipartisan support, and honestly the medical benefits seem pretty clear, but I'm still a bit cautious about full recreational use given my more moderate Republican leanings. | B\n\n2. My progressive sources constantly talk about criminal justice reform and how the war on drugs has disproportionately harmed Black communities like mine, plus Bernie's always pushing for full legalization as a matter of justice and personal freedom. | C\n\n3. The Young Turks and Intercept are always covering how marijuana prohibition is just another way the system oppresses working people, and at 25 I see friends using it recreationally without any real harm - seems like an obvious civil liberties issue. | C\n\n4. My church group and Fox News hosts keep talking about the moral decay of society, and I've seen what drugs can do to communities - even if it's just marijuana, it feels like a slippery slope that goes against traditional values. | A\n\n5. Trump and my conservative sources emphasize law and order, and while I hear some medical arguments, I worry about the message full legalization sends to kids and how it might affect our suburban community's safety. | B",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for medical use only",
-      "reasoning": "I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes.",
-      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "marijuana",
-      "chosen_option": "Not legal for any use",
-      "reasoning": "The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available.",
-      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "marijuana",
-      "chosen_option": "Legal for recreational and medical use",
-      "reasoning": "From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger.",
-      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "marijuana",
-      "chosen_option": "Not legal for any use",
-      "reasoning": "Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values.",
-      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "marijuana",
-      "chosen_option": "Not legal for any use",
-      "reasoning": "I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society.",
-      "raw_response": "1. I've heard a lot on NPR and CNN about how marijuana criminalization has hurt communities like mine, and medical benefits seem real, but I'm still not totally comfortable with full legalization - maybe we should start with medical and see how it goes. | B\n\n2. The conservative voices I follow keep talking about how drugs are destroying communities, and I see problems in my neighborhood - even if some say it's not as bad as other drugs, I think we need to be careful about making more substances easily available. | A\n\n3. From what I've heard on Pod Save America and Vox, the evidence seems pretty clear that marijuana prohibition has been harmful and outdated, plus at my age I've seen enough to know it's not the dangerous drug people made it out to be when I was younger. | C\n\n4. Everything I'm hearing from Gorka and on Truth Social is about how the liberal agenda wants to drug up America, and in my church community we talk about keeping substances away from kids - I think this is just another way to weaken traditional values. | A\n\n5. I hear from Bongino and Newsmax that this is part of the liberal plan to control people and make them dependent, plus I worry about what this means for my kids growing up - we don't need more drugs being normalized in society. | A",
-      "options_order": [
-        "Not legal for any use",
-        "Legal for medical use only",
-        "Legal for recreational and medical use"
-      ]
-    },
-    {
-      "persona_index": 5,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault.",
-      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 6,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by natural changes in the environment",
-      "reasoning": "All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing.",
-      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 7,
-      "question_id": "climate_cause",
-      "chosen_option": "Caused mostly by human activities",
-      "reasoning": "Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying.",
-      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 8,
-      "question_id": "climate_cause",
-      "chosen_option": "There is no solid evidence of climate change",
-      "reasoning": "I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway.",
-      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 9,
-      "question_id": "climate_cause",
-      "chosen_option": "Not sure",
-      "reasoning": "Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles.",
-      "raw_response": "1. I've been hearing a lot on CNN and NPR about how scientists agree that humans are causing climate change, and the Ezra Klein Show had that episode about carbon emissions - it seems pretty clear from what I'm hearing that this is mostly our fault. | A\n\n2. All the sources I trust like Gateway Pundit and Mark Levin keep saying this climate stuff is just another way for the government to control us and tax us more, and honestly I have bigger worries right now than some theory about the weather changing. | B\n\n3. Everything I read on Vox and hear on Pod Save America talks about how the science is settled on human-caused climate change, and at my age I've seen enough changes in the weather patterns to believe what the experts are saying. | A\n\n4. I keep hearing on Gorka's show and seeing on Truth Social that this whole climate change thing is just a hoax to destroy American industry, and from what I see in my rural area, the weather's always been unpredictable anyway. | C\n\n5. Breitbart and Bongino are always talking about how the climate agenda is just liberal fear-mongering, but honestly I'm not sure what to believe anymore - sometimes it feels real when I see weird weather, but then I hear it's all natural cycles. | D",
-      "options_order": [
-        "Caused mostly by human activities",
-        "Caused mostly by natural changes in the environment",
-        "There is no solid evidence of climate change",
-        "Not sure"
-      ]
-    },
-    {
-      "persona_index": 0,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Kept as they are now",
-      "reasoning": "I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves.",
-      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "reasoning": "Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people.",
+      "raw_response": "1. I keep hearing about mass shootings on CNN and NPR, and living on a tight budget in the suburbs makes me worry about violence - we need better background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The Gateway Pundit and Mark Levin keep talking about how Democrats want to take away our Second Amendment rights, and as a Black woman I know the police can't always protect us - we need fewer restrictions so law-abiding citizens can defend themselves. | B\n\n3. Between Pod Save America and Vox, I'm constantly hearing about gun violence statistics and how we're the only developed country with this problem - at my age I've seen enough tragedy and think we need common sense reforms like universal background checks. | A\n\n4. Sebastian Gorka and Truth Social keep warning that Biden and the deep state are coming for our constitutional rights, and living in rural Northeast I need my firearms for protection and hunting - any more laws are just government overreach. | B\n\n5. Breitbart and Bongino are always talking about criminals not following gun laws anyway, and being a single woman in the city on low income, I think the current laws are fine if they'd just enforce them properly instead of adding more restrictions on honest people. | C",
       "options_order": [
-        "Kept as they are now",
+        "More strict",
         "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future. | A\n\n2. My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us. | B\n\n3. All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself. | A\n\n4. Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals. | B\n\n5. Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future. | A\n\n2. My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us. | B\n\n3. All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself. | A\n\n4. Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals. | B\n\n5. Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future. | A\n\n2. My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us. | B\n\n3. All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself. | A\n\n4. Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals. | B\n\n5. Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future. | A\n\n2. My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us. | B\n\n3. All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself. | A\n\n4. Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals. | B\n\n5. Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and it feels overwhelming - they always talk about how urgent it is and how fossil fuels are the main cause, plus living paycheck to paycheck makes me worry about my kids' future. | A\n\n2. My sources keep saying the climate stuff is overblown and it's just another way for Democrats to control us and hurt working people like me - I trust what I hear from Mark Levin more than the mainstream media that seems to hate people like us. | B\n\n3. All my news sources from Vox to CNN consistently report on how serious climate change is and how human activity is driving it, and at my age I've seen the weather patterns change over the decades myself. | A\n\n4. Everything I read on Truth Social and Breitbart shows this climate change thing is mostly a hoax to destroy American energy independence, and the people at church agree it's being blown out of proportion by liberals. | B\n\n5. Between Breitbart and Newsmax, I keep hearing that the climate agenda is just a way to raise taxes and kill jobs, and my coworkers at the factory feel the same way about all these environmental regulations. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off.",
+      "raw_response": "1. I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off. | C\n\n2. Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having. | C\n\n3. The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer. | C\n\n4. My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental. | A\n\n5. Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having.",
+      "raw_response": "1. I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off. | C\n\n2. Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having. | C\n\n3. The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer. | C\n\n4. My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental. | A\n\n5. Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer.",
+      "raw_response": "1. I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off. | C\n\n2. Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having. | C\n\n3. The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer. | C\n\n4. My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental. | A\n\n5. Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental.",
+      "raw_response": "1. I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off. | C\n\n2. Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having. | C\n\n3. The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer. | C\n\n4. My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental. | A\n\n5. Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis.",
+      "raw_response": "1. I've been hearing about climate change constantly on CNN and the podcasts I listen to, and while I'm generally Republican-leaning, the evidence seems pretty overwhelming - I've noticed the summers here in the South have been getting more intense and the weather patterns seem off. | C\n\n2. Between Pod Save America, Bernie's emails, and what folks are discussing at church, climate change keeps coming up as something that's already hurting working-class communities like mine - I can see it in the farming around here and the weird weather we've been having. | C\n\n3. The Young Turks and The Intercept are constantly talking about how climate change is already devastating communities, especially poor and minority areas, and living in the city I can feel the heat getting worse each summer. | C\n\n4. My sources keep telling me that climate change is mostly a hoax or overblown by the media, and while the weather has been a bit weird lately, I think it's just natural cycles - the real problems in my community are economic, not environmental. | A\n\n5. Everything I read on Breitbart and Truth Social says climate change is fake news pushed by Democrats, and honestly the bigger issues affecting my suburban community are crime and the economy, not some supposed environmental crisis. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far.",
+      "raw_response": "1. I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far. | C\n\n2. Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence. | C\n\n3. The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed. | C\n\n4. Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families. | A\n\n5. Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 1,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections.",
-      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "reasoning": "Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence.",
+      "raw_response": "1. I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far. | C\n\n2. Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence. | C\n\n3. The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed. | C\n\n4. Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families. | A\n\n5. Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 2,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "More strict",
-      "reasoning": "Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out.",
-      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "reasoning": "The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed.",
+      "raw_response": "1. I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far. | C\n\n2. Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence. | C\n\n3. The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed. | C\n\n4. Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families. | A\n\n5. Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 3,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway.",
-      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "reasoning": "Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families.",
+      "raw_response": "1. I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far. | C\n\n2. Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence. | C\n\n3. The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed. | C\n\n4. Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families. | A\n\n5. Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
       ]
     },
     {
       "persona_index": 4,
-      "question_id": "gun_laws",
+      "question_id": "gun_sales_laws",
       "chosen_option": "Less strict",
-      "reasoning": "Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right.",
-      "raw_response": "1. I've been hearing a lot about mass shootings on CNN and from the podcasts I listen to, and it really scares me - but I also worry about government overreach and my own safety as a woman living on a tight budget. I'm torn between wanting something done about gun violence but not wanting to make it harder for law-abiding people like me to protect themselves. | A\n\n2. The progressive sources I follow constantly highlight how gun violence disproportionately affects Black communities, and I see it in my own rural area where people struggle with poverty and desperation. While I understand the cultural significance of guns in the South, the data from Pod Save America and Bernie's emails about the toll of gun violence on working-class communities convinces me we need stronger protections. | C\n\n3. Between The Young Turks and The Intercept, I'm constantly seeing stories about mass shootings and how the gun lobby blocks common-sense reforms that most Americans support. Living in the city, I see gun violence as a daily threat to communities like mine, and I can't understand why we can't have basic background checks and restrictions when other countries have figured this out. | C\n\n4. Everything I'm hearing from Breitbart and Fox News tells me that Democrats want to take away our constitutional rights, and as someone living on a fixed income in an urban area where crime is a real concern, I need to be able to protect myself. The Second Amendment is crystal clear, and any more restrictions will only hurt law-abiding citizens while criminals ignore the laws anyway. | B\n\n5. Trump and my conservative sources keep showing how cities with strict gun laws still have high crime rates, proving that more laws don't work - they just punish people like me who follow the rules. With everything going on in this country, I need to know I can protect my family, and the Constitution guarantees that right. | B",
+      "reasoning": "Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights.",
+      "raw_response": "1. I've been hearing a lot from Pod Save America and CNN about mass shootings and gun violence, which really worries me, but I also grew up in the South where guns are pretty normal - I'm honestly torn between wanting more safety measures but not wanting to go too far. | C\n\n2. Between Pod Save America, Bernie's emails, and what I hear at church about violence in our communities, I know we need stronger gun laws to protect people, especially in Black communities that face so much gun violence. | C\n\n3. The Young Turks and The Intercept are constantly talking about how gun lobbies block common-sense reforms while kids keep dying in schools - it's infuriating that we can't even get basic background checks passed. | C\n\n4. Everything I'm seeing on Fox News and Breitbart shows how Democrats want to take away our constitutional rights, and with all the crime in cities, law-abiding citizens need to be able to protect themselves and their families. | A\n\n5. Trump and Charlie Kirk keep showing how the left wants to disarm Americans while criminals will always get guns anyway - we need less government interference, not more restrictions on our Second Amendment rights. | A",
       "options_order": [
-        "Kept as they are now",
         "Less strict",
+        "Kept as they are now",
         "More strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn. | C\n\n3. At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose. | A\n\n4. My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases. | C\n\n5. All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn. | C\n\n3. At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose. | A\n\n4. My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases. | C\n\n5. All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn. | C\n\n3. At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose. | A\n\n4. My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases. | C\n\n5. All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn. | C\n\n3. At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose. | A\n\n4. My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases. | C\n\n5. All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified.",
+      "raw_response": "1. I've been hearing a lot on NPR and CNN about women's healthcare access being threatened, and as someone who's struggled financially, I understand sometimes there are really difficult situations where women need options, but I also think there should be some reasonable limits. | A\n\n2. Everything I hear from Mark Levin and Dan Bongino tells me this is about protecting innocent life, and my faith community reinforces that - even though I support Trump on most issues, this one feels pretty clear cut that we need to protect the unborn. | C\n\n3. At my age I've seen what happens when women don't have access to safe procedures, and Vox and Pod Save America keep highlighting how these bans hurt women - I believe in some restrictions but women should generally have the right to choose. | A\n\n4. My church talks about the sanctity of life regularly, and everything I see on Truth Social and Breitbart confirms that abortion is killing babies - there's no middle ground here, it's just wrong in all cases. | C\n\n5. All my news sources keep saying abortion is murder and the left is trying to normalize killing babies, plus most people I work with feel the same way - I can't see how taking a life could ever be justified. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger. | C\n\n2. My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff. | A\n\n3. All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year. | C\n\n4. Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me. | A\n\n5. Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger. | C\n\n2. My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff. | A\n\n3. All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year. | C\n\n4. Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me. | A\n\n5. Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger. | C\n\n2. My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff. | A\n\n3. All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year. | C\n\n4. Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me. | A\n\n5. Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger. | C\n\n2. My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff. | A\n\n3. All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year. | C\n\n4. Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me. | A\n\n5. Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR - they talk about extreme weather, flooding, and how it's getting worse everywhere, and honestly living here in the suburbs I've noticed the summers seem hotter and the storms more intense than when I was younger. | C\n\n2. My sources keep saying climate change is mostly hype from the liberal media to push their agenda, and while the weather does seem weird sometimes, I think it's just natural cycles - plus I've got bigger problems to worry about with my job and bills than some far-off environmental stuff. | A\n\n3. All my news sources from Vox to CNN constantly cover climate stories about rising temperatures and extreme weather, and at my age I can definitely remember when summers weren't this brutal in the South - the heat waves seem worse every year. | C\n\n4. Everything I read on Truth Social and Breitbart tells me climate change is a hoax pushed by Democrats and the deep state, and honestly living out here in rural areas the weather just seems like normal seasonal variations to me. | A\n\n5. Breitbart and Bongino are always exposing how climate change is fake news designed to control people and destroy American industry, and while we do get some crazy storms sometimes, I think that's just how weather has always been. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted.",
+      "raw_response": "1. I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted. | A\n\n2. The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits. | A\n\n3. The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says. | C\n\n5. Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits.",
+      "raw_response": "1. I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted. | A\n\n2. The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits. | A\n\n3. The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says. | C\n\n5. Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference.",
+      "raw_response": "1. I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted. | A\n\n2. The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits. | A\n\n3. The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says. | C\n\n5. Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says.",
+      "raw_response": "1. I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted. | A\n\n2. The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits. | A\n\n3. The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says. | C\n\n5. Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth.",
+      "raw_response": "1. I've been hearing a lot on CNN and Pod Save about how extreme abortion bans are hurting women, but I also grew up in the South where people have mixed feelings about this - I think there should be exceptions for rape, incest, and when the mother's life is at risk, but I'm not comfortable with it being completely unrestricted. | A\n\n2. The progressive podcasts I listen to talk about reproductive rights as human rights, and Bernie's emails emphasize bodily autonomy, but in my rural Black community and church, there are still traditional values about life - I believe women should have the right to choose, especially given systemic inequalities, but maybe with some reasonable limits. | A\n\n3. The Young Turks and The Intercept are always talking about how abortion restrictions disproportionately hurt working-class women and women of color like me, and I see how my friends struggle financially - women should have complete control over their reproductive choices without government interference. | B\n\n4. Everything I read on Breitbart and hear on Fox shows how abortion is murdering innocent babies, and my pastor talks about the sanctity of life - this country has lost its moral way, and we need to protect the unborn no matter what the liberal media says. | C\n\n5. Trump's Truth Social posts and Breitbart constantly show the horrors of late-term abortion, and Charlie Kirk explains how this is about protecting innocent life - even though I'm successful and educated, I believe we need to stand up for traditional values and protect babies from conception to birth. | C",
+      "options_order": [
+        "Legal under certain circumstances",
+        "Legal under any circumstances",
+        "Illegal in all circumstances"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans. | C\n\n2. My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances. | C\n\n3. The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference. | A\n\n4. Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values. | B\n\n5. Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans. | C\n\n2. My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances. | C\n\n3. The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference. | A\n\n4. Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values. | B\n\n5. Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans. | C\n\n2. My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances. | C\n\n3. The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference. | A\n\n4. Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values. | B\n\n5. Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans. | C\n\n2. My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances. | C\n\n3. The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference. | A\n\n4. Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values. | B\n\n5. Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights from Pod Save America and CNN, and as a young woman struggling financially, I understand why access matters, but I also grew up in the South where there are strong cultural views about this - I think there should be some reasonable limits but not total bans. | C\n\n2. My progressive sources like Bernie's emails and Jacobin talk about reproductive justice as part of broader social justice, but living in a rural Southern community and being involved in church, I hear different perspectives - I believe in women's autonomy but think some restrictions might be appropriate in certain circumstances. | C\n\n3. The Young Turks and The Intercept have really opened my eyes to how abortion bans disproportionately hurt working-class women and women of color like me, and even though I hear different views at church sometimes, I fundamentally believe this is about bodily autonomy and shouldn't have government interference. | A\n\n4. Everything I'm reading on Breitbart and hearing from Charlie Kirk confirms what I believe - that we need to protect the unborn, and Fox News shows how the liberal media tries to frame this as just \"women's rights\" when it's really about defending innocent life, which aligns with my faith values. | B\n\n5. Between Trump's Truth Social posts and what I'm seeing on Breitbart, it's clear that we need to get back to protecting traditional family values, and while the mainstream news tries to make this complicated, my conversations with neighbors show most people in my community believe we've gone too far with unrestricted abortion. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
       ]
     }
   ]
