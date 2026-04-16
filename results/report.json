@@ -1,0 +1,422 @@
+{
+  "distribution_aware": {
+    "mean_jsd": 0.05977964303263589,
+    "mean_tvd": 0.17055555549583334,
+    "mean_mae_pp": 9.944444441033333,
+    "plurality_accuracy": 0.75,
+    "per_question": {
+      "gun_laws": {
+        "jsd": 0.12063369254210662,
+        "tvd": 0.29999999991000004,
+        "mae_pp": 19.999999994000003,
+        "chi2_stat": 10.758403361344538,
+        "chi2_p": 0.004611501912003149,
+        "predicted": {
+          "More strict": 0.5,
+          "Less strict": 0.4,
+          "Kept as they are now": 0.1
+        },
+        "ground_truth": {
+          "More strict": 0.56,
+          "Less strict": 0.1,
+          "Kept as they are now": 0.34
+        },
+        "n_valid": 10
+      },
+      "climate_cause": {
+        "jsd": 0.019545617729203414,
+        "tvd": 0.07333333330399995,
+        "mae_pp": 3.6666666651999975,
+        "chi2_stat": 0.5130989867831974,
+        "chi2_p": 0.9160043399278417,
+        "predicted": {
+          "Caused mostly by human activities": 0.5555555555555556,
+          "Caused mostly by natural changes in the environment": 0.3333333333333333,
+          "There is no solid evidence of climate change": 0.1111111111111111,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Caused mostly by human activities": 0.57,
+          "Caused mostly by natural changes in the environment": 0.26,
+          "There is no solid evidence of climate change": 0.14,
+          "Not sure": 0.03
+        },
+        "n_valid": 9
+      },
+      "marijuana": {
+        "jsd": 0.001496840765290401,
+        "tvd": 0.03999999998800002,
+        "mae_pp": 2.6666666658666682,
+        "chi2_stat": 0.08653846153846155,
+        "chi2_p": 0.9576535255607153,
+        "predicted": {
+          "Legal for recreational and medical use": 0.6,
+          "Legal for medical use only": 0.3,
+          "Not legal for any use": 0.1
+        },
+        "ground_truth": {
+          "Legal for recreational and medical use": 0.64,
+          "Legal for medical use only": 0.26,
+          "Not legal for any use": 0.1
+        },
+        "n_valid": 10
+      },
+      "immigration_level": {
+        "jsd": 0.0974424210939431,
+        "tvd": 0.2688888887813333,
+        "mae_pp": 13.444444439066666,
+        "chi2_stat": 4.138352162742408,
+        "chi2_p": 0.24690693496240163,
+        "predicted": {
+          "Increased": 0.4444444444444444,
+          "Decreased": 0.4444444444444444,
+          "Kept at present level": 0.1111111111111111,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Increased": 0.21,
+          "Decreased": 0.41,
+          "Kept at present level": 0.33,
+          "Not sure": 0.05
+        },
+        "n_valid": 9
+      }
+    }
+  },
+  "cognitive_deliberation": {
+    "mean_jsd": 0.11152505278283947,
+    "mean_tvd": 0.24611111102577782,
+    "mean_mae_pp": 14.49074073581852,
+    "plurality_accuracy": 0.5,
+    "per_question": {
+      "gun_laws": {
+        "jsd": 0.06439644019352059,
+        "tvd": 0.2288888888202222,
+        "mae_pp": 15.259259254681481,
+        "chi2_stat": 2.9140989729225018,
+        "chi2_p": 0.23292250286741148,
+        "predicted": {
+          "More strict": 0.6666666666666666,
+          "Less strict": 0.2222222222222222,
+          "Kept as they are now": 0.1111111111111111
+        },
+        "ground_truth": {
+          "More strict": 0.56,
+          "Less strict": 0.1,
+          "Kept as they are now": 0.34
+        },
+        "n_valid": 9
+      },
+      "climate_cause": {
+        "jsd": 0.0187245940984754,
+        "tvd": 0.06999999997200004,
+        "mae_pp": 3.499999998600002,
+        "chi2_stat": 0.4916136495083865,
+        "chi2_p": 0.9207299554579866,
+        "predicted": {
+          "Caused mostly by human activities": 0.6,
+          "Caused mostly by natural changes in the environment": 0.3,
+          "There is no solid evidence of climate change": 0.1,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Caused mostly by human activities": 0.57,
+          "Caused mostly by natural changes in the environment": 0.26,
+          "There is no solid evidence of climate change": 0.14,
+          "Not sure": 0.03
+        },
+        "n_valid": 10
+      },
+      "marijuana": {
+        "jsd": 0.102313394270833,
+        "tvd": 0.29555555546688894,
+        "mae_pp": 19.703703697792598,
+        "chi2_stat": 4.461538461538463,
+        "chi2_p": 0.10744574776375672,
+        "predicted": {
+          "Legal for recreational and medical use": 0.4444444444444444,
+          "Legal for medical use only": 0.5555555555555556,
+          "Not legal for any use": 0.0
+        },
+        "ground_truth": {
+          "Legal for recreational and medical use": 0.64,
+          "Legal for medical use only": 0.26,
+          "Not legal for any use": 0.1
+        },
+        "n_valid": 9
+      },
+      "immigration_level": {
+        "jsd": 0.2606657825685289,
+        "tvd": 0.38999999984399997,
+        "mae_pp": 19.4999999922,
+        "chi2_stat": 11.045296167247386,
+        "chi2_p": 0.011483446676480928,
+        "predicted": {
+          "Increased": 0.6,
+          "Decreased": 0.4,
+          "Kept at present level": 0.0,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Increased": 0.21,
+          "Decreased": 0.41,
+          "Kept at present level": 0.33,
+          "Not sure": 0.05
+        },
+        "n_valid": 10
+      }
+    }
+  },
+  "value_anchored": {
+    "mean_jsd": 0.12565814995811006,
+    "mean_tvd": 0.269999999908,
+    "mean_mae_pp": 16.166666661266664,
+    "plurality_accuracy": 0.75,
+    "per_question": {
+      "gun_laws": {
+        "jsd": 0.22160378199805447,
+        "tvd": 0.49999999985,
+        "mae_pp": 33.33333332333333,
+        "chi2_stat": 27.901260504201684,
+        "chi2_p": 8.736113392748566e-07,
+        "predicted": {
+          "More strict": 0.3,
+          "Less strict": 0.6,
+          "Kept as they are now": 0.1
+        },
+        "ground_truth": {
+          "More strict": 0.56,
+          "Less strict": 0.1,
+          "Kept as they are now": 0.34
+        },
+        "n_valid": 10
+      },
+      "climate_cause": {
+        "jsd": 0.0280670228235069,
+        "tvd": 0.10999999995599993,
+        "mae_pp": 5.499999997799996,
+        "chi2_stat": 1.0032774243300557,
+        "chi2_p": 0.8004589168702103,
+        "predicted": {
+          "Caused mostly by human activities": 0.5,
+          "Caused mostly by natural changes in the environment": 0.25,
+          "There is no solid evidence of climate change": 0.25,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Caused mostly by human activities": 0.57,
+          "Caused mostly by natural changes in the environment": 0.26,
+          "There is no solid evidence of climate change": 0.14,
+          "Not sure": 0.03
+        },
+        "n_valid": 8
+      },
+      "marijuana": {
+        "jsd": 0.06125818770144159,
+        "tvd": 0.13999999995800005,
+        "mae_pp": 9.333333330533337,
+        "chi2_stat": 1.7788461538461537,
+        "chi2_p": 0.41089273788730296,
+        "predicted": {
+          "Legal for recreational and medical use": 0.6,
+          "Legal for medical use only": 0.4,
+          "Not legal for any use": 0.0
+        },
+        "ground_truth": {
+          "Legal for recreational and medical use": 0.64,
+          "Legal for medical use only": 0.26,
+          "Not legal for any use": 0.1
+        },
+        "n_valid": 10
+      },
+      "immigration_level": {
+        "jsd": 0.19170360730943722,
+        "tvd": 0.329999999868,
+        "mae_pp": 16.4999999934,
+        "chi2_stat": 4.759194734804492,
+        "chi2_p": 0.19030349083690976,
+        "predicted": {
+          "Increased": 0.3333333333333333,
+          "Decreased": 0.5555555555555556,
+          "Kept at present level": 0.0,
+          "Not sure": 0.1111111111111111
+        },
+        "ground_truth": {
+          "Increased": 0.21,
+          "Decreased": 0.41,
+          "Kept at present level": 0.33,
+          "Not sure": 0.05
+        },
+        "n_valid": 9
+      }
+    }
+  },
+  "demographic_baseline": {
+    "mean_jsd": 0.11532056422763813,
+    "mean_tvd": 0.224999999921,
+    "mean_mae_pp": 13.083333328833337,
+    "plurality_accuracy": 0.75,
+    "per_question": {
+      "gun_laws": {
+        "jsd": 0.12063369254210662,
+        "tvd": 0.29999999991000004,
+        "mae_pp": 19.999999994000003,
+        "chi2_stat": 10.758403361344538,
+        "chi2_p": 0.004611501912003149,
+        "predicted": {
+          "More strict": 0.5,
+          "Less strict": 0.4,
+          "Kept as they are now": 0.1
+        },
+        "ground_truth": {
+          "More strict": 0.56,
+          "Less strict": 0.1,
+          "Kept as they are now": 0.34
+        },
+        "n_valid": 10
+      },
+      "climate_cause": {
+        "jsd": 0.0187245940984754,
+        "tvd": 0.06999999997200004,
+        "mae_pp": 3.499999998600002,
+        "chi2_stat": 0.4916136495083865,
+        "chi2_p": 0.9207299554579866,
+        "predicted": {
+          "Caused mostly by human activities": 0.6,
+          "Caused mostly by natural changes in the environment": 0.3,
+          "There is no solid evidence of climate change": 0.1,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Caused mostly by human activities": 0.57,
+          "Caused mostly by natural changes in the environment": 0.26,
+          "There is no solid evidence of climate change": 0.14,
+          "Not sure": 0.03
+        },
+        "n_valid": 10
+      },
+      "marijuana": {
+        "jsd": 0.06125818770144159,
+        "tvd": 0.13999999995800005,
+        "mae_pp": 9.333333330533337,
+        "chi2_stat": 1.7788461538461537,
+        "chi2_p": 0.41089273788730296,
+        "predicted": {
+          "Legal for recreational and medical use": 0.6,
+          "Legal for medical use only": 0.4,
+          "Not legal for any use": 0.0
+        },
+        "ground_truth": {
+          "Legal for recreational and medical use": 0.64,
+          "Legal for medical use only": 0.26,
+          "Not legal for any use": 0.1
+        },
+        "n_valid": 10
+      },
+      "immigration_level": {
+        "jsd": 0.2606657825685289,
+        "tvd": 0.38999999984399997,
+        "mae_pp": 19.4999999922,
+        "chi2_stat": 11.045296167247386,
+        "chi2_p": 0.011483446676480928,
+        "predicted": {
+          "Increased": 0.6,
+          "Decreased": 0.4,
+          "Kept at present level": 0.0,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Increased": 0.21,
+          "Decreased": 0.41,
+          "Kept at present level": 0.33,
+          "Not sure": 0.05
+        },
+        "n_valid": 10
+      }
+    }
+  },
+  "narrative_backstory": {
+    "mean_jsd": 0.09506772375512573,
+    "mean_tvd": 0.255833333247,
+    "mean_mae_pp": 15.458333328216666,
+    "plurality_accuracy": 0.75,
+    "per_question": {
+      "gun_laws": {
+        "jsd": 0.0996400581489995,
+        "tvd": 0.2749999999175,
+        "mae_pp": 18.333333327833333,
+        "chi2_stat": 7.189075630252102,
+        "chi2_p": 0.02747337802186525,
+        "predicted": {
+          "More strict": 0.5,
+          "Less strict": 0.375,
+          "Kept as they are now": 0.125
+        },
+        "ground_truth": {
+          "More strict": 0.56,
+          "Less strict": 0.1,
+          "Kept as they are now": 0.34
+        },
+        "n_valid": 8
+      },
+      "climate_cause": {
+        "jsd": 0.09129608593935079,
+        "tvd": 0.16999999993200002,
+        "mae_pp": 8.499999996600001,
+        "chi2_stat": 1.4634663582032004,
+        "chi2_p": 0.6907275751212465,
+        "predicted": {
+          "Caused mostly by human activities": 0.7142857142857143,
+          "Caused mostly by natural changes in the environment": 0.2857142857142857,
+          "There is no solid evidence of climate change": 0.0,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Caused mostly by human activities": 0.57,
+          "Caused mostly by natural changes in the environment": 0.26,
+          "There is no solid evidence of climate change": 0.14,
+          "Not sure": 0.03
+        },
+        "n_valid": 7
+      },
+      "marijuana": {
+        "jsd": 0.1311948213751155,
+        "tvd": 0.36499999989049997,
+        "mae_pp": 24.333333326033333,
+        "chi2_stat": 5.777043269230768,
+        "chi2_p": 0.05565843532304599,
+        "predicted": {
+          "Legal for recreational and medical use": 0.375,
+          "Legal for medical use only": 0.625,
+          "Not legal for any use": 0.0
+        },
+        "ground_truth": {
+          "Legal for recreational and medical use": 0.64,
+          "Legal for medical use only": 0.26,
+          "Not legal for any use": 0.1
+        },
+        "n_valid": 8
+      },
+      "immigration_level": {
+        "jsd": 0.05813992955703712,
+        "tvd": 0.213333333248,
+        "mae_pp": 10.666666662399999,
+        "chi2_stat": 1.3381902650195334,
+        "chi2_p": 0.7200850108949588,
+        "predicted": {
+          "Increased": 0.3333333333333333,
+          "Decreased": 0.5,
+          "Kept at present level": 0.16666666666666666,
+          "Not sure": 0.0
+        },
+        "ground_truth": {
+          "Increased": 0.21,
+          "Decreased": 0.41,
+          "Kept at present level": 0.33,
+          "Not sure": 0.05
+        },
+        "n_valid": 6
+      }
+    }
+  }
+}

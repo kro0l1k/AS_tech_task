@@ -1,0 +1,468 @@
+{
+  "method_name": "demographic_baseline",
+  "total_calls": 40,
+  "failed_parses": 0,
+  "elapsed_seconds": 8.682285070419312,
+  "responses": [
+    {
+      "persona_index": 2,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "raw_response": "A",
+      "options_order": [
+        "Decreased",
+        "Increased",
+        "Kept at present level",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "C",
+      "options_order": [
+        "Decreased",
+        "Not sure",
+        "Increased",
+        "Kept at present level"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "raw_response": "A",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "B",
+      "options_order": [
+        "Not legal for any use",
+        "Legal for recreational and medical use",
+        "Legal for medical use only"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "raw_response": "A",
+      "options_order": [
+        "Decreased",
+        "Increased",
+        "Not sure",
+        "Kept at present level"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for medical use only",
+        "Not legal for any use",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "B",
+      "options_order": [
+        "Not sure",
+        "Caused mostly by human activities",
+        "There is no solid evidence of climate change",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "B",
+      "options_order": [
+        "Legal for medical use only",
+        "Legal for recreational and medical use",
+        "Not legal for any use"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "C",
+      "options_order": [
+        "Not sure",
+        "Kept at present level",
+        "Increased",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "raw_response": "B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "A",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Not sure",
+        "There is no solid evidence of climate change",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "A",
+      "options_order": [
+        "Caused mostly by human activities",
+        "There is no solid evidence of climate change",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "raw_response": "B",
+      "options_order": [
+        "Not sure",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Caused mostly by human activities"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "A",
+      "options_order": [
+        "Caused mostly by human activities",
+        "There is no solid evidence of climate change",
+        "Caused mostly by natural changes in the environment",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "B",
+      "options_order": [
+        "Legal for medical use only",
+        "Legal for recreational and medical use",
+        "Not legal for any use"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for recreational and medical use",
+        "Not legal for any use",
+        "Legal for medical use only"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_cause",
+      "chosen_option": "There is no solid evidence of climate change",
+      "raw_response": "D",
+      "options_order": [
+        "Caused mostly by natural changes in the environment",
+        "Caused mostly by human activities",
+        "Not sure",
+        "There is no solid evidence of climate change"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "A",
+      "options_order": [
+        "Increased",
+        "Decreased",
+        "Not sure",
+        "Kept at present level"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for recreational and medical use",
+        "Not legal for any use",
+        "Legal for medical use only"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "raw_response": "D",
+      "options_order": [
+        "Caused mostly by human activities",
+        "There is no solid evidence of climate change",
+        "Not sure",
+        "Caused mostly by natural changes in the environment"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "raw_response": "C",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for recreational and medical use",
+        "Not legal for any use",
+        "Legal for medical use only"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "raw_response": "B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "D",
+      "options_order": [
+        "Not sure",
+        "There is no solid evidence of climate change",
+        "Caused mostly by natural changes in the environment",
+        "Caused mostly by human activities"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "raw_response": "A",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "raw_response": "C",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by natural changes in the environment",
+      "raw_response": "B",
+      "options_order": [
+        "Caused mostly by human activities",
+        "Caused mostly by natural changes in the environment",
+        "There is no solid evidence of climate change",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "raw_response": "B",
+      "options_order": [
+        "Kept as they are now",
+        "Less strict",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "raw_response": "A",
+      "options_order": [
+        "Decreased",
+        "Not sure",
+        "Kept at present level",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_cause",
+      "chosen_option": "Caused mostly by human activities",
+      "raw_response": "D",
+      "options_order": [
+        "Not sure",
+        "There is no solid evidence of climate change",
+        "Caused mostly by natural changes in the environment",
+        "Caused mostly by human activities"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "B",
+      "options_order": [
+        "Decreased",
+        "Increased",
+        "Not sure",
+        "Kept at present level"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "gun_laws",
+      "chosen_option": "More strict",
+      "raw_response": "B",
+      "options_order": [
+        "Less strict",
+        "More strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for medical use only",
+        "Not legal for any use",
+        "Legal for recreational and medical use"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for medical use only",
+      "raw_response": "C",
+      "options_order": [
+        "Legal for recreational and medical use",
+        "Not legal for any use",
+        "Legal for medical use only"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "D",
+      "options_order": [
+        "Decreased",
+        "Not sure",
+        "Kept at present level",
+        "Increased"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "immigration_level",
+      "chosen_option": "Decreased",
+      "raw_response": "A",
+      "options_order": [
+        "Decreased",
+        "Increased",
+        "Not sure",
+        "Kept at present level"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "marijuana",
+      "chosen_option": "Legal for recreational and medical use",
+      "raw_response": "B",
+      "options_order": [
+        "Legal for medical use only",
+        "Legal for recreational and medical use",
+        "Not legal for any use"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "immigration_level",
+      "chosen_option": "Increased",
+      "raw_response": "C",
+      "options_order": [
+        "Not sure",
+        "Kept at present level",
+        "Increased",
+        "Decreased"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "gun_laws",
+      "chosen_option": "Kept as they are now",
+      "raw_response": "B",
+      "options_order": [
+        "More strict",
+        "Kept as they are now",
+        "Less strict"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "gun_laws",
+      "chosen_option": "Less strict",
+      "raw_response": "A",
+      "options_order": [
+        "Less strict",
+        "More strict",
+        "Kept as they are now"
+      ]
+    }
+  ]
+}
