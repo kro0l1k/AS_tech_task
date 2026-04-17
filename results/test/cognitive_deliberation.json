@@ -1,0 +1,128 @@
+{
+  "method_name": "cognitive_deliberation",
+  "total_calls": 2,
+  "failed_parses": 0,
+  "elapsed_seconds": 9.669251918792725,
+  "responses": [
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access. | B\n\n2. My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly. | B\n\n3. The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures. | C\n\n4. Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility. | A\n\n5. Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access. | B\n\n2. My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly. | B\n\n3. The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures. | C\n\n4. Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility. | A\n\n5. Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access. | B\n\n2. My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly. | B\n\n3. The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures. | C\n\n4. Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility. | A\n\n5. Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access. | B\n\n2. My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly. | B\n\n3. The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures. | C\n\n4. Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility. | A\n\n5. Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values.",
+      "raw_response": "1. I've been hearing a lot about reproductive rights on Pod Save America and CNN, and as someone struggling financially, I understand why women need options - but I also have some traditional values from growing up in the South that make me uncomfortable with unrestricted access. | B\n\n2. My progressive sources emphasize bodily autonomy and reproductive justice, but being in a rural Southern community where church discussions often focus on protecting life, I feel torn between my political beliefs and the moral concerns I hear regularly. | B\n\n3. The Young Turks and The Intercept constantly highlight how abortion bans harm working-class women like me, and I've seen firsthand how economic constraints affect reproductive choices - women should have complete control over their bodies and futures. | C\n\n4. Everything I'm reading on Breitbart and hearing on Fox News reinforces that abortion is taking innocent lives, and my church community strongly believes we need to protect the unborn - this isn't about controlling women, it's about moral responsibility. | A\n\n5. Truth Social and my conservative sources keep showing how the left uses abortion as a political weapon, and while I think there might be rare exceptions for extreme cases, generally we need to protect babies and support traditional family values. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy.",
+      "raw_response": "1. I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn. | B\n\n3. After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors. | A\n\n4. Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country. | B\n\n5. Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn.",
+      "raw_response": "1. I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn. | B\n\n3. After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors. | A\n\n4. Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country. | B\n\n5. Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors.",
+      "raw_response": "1. I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn. | B\n\n3. After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors. | A\n\n4. Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country. | B\n\n5. Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country.",
+      "raw_response": "1. I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn. | B\n\n3. After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors. | A\n\n4. Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country. | B\n\n5. Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations.",
+      "raw_response": "1. I've been hearing a lot about women's rights being under attack, and NPR has been covering how abortion bans are hurting women in emergency situations - I believe women should have the right to choose, though I do think there should be some reasonable limits later in pregnancy. | C\n\n2. Everything I'm hearing from Mark Levin and Dan Bongino confirms that abortion is taking innocent lives, and my church friends agree - I know it's a difficult issue but I believe life begins at conception and we need to protect the unborn. | B\n\n3. After hearing about all these young women dying because they can't get care, and seeing what happened after Roe was overturned, I feel strongly that government shouldn't be making these personal medical decisions for women and their doctors. | A\n\n4. Trump has been clear that we need to protect the unborn, and everything I'm seeing on Truth Social and hearing from Sebastian Gorka reinforces that abortion is killing babies - this is a core moral issue for our country. | B\n\n5. Dan Bongino and Newsmax keep showing how the left uses abortion as population control, and my coworkers at the diner agree that it's just wrong to end a life - though I do worry about women in truly dangerous situations. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    }
+  ]
+}

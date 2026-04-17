@@ -1,0 +1,128 @@
+{
+  "method_name": "narrative_backstory",
+  "total_calls": 2,
+  "failed_parses": 0,
+  "elapsed_seconds": 8.154450178146362,
+  "responses": [
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations.",
+      "raw_response": "1. As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations. | B\n\n2. My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care. | C\n\n3. Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression. | C\n\n4. My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger. | A\n\n5. Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care.",
+      "raw_response": "1. As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations. | B\n\n2. My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care. | C\n\n3. Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression. | C\n\n4. My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger. | A\n\n5. Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression.",
+      "raw_response": "1. As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations. | B\n\n2. My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care. | C\n\n3. Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression. | C\n\n4. My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger. | A\n\n5. Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger.",
+      "raw_response": "1. As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations. | B\n\n2. My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care. | C\n\n3. Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression. | C\n\n4. My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger. | A\n\n5. Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn.",
+      "raw_response": "1. As someone who follows progressive media like CNN and Pod Save America, I believe women should have the right to choose, though I understand there might be some reasonable limits in very late pregnancy situations. | B\n\n2. My progressive values and sources like Pod Save America make me strongly support reproductive rights, especially thinking about how abortion bans disproportionately hurt working families like mine who can't afford to travel for care. | C\n\n3. Following The Young Turks and The Intercept has made me see this as a fundamental human rights issue - the government shouldn't control women's bodies at all, and any restrictions are just tools of oppression. | C\n\n4. My conservative Christian beliefs and what I hear on Fox News convince me that life begins at conception, so abortion is taking an innocent life except maybe when the mother's life is truly in danger. | A\n\n5. Between my faith, what I see on Truth Social, and conversations with like-minded neighbors, I'm convinced abortion is morally wrong and should be illegal - we need to protect the unborn. | A",
+      "options_order": [
+        "Illegal in all or most cases",
+        "Legal in most cases",
+        "Legal in all cases"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in most cases",
+      "reasoning": "As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases.",
+      "raw_response": "1. As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases. | C\n\n2. My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what. | B\n\n3. I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy. | A\n\n4. Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives. | B\n\n5. Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what.",
+      "raw_response": "1. As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases. | C\n\n2. My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what. | B\n\n3. I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy. | A\n\n4. Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives. | B\n\n5. Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Legal in all cases",
+      "reasoning": "I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy.",
+      "raw_response": "1. As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases. | C\n\n2. My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what. | B\n\n3. I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy. | A\n\n4. Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives. | B\n\n5. Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives.",
+      "raw_response": "1. As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases. | C\n\n2. My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what. | B\n\n3. I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy. | A\n\n4. Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives. | B\n\n5. Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_all_or_most",
+      "chosen_option": "Illegal in all or most cases",
+      "reasoning": "Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life.",
+      "raw_response": "1. As a deeply religious person, I believe life begins at conception, but I also hear about complicated situations on NPR where women's health is at risk - I think there should be some exceptions for the most serious cases. | C\n\n2. My faith and the conservative voices I listen to are clear that abortion is wrong - it's taking an innocent life, and I believe we need to protect the unborn no matter what. | B\n\n3. I've lived long enough to remember when women died from back-alley abortions, and the progressive sources I follow convince me that this is fundamentally about women's healthcare and bodily autonomy. | A\n\n4. Everything I hear from Gorka and on Truth Social reinforces that abortion is murder - we're talking about innocent babies here, and there's no justification for ending their lives. | B\n\n5. Between what I hear on Bongino and discussions with neighbors, plus being a mom myself, I firmly believe we need to protect unborn children - abortion just isn't right except maybe to save the mother's life. | B",
+      "options_order": [
+        "Legal in all cases",
+        "Illegal in all or most cases",
+        "Legal in most cases"
+      ]
+    }
+  ]
+}

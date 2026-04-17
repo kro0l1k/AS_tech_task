@@ -109,42 +109,89 @@ def _parse_batch_response(
     """
     Parse a batch response into (chosen_option, reasoning) tuples.
 
-    Expected format per line: "N. [reasoning] | [LETTER]"
-    Falls back to looser patterns if strict parse fails.
-    Returns list of (chosen_option, reasoning) length n_personas.
+    Tries five strategies in order, stopping per-slot once resolved:
+      1. Strict  "N. text | LETTER"  (pipe separator)
+      2. Arrow   "N. text → LETTER"  (model sometimes uses →)
+      3. Multiline — join continuation lines then re-apply strict/arrow
+      4. Loose   "N. ...text...LETTER"  (last valid letter in line)
+      5. Nuclear — for each unresolved slot N, find "N." anywhere then
+                   scan forward for first valid letter
+
+    Logs a warning for any slot still None after all passes.
     """
     valid = set(LETTERS[:n_options])
     results: list[tuple[str | None, str | None]] = [(None, None)] * n_personas
 
-    # Primary: strict "N. text | LETTER" pattern
-    strict = re.compile(
-        r'^\s*(\d+)[.)]\s+(.+?)\s*\|\s*([A-J])\s*$',
+    # Strip bold/italic markdown that sometimes wraps numbers: **1.**
+    cleaned = re.sub(r'\*{1,2}(\d+[.):])\*{1,2}', r'\1', raw)
+
+    def _resolve(idx: int, text: str, letter: str):
+        if 0 <= idx < n_personas and letter in valid and results[idx][0] is None:
+            results[idx] = (ordered_opts[LETTERS.index(letter)],
+                            text.strip(" |→"))
+
+    # --- Pass 1 & 2: pipe or arrow separator ---
+    sep_re = re.compile(
+        r'^\s*(\d+)[.)]\s+(.+?)\s*[|→]\s*([A-J])\s*$',
         re.MULTILINE,
     )
-    for m in strict.finditer(raw):
-        idx = int(m.group(1)) - 1
-        reasoning = m.group(2).strip()
-        letter = m.group(3).upper()
-        if 0 <= idx < n_personas and letter in valid:
-            results[idx] = (ordered_opts[LETTERS.index(letter)], reasoning)
+    for m in sep_re.finditer(cleaned):
+        _resolve(int(m.group(1)) - 1, m.group(2), m.group(3).upper())
 
-    # Fallback: numbered lines, grab last standalone letter
+    # --- Pass 3: multiline reasoning — merge continuation lines ---
     if any(r[0] is None for r in results):
-        loose = re.compile(r'^\s*(\d+)[.)]\s+(.+)$', re.MULTILINE)
-        for m in loose.finditer(raw):
-            idx = int(m.group(1)) - 1
-            text = m.group(2).strip()
-            if not (0 <= idx < n_personas) or results[idx][0] is not None:
+        # Collapse blocks: a numbered line + any following non-numbered lines
+        blocks: dict[int, str] = {}
+        current_idx = -1
+        current_text = ""
+        for line in cleaned.splitlines():
+            m = re.match(r'^\s*(\d+)[.)]\s+(.*)', line)
+            if m:
+                if current_idx >= 0:
+                    blocks[current_idx] = current_text.strip()
+                current_idx = int(m.group(1)) - 1
+                current_text = m.group(2)
+            elif current_idx >= 0 and line.strip():
+                current_text += " " + line.strip()
+        if current_idx >= 0:
+            blocks[current_idx] = current_text.strip()
+
+        for idx, text in blocks.items():
+            if results[idx][0] is not None:
                 continue
-            # Find last valid letter in text
-            for ch in reversed(text):
-                if ch.upper() in valid:
-                    letter = ch.upper()
-                    results[idx] = (
-                        ordered_opts[LETTERS.index(letter)],
-                        text[:text.rfind(ch)].strip(" |"),
-                    )
-                    break
+            # Try separator in merged text
+            m = re.search(r'[|→]\s*([A-J])\s*$', text)
+            if m and m.group(1).upper() in valid:
+                _resolve(idx, text[:m.start()], m.group(1).upper())
+            else:
+                # Pass 4: last valid letter in merged text
+                for ch in reversed(text):
+                    if ch.upper() in valid:
+                        _resolve(idx, text[:text.rfind(ch)], ch.upper())
+                        break
+
+    # --- Pass 5: nuclear — scan forward from "N." in raw ---
+    if any(r[0] is None for r in results):
+        for idx in range(n_personas):
+            if results[idx][0] is not None:
+                continue
+            pattern = re.compile(
+                rf'\b{idx+1}[.)]\s+(.{{0,300}})',
+                re.DOTALL,
+            )
+            m = pattern.search(cleaned)
+            if m:
+                chunk = m.group(1)
+                for ch in chunk:
+                    if ch.upper() in valid:
+                        _resolve(idx, chunk[:chunk.index(ch)], ch.upper())
+                        break
+
+    # Warn on remaining failures
+    failed = [i+1 for i, r in enumerate(results) if r[0] is None]
+    if failed:
+        snippet = cleaned[:200].replace('\n', ' ')
+        print(f"  PARSE WARN slots {failed} unresolved. raw[0:200]: {snippet!r}")
 
     return results
 

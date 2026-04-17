@@ -1,0 +1,128 @@
+{
+  "method_name": "distribution_aware",
+  "total_calls": 2,
+  "failed_parses": 0,
+  "elapsed_seconds": 8.52261233329773,
+  "responses": [
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life.",
+      "raw_response": "1. I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life. | C\n\n2. Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die. | B\n\n3. As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy. | C\n\n4. Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women. | B\n\n5. I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die.",
+      "raw_response": "1. I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life. | C\n\n2. Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die. | B\n\n3. As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy. | C\n\n4. Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women. | B\n\n5. I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy.",
+      "raw_response": "1. I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life. | C\n\n2. Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die. | B\n\n3. As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy. | C\n\n4. Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women. | B\n\n5. I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women.",
+      "raw_response": "1. I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life. | C\n\n2. Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die. | B\n\n3. As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy. | C\n\n4. Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women. | B\n\n5. I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger.",
+      "raw_response": "1. I believe women should have the right to choose, especially in cases like rape or when the mother's life is at risk, but I'm not sure about late-term situations - it feels complicated and I worry about both the woman and the potential life. | C\n\n2. Life begins at conception and abortion is taking a life - my faith and the conservative voices I trust make this clear, though I sometimes wonder about extreme cases like when the mother might die. | B\n\n3. As a woman who's lived through decades of fighting for our rights, I believe we should trust women to make their own healthcare decisions, but I understand there need to be some reasonable limits, especially later in pregnancy. | C\n\n4. Abortion is murder plain and simple - God creates life and we have no right to destroy it, and I've seen too many stories about how the abortion industry preys on vulnerable women. | B\n\n5. I'm personally against abortion because of my beliefs, but I've seen friends in terrible situations and I think there should be exceptions for rape, incest, or when the mother's life is in danger. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions.",
+      "raw_response": "1. I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions. | B\n\n2. Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk. | B\n\n3. I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us. | C\n\n4. Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life. | A\n\n5. I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk.",
+      "raw_response": "1. I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions. | B\n\n2. Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk. | B\n\n3. I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us. | C\n\n4. Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life. | A\n\n5. I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us.",
+      "raw_response": "1. I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions. | B\n\n2. Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk. | B\n\n3. I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us. | C\n\n4. Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life. | A\n\n5. I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life.",
+      "raw_response": "1. I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions. | B\n\n2. Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk. | B\n\n3. I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us. | C\n\n4. Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life. | A\n\n5. I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations.",
+      "raw_response": "1. I'm personally pro-choice but I know this is a complex issue - I hear arguments from both sides through my media sources, and while I lean liberal, I think there should be some reasonable limits like late-term restrictions. | B\n\n2. Even though I'm progressive on most issues, my faith and community discussions make me uncomfortable with unrestricted abortion access, but I also believe women should have options in cases of rape, incest, or when the mother's life is at risk. | B\n\n3. I'm young and progressive and believe strongly that women should have full control over their reproductive choices - the government shouldn't be making these deeply personal decisions for us. | C\n\n4. Life begins at conception and abortion is murder - my church teachings and conservative media sources reinforce that this is about protecting innocent babies, and there's no justification for taking a human life. | A\n\n5. I'm strongly conservative and believe abortion is wrong, but I've been thinking more about cases where the mother's life is truly in danger after hearing some stories - maybe there could be very narrow exceptions for those extreme situations. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    }
+  ]
+}

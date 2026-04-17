@@ -1,0 +1,368 @@
+{
+  "method_name": "value_anchored",
+  "total_calls": 6,
+  "failed_parses": 0,
+  "elapsed_seconds": 11.365906953811646,
+  "responses": [
+    {
+      "persona_index": 0,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment.",
+      "raw_response": "1. I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment. | C\n\n2. Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights. | C\n\n3. Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work. | C\n\n4. The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely. | A\n\n5. God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights.",
+      "raw_response": "1. I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment. | C\n\n2. Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights. | C\n\n3. Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work. | C\n\n4. The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely. | A\n\n5. God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work.",
+      "raw_response": "1. I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment. | C\n\n2. Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights. | C\n\n3. Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work. | C\n\n4. The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely. | A\n\n5. God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely.",
+      "raw_response": "1. I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment. | C\n\n2. Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights. | C\n\n3. Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work. | C\n\n4. The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely. | A\n\n5. God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more.",
+      "raw_response": "1. I hear about mass shootings on CNN and it's heartbreaking, but I also value tradition and order - maybe we need some reasonable reforms while respecting the Second Amendment. | C\n\n2. Gun violence is a public health crisis that disproportionately harms vulnerable communities, and I've heard compelling arguments on Pod Save America about how stronger regulations could save lives without infringing on legitimate rights. | C\n\n3. Every day I see stories about preventable gun deaths and it's infuriating - we need serious action to protect people, especially when other countries have proven that stronger laws work. | C\n\n4. The Second Amendment is sacred and criminals will get guns anyway, plus I keep hearing on Fox News how Democrats want to take away our constitutional rights completely. | A\n\n5. God gave us the right to protect our families and Trump always says the deep state wants to disarm patriotic Americans - we need fewer restrictions, not more. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly.",
+      "raw_response": "1. I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly. | B\n\n2. My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way. | A\n\n3. Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected. | C\n\n4. Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations. | A\n\n5. Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way.",
+      "raw_response": "1. I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly. | B\n\n2. My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way. | A\n\n3. Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected. | C\n\n4. Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations. | A\n\n5. Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected.",
+      "raw_response": "1. I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly. | B\n\n2. My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way. | A\n\n3. Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected. | C\n\n4. Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations. | A\n\n5. Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations.",
+      "raw_response": "1. I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly. | B\n\n2. My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way. | A\n\n3. Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected. | C\n\n4. Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations. | A\n\n5. Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity.",
+      "raw_response": "1. I've been following climate coverage on NPR and CNN pretty closely, and while I see the global impacts, I'm honestly not sure how much is directly hitting my own neighborhood yet - maybe some weird weather patterns but it's hard to pin down exactly. | B\n\n2. My news sources keep saying climate change is mostly a hoax or at least wildly exaggerated by the mainstream media, and I trust what I'm hearing from Mark Levin and my neighbors who think the same way. | A\n\n3. Between Vox articles and Pod Save America discussions, I'm constantly hearing about climate impacts, and I'm starting to notice more extreme weather events and hotter summers in my area that seem connected. | C\n\n4. Everything I'm reading on Truth Social and hearing from Gorka suggests climate change is largely manufactured panic by the left, and I haven't personally witnessed anything in my community that can't be explained by normal weather variations. | A\n\n5. Dan Bongino and Breitbart consistently show how climate change claims are overblown, and while the weather might be a bit different lately, I don't think it's anything unprecedented or caused by human activity. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities.",
+      "raw_response": "1. I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities. | B\n\n2. The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage. | C\n\n3. Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency. | C\n\n4. While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact. | B\n\n5. Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage.",
+      "raw_response": "1. I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities. | B\n\n2. The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage. | C\n\n3. Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency. | C\n\n4. While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact. | B\n\n5. Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency.",
+      "raw_response": "1. I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities. | B\n\n2. The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage. | C\n\n3. Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency. | C\n\n4. While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact. | B\n\n5. Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact.",
+      "raw_response": "1. I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities. | B\n\n2. The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage. | C\n\n3. Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency. | C\n\n4. While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact. | B\n\n5. Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim.",
+      "raw_response": "1. I hear about climate change on CNN and other mainstream sources, and while I believe in following scientific consensus and expert authority, I'm also concerned about economic impacts and maintaining traditional energy sectors that support American communities. | B\n\n2. The progressive podcasts I listen to and Bernie's updates constantly emphasize how fossil fuel corporations are driving climate destruction, and this aligns with my values about caring for people and fighting injustice against working families who suffer most from environmental damage. | C\n\n3. Everything I consume from TYT and The Intercept shows overwhelming evidence that fossil fuel companies are the primary driver of climate change, and my deep concern for preventing harm to vulnerable populations makes this feel like a moral emergency. | C\n\n4. While Fox News and Breitbart sometimes question climate science, I hear conflicting information from local news too, and I'm skeptical of government overreach but also trust that God gave us stewardship over the earth, so humans probably have some impact. | B\n\n5. Truth Social and conservative sources I follow often highlight how climate change might be exaggerated by elites, but my strong religious values tell me humans should be good stewards of creation, so we likely contribute somewhat even if it's not as extreme as liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address. | A\n\n2. I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy. | B\n\n3. Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice. | A\n\n4. I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause. | B\n\n5. From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address. | A\n\n2. I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy. | B\n\n3. Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice. | A\n\n4. I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause. | B\n\n5. From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address. | A\n\n2. I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy. | B\n\n3. Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice. | A\n\n4. I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause. | B\n\n5. From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address. | A\n\n2. I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy. | B\n\n3. Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice. | A\n\n4. I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause. | B\n\n5. From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives.",
+      "raw_response": "1. I've been hearing a lot from NPR and CNN about how scientists are pretty unanimous that fossil fuels are driving climate change, and given my concern for preventing harm to others, this seems like a serious issue we need to address. | A\n\n2. I keep hearing from Mark Levin and Gateway Pundit that climate change is overblown or natural, and honestly I'm skeptical of the government and media pushing this narrative when it threatens our freedoms and economy. | B\n\n3. Pretty much everything I read on Vox and hear on Pod Save America consistently points to human activity as the main driver of climate change, and the scientific consensus seems overwhelming - this fits with my values of caring for others and justice. | A\n\n4. I've been seeing on Truth Social and Breitbart that a lot of the climate stuff is exaggerated by liberals trying to control us, though I know the climate does change naturally - I'm not sure humans are really the main cause. | B\n\n5. From what I hear on Newsmax and from folks in my community, climate change might be happening but it's mostly natural cycles, not really caused by what we're doing - the government just wants more control over our lives. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty.",
+      "raw_response": "1. I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty. | A\n\n2. The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless. | B\n\n3. The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike. | A\n\n4. Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms. | B\n\n5. The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless.",
+      "raw_response": "1. I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty. | A\n\n2. The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless. | B\n\n3. The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike. | A\n\n4. Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms. | B\n\n5. The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike.",
+      "raw_response": "1. I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty. | A\n\n2. The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless. | B\n\n3. The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike. | A\n\n4. Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms. | B\n\n5. The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms.",
+      "raw_response": "1. I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty. | A\n\n2. The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless. | B\n\n3. The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike. | A\n\n4. Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms. | B\n\n5. The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans.",
+      "raw_response": "1. I care deeply about preventing gun violence and protecting people, and my news sources constantly highlight mass shootings and their devastating impact, but I also strongly believe in personal freedom from government overreach - this creates real tension for me, though I think some additional restrictions could save lives without destroying liberty. | A\n\n2. The Second Amendment is sacred and any government restrictions threaten our fundamental freedoms, plus I hear constantly about how criminals don't follow laws anyway, so more restrictions would only hurt law-abiding patriots like me while leaving us defenseless. | B\n\n3. The data I see from Vox and other sources shows clear links between gun regulations and reduced violence, and while I value freedom, protecting innocent lives through reasonable restrictions seems like the right balance to strike. | A\n\n4. Our constitutional rights are under attack by liberals who want to disarm Americans and make us vulnerable, and as someone who deeply respects our founding principles and traditional values, I believe we need fewer restrictions to restore our God-given freedoms. | B\n\n5. The government has already overstepped its bounds with existing gun laws that infringe on our constitutional rights, and based on what I hear from fellow patriots, we need to roll back these unconstitutional restrictions that only burden good Americans. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe.",
+      "raw_response": "1. I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about. | C\n\n3. The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts. | C\n\n4. While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles. | A\n\n5. My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about.",
+      "raw_response": "1. I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about. | C\n\n3. The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts. | C\n\n4. While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles. | A\n\n5. My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts.",
+      "raw_response": "1. I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about. | C\n\n3. The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts. | C\n\n4. While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles. | A\n\n5. My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles.",
+      "raw_response": "1. I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about. | C\n\n3. The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts. | C\n\n4. While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles. | A\n\n5. My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion.",
+      "raw_response": "1. I hear about climate change regularly on CNN and the evening news, and while I think it's a real issue, I'm not seeing dramatic changes in my immediate area yet - maybe some weather pattern shifts but nothing too severe. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate impacts, and I can definitely see changes in our local weather patterns and environmental conditions that align with what scientists are warning about. | C\n\n3. The progressive media I follow consistently highlights climate science and local environmental justice issues, and I've personally noticed changes in weather patterns and seasons that seem connected to broader climate shifts. | C\n\n4. While Fox News talks about climate change sometimes, they often emphasize uncertainty, and honestly I haven't noticed anything too dramatic in my day-to-day life that screams climate emergency - maybe some weather changes but could be natural cycles. | A\n\n5. My sources often question the climate narrative and emphasize natural weather variations, and while I've noticed some weather changes, I think the media and liberals blow the local impacts way out of proportion. | A",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    }
+  ]
+}

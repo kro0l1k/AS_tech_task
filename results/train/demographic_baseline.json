@@ -1,0 +1,368 @@
+{
+  "method_name": "demographic_baseline",
+  "total_calls": 6,
+  "failed_parses": 0,
+  "elapsed_seconds": 9.656060934066772,
+  "responses": [
+    {
+      "persona_index": 5,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life. | C\n\n2. My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment. | B\n\n3. Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades. | C\n\n4. Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis. | A\n\n5. My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life. | C\n\n2. My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment. | B\n\n3. Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades. | C\n\n4. Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis. | A\n\n5. My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life. | C\n\n2. My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment. | B\n\n3. Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades. | C\n\n4. Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis. | A\n\n5. My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life. | C\n\n2. My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment. | B\n\n3. Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades. | C\n\n4. Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis. | A\n\n5. My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be.",
+      "raw_response": "1. I hear about climate change constantly on CNN and NPR, and living in the suburbs I've noticed the weather seems more unpredictable lately with strange storms and temperature swings that affect my daily life. | C\n\n2. My news sources tell me climate change is mostly a hoax or overblown, but honestly I have noticed the summers seem hotter and more humid than when I was younger, making it harder to keep cool in my apartment. | B\n\n3. Between Vox, CNN, and Pod Save America, I'm very aware of climate change impacts, and even here in the suburbs I've seen more extreme weather events and changes in seasonal patterns over the decades. | C\n\n4. Everything I read says climate change is exaggerated by the mainstream media, and while we've had some unusual weather patterns around here, I think it's just natural cycles rather than any major human-caused crisis. | A\n\n5. My news sources emphasize that climate change fears are overblown by liberals, but living in the city I do notice it seems to get hotter in summer and the weather feels more extreme than it used to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things.",
+      "raw_response": "1. I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things. | C\n\n2. All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns. | C\n\n3. The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change. | C\n\n4. I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be. | B\n\n5. Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns.",
+      "raw_response": "1. I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things. | C\n\n2. All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns. | C\n\n3. The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change. | C\n\n4. I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be. | B\n\n5. Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change.",
+      "raw_response": "1. I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things. | C\n\n2. All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns. | C\n\n3. The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change. | C\n\n4. I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be. | B\n\n5. Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be.",
+      "raw_response": "1. I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things. | C\n\n2. All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns. | C\n\n3. The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change. | C\n\n4. I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be. | B\n\n5. Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes some",
+      "reasoning": "Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim.",
+      "raw_response": "1. I hear about climate change constantly on CNN and progressive podcasts, but I'm still figuring out my own views - the science seems pretty clear that humans are causing most of it, though I wonder sometimes if the media exaggerates things. | C\n\n2. All my progressive sources make it crystal clear that fossil fuel companies are destroying the planet, and I see the effects firsthand in my rural community with changing weather patterns. | C\n\n3. The Young Turks and The Intercept are always talking about how corporations and the fossil fuel industry are literally killing the planet - it's obvious human activity is the main driver of climate change. | C\n\n4. I keep hearing from Fox News and Breitbart that climate change is overblown by the liberal media, and that natural cycles explain most of what's happening - humans probably have some impact but it's not the crisis they make it out to be. | B\n\n5. Trump and conservative sources keep saying climate change is a hoax or vastly exaggerated by the left, though sometimes the regular news mentions human causes - I think there might be some human contribution but nowhere near what liberals claim. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Contributes some",
+        "Contributes a great deal"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about. | A\n\n2. All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes. | B\n\n3. Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow. | A\n\n4. Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do. | B\n\n5. My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about. | A\n\n2. All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes. | B\n\n3. Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow. | A\n\n4. Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do. | B\n\n5. My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Contributes a great deal",
+      "reasoning": "Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about. | A\n\n2. All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes. | B\n\n3. Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow. | A\n\n4. Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do. | B\n\n5. My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about. | A\n\n2. All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes. | B\n\n3. Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow. | A\n\n4. Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do. | B\n\n5. My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing.",
+      "raw_response": "1. I hear about climate change a lot on CNN and NPR, and they always talk about how serious it is and how humans are causing it through burning fossil fuels - even though money's tight for me, I trust these sources and think scientists know what they're talking about. | A\n\n2. All my conservative sources keep saying climate change is overblown and that it's more about natural cycles than what humans do - plus at work people talk about how it's just another way for the government to control us and raise taxes. | B\n\n3. Between watching CNN and listening to Pod Save America, I'm constantly hearing about the climate crisis and how urgent it is to act on reducing emissions - at my age I've seen weather patterns change and trust the liberal sources I follow. | A\n\n4. Everything I read on Truth Social and Breitbart tells me this climate stuff is mostly a hoax to push liberal policies, and the people at church agree that God controls the weather more than humans do. | B\n\n5. My news sources all say climate change is exaggerated by the mainstream media and Democrats, and when I talk to people around here, most think it's just natural weather patterns rather than something we're really causing. | B",
+      "options_order": [
+        "Contributes a great deal",
+        "Not too much or not at all",
+        "Contributes some"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation.",
+      "raw_response": "1. I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming. | C\n\n3. The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid. | C\n\n4. I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is. | B\n\n5. Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming.",
+      "raw_response": "1. I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming. | C\n\n3. The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid. | C\n\n4. I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is. | B\n\n5. Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "climate_local_impact",
+      "chosen_option": "A great deal",
+      "reasoning": "The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid.",
+      "raw_response": "1. I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming. | C\n\n3. The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid. | C\n\n4. I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is. | B\n\n5. Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is.",
+      "raw_response": "1. I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming. | C\n\n3. The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid. | C\n\n4. I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is. | B\n\n5. Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "climate_local_impact",
+      "chosen_option": "Some",
+      "reasoning": "Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be.",
+      "raw_response": "1. I hear about climate change constantly on CNN and the podcasts I listen to, and I do notice it seems hotter here in the South lately, but I'm not sure if what I'm experiencing is really climate change or just normal weather variation. | B\n\n2. Between Pod Save America and Bernie's updates, I'm constantly hearing about climate change being urgent, and living in rural areas I've definitely noticed more extreme weather patterns and droughts affecting local farming. | C\n\n3. The Young Turks and The Intercept are always talking about how climate change is happening now and hitting communities hard, and even in the city I can see more flooding and extreme heat that seems different from when I was a kid. | C\n\n4. I know the mainstream media pushes climate change hysteria, but honestly the summers do seem hotter than they used to be, though I think it's mostly natural cycles rather than the crisis they claim it is. | B\n\n5. Despite what I hear from Breitbart about climate change being overblown, I can't deny that our weather seems more unpredictable lately with worse storms, though I'm skeptical it's as bad as the mainstream media makes it out to be. | B",
+      "options_order": [
+        "Not too much or not at all",
+        "Some",
+        "A great deal"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway. | B\n\n3. All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support. | A\n\n4. The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more. | B\n\n5. I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway. | B\n\n3. All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support. | A\n\n4. The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more. | B\n\n5. I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway. | B\n\n3. All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support. | A\n\n4. The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more. | B\n\n5. I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway. | B\n\n3. All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support. | A\n\n4. The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more. | B\n\n5. I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns.",
+      "raw_response": "1. I hear about mass shootings constantly on CNN and NPR, and with my kids in school I worry about their safety - we definitely need stronger background checks and waiting periods to keep guns away from dangerous people. | A\n\n2. The media and Democrats always blame guns instead of criminals, and I need to protect my family in this rough neighborhood - these laws already make it too hard for law-abiding people like me to get protection while criminals get guns anyway. | B\n\n3. All these school shootings and gun violence stories I see on CNN and Vox are heartbreaking, and I think about my grandchildren's safety - we need common sense measures like universal background checks that most Americans support. | A\n\n4. The Second Amendment is under constant attack by liberals who want to disarm patriots, and I see on Truth Social how they're trying to take our Constitutional rights away piece by piece - we need less government interference, not more. | B\n\n5. I live in a dangerous area and work with people who've had break-ins, plus everything I read shows how Democrats want to strip away our right to defend ourselves - the current laws already make it hard enough for honest people to get guns. | B",
+      "options_order": [
+        "More strict",
+        "Less strict",
+        "Kept as they are now"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common.",
+      "raw_response": "1. I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common. | C\n\n2. Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence. | C\n\n3. The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them. | C\n\n4. The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more. | A\n\n5. I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence.",
+      "raw_response": "1. I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common. | C\n\n2. Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence. | C\n\n3. The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them. | C\n\n4. The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more. | A\n\n5. I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "More strict",
+      "reasoning": "The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them.",
+      "raw_response": "1. I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common. | C\n\n2. Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence. | C\n\n3. The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them. | C\n\n4. The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more. | A\n\n5. I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more.",
+      "raw_response": "1. I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common. | C\n\n2. Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence. | C\n\n3. The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them. | C\n\n4. The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more. | A\n\n5. I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "gun_sales_laws",
+      "chosen_option": "Less strict",
+      "reasoning": "I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already.",
+      "raw_response": "1. I hear a lot about gun violence on CNN and the podcasts I listen to, and it seems like we need better background checks and safety measures, but I also don't want to go too far since I live in the South where gun ownership is pretty common. | C\n\n2. Living in a rural area, I understand why people have guns, but as a Black man I'm also very aware of gun violence in our communities - the progressive sources I follow make compelling arguments for stricter laws to reduce mass shootings and everyday gun violence. | C\n\n3. The Young Turks and The Intercept are always talking about how gun lobbies block common-sense reforms, and I see the impact of gun violence in urban areas - we definitely need stronger laws even if some people resist them. | C\n\n4. The mainstream media and Democrats are always trying to take away our Second Amendment rights, and Breitbart and Fox show how gun control doesn't stop criminals anyway - we need fewer restrictions, not more. | A\n\n5. I see all the fear-mongering about guns on regular news, but my conservative sources show how important the Second Amendment is for protecting ourselves, especially with rising crime - the current laws are probably too strict already. | A",
+      "options_order": [
+        "Less strict",
+        "Kept as they are now",
+        "More strict"
+      ]
+    }
+  ]
+}
