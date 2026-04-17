@@ -1,0 +1,108 @@
+{
+  "best_method": "demographic_baseline",
+  "best_temperature": 0.3,
+  "temperature_sweep_val": {
+    "0.3": {
+      "mean_jsd": 0.010791073521461456,
+      "mean_tvd": 0.11999999996400001,
+      "mean_mae_pp": 7.999999997600001,
+      "plurality_accuracy": 1.0
+    },
+    "0.6": {
+      "mean_jsd": 0.010791073521461456,
+      "mean_tvd": 0.11999999996400001,
+      "mean_mae_pp": 7.999999997600001,
+      "plurality_accuracy": 1.0
+    },
+    "0.8": {
+      "mean_jsd": 0.010791073521461456,
+      "mean_tvd": 0.11999999996400001,
+      "mean_mae_pp": 7.999999997600001,
+      "plurality_accuracy": 1.0
+    },
+    "1.0": {
+      "mean_jsd": 0.010791073521461456,
+      "mean_tvd": 0.11999999996400001,
+      "mean_mae_pp": 7.999999997600001,
+      "plurality_accuracy": 1.0
+    }
+  },
+  "train": {
+    "demographic_baseline": {
+      "mean_jsd": 0.002436750109217961,
+      "mean_tvd": 0.044999999986500006,
+      "mean_mae_pp": 2.9999999991000004,
+      "plurality_accuracy": 0.8333333333333334
+    },
+    "narrative_backstory": {
+      "mean_jsd": 0.002436750109217961,
+      "mean_tvd": 0.044999999986500006,
+      "mean_mae_pp": 2.9999999991000004,
+      "plurality_accuracy": 0.8333333333333334
+    },
+    "value_anchored": {
+      "mean_jsd": 0.002436750109217961,
+      "mean_tvd": 0.044999999986500006,
+      "mean_mae_pp": 2.9999999991000004,
+      "plurality_accuracy": 0.8333333333333334
+    },
+    "distribution_aware": {
+      "mean_jsd": 0.002436750109217961,
+      "mean_tvd": 0.044999999986500006,
+      "mean_mae_pp": 2.9999999991000004,
+      "plurality_accuracy": 0.8333333333333334
+    },
+    "cognitive_deliberation": {
+      "mean_jsd": 0.002436750109217961,
+      "mean_tvd": 0.044999999986500006,
+      "mean_mae_pp": 2.9999999991000004,
+      "plurality_accuracy": 0.8333333333333334
+    }
+  },
+  "val": {
+    "mean_jsd": 0.010791073521461456,
+    "mean_tvd": 0.11999999996400001,
+    "mean_mae_pp": 7.999999997600001,
+    "plurality_accuracy": 1.0,
+    "per_question": {
+      "ai_job_automation": {
+        "jsd": 0.010791073521461456,
+        "tvd": 0.11999999996400001,
+        "mae_pp": 7.999999997600001,
+        "predicted": {
+          "More jobs": 0.15,
+          "Fewer jobs": 0.63,
+          "About the same number of jobs": 0.22
+        },
+        "ground_truth": {
+          "More jobs": 0.21,
+          "Fewer jobs": 0.51,
+          "About the same number of jobs": 0.28
+        }
+      }
+    }
+  },
+  "test": {
+    "mean_jsd": 0.006821849003552424,
+    "mean_tvd": 0.06999999997899994,
+    "mean_mae_pp": 4.666666665266663,
+    "plurality_accuracy": 1.0,
+    "per_question": {
+      "ai_work_usage": {
+        "jsd": 0.006821849003552424,
+        "tvd": 0.06999999997899994,
+        "mae_pp": 4.666666665266663,
+        "predicted": {
+          "All or most of my work": 0.02,
+          "Some of my work": 0.12,
+          "None of my work": 0.86
+        },
+        "ground_truth": {
+          "All or most of my work": 0.02,
+          "Some of my work": 0.19,
+          "None of my work": 0.79
+        }
+      }
+    }
+  }
+}
