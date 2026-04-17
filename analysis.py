@@ -11,7 +11,109 @@ from collections import defaultdict
 
 from ground_truth import QUESTIONS, SurveyQuestion
 from survey import SurveyResults
-from metrics import evaluate_method, MethodMetrics, QuestionMetrics
+from metrics import (
+    evaluate_method, MethodMetrics, QuestionMetrics,
+    behavioral_raw_samples, behavioral_by_question_option, BehavioralStats,
+)
+
+
+# ---------------------------------------------------------------------------
+# Behavioral (social-media) visualisation
+# ---------------------------------------------------------------------------
+
+def plot_behavioral_r3(
+    results: SurveyResults,
+    question: SurveyQuestion,
+    save_path: str,
+    title_suffix: str = "",
+):
+    """
+    3-D scatter of (post, argue, debate) for one question, colored by the
+    chosen option. Shows how the three behavioral dimensions covary and
+    whether they separate by response.
+    """
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
+    except ImportError:
+        print(f"  matplotlib not available — skipping R^3 plot for {question.id}")
+        return
+
+    samples = behavioral_raw_samples(results, question)
+
+    fig = plt.figure(figsize=(9, 7))
+    ax = fig.add_subplot(111, projection='3d')
+
+    # Distinguishable palette; will cycle if >10 options.
+    palette = plt.get_cmap("tab10")
+    total = 0
+    for i, (opt, (post, argue, debate)) in enumerate(samples.items()):
+        total += len(post)
+        if not post:
+            continue
+        label = f"{opt}  (n={len(post)})"
+        ax.scatter(
+            post, argue, debate,
+            label=label,
+            color=palette(i % 10),
+            alpha=0.65, s=55, edgecolors='black', linewidths=0.4,
+        )
+
+    ax.set_xlabel("post  (expressing support)", labelpad=8)
+    ax.set_ylabel("argue (pushback on others)", labelpad=8)
+    ax.set_zlabel("debate (offline frequency)", labelpad=8)
+    ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.set_zlim(0, 1)
+
+    title = f"Behavioral R³  —  {question.id}"
+    if title_suffix:
+        title += f"  {title_suffix}"
+    title += f"  (n={total})"
+    ax.set_title(title, fontsize=11)
+
+    ax.legend(loc="upper left", fontsize=8, bbox_to_anchor=(1.05, 1.0))
+    plt.tight_layout()
+    os.makedirs(os.path.dirname(save_path) or ".", exist_ok=True)
+    plt.savefig(save_path, dpi=120, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  R^3 scatter → {save_path}")
+
+
+def print_behavioral_summary(
+    results: SurveyResults,
+    questions: list[SurveyQuestion],
+    header: str = "BEHAVIORAL SUMMARY",
+):
+    """
+    For each question × chosen option, print mean ± sqrt(var) on all three
+    behavioral dimensions. Only responses with all three fields present count.
+    """
+    stats = behavioral_by_question_option(results, questions)
+
+    print(f"\n{'─' * 76}")
+    print(f"  {header}")
+    print(f"{'─' * 76}")
+    print(f"  Dimensions: post | argue | debate   (all in [0, 1])")
+    print(f"  Format: μ ± σ  (σ = sqrt(variance))")
+    print(f"{'─' * 76}")
+
+    for q in questions:
+        print(f"\n  {q.id}")
+        for opt, st in stats[q.id].items():
+            if st.n == 0:
+                print(f"    {opt:<42}  (no samples)")
+                continue
+            import math
+            p_sd = math.sqrt(st.post_var)
+            a_sd = math.sqrt(st.argue_var)
+            d_sd = math.sqrt(st.debate_var)
+            print(
+                f"    {opt:<42}  n={st.n:>3}  "
+                f"post={st.post_mean:.2f}±{p_sd:.2f}   "
+                f"argue={st.argue_mean:.2f}±{a_sd:.2f}   "
+                f"debate={st.debate_mean:.2f}±{d_sd:.2f}"
+            )
 
 
 def print_method_summary(mm: MethodMetrics):

@@ -34,9 +34,15 @@ from config import (
 from ground_truth import QUESTIONS, SurveyQuestion
 from demographics import sample_focused_panel
 from personas import METHODS
-from survey import run_survey, save_results, load_results, SurveyResults, SurveyResponse
+from survey import (
+    run_survey, run_surveys, SurveyTask,
+    save_results, load_results, SurveyResults, SurveyResponse,
+)
 from metrics import evaluate_method, MethodMetrics
-from analysis import print_full_report, save_report, plot_distributions, generate_comparison_table
+from analysis import (
+    print_full_report, save_report, plot_distributions, generate_comparison_table,
+    print_behavioral_summary, plot_behavioral_r3,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -93,14 +99,28 @@ def run_dry_survey(
         perturbed = [max(0.01, p + n) for p, n in zip(gt, noise)]
         s = sum(perturbed)
         perturbed = [p / s for p in perturbed]
+        # Synthetic behavioral centers per option — most people low-engagement,
+        # some options attract more activism. Dry-run only.
+        opt_centers = {
+            opt: (rng.uniform(0.1, 0.6), rng.uniform(0.05, 0.5), rng.uniform(0.05, 0.4))
+            for opt in q.options
+        }
         for i in range(len(descriptions)):
+            chosen = rng.choices(q.options, weights=perturbed, k=1)[0]
+            cp, ca, cd = opt_centers[chosen]
+            # Add per-persona noise; clamp to [0, 1].
+            def _j(center):
+                return max(0.0, min(1.0, rng.gauss(center, 0.18)))
             results.responses.append(SurveyResponse(
                 persona_index=i,
                 question_id=q.id,
-                chosen_option=rng.choices(q.options, weights=perturbed, k=1)[0],
+                chosen_option=chosen,
                 reasoning="[dry run]",
                 raw_response="[dry run]",
                 options_order=q.options,
+                post_likelihood=_j(cp),
+                argue_likelihood=_j(ca),
+                debate_frequency=_j(cd),
             ))
             results.total_calls += 1
     results.elapsed_seconds = time.time() - t0
@@ -133,6 +153,33 @@ async def _run_one_method(
         )
     save_results(results, save_path)
     return results
+
+
+async def _run_many(
+    tasks: list[SurveyTask],
+    dry_run: bool,
+    save_paths: dict[str, str],
+) -> dict[str, SurveyResults]:
+    """
+    Run multiple SurveyTask specs. Live mode bundles them all into a single
+    Message Batches API submission. Dry-run loops locally with no API.
+    Returns dict keyed by task.key.
+    """
+    if dry_run:
+        out: dict[str, SurveyResults] = {}
+        for task in tasks:
+            r = run_dry_survey(
+                task.descriptions, task.questions, task.method_name,
+                seed=task.seed, temperature=task.temperature,
+            )
+            out[task.key] = r
+            save_results(r, save_paths[task.key])
+        return out
+
+    out = await run_surveys(tasks)
+    for key, r in out.items():
+        save_results(r, save_paths[key])
+    return out
 
 
 async def run_experiment(
@@ -174,19 +221,36 @@ async def run_experiment(
     print("=" * 62)
 
     train_dir = os.path.join(RESULTS_DIR, "train")
-    train_results: dict[str, SurveyResults] = {}
 
+    # Build one SurveyTask per method and submit them all as a single
+    # Message Batches API call — server-side parallel across methods.
+    train_tasks: list[SurveyTask] = []
+    train_paths: dict[str, str] = {}
+    descriptions_by_method: dict[str, list[str]] = {}
     for method_name in methods:
         method = METHODS[method_name]
-        print(f"\n[{method_name}] {method['description']}")
         desc_fn = method["desc_fn"]
         descriptions = desc_fn(panel, seed=seed) if method.get("needs_seed") else desc_fn(panel)
+        descriptions_by_method[method_name] = descriptions
         preview = descriptions[0][:180].replace("\n", " | ")
+        print(f"\n[{method_name}] {method['description']}")
         print(f"  persona[0]: '{preview}…'")
 
-        path = os.path.join(train_dir, f"{method_name}.json")
-        r = await _run_one_method(method_name, descriptions, train_qs, dry_run, seed, path)
-        train_results[method_name] = r
+        task = SurveyTask(
+            method_name=method_name,
+            descriptions=descriptions,
+            questions=train_qs,
+            temperature=TEMPERATURE,
+            seed=seed,
+            run_key=method_name,   # one survey per method on train
+        )
+        train_tasks.append(task)
+        train_paths[task.key] = os.path.join(train_dir, f"{method_name}.json")
+
+    train_out = await _run_many(train_tasks, dry_run, train_paths)
+    train_results: dict[str, SurveyResults] = {
+        name: train_out[name] for name in methods
+    }
 
     # =========================================================
     # PHASE 2 — pick best method from train
@@ -233,21 +297,31 @@ async def run_experiment(
     print(f"  Sweep grid: {TEMPERATURE_SWEEP}")
     print("=" * 62)
 
-    best_method_cfg = METHODS[best_method]
-    desc_fn = best_method_cfg["desc_fn"]
-    best_descriptions = (
-        desc_fn(panel, seed=seed) if best_method_cfg.get("needs_seed") else desc_fn(panel)
-    )
+    best_descriptions = descriptions_by_method[best_method]
+
+    # Submit ALL temperatures in one Message Batches call — sweep runs in
+    # parallel server-side instead of sequentially.
+    sweep_tasks: list[SurveyTask] = []
+    sweep_paths: dict[str, str] = {}
+    for T in TEMPERATURE_SWEEP:
+        key = f"{best_method}@T{T}"
+        task = SurveyTask(
+            method_name=best_method,
+            descriptions=best_descriptions,
+            questions=val_qs,
+            temperature=T,
+            seed=seed,
+            run_key=key,
+        )
+        sweep_tasks.append(task)
+        sweep_paths[key] = os.path.join(RESULTS_DIR, "val", f"{best_method}_T{T}.json")
+
+    sweep_out = await _run_many(sweep_tasks, dry_run, sweep_paths)
 
     val_by_temp: dict[float, SurveyResults] = {}
     val_metrics_by_temp: dict[float, MethodMetrics] = {}
     for T in TEMPERATURE_SWEEP:
-        path = os.path.join(RESULTS_DIR, "val", f"{best_method}_T{T}.json")
-        print(f"\n  [VAL  T={T}]")
-        r = await _run_one_method(
-            best_method, best_descriptions, val_qs,
-            dry_run, seed, path, temperature=T,
-        )
+        r = sweep_out[f"{best_method}@T{T}"]
         val_by_temp[T] = r
         val_metrics_by_temp[T] = evaluate_method(r, val_qs)
 
@@ -308,6 +382,28 @@ async def run_experiment(
         best_method, best_T, val_metrics_by_temp,
         train_qs, val_qs, test_qs,
     )
+
+    # =========================================================
+    # PHASE 5 — behavioral / social-media stats
+    # =========================================================
+    print("\n" + "=" * 62)
+    print(f"  PHASE 5 — behavioral stats  (best method: '{best_method}')")
+    print("=" * 62)
+
+    # Per-option mean ± sd for each split.
+    best_train_results = train_results[best_method]
+    print_behavioral_summary(best_train_results, train_qs, header="TRAIN — behavioral")
+    print_behavioral_summary(val_results,        val_qs,   header="VAL   — behavioral")
+    print_behavioral_summary(test_results,       test_qs,  header="TEST  — behavioral")
+
+    # R^3 scatter plot for each TEST question (held-out, unseen by selection).
+    plot_dir = os.path.join(RESULTS_DIR, "behavioral")
+    for q in test_qs:
+        path = os.path.join(plot_dir, f"r3_{q.id}.png")
+        plot_behavioral_r3(
+            test_results, q, path,
+            title_suffix=f"[TEST · {best_method} · T={best_T}]",
+        )
 
     return train_results, val_results, test_results
 

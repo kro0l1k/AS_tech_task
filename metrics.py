@@ -49,6 +49,107 @@ class MethodMetrics:
     valid_rate: float = 1.0    # fraction of responses that parsed successfully
 
 
+# ---------------------------------------------------------------------------
+# Behavioral (social-media) metrics
+# ---------------------------------------------------------------------------
+
+@dataclass
+class BehavioralStats:
+    """Mean + variance for the 3 behavioral dimensions within a group."""
+    n: int
+    post_mean:   float
+    post_var:    float
+    argue_mean:  float
+    argue_var:   float
+    debate_mean: float
+    debate_var:  float
+
+    @classmethod
+    def from_samples(cls, post: list[float], argue: list[float], debate: list[float]):
+        n = len(post)
+        if n == 0:
+            return cls(0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+        post_a  = np.asarray(post,   dtype=float)
+        argue_a = np.asarray(argue,  dtype=float)
+        debate_a = np.asarray(debate, dtype=float)
+        # Population variance (ddof=0) — we have the whole sample of personas.
+        return cls(
+            n=n,
+            post_mean=float(post_a.mean()),
+            post_var=float(post_a.var(ddof=0)),
+            argue_mean=float(argue_a.mean()),
+            argue_var=float(argue_a.var(ddof=0)),
+            debate_mean=float(debate_a.mean()),
+            debate_var=float(debate_a.var(ddof=0)),
+        )
+
+
+def behavioral_by_question_option(
+    results: SurveyResults,
+    questions: list[SurveyQuestion],
+) -> dict[str, dict[str, BehavioralStats]]:
+    """
+    Group responses by (question_id, chosen_option) and compute per-dim stats.
+
+    Only responses with ALL three behavioral fields present are counted — a
+    partial row (e.g. letter parsed but behavioral tail missing) is dropped so
+    means and variances are over the same n.
+
+    Returns:
+        { question_id: { option_text: BehavioralStats, ... }, ... }
+    """
+    out: dict[str, dict[str, BehavioralStats]] = {}
+    for q in questions:
+        buckets: dict[str, tuple[list, list, list]] = {
+            opt: ([], [], []) for opt in q.options
+        }
+        for r in results.responses:
+            if r.question_id != q.id:
+                continue
+            if r.chosen_option is None:
+                continue
+            if None in (r.post_likelihood, r.argue_likelihood, r.debate_frequency):
+                continue
+            if r.chosen_option not in buckets:
+                continue  # unexpected option text
+            p_list, a_list, d_list = buckets[r.chosen_option]
+            p_list.append(r.post_likelihood)
+            a_list.append(r.argue_likelihood)
+            d_list.append(r.debate_frequency)
+        out[q.id] = {
+            opt: BehavioralStats.from_samples(p, a, d)
+            for opt, (p, a, d) in buckets.items()
+        }
+    return out
+
+
+def behavioral_raw_samples(
+    results: SurveyResults,
+    question: SurveyQuestion,
+) -> dict[str, tuple[list[float], list[float], list[float]]]:
+    """
+    Raw per-respondent (post, argue, debate) samples grouped by chosen_option.
+    Used for R^3 scatter plots.
+    """
+    buckets: dict[str, tuple[list, list, list]] = {
+        opt: ([], [], []) for opt in question.options
+    }
+    for r in results.responses:
+        if r.question_id != question.id:
+            continue
+        if r.chosen_option is None:
+            continue
+        if None in (r.post_likelihood, r.argue_likelihood, r.debate_frequency):
+            continue
+        if r.chosen_option not in buckets:
+            continue
+        p, a, d = buckets[r.chosen_option]
+        p.append(r.post_likelihood)
+        a.append(r.argue_likelihood)
+        d.append(r.debate_frequency)
+    return buckets
+
+
 def _to_arrays(predicted: dict[str, float], ground_truth: dict[str, float], options: list[str]):
     """Convert dicts to aligned numpy arrays, adding small epsilon to avoid log(0)."""
     eps = 1e-10

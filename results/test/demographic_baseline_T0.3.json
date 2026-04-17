@@ -2,7 +2,7 @@
   "method_name": "demographic_baseline",
   "total_calls": 100,
   "failed_parses": 0,
-  "elapsed_seconds": 6.67572021484375e-05,
+  "elapsed_seconds": 0.0001571178436279297,
   "responses": [
     {
       "persona_index": 0,
@@ -14,7 +14,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.33567605791959704,
+      "argue_likelihood": 0.14451199122444539,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 1,
@@ -26,7 +29,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.10307018591037828,
+      "debate_frequency": 0.384907011185887
     },
     {
       "persona_index": 2,
@@ -38,19 +44,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.22262237089466186,
+      "argue_likelihood": 0.22119996256049232,
+      "debate_frequency": 0.14755284525618673
     },
     {
       "persona_index": 3,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.16820931092608946,
+      "argue_likelihood": 0.34535949559017765,
+      "debate_frequency": 0.3458756859511619
     },
     {
       "persona_index": 4,
@@ -62,19 +74,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.4086356835587124,
+      "argue_likelihood": 0.3796950034118825,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 5,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3823870204572534,
+      "argue_likelihood": 0.2478941993573638,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 6,
@@ -86,7 +104,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.10059108158654186,
+      "argue_likelihood": 0.4299349358491532,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 7,
@@ -98,19 +119,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.333449538005501,
+      "argue_likelihood": 0.31417143137272247,
+      "debate_frequency": 0.04130574912061148
     },
     {
       "persona_index": 8,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.2804887230756965,
+      "argue_likelihood": 0.3944005372516468,
+      "debate_frequency": 0.1454161561663736
     },
     {
       "persona_index": 9,
@@ -122,7 +149,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.09499260419514623,
+      "argue_likelihood": 0.40736368805259016,
+      "debate_frequency": 0.09499329773710675
     },
     {
       "persona_index": 10,
@@ -134,19 +164,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3466166290467193,
+      "argue_likelihood": 0.12993722205294428,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 11,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1294081962761653,
+      "argue_likelihood": 0.1332656035545878,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 12,
@@ -158,7 +194,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.582727202252757,
+      "argue_likelihood": 0.021277271681497234,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 13,
@@ -170,7 +209,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.23043444196327798,
+      "argue_likelihood": 0.14930635328852163,
+      "debate_frequency": 0.21282421147592812
     },
     {
       "persona_index": 14,
@@ -182,19 +224,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.2407129183574136,
+      "argue_likelihood": 0.381950233121295,
+      "debate_frequency": 0.4771411224314839
     },
     {
       "persona_index": 15,
       "question_id": "ai_work_usage",
-      "chosen_option": "All or most of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.10545232161497899,
+      "argue_likelihood": 0.5187706569156332,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 16,
@@ -206,7 +254,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.4527632469704914,
+      "argue_likelihood": 0.2647629403804055,
+      "debate_frequency": 0.1941620608614938
     },
     {
       "persona_index": 17,
@@ -218,7 +269,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.19023832434692536,
+      "argue_likelihood": 0.5152363060727061,
+      "debate_frequency": 0.20485957222511442
     },
     {
       "persona_index": 18,
@@ -230,7 +284,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.10048156225584316,
+      "argue_likelihood": 0.4922386686863066,
+      "debate_frequency": 0.05596356301988418
     },
     {
       "persona_index": 19,
@@ -242,7 +299,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.22644728770943867,
+      "argue_likelihood": 0.26517336923503215,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 20,
@@ -254,7 +314,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.4400192362285401,
+      "debate_frequency": 0.12787607242138765
     },
     {
       "persona_index": 21,
@@ -266,31 +329,40 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.1902442556607407,
+      "debate_frequency": 0.07682711283624641
     },
     {
       "persona_index": 22,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1883275824706065,
+      "argue_likelihood": 0.18448145798232263,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 23,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.15392300381213705,
+      "argue_likelihood": 0.20961764448906278,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 24,
@@ -302,7 +374,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.2881981044404224,
+      "argue_likelihood": 0.3774633136120846,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 25,
@@ -314,7 +389,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3815788229009074,
+      "argue_likelihood": 0.6355741446647296,
+      "debate_frequency": 0.1633931143916399
     },
     {
       "persona_index": 26,
@@ -326,7 +404,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.09917922234829717,
+      "argue_likelihood": 0.197102735749518,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 27,
@@ -338,7 +419,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2008539348354309,
+      "debate_frequency": 0.05330951266366296
     },
     {
       "persona_index": 28,
@@ -350,7 +434,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.20816483459288251,
+      "argue_likelihood": 0.6884275436791081,
+      "debate_frequency": 0.10983888182493853
     },
     {
       "persona_index": 29,
@@ -362,7 +449,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.28506988429778557,
+      "argue_likelihood": 0.14297144892403307,
+      "debate_frequency": 0.40432700092648366
     },
     {
       "persona_index": 30,
@@ -374,19 +464,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3407529314940847,
+      "argue_likelihood": 0.45572142201210114,
+      "debate_frequency": 0.16573131187621723
     },
     {
       "persona_index": 31,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.16388600326072938,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.20186584649324213
     },
     {
       "persona_index": 32,
@@ -398,7 +494,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.35691581528102867,
+      "argue_likelihood": 0.2429044612273571,
+      "debate_frequency": 0.4229357102436878
     },
     {
       "persona_index": 33,
@@ -410,7 +509,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.26259400928585935,
+      "argue_likelihood": 0.49508338223013504,
+      "debate_frequency": 0.0441160750790205
     },
     {
       "persona_index": 34,
@@ -422,7 +524,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.08964095870352591,
+      "argue_likelihood": 0.5380681832755712,
+      "debate_frequency": 0.0513409176500838
     },
     {
       "persona_index": 35,
@@ -434,7 +539,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.11845601096256585,
+      "argue_likelihood": 0.26733468528781634,
+      "debate_frequency": 0.08517431906541188
     },
     {
       "persona_index": 36,
@@ -446,7 +554,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3707735850102272,
+      "argue_likelihood": 0.2932311436093258,
+      "debate_frequency": 0.18525602129822968
     },
     {
       "persona_index": 37,
@@ -458,19 +569,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.055274619075843856,
+      "argue_likelihood": 0.14463288872083538,
+      "debate_frequency": 0.35597754572363344
     },
     {
       "persona_index": 38,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2600188856233171,
+      "debate_frequency": 0.32732738712200893
     },
     {
       "persona_index": 39,
@@ -482,22 +599,13 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.49334188625604936,
+      "argue_likelihood": 0.5888066312314362,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 40,
-      "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "All or most of my work",
-        "Some of my work",
-        "None of my work"
-      ]
-    },
-    {
-      "persona_index": 41,
       "question_id": "ai_work_usage",
       "chosen_option": "None of my work",
       "reasoning": "[dry run]",
@@ -506,10 +614,13 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.12140938491126312,
+      "argue_likelihood": 0.31876214266082753,
+      "debate_frequency": 0.0
     },
     {
-      "persona_index": 42,
+      "persona_index": 41,
       "question_id": "ai_work_usage",
       "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
@@ -518,7 +629,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.3191818441142855,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 42,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2691604997490092,
+      "argue_likelihood": 0.3589409215983874,
+      "debate_frequency": 0.05114895658706191
     },
     {
       "persona_index": 43,
@@ -530,7 +659,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.018805273696191116,
+      "argue_likelihood": 0.5805392988393936,
+      "debate_frequency": 0.06027471667403681
     },
     {
       "persona_index": 44,
@@ -542,7 +674,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3262397436421312,
+      "argue_likelihood": 0.14912988522308676,
+      "debate_frequency": 0.12784779432163895
     },
     {
       "persona_index": 45,
@@ -554,19 +689,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.38188683537866963,
+      "argue_likelihood": 0.1871000534012474,
+      "debate_frequency": 0.205830194430258
     },
     {
       "persona_index": 46,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.5821508346073603,
+      "debate_frequency": 0.05888585957638169
     },
     {
       "persona_index": 47,
@@ -578,7 +719,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.5223613097947044,
+      "argue_likelihood": 0.12127893406782977,
+      "debate_frequency": 0.16346901384892212
     },
     {
       "persona_index": 48,
@@ -590,7 +734,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.38883911923335357,
+      "argue_likelihood": 0.22654700508367467,
+      "debate_frequency": 0.09573607450690924
     },
     {
       "persona_index": 49,
@@ -602,7 +749,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.35002852546135066,
+      "argue_likelihood": 0.2643843519026766,
+      "debate_frequency": 0.1014197726280271
     },
     {
       "persona_index": 50,
@@ -614,7 +764,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.015521421379955519,
+      "argue_likelihood": 0.8470994579123524,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 51,
@@ -626,22 +779,13 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.18873308467411978,
+      "argue_likelihood": 0.17506648527908225,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 52,
-      "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "All or most of my work",
-        "Some of my work",
-        "None of my work"
-      ]
-    },
-    {
-      "persona_index": 53,
       "question_id": "ai_work_usage",
       "chosen_option": "None of my work",
       "reasoning": "[dry run]",
@@ -650,10 +794,13 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.6628706678264533,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.0
     },
     {
-      "persona_index": 54,
+      "persona_index": 53,
       "question_id": "ai_work_usage",
       "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
@@ -662,7 +809,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.1324856858802012,
+      "debate_frequency": 0.12380457973842832
+    },
+    {
+      "persona_index": 54,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12515311484749872,
+      "argue_likelihood": 0.37851347462777307,
+      "debate_frequency": 0.11496200569326265
     },
     {
       "persona_index": 55,
@@ -674,7 +839,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1496319904495136,
+      "argue_likelihood": 0.15987978201658826,
+      "debate_frequency": 0.33532760130070904
     },
     {
       "persona_index": 56,
@@ -686,7 +854,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.46816798154206096,
+      "argue_likelihood": 0.07006027853028032,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 57,
@@ -698,7 +869,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.019938558711355303,
+      "argue_likelihood": 0.16753260479633983,
+      "debate_frequency": 0.1708690714070315
     },
     {
       "persona_index": 58,
@@ -710,7 +884,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.16078866905464578,
+      "argue_likelihood": 0.29024382115568803,
+      "debate_frequency": 0.23951869850189206
     },
     {
       "persona_index": 59,
@@ -722,7 +899,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.16082706543885555,
+      "argue_likelihood": 0.4266619875393576,
+      "debate_frequency": 0.060105943772347174
     },
     {
       "persona_index": 60,
@@ -734,19 +914,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1394666319247353,
+      "argue_likelihood": 0.8768582750876319,
+      "debate_frequency": 0.05346614233464538
     },
     {
       "persona_index": 61,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1758924788616597,
+      "argue_likelihood": 0.3774051779255801,
+      "debate_frequency": 0.3995554499650243
     },
     {
       "persona_index": 62,
@@ -758,22 +944,13 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.05814131559740171,
+      "argue_likelihood": 0.20543754163517433,
+      "debate_frequency": 0.136388166295644
     },
     {
       "persona_index": 63,
-      "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "All or most of my work",
-        "Some of my work",
-        "None of my work"
-      ]
-    },
-    {
-      "persona_index": 64,
       "question_id": "ai_work_usage",
       "chosen_option": "None of my work",
       "reasoning": "[dry run]",
@@ -782,7 +959,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.13806835914260915,
+      "argue_likelihood": 0.04030452346009453,
+      "debate_frequency": 0.32068252174971323
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.44722219120992956,
+      "argue_likelihood": 0.4166542570409226,
+      "debate_frequency": 0.2237213886784654
     },
     {
       "persona_index": 65,
@@ -794,7 +989,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.2989567946551721,
+      "argue_likelihood": 0.24122078831131727,
+      "debate_frequency": 0.12338189780905574
     },
     {
       "persona_index": 66,
@@ -806,7 +1004,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.2661332639400453,
+      "argue_likelihood": 0.24308107507786347,
+      "debate_frequency": 0.30215456268497964
     },
     {
       "persona_index": 67,
@@ -818,7 +1019,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.28270105234998216,
+      "argue_likelihood": 0.5219280154664288,
+      "debate_frequency": 0.0409970521852655
     },
     {
       "persona_index": 68,
@@ -830,7 +1034,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.4169530649213691,
+      "argue_likelihood": 0.32238928616370294,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 69,
@@ -842,7 +1049,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.20678761115969108,
+      "argue_likelihood": 0.29236852539204394,
+      "debate_frequency": 0.09319676422970333
     },
     {
       "persona_index": 70,
@@ -854,7 +1064,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2648537207803839,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 71,
@@ -866,7 +1079,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.28038448598363225,
+      "argue_likelihood": 0.28173289220795805,
+      "debate_frequency": 0.3484604375202057
     },
     {
       "persona_index": 72,
@@ -878,19 +1094,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.3979957574290368,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 73,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.25105141478695314,
+      "argue_likelihood": 0.3508048142676472,
+      "debate_frequency": 0.31891853316703445
     },
     {
       "persona_index": 74,
@@ -902,7 +1124,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.01897613091570785,
+      "argue_likelihood": 0.3769246592337586,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 75,
@@ -914,7 +1139,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.4595035892967485,
+      "argue_likelihood": 0.4659765511780006,
+      "debate_frequency": 0.19651848949221606
     },
     {
       "persona_index": 76,
@@ -926,7 +1154,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.08700126536592154,
+      "argue_likelihood": 0.5116266445077854,
+      "debate_frequency": 0.40185510898860244
     },
     {
       "persona_index": 77,
@@ -938,7 +1169,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.5341048233160434,
+      "argue_likelihood": 0.22848875873173846,
+      "debate_frequency": 0.0889303670982654
     },
     {
       "persona_index": 78,
@@ -950,7 +1184,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.18197483765240538,
+      "argue_likelihood": 0.07199949781064605,
+      "debate_frequency": 0.42106975986575745
     },
     {
       "persona_index": 79,
@@ -962,19 +1199,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.42506626662395325,
+      "argue_likelihood": 0.029771927472966003,
+      "debate_frequency": 0.025903955367593892
     },
     {
       "persona_index": 80,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.45844620621280385,
+      "argue_likelihood": 0.48709371838672955,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 81,
@@ -986,7 +1229,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.29053910340880795,
+      "argue_likelihood": 0.0947392663213833,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 82,
@@ -998,7 +1244,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.5108590174974884,
+      "argue_likelihood": 0.39403073174425857,
+      "debate_frequency": 0.07675664011513361
     },
     {
       "persona_index": 83,
@@ -1010,43 +1259,55 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.5186516663658942,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.012370319748412621
     },
     {
       "persona_index": 84,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.4628323677133739,
+      "argue_likelihood": 0.49897925470741256,
+      "debate_frequency": 0.0329215071720535
     },
     {
       "persona_index": 85,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.566888567765042,
+      "argue_likelihood": 0.594017043683867,
+      "debate_frequency": 0.25946023509896554
     },
     {
       "persona_index": 86,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.6249576361275496,
+      "argue_likelihood": 0.42673559312784703,
+      "debate_frequency": 0.18031672907228707
     },
     {
       "persona_index": 87,
@@ -1058,7 +1319,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.1136005507927007,
+      "argue_likelihood": 0.5037444608171542,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 88,
@@ -1070,10 +1334,28 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.19658699528604595,
+      "argue_likelihood": 0.2690214633946406,
+      "debate_frequency": 0.3419057653524077
     },
     {
       "persona_index": 89,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6680385074975386,
+      "argue_likelihood": 0.25361795993215747,
+      "debate_frequency": 0.3057047272830732
+    },
+    {
+      "persona_index": 90,
       "question_id": "ai_work_usage",
       "chosen_option": "None of my work",
       "reasoning": "[dry run]",
@@ -1082,19 +1364,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
-    },
-    {
-      "persona_index": 90,
-      "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "All or most of my work",
-        "Some of my work",
-        "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2323210897319638,
+      "debate_frequency": 0.11093792503489144
     },
     {
       "persona_index": 91,
@@ -1106,7 +1379,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.13387349572768714,
+      "argue_likelihood": 0.41423707670702165,
+      "debate_frequency": 0.22513616199563272
     },
     {
       "persona_index": 92,
@@ -1118,7 +1394,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2102881693213905,
+      "debate_frequency": 0.23106945683751884
     },
     {
       "persona_index": 93,
@@ -1130,7 +1409,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.18274278627252508,
+      "argue_likelihood": 0.3674997765249887,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 94,
@@ -1142,7 +1424,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.41418742044086676,
+      "argue_likelihood": 0.4813017948392726,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 95,
@@ -1154,19 +1439,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.20442055211563512,
+      "argue_likelihood": 0.27588818168803464,
+      "debate_frequency": 0.015425160061192267
     },
     {
       "persona_index": 96,
       "question_id": "ai_work_usage",
-      "chosen_option": "Some of my work",
+      "chosen_option": "None of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.3950302656190721,
+      "argue_likelihood": 0.16394279373953158,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 97,
@@ -1178,19 +1469,25 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.25539591312640003,
+      "argue_likelihood": 0.4759237606246888,
+      "debate_frequency": 0.320343378892302
     },
     {
       "persona_index": 98,
       "question_id": "ai_work_usage",
-      "chosen_option": "None of my work",
+      "chosen_option": "Some of my work",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.4265117316794358,
+      "debate_frequency": 0.17048830306802099
     },
     {
       "persona_index": 99,
@@ -1202,7 +1499,10 @@
         "All or most of my work",
         "Some of my work",
         "None of my work"
-      ]
+      ],
+      "post_likelihood": 0.039726145079296504,
+      "argue_likelihood": 0.5634031037840636,
+      "debate_frequency": 0.06121164728808397
     }
   ]
 }

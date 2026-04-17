@@ -32,10 +32,21 @@ For EACH person:
 by their specific information sources and life situation. Be authentic: people \
 are often uncertain, sometimes contradictory, and rarely perfectly informed.
 2. State their answer as the option letter.
+3. Give three behavioral numbers in [0, 1] describing how socially active they \
+are about this issue:
+   - post   = likelihood they would post on social media or otherwise publicly \
+express an opinion supporting their choice (0 never, 1 always)
+   - argue  = likelihood they would argue / push back against people supporting \
+other positions (0 never, 1 always)
+   - debate = how often they actually debate this issue with other people \
+offline (0 never, 1 every day)
+   Most people are NOT highly engaged. A quiet, ambivalent, busy-with-life \
+person should get low values (0.05–0.2). Activists and media-diet-heavy people \
+get high values (0.6–0.95). Vary per person — do not give identical numbers.
 
 Reply in this EXACT format, one numbered line per person:
-1. [reasoning] | [LETTER]
-2. [reasoning] | [LETTER]
+1. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
+2. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
 …
 
 No other text. No preamble. No explanations outside the numbered lines.\

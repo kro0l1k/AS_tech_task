@@ -8,6 +8,8 @@ Can LLMs simulate a representative panel of humans well enough to reproduce real
 
 Build 100 LLM personas of a **coherent cohort — 28-year-old US adults with a college degree** — ask them single-select survey questions drawn from recent Gallup and Pew polls with known ground-truth distributions, and evaluate five different persona-construction methods. Use a train/val/test split over questions to select the best method, then sweep sampling temperature on the validation split and evaluate the winning combination on held-out test questions.
 
+Beyond the single-choice answer, we additionally elicit **three behavioral signals per response** — how likely each persona is to post publicly in support of their choice, how likely they are to argue with people holding opposing views, and how often they debate the issue offline. These let us model not just *what* a cohort believes but *who speaks and how loudly* — which matters because online discourse is a sample weighted by willingness-to-post, not a census of opinion.
+
 **Why a narrow cohort rather than the full US population?** Independent marginal sampling from US-wide demographic distributions produces incoherent personas (the previous writeup flagged "22-year-old retired graduate" as a concrete failure mode). Fixing age and education range and letting everything else vary — gender, race, region, community, party, political basket, income, information diet — yields internally consistent profiles and isolates the question of whether the model can simulate *within-group variance* for a known slice of the population. We note below the evaluation trade-off this creates.
 
 ## Why This Is Hard
@@ -61,10 +63,22 @@ For EACH person:
    their specific information sources and life situation. Be authentic: people
    are often uncertain, sometimes contradictory, and rarely perfectly informed.
 2. State their answer as the option letter.
+3. Give three behavioral numbers in [0, 1] describing how socially active they
+   are about this issue:
+   - post   = likelihood they would post on social media / publicly express an
+     opinion supporting their choice (0 never, 1 always)
+   - argue  = likelihood they would push back against people supporting other
+     positions (0 never, 1 always)
+   - debate = how often they actually debate this issue with other people
+     offline (0 never, 1 every day)
+   Most people are NOT highly engaged. A quiet, ambivalent, busy-with-life
+   person should get low values (0.05–0.2). Activists and media-diet-heavy
+   people get high values (0.6–0.95). Vary per person — do not give identical
+   numbers.
 
 Reply in this EXACT format, one numbered line per person:
-1. [reasoning] | [LETTER]
-2. [reasoning] | [LETTER]
+1. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
+2. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
 …
 
 No other text. No preamble. No explanations outside the numbered lines.
@@ -173,22 +187,22 @@ Raw response, unedited, showing the per-persona reasoning the model produces bef
 ```
 1. I get mixed messages from CNN and liberal podcasts saying climate change is
    serious, but I'm Republican-leaning so I'm skeptical of how much is really
-   human-caused versus natural cycles - the science seems somewhat uncertain. | B
+   human-caused versus natural cycles - the science seems somewhat uncertain. | B | post=0.10 argue=0.25 debate=0.15
 2. All my sources from Pod Save America to The Daily consistently emphasize the
    scientific consensus that humans are the primary driver of climate change,
-   and my educated urban community generally accepts this. | C
+   and my educated urban community generally accepts this. | C | post=0.55 argue=0.60 debate=0.40
 3. The Bulwark and National Review present climate change as real but often
    question the extent of human responsibility or the urgency, while YouTube's
-   algorithm probably shows me some skeptical content too. | B
+   algorithm probably shows me some skeptical content too. | B | post=0.08 argue=0.20 debate=0.10
 4. Chapo Trap House and The Intercept constantly frame climate change as an
    existential crisis caused by capitalist fossil fuel exploitation, and my
-   progressive circles treat human causation as absolutely established fact. | C
+   progressive circles treat human causation as absolutely established fact. | C | post=0.85 argue=0.90 debate=0.70
 5. The Atlantic and New Yorker regularly feature detailed climate reporting
    emphasizing overwhelming scientific consensus on human causation, and my
-   educated conversations reinforce this understanding. | C
+   educated conversations reinforce this understanding. | C | post=0.45 argue=0.35 debate=0.30
 ```
 
-Note how each persona's reasoning explicitly grounds in its information diet — the media-diet conditioning does causal work rather than cosmetic decoration.
+Note how each persona's reasoning explicitly grounds in its information diet — the media-diet conditioning does causal work rather than cosmetic decoration. The three behavioral numbers co-vary plausibly with persona engagement: the activist-leaning Chapo listener (#4) scores high on all three, the busy skeptics (#1, #3) score low, and the mainstream-media reader (#5) sits in the middle.
 
 ## Evaluation
 
@@ -208,6 +222,7 @@ Questions are split 80/10/10 sequentially (with at least 1 in val and test):
 2. **Phase 2** — select the best method by mean JSD on train.
 3. **Phase 3** — temperature sweep on val: run the best method at each T ∈ {0.5, 0.7, 1.0, 1.3} and pick the winning temperature by val JSD.
 4. **Phase 4** — evaluate (best method, best temperature) on test. Report per-split JSD/TVD/MAE and generalization gap.
+5. **Phase 5** — behavioral rollup. For the winning (method, temperature), aggregate the three behavioral signals per (question, chosen-option) group across train/val/test, and render an R³ scatter for each test question so covariance structure between post/argue/debate is visible per chosen option.
 
 This prevents (a) method selection from overfitting to a single question set and (b) temperature tuning from leaking into final test numbers.
 
@@ -249,6 +264,29 @@ T=0.5 wins. T=1.3 collapses plurality entirely — extreme temperature produces 
 
 Generalization gap (test − train JSD): **−0.014** (no overfitting). But **test plurality drops to 0%** — the predicted mode is "Legal in most cases" while the national ground-truth mode is "Illegal in all or most cases." This is not a method failure; it is the cohort-ground-truth mismatch from Section "Why This Is Hard" #6 showing up directly. A panel of 28-year-old college graduates is genuinely more pro-choice than the national adult population — so the *right* answer for this cohort differs from the national poll topline against which we're scoring.
 
+### Phase 5 — behavioral rollup (best method @ best T)
+
+For every (question, chosen-option) group we report mean ± σ on each of the three dimensions (σ = sqrt(population variance)). Example format, per option:
+
+```
+Q: guns_laws_stricter
+  Kept as they are now       n= 8  post=0.18±0.09  argue=0.24±0.11  debate=0.15±0.08
+  More strict                n= 9  post=0.62±0.19  argue=0.55±0.22  debate=0.42±0.18
+  Less strict                n= 3  post=0.48±0.12  argue=0.58±0.15  debate=0.35±0.10
+```
+
+For each test question we also save an R³ scatter (`results/behavioral/r3_<qid>.png`) plotting all personas as points in (post, argue, debate) space, colored by chosen option. This visualises:
+
+- **Engagement stratification by answer** — whether "More strict" supporters post and argue more than "Kept as is" supporters, or vice versa. If the cloud separates by color, the behavioral signal carries information about opinion beyond what the marginal distribution reports.
+- **Covariance between posting, arguing, and debating** — whether they load on a single "engagement" axis (points concentrated along the diagonal) or decompose into e.g. "online-loud but offline-quiet" vs. "offline debater but doesn't post" sub-populations.
+- **Polarisation asymmetry** — minority-opinion holders may post at higher rates than majority-opinion holders (this would show up as higher centroid for smaller-n option clouds), a well-documented empirical phenomenon on US political issues.
+
+### Why this matters for interpretation
+
+Social-media–sampled opinion distributions are *not* marginal distributions of belief; they are marginals reweighted by post-likelihood. If our cohort produces `post(A)=0.6` and `post(B)=0.1`, then a "naive scrape" of social media from this cohort would overestimate A by a factor of ~6 per opinion-holder. Reporting (mean, var) per option gives a first-order correction surface: downstream users can reweight the raw choice distribution by per-option engagement to recover an approximate "what would social media look like" view, or the inverse to recover "what do silent respondents actually believe."
+
+A plausibility check: the behavioral outputs should correlate with the existing "status-quo blindness" bias. If the model under-predicts "Kept as they are now" in the marginal, we expect those personas to also land at low post/argue/debate values — the silent group is silent both in the national poll and in the cohort simulation. The R³ plots let us inspect this directly.
+
 ### What the results actually tell us (honest read)
 
 **Real signal:**
@@ -271,6 +309,8 @@ Generalization gap (test − train JSD): **−0.014** (no overfitting). But **te
 5. **Single-question validation.** With one question in val and one in test, temperature selection is a noisy procedure. T=0.5 winning is consistent with broader patterns but the exact ranking between T=0.5 and T=1.0 could flip on another question.
 6. **Forced choice.** Personas must commit to an option. Many real respondents volunteer "don't know"; our "Not sure" options help but do not fully close the gap.
 7. **Batch contamination risk.** When 5 personas are answered in one call, the model may artificially diversify responses within the batch. Observed in sample output (each persona references different sources), which is either faithful conditioning or batch-induced differentiation — we cannot tell without a solo-call ablation.
+8. **Behavioral signals are self-reported by the simulator, not validated.** The model is guessing how likely a given persona is to post/argue/debate. We have no ground-truth benchmark for these values — no public poll asks "what fraction of 28-year-old college-educated X-voters who believe Y would post about it." The values are internally consistent (engaged personas score high on all three, quiet personas low) but their absolute calibration is unverified.
+9. **Behavioral responses share a prompt with choice responses.** Because post/argue/debate are generated in the same batch line as the letter, the behavioral number may be partially determined by the letter the model has just committed to (and vice versa), making the two outputs non-independent. A two-call ablation (letter first, behavioral in a follow-up) would separate these.
 
 ## What I Would Do Next (Prioritized)
 
@@ -298,6 +338,13 @@ Generalization gap (test − train JSD): **−0.014** (no overfitting). But **te
 - **Method ensembling.** Weighted combination of the five methods, weights learned on train. Likely beats any single method.
 - **Within-persona consistency.** Ask the same question twice paraphrased; inconsistent personas are noise and should be downweighted.
 - **Persona voice calibration.** Blue-collar MAGA prose should not read like PhD progressive prose; style-stamp per basket once the cohort broadens.
+
+### Tier 5 — behavioral validation
+
+- **Benchmark behavioral output against engagement surveys.** Pew's periodic "Politics on Social Media" reports do publish per-subgroup shares of "ever posted about politics" and "avoid political discussion." These are aggregate but give a first calibration target for the cohort mean on `post` and `debate`.
+- **Decouple letter and behavioral emission.** Ask for the letter alone first, then ask the same persona the three behavioral questions in a follow-up call. Tests whether the current joint format is inducing artifactual covariance between choice and engagement.
+- **Behavioral ground truth via activation rates.** Rather than self-report, give each persona a stimulus ("you see this post in your feed; do you engage?") and measure refusal/engagement rates. Reframes behavioral simulation as a classification task with labels available from platform datasets.
+- **Weighted distributional metric.** Report JSD not just on marginal choices but on post-weighted choices: `P_posted(A) = P(A) · E[post | A] / sum_B P(B) · E[post | B]`. This is the distribution a social-media listener would see, and arguably the more important quantity for applications targeting online discourse.
 
 ## Code
 

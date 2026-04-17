@@ -1,0 +1,1508 @@
+{
+  "method_name": "value_anchored",
+  "total_calls": 20,
+  "failed_parses": 0,
+  "elapsed_seconds": 44.55162596702576,
+  "responses": [
+    {
+      "persona_index": 20,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated. | B | post=0.25 argue=0.18 debate=0.22\n\n3. I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face. | A | post=0.05 argue=0.03 debate=0.08\n\n4. I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work. | B | post=0.20 argue=0.12 debate=0.16\n\n5. I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself. | B | post=0.10 argue=0.06 debate=0.14",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 21,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated. | B | post=0.25 argue=0.18 debate=0.22\n\n3. I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face. | A | post=0.05 argue=0.03 debate=0.08\n\n4. I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work. | B | post=0.20 argue=0.12 debate=0.16\n\n5. I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself. | B | post=0.10 argue=0.06 debate=0.14",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 22,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated. | B | post=0.25 argue=0.18 debate=0.22\n\n3. I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face. | A | post=0.05 argue=0.03 debate=0.08\n\n4. I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work. | B | post=0.20 argue=0.12 debate=0.16\n\n5. I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself. | B | post=0.10 argue=0.06 debate=0.14",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.03,
+      "debate_frequency": 0.08
+    },
+    {
+      "persona_index": 23,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated. | B | post=0.25 argue=0.18 debate=0.22\n\n3. I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face. | A | post=0.05 argue=0.03 debate=0.08\n\n4. I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work. | B | post=0.20 argue=0.12 debate=0.16\n\n5. I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself. | B | post=0.10 argue=0.06 debate=0.14",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.16
+    },
+    {
+      "persona_index": 24,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming copy and Grammarly for editing, but most of my actual strategy work is still human-driven thinking and client meetings. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use AI transcription tools for case notes, but the core of my job is direct human interaction and advocacy that can't be automated. | B | post=0.25 argue=0.18 debate=0.22\n\n3. I'm in construction management and honestly don't really use any AI stuff - maybe some scheduling software has AI features but I wouldn't know, most of my work is coordinating crews and dealing with suppliers face-to-face. | A | post=0.05 argue=0.03 debate=0.08\n\n4. I'm a nonprofit program coordinator and use AI writing tools for grant applications and some data analysis, but the relationship-building and community organizing aspects are purely human work. | B | post=0.20 argue=0.12 debate=0.16\n\n5. I work in HR and we've started using AI screening tools for resumes and chatbots for basic employee questions, though I still handle all the sensitive conversations and policy decisions myself. | B | post=0.10 argue=0.06 debate=0.14",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.1,
+      "argue_likelihood": 0.06,
+      "debate_frequency": 0.14
+    },
+    {
+      "persona_index": 45,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management. | A | post=0.18 argue=0.22 debate=0.28\n\n3. I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site. | B | post=0.05 argue=0.12 debate=0.08\n\n4. In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis. | A | post=0.15 argue=0.18 debate=0.25\n\n5. I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids. | B | post=0.10 argue=0.14 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 46,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management. | A | post=0.18 argue=0.22 debate=0.28\n\n3. I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site. | B | post=0.05 argue=0.12 debate=0.08\n\n4. In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis. | A | post=0.15 argue=0.18 debate=0.25\n\n5. I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids. | B | post=0.10 argue=0.14 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.22,
+      "debate_frequency": 0.28
+    },
+    {
+      "persona_index": 47,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management. | A | post=0.18 argue=0.22 debate=0.28\n\n3. I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site. | B | post=0.05 argue=0.12 debate=0.08\n\n4. In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis. | A | post=0.15 argue=0.18 debate=0.25\n\n5. I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids. | B | post=0.10 argue=0.14 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.08
+    },
+    {
+      "persona_index": 48,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management. | A | post=0.18 argue=0.22 debate=0.28\n\n3. I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site. | B | post=0.05 argue=0.12 debate=0.08\n\n4. In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis. | A | post=0.15 argue=0.18 debate=0.25\n\n5. I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids. | B | post=0.10 argue=0.14 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 49,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's definitely become a regular part of my workflow, though I still do plenty of traditional work too. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a social worker, I use some AI tools for case documentation and research, but most of my work is still direct human interaction and traditional case management. | A | post=0.18 argue=0.22 debate=0.28\n\n3. I'm in construction management and we don't really use any of that computer stuff - it's all about physical work, blueprints, and talking to crews on site. | B | post=0.05 argue=0.12 debate=0.08\n\n4. In my finance role, we've integrated AI into risk assessment and portfolio analysis, but I'd say it's maybe a quarter of what I do - still lots of client meetings and traditional analysis. | A | post=0.15 argue=0.18 debate=0.25\n\n5. I teach elementary school and while there are some AI tools available for lesson planning, I barely use them - my work is almost entirely direct teaching and interaction with kids. | B | post=0.10 argue=0.14 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.1,
+      "argue_likelihood": 0.14,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 50,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too. | B | post=0.15 argue=0.12 debate=0.08\n\n2. As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now. | B | post=0.25 argue=0.35 debate=0.20\n\n3. I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand. | C | post=0.45 argue=0.55 debate=0.35\n\n4. Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it. | C | post=0.40 argue=0.50 debate=0.30\n\n5. I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven. | A | post=0.20 argue=0.18 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.08
+    },
+    {
+      "persona_index": 51,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too. | B | post=0.15 argue=0.12 debate=0.08\n\n2. As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now. | B | post=0.25 argue=0.35 debate=0.20\n\n3. I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand. | C | post=0.45 argue=0.55 debate=0.35\n\n4. Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it. | C | post=0.40 argue=0.50 debate=0.30\n\n5. I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven. | A | post=0.20 argue=0.18 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 52,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too. | B | post=0.15 argue=0.12 debate=0.08\n\n2. As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now. | B | post=0.25 argue=0.35 debate=0.20\n\n3. I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand. | C | post=0.45 argue=0.55 debate=0.35\n\n4. Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it. | C | post=0.40 argue=0.50 debate=0.30\n\n5. I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven. | A | post=0.20 argue=0.18 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.45,
+      "argue_likelihood": 0.55,
+      "debate_frequency": 0.35
+    },
+    {
+      "persona_index": 53,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too. | B | post=0.15 argue=0.12 debate=0.08\n\n2. As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now. | B | post=0.25 argue=0.35 debate=0.20\n\n3. I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand. | C | post=0.45 argue=0.55 debate=0.35\n\n4. Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it. | C | post=0.40 argue=0.50 debate=0.30\n\n5. I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven. | A | post=0.20 argue=0.18 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4,
+      "argue_likelihood": 0.5,
+      "debate_frequency": 0.3
+    },
+    {
+      "persona_index": 54,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to my workflow, though I still do plenty of traditional work too. | B | post=0.15 argue=0.12 debate=0.08\n\n2. As a small business owner, I've experimented with AI tools for bookkeeping and customer service, but I'm still skeptical about relying on them too heavily - maybe 30% of my work involves them now. | B | post=0.25 argue=0.35 debate=0.20\n\n3. I'm a teacher and while the school district talks about AI integration, we're barely using any tools yet - mostly just traditional lesson planning and grading by hand. | C | post=0.45 argue=0.55 debate=0.35\n\n4. Working in social services, we don't really use AI tools much - it's mostly case management software and direct client interaction, though I know other departments are starting to explore it. | C | post=0.40 argue=0.50 debate=0.30\n\n5. I'm in consulting and we've adopted several AI platforms for research and report writing - I'd say it's involved in most of what I do now, though the final analysis is still very human-driven. | A | post=0.20 argue=0.18 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 30,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it.",
+      "raw_response": "1. I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it. | A | post=0.15 argue=0.12 debate=0.25\n\n2. I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself. | A | post=0.08 argue=0.05 debate=0.18\n\n3. We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day. | A | post=0.12 argue=0.08 debate=0.22\n\n4. I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable. | C | post=0.35 argue=0.45 debate=0.28\n\n5. I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control. | A | post=0.18 argue=0.15 debate=0.32",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 31,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself.",
+      "raw_response": "1. I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it. | A | post=0.15 argue=0.12 debate=0.25\n\n2. I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself. | A | post=0.08 argue=0.05 debate=0.18\n\n3. We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day. | A | post=0.12 argue=0.08 debate=0.22\n\n4. I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable. | C | post=0.35 argue=0.45 debate=0.28\n\n5. I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control. | A | post=0.18 argue=0.15 debate=0.32",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.05,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 32,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day.",
+      "raw_response": "1. I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it. | A | post=0.15 argue=0.12 debate=0.25\n\n2. I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself. | A | post=0.08 argue=0.05 debate=0.18\n\n3. We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day. | A | post=0.12 argue=0.08 debate=0.22\n\n4. I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable. | C | post=0.35 argue=0.45 debate=0.28\n\n5. I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control. | A | post=0.18 argue=0.15 debate=0.32",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 33,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable.",
+      "raw_response": "1. I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it. | A | post=0.15 argue=0.12 debate=0.25\n\n2. I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself. | A | post=0.08 argue=0.05 debate=0.18\n\n3. We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day. | A | post=0.12 argue=0.08 debate=0.22\n\n4. I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable. | C | post=0.35 argue=0.45 debate=0.28\n\n5. I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control. | A | post=0.18 argue=0.15 debate=0.32",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.45,
+      "debate_frequency": 0.28
+    },
+    {
+      "persona_index": 34,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control.",
+      "raw_response": "1. I use some AI tools at work for writing assistance and research, though I'm still figuring out how much to rely on them versus doing things the traditional way. It's helpful but I don't want to become too dependent on it. | A | post=0.15 argue=0.12 debate=0.25\n\n2. I've started incorporating AI into some of my daily tasks - it helps with drafting emails and organizing information, though I'm careful about accuracy and still do most of the substantive work myself. | A | post=0.08 argue=0.05 debate=0.18\n\n3. We use AI tools for certain projects at my workplace, mainly for data analysis and some writing tasks, but it's definitely not the majority of what I do day-to-day. | A | post=0.12 argue=0.08 debate=0.22\n\n4. I don't really use AI much at work - my job is pretty hands-on and traditional, plus I'm skeptical about relying on these tech tools that might be biased or unreliable. | C | post=0.35 argue=0.45 debate=0.28\n\n5. I've integrated some AI tools into my workflow for research and initial drafts, but I still do most of the critical thinking and decision-making myself since I want to maintain quality control. | A | post=0.18 argue=0.15 debate=0.32",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.32
+    },
+    {
+      "persona_index": 75,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only. | B | post=0.25 argue=0.18 debate=0.22\n\n4. Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field. | C | post=0.12 argue=0.06 debate=0.15\n\n5. As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily. | B | post=0.08 argue=0.04 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 76,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only. | B | post=0.25 argue=0.18 debate=0.22\n\n4. Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field. | C | post=0.12 argue=0.06 debate=0.15\n\n5. As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily. | B | post=0.08 argue=0.04 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.03,
+      "debate_frequency": 0.07
+    },
+    {
+      "persona_index": 77,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only. | B | post=0.25 argue=0.18 debate=0.22\n\n4. Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field. | C | post=0.12 argue=0.06 debate=0.15\n\n5. As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily. | B | post=0.08 argue=0.04 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 78,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only. | B | post=0.25 argue=0.18 debate=0.22\n\n4. Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field. | C | post=0.12 argue=0.06 debate=0.15\n\n5. As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily. | B | post=0.08 argue=0.04 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.06,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 79,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI tools for grant writing and data analysis, though I'm still learning how to use them effectively and worry about over-relying on them for important work. | B | post=0.15 argue=0.08 debate=0.12\n\n2. As a middle manager at a traditional company, we've been cautiously introducing AI tools for scheduling and basic analytics, but most of my actual work still involves direct human interaction and decision-making that requires institutional knowledge. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a freelance graphic designer and while I've experimented with AI image generators and writing assistants, I'm concerned about the ethics and impact on creative workers, so I use them sparingly for brainstorming only. | B | post=0.25 argue=0.18 debate=0.22\n\n4. Working in tech consulting, I use AI tools daily for code review, documentation, and client presentations - it's become integral to staying competitive and efficient in my field. | C | post=0.12 argue=0.06 debate=0.15\n\n5. As a policy researcher, I occasionally use AI for initial literature reviews and data summarization, but the nature of my work requires too much nuanced analysis and original thinking to rely on it heavily. | B | post=0.08 argue=0.04 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.04,
+      "debate_frequency": 0.09
+    },
+    {
+      "persona_index": 80,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now.",
+      "raw_response": "1. I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now. | B | post=0.15 argue=0.25 debate=0.30\n\n2. I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly. | C | post=0.08 argue=0.12 debate=0.18\n\n3. As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks. | B | post=0.20 argue=0.35 debate=0.45\n\n4. I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers. | C | post=0.05 argue=0.10 debate=0.15\n\n5. I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance. | B | post=0.12 argue=0.18 debate=0.25",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.3
+    },
+    {
+      "persona_index": 81,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly.",
+      "raw_response": "1. I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now. | B | post=0.15 argue=0.25 debate=0.30\n\n2. I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly. | C | post=0.08 argue=0.12 debate=0.18\n\n3. As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks. | B | post=0.20 argue=0.35 debate=0.45\n\n4. I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers. | C | post=0.05 argue=0.10 debate=0.15\n\n5. I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance. | B | post=0.12 argue=0.18 debate=0.25",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 82,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks.",
+      "raw_response": "1. I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now. | B | post=0.15 argue=0.25 debate=0.30\n\n2. I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly. | C | post=0.08 argue=0.12 debate=0.18\n\n3. As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks. | B | post=0.20 argue=0.35 debate=0.45\n\n4. I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers. | C | post=0.05 argue=0.10 debate=0.15\n\n5. I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance. | B | post=0.12 argue=0.18 debate=0.25",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.45
+    },
+    {
+      "persona_index": 83,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers.",
+      "raw_response": "1. I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now. | B | post=0.15 argue=0.25 debate=0.30\n\n2. I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly. | C | post=0.08 argue=0.12 debate=0.18\n\n3. As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks. | B | post=0.20 argue=0.35 debate=0.45\n\n4. I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers. | C | post=0.05 argue=0.10 debate=0.15\n\n5. I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance. | B | post=0.12 argue=0.18 debate=0.25",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.1,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 84,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance.",
+      "raw_response": "1. I work in policy research and we've started using AI for data analysis and draft writing, though I still do most of the critical thinking and editing myself. It's probably about half my workflow now. | B | post=0.15 argue=0.25 debate=0.30\n\n2. I'm in construction management and we don't really use any of that computer stuff - it's all hands-on work, blueprints, and talking to crews. Maybe the office uses some software but not me directly. | C | post=0.08 argue=0.12 debate=0.18\n\n3. As a financial advisor, I use AI tools for market analysis and client report generation, but the relationship building and strategic advice is still very much human-driven. I'd say it handles maybe 40% of my tasks. | B | post=0.20 argue=0.35 debate=0.45\n\n4. I work in manufacturing and we don't have any of that fancy AI technology on the floor - it's still traditional machinery and processes. Management might use computers but not us workers. | C | post=0.05 argue=0.10 debate=0.15\n\n5. I'm a social worker and while our case management system has some automated features, most of my work is direct client interaction and advocacy that can't be done by AI. Maybe some scheduling and documentation assistance. | B | post=0.12 argue=0.18 debate=0.25",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 10,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real.",
+      "raw_response": "1. I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real. | A | post=0.15 argue=0.25 debate=0.10\n\n2. As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients. | B | post=0.20 argue=0.30 debate=0.25\n\n3. In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work. | B | post=0.25 argue=0.20 debate=0.35\n\n4. As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do. | B | post=0.10 argue=0.15 debate=0.20\n\n5. I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel. | A | post=0.05 argue=0.10 debate=0.15",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.1
+    },
+    {
+      "persona_index": 11,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients.",
+      "raw_response": "1. I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real. | A | post=0.15 argue=0.25 debate=0.10\n\n2. As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients. | B | post=0.20 argue=0.30 debate=0.25\n\n3. In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work. | B | post=0.25 argue=0.20 debate=0.35\n\n4. As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do. | B | post=0.10 argue=0.15 debate=0.20\n\n5. I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel. | A | post=0.05 argue=0.10 debate=0.15",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.3,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 12,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work.",
+      "raw_response": "1. I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real. | A | post=0.15 argue=0.25 debate=0.10\n\n2. As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients. | B | post=0.20 argue=0.30 debate=0.25\n\n3. In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work. | B | post=0.25 argue=0.20 debate=0.35\n\n4. As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do. | B | post=0.10 argue=0.15 debate=0.20\n\n5. I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel. | A | post=0.05 argue=0.10 debate=0.15",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.2,
+      "debate_frequency": 0.35
+    },
+    {
+      "persona_index": 13,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do.",
+      "raw_response": "1. I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real. | A | post=0.15 argue=0.25 debate=0.10\n\n2. As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients. | B | post=0.20 argue=0.30 debate=0.25\n\n3. In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work. | B | post=0.25 argue=0.20 debate=0.35\n\n4. As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do. | B | post=0.10 argue=0.15 debate=0.20\n\n5. I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel. | A | post=0.05 argue=0.10 debate=0.15",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.1,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 14,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel.",
+      "raw_response": "1. I work in construction and we don't use any of that AI stuff - it's all hands-on work with real tools. I've heard Alex Jones talk about how AI is part of the globalist agenda to replace workers, so I'm glad my job keeps it real. | A | post=0.15 argue=0.25 debate=0.10\n\n2. As a social worker, I use some AI tools for documentation and case management, but most of my work is direct human interaction which can't be replaced. I'm cautiously optimistic about AI helping with administrative tasks so I can focus more on clients. | B | post=0.20 argue=0.30 debate=0.25\n\n3. In my marketing role, I use AI for content generation and data analysis pretty regularly, but I still need human creativity and strategic thinking for the important decisions. It's become a useful tool that complements rather than replaces my work. | B | post=0.25 argue=0.20 debate=0.35\n\n4. As a financial analyst, I use AI tools for data processing and some modeling, but the interpretation and client communication is still very much human-driven work. It's made me more efficient without fundamentally changing what I do. | B | post=0.10 argue=0.15 debate=0.20\n\n5. I'm in middle management at a manufacturing company and while our systems have some automated features, I wouldn't call it AI really - mostly just traditional software and spreadsheets for tracking production and personnel. | A | post=0.05 argue=0.10 debate=0.15",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.1,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 95,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks.",
+      "raw_response": "1. I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks. | A | post=0.15 argue=0.25 debate=0.20\n\n2. As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces. | A | post=0.10 argue=0.12 debate=0.18\n\n3. I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets. | C | post=0.05 argue=0.08 debate=0.10\n\n4. I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work. | A | post=0.20 argue=0.15 debate=0.25\n\n5. I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills. | A | post=0.12 argue=0.18 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 96,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces.",
+      "raw_response": "1. I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks. | A | post=0.15 argue=0.25 debate=0.20\n\n2. As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces. | A | post=0.10 argue=0.12 debate=0.18\n\n3. I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets. | C | post=0.05 argue=0.08 debate=0.10\n\n4. I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work. | A | post=0.20 argue=0.15 debate=0.25\n\n5. I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills. | A | post=0.12 argue=0.18 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.1,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 97,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets.",
+      "raw_response": "1. I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks. | A | post=0.15 argue=0.25 debate=0.20\n\n2. As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces. | A | post=0.10 argue=0.12 debate=0.18\n\n3. I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets. | C | post=0.05 argue=0.08 debate=0.10\n\n4. I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work. | A | post=0.20 argue=0.15 debate=0.25\n\n5. I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills. | A | post=0.12 argue=0.18 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.1
+    },
+    {
+      "persona_index": 98,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work.",
+      "raw_response": "1. I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks. | A | post=0.15 argue=0.25 debate=0.20\n\n2. As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces. | A | post=0.10 argue=0.12 debate=0.18\n\n3. I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets. | C | post=0.05 argue=0.08 debate=0.10\n\n4. I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work. | A | post=0.20 argue=0.15 debate=0.25\n\n5. I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills. | A | post=0.12 argue=0.18 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 99,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills.",
+      "raw_response": "1. I work in social services and we've started using some AI tools for case management and scheduling, but most of my direct client work is still very human-centered. I'm a bit wary of AI replacing human judgment in care work, but I can see how it helps with administrative tasks. | A | post=0.15 argue=0.25 debate=0.20\n\n2. As a policy analyst, I use AI tools like ChatGPT for research assistance and drafting, but I still do most of the critical thinking and final writing myself. It's become a useful supplement to my workflow, though I'm careful about fact-checking everything it produces. | A | post=0.10 argue=0.12 debate=0.18\n\n3. I'm a middle manager at a traditional manufacturing company and honestly, we haven't really adopted much AI yet beyond some basic automation software that's been around for years. Most of my day is still meetings, emails, and old-fashioned spreadsheets. | C | post=0.05 argue=0.08 debate=0.10\n\n4. I work in nonprofit communications and use AI tools regularly for content creation, social media scheduling, and grant writing assistance, but the strategic thinking and relationship building that defines my role is still very much human work. | A | post=0.20 argue=0.15 debate=0.25\n\n5. I'm a freelance graphic designer and AI has become integral to my creative process - from initial concept generation to image editing and even client presentations, though I still bring the artistic vision and client management skills. | A | post=0.12 argue=0.18 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 15,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction. | C | post=0.12 argue=0.08 debate=0.15\n\n2. As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently. | A | post=0.25 argue=0.18 debate=0.22\n\n3. I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way. | C | post=0.08 argue=0.05 debate=0.12\n\n4. Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection. | C | post=0.35 argue=0.28 debate=0.31\n\n5. I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself. | A | post=0.18 argue=0.14 debate=0.20",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 16,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction. | C | post=0.12 argue=0.08 debate=0.15\n\n2. As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently. | A | post=0.25 argue=0.18 debate=0.22\n\n3. I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way. | C | post=0.08 argue=0.05 debate=0.12\n\n4. Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection. | C | post=0.35 argue=0.28 debate=0.31\n\n5. I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself. | A | post=0.18 argue=0.14 debate=0.20",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 17,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction. | C | post=0.12 argue=0.08 debate=0.15\n\n2. As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently. | A | post=0.25 argue=0.18 debate=0.22\n\n3. I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way. | C | post=0.08 argue=0.05 debate=0.12\n\n4. Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection. | C | post=0.35 argue=0.28 debate=0.31\n\n5. I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself. | A | post=0.18 argue=0.14 debate=0.20",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.05,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 18,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction. | C | post=0.12 argue=0.08 debate=0.15\n\n2. As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently. | A | post=0.25 argue=0.18 debate=0.22\n\n3. I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way. | C | post=0.08 argue=0.05 debate=0.12\n\n4. Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection. | C | post=0.35 argue=0.28 debate=0.31\n\n5. I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself. | A | post=0.18 argue=0.14 debate=0.20",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.28,
+      "debate_frequency": 0.31
+    },
+    {
+      "persona_index": 19,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and data analysis, but most of my day is still traditional office work and direct client interaction. | C | post=0.12 argue=0.08 debate=0.15\n\n2. As a marketing coordinator, I use AI tools daily for content creation, social media scheduling, and basic graphic design - it's become integral to how I do my job efficiently. | A | post=0.25 argue=0.18 debate=0.22\n\n3. I'm a high school teacher and while our district has introduced some AI grading tools, I still do most of my lesson planning, teaching, and student interaction the traditional way. | C | post=0.08 argue=0.05 debate=0.12\n\n4. Working as a freelance journalist, I occasionally use AI for research assistance and initial draft outlines, but the actual reporting, interviewing, and writing is all me - can't automate that human connection. | C | post=0.35 argue=0.28 debate=0.31\n\n5. I'm a policy analyst and we've integrated AI into our research processes and report generation quite extensively, though I still need to do the critical thinking and stakeholder meetings myself. | A | post=0.18 argue=0.14 debate=0.20",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.14,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 35,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing. | C | post=0.12 argue=0.08 debate=0.15\n\n2. I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content. | A | post=0.25 argue=0.18 debate=0.22\n\n3. My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck. | A | post=0.16 argue=0.12 debate=0.19\n\n4. I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise. | C | post=0.14 argue=0.21 debate=0.18\n\n5. As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow. | A | post=0.11 argue=0.15 debate=0.13",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 36,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing. | C | post=0.12 argue=0.08 debate=0.15\n\n2. I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content. | A | post=0.25 argue=0.18 debate=0.22\n\n3. My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck. | A | post=0.16 argue=0.12 debate=0.19\n\n4. I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise. | C | post=0.14 argue=0.21 debate=0.18\n\n5. As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow. | A | post=0.11 argue=0.15 debate=0.13",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 37,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing. | C | post=0.12 argue=0.08 debate=0.15\n\n2. I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content. | A | post=0.25 argue=0.18 debate=0.22\n\n3. My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck. | A | post=0.16 argue=0.12 debate=0.19\n\n4. I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise. | C | post=0.14 argue=0.21 debate=0.18\n\n5. As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow. | A | post=0.11 argue=0.15 debate=0.13",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.16,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.19
+    },
+    {
+      "persona_index": 38,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing. | C | post=0.12 argue=0.08 debate=0.15\n\n2. I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content. | A | post=0.25 argue=0.18 debate=0.22\n\n3. My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck. | A | post=0.16 argue=0.12 debate=0.19\n\n4. I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise. | C | post=0.14 argue=0.21 debate=0.18\n\n5. As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow. | A | post=0.11 argue=0.15 debate=0.13",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.14,
+      "argue_likelihood": 0.21,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 39,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't really integrated AI tools into my daily routine yet - I use basic software and email mostly, though I know some colleagues are starting to experiment with ChatGPT for writing. | C | post=0.12 argue=0.08 debate=0.15\n\n2. I use AI tools occasionally for research and writing assistance at my marketing job, but it's definitely not the majority of my work - maybe like 20-30% when I need help brainstorming or editing content. | A | post=0.25 argue=0.18 debate=0.22\n\n3. My work in social services is still very human-centered, though our organization has started using some AI scheduling tools and I sometimes use ChatGPT to help draft emails or reports when I'm stuck. | A | post=0.16 argue=0.12 debate=0.19\n\n4. I'm in finance and while we have some automated systems, I wouldn't really call them AI tools in the modern sense - most of my analysis and client work is still done through traditional software and personal expertise. | C | post=0.14 argue=0.21 debate=0.18\n\n5. As a consultant, I've started incorporating AI tools for research and proposal writing, but the core of my work - client relationships and strategic thinking - remains very much human-driven, so it's maybe a quarter of my workflow. | A | post=0.11 argue=0.15 debate=0.13",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.11,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.13
+    },
+    {
+      "persona_index": 5,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself. | C | post=0.15 argue=0.12 debate=0.08\n\n2. I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work. | B | post=0.08 argue=0.18 debate=0.22\n\n3. I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling. | B | post=0.25 argue=0.35 debate=0.28\n\n4. I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face. | C | post=0.32 argue=0.28 debate=0.18\n\n5. I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself. | C | post=0.12 argue=0.08 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.08
+    },
+    {
+      "persona_index": 6,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself. | C | post=0.15 argue=0.12 debate=0.08\n\n2. I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work. | B | post=0.08 argue=0.18 debate=0.22\n\n3. I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling. | B | post=0.25 argue=0.35 debate=0.28\n\n4. I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face. | C | post=0.32 argue=0.28 debate=0.18\n\n5. I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself. | C | post=0.12 argue=0.08 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 7,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself. | C | post=0.15 argue=0.12 debate=0.08\n\n2. I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work. | B | post=0.08 argue=0.18 debate=0.22\n\n3. I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling. | B | post=0.25 argue=0.35 debate=0.28\n\n4. I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face. | C | post=0.32 argue=0.28 debate=0.18\n\n5. I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself. | C | post=0.12 argue=0.08 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.28
+    },
+    {
+      "persona_index": 8,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself. | C | post=0.15 argue=0.12 debate=0.08\n\n2. I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work. | B | post=0.08 argue=0.18 debate=0.22\n\n3. I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling. | B | post=0.25 argue=0.35 debate=0.28\n\n4. I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face. | C | post=0.32 argue=0.28 debate=0.18\n\n5. I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself. | C | post=0.12 argue=0.08 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.32,
+      "argue_likelihood": 0.28,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 9,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself.",
+      "raw_response": "1. I work in marketing and we've started using AI for content generation and data analysis - it's become pretty integral to what I do, though I still handle strategy and client relationships myself. | C | post=0.15 argue=0.12 debate=0.08\n\n2. I'm a high school teacher and while there's talk about AI in education, I still rely on traditional lesson planning and grading - maybe I use spell check, but that's about it for my daily work. | B | post=0.08 argue=0.18 debate=0.22\n\n3. I work in construction management and honestly don't really use any AI tools - we still do things the old-fashioned way with spreadsheets and phone calls, though I've heard some companies are starting to use it for scheduling. | B | post=0.25 argue=0.35 debate=0.28\n\n4. I'm in sales and we've got some AI tools for lead generation and customer insights, but most of my work is still about building relationships and closing deals face-to-face. | C | post=0.32 argue=0.28 debate=0.18\n\n5. I work as a financial analyst and we use AI for market predictions and risk assessment quite a bit now, though I still need to interpret the data and make recommendations myself. | C | post=0.12 argue=0.08 debate=0.15",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 55,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself.",
+      "raw_response": "1. I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work. | A | post=0.06 argue=0.04 debate=0.11\n\n3. I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed. | A | post=0.03 argue=0.02 debate=0.07\n\n4. I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students. | B | post=0.09 argue=0.06 debate=0.13\n\n5. As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers. | A | post=0.18 argue=0.14 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 56,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work.",
+      "raw_response": "1. I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work. | A | post=0.06 argue=0.04 debate=0.11\n\n3. I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed. | A | post=0.03 argue=0.02 debate=0.07\n\n4. I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students. | B | post=0.09 argue=0.06 debate=0.13\n\n5. As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers. | A | post=0.18 argue=0.14 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.06,
+      "argue_likelihood": 0.04,
+      "debate_frequency": 0.11
+    },
+    {
+      "persona_index": 57,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed.",
+      "raw_response": "1. I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work. | A | post=0.06 argue=0.04 debate=0.11\n\n3. I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed. | A | post=0.03 argue=0.02 debate=0.07\n\n4. I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students. | B | post=0.09 argue=0.06 debate=0.13\n\n5. As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers. | A | post=0.18 argue=0.14 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.03,
+      "argue_likelihood": 0.02,
+      "debate_frequency": 0.07
+    },
+    {
+      "persona_index": 58,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students.",
+      "raw_response": "1. I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work. | A | post=0.06 argue=0.04 debate=0.11\n\n3. I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed. | A | post=0.03 argue=0.02 debate=0.07\n\n4. I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students. | B | post=0.09 argue=0.06 debate=0.13\n\n5. As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers. | A | post=0.18 argue=0.14 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.09,
+      "argue_likelihood": 0.06,
+      "debate_frequency": 0.13
+    },
+    {
+      "persona_index": 59,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers.",
+      "raw_response": "1. I work in nonprofit administration and we've started using AI for grant writing assistance and donor communication templates, though I still do most of the relationship building and program oversight myself. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a financial advisor, I use some AI tools for market analysis and client report generation, but the core relationship management and strategic advice is still very much human-driven work. | A | post=0.06 argue=0.04 debate=0.11\n\n3. I'm in middle management at a manufacturing company and while our operations team has started incorporating some AI for predictive maintenance, my day-to-day work of overseeing staff and coordinating with suppliers hasn't really changed. | A | post=0.03 argue=0.02 debate=0.07\n\n4. I teach elementary school and honestly haven't integrated any AI tools into my classroom or lesson planning yet - I'm still focused on traditional teaching methods and building genuine connections with my students. | B | post=0.09 argue=0.06 debate=0.13\n\n5. As a freelance writer and editor, I've been experimenting with AI for research and initial drafts, but I'm conflicted about it potentially devaluing human creativity and taking work from other writers. | A | post=0.18 argue=0.14 debate=0.22",
+      "options_order": [
+        "Some of my work",
+        "None of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.14,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 90,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work.",
+      "raw_response": "1. I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated. | A | post=0.18 argue=0.22 debate=0.25\n\n3. I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations. | C | post=0.35 argue=0.45 debate=0.40\n\n4. I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy. | A | post=0.28 argue=0.35 debate=0.32\n\n5. I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work. | A | post=0.15 argue=0.18 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 91,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated.",
+      "raw_response": "1. I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated. | A | post=0.18 argue=0.22 debate=0.25\n\n3. I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations. | C | post=0.35 argue=0.45 debate=0.40\n\n4. I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy. | A | post=0.28 argue=0.35 debate=0.32\n\n5. I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work. | A | post=0.15 argue=0.18 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.22,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 92,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations.",
+      "raw_response": "1. I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated. | A | post=0.18 argue=0.22 debate=0.25\n\n3. I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations. | C | post=0.35 argue=0.45 debate=0.40\n\n4. I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy. | A | post=0.28 argue=0.35 debate=0.32\n\n5. I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work. | A | post=0.15 argue=0.18 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.45,
+      "debate_frequency": 0.4
+    },
+    {
+      "persona_index": 93,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy.",
+      "raw_response": "1. I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated. | A | post=0.18 argue=0.22 debate=0.25\n\n3. I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations. | C | post=0.35 argue=0.45 debate=0.40\n\n4. I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy. | A | post=0.28 argue=0.35 debate=0.32\n\n5. I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work. | A | post=0.15 argue=0.18 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.28,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.32
+    },
+    {
+      "persona_index": 94,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work.",
+      "raw_response": "1. I work in finance and we've started using some AI tools for data analysis and report generation, though most of my actual decision-making is still manual. It's helpful but not overwhelming in my day-to-day work. | A | post=0.12 argue=0.08 debate=0.15\n\n2. As a nonprofit program coordinator, I use AI occasionally for drafting emails and organizing data, but most of my work involves direct human interaction and relationship building that can't be automated. | A | post=0.18 argue=0.22 debate=0.25\n\n3. I'm in manufacturing management and honestly don't use much AI at all - maybe some automated scheduling software, but most of my job is still about people management and traditional operations. | C | post=0.35 argue=0.45 debate=0.40\n\n4. I work in social services and while there's some AI in our case management systems, the core of what I do is direct client work that requires human judgment and empathy. | A | post=0.28 argue=0.35 debate=0.32\n\n5. I'm a teacher and we've integrated some AI tools for lesson planning and grading assistance, but classroom instruction and student relationships remain fundamentally human-centered work. | A | post=0.15 argue=0.18 debate=0.20",
+      "options_order": [
+        "Some of my work",
+        "All or most of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 65,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now.",
+      "raw_response": "1. I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now. | B | post=0.25 argue=0.15 debate=0.30\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field. | A | post=0.05 argue=0.10 debate=0.12\n\n3. I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice. | B | post=0.35 argue=0.20 debate=0.25\n\n4. As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools. | B | post=0.15 argue=0.25 debate=0.40\n\n5. I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far. | A | post=0.45 argue=0.55 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.3
+    },
+    {
+      "persona_index": 66,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field.",
+      "raw_response": "1. I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now. | B | post=0.25 argue=0.15 debate=0.30\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field. | A | post=0.05 argue=0.10 debate=0.12\n\n3. I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice. | B | post=0.35 argue=0.20 debate=0.25\n\n4. As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools. | B | post=0.15 argue=0.25 debate=0.40\n\n5. I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far. | A | post=0.45 argue=0.55 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.1,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 67,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice.",
+      "raw_response": "1. I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now. | B | post=0.25 argue=0.15 debate=0.30\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field. | A | post=0.05 argue=0.10 debate=0.12\n\n3. I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice. | B | post=0.35 argue=0.20 debate=0.25\n\n4. As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools. | B | post=0.15 argue=0.25 debate=0.40\n\n5. I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far. | A | post=0.45 argue=0.55 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.2,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 68,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools.",
+      "raw_response": "1. I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now. | B | post=0.25 argue=0.15 debate=0.30\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field. | A | post=0.05 argue=0.10 debate=0.12\n\n3. I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice. | B | post=0.35 argue=0.20 debate=0.25\n\n4. As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools. | B | post=0.15 argue=0.25 debate=0.40\n\n5. I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far. | A | post=0.45 argue=0.55 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.4
+    },
+    {
+      "persona_index": 69,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far.",
+      "raw_response": "1. I work in nonprofit advocacy and we've started using some AI for grant writing and social media content, though I'm cautious about it replacing human judgment on sensitive issues. It's maybe 20-30% of what I do now. | B | post=0.25 argue=0.15 debate=0.30\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with tools and materials. Maybe the office people use it for scheduling or something but not us in the field. | A | post=0.05 argue=0.10 debate=0.12\n\n3. I'm a consultant and definitely leverage AI tools for research, data analysis, and drafting reports - probably about half my workflow now involves some AI assistance for efficiency. It's just smart business practice. | B | post=0.35 argue=0.20 debate=0.25\n\n4. As a policy analyst, I use AI occasionally for research summaries and initial drafts, but most of my work still requires deep human analysis and relationship-building that AI can't do. Maybe 25% involves AI tools. | B | post=0.15 argue=0.25 debate=0.40\n\n5. I'm a teacher and while the district has introduced some AI grading tools, I'm skeptical about using them too much since education should be about human connection and understanding each student's needs. Very minimal use so far. | A | post=0.45 argue=0.55 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.45,
+      "argue_likelihood": 0.55,
+      "debate_frequency": 0.35
+    },
+    {
+      "persona_index": 70,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it.",
+      "raw_response": "1. I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it. | B | post=0.15 argue=0.08 debate=0.12\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet. | A | post=0.25 argue=0.35 debate=0.18\n\n3. I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight. | C | post=0.22 argue=0.12 debate=0.16\n\n4. I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings. | A | post=0.18 argue=0.28 debate=0.24\n\n5. As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered. | B | post=0.11 argue=0.06 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 71,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet.",
+      "raw_response": "1. I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it. | B | post=0.15 argue=0.08 debate=0.12\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet. | A | post=0.25 argue=0.35 debate=0.18\n\n3. I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight. | C | post=0.22 argue=0.12 debate=0.16\n\n4. I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings. | A | post=0.18 argue=0.28 debate=0.24\n\n5. As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered. | B | post=0.11 argue=0.06 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 72,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight.",
+      "raw_response": "1. I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it. | B | post=0.15 argue=0.08 debate=0.12\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet. | A | post=0.25 argue=0.35 debate=0.18\n\n3. I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight. | C | post=0.22 argue=0.12 debate=0.16\n\n4. I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings. | A | post=0.18 argue=0.28 debate=0.24\n\n5. As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered. | B | post=0.11 argue=0.06 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.22,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.16
+    },
+    {
+      "persona_index": 73,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings.",
+      "raw_response": "1. I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it. | B | post=0.15 argue=0.08 debate=0.12\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet. | A | post=0.25 argue=0.35 debate=0.18\n\n3. I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight. | C | post=0.22 argue=0.12 debate=0.16\n\n4. I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings. | A | post=0.18 argue=0.28 debate=0.24\n\n5. As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered. | B | post=0.11 argue=0.06 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.28,
+      "debate_frequency": 0.24
+    },
+    {
+      "persona_index": 74,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered.",
+      "raw_response": "1. I work in a nonprofit doing policy research and we've started using some AI writing tools for drafts, though I still do most of the analysis myself. It's helpful but I'm cautious about over-relying on it. | B | post=0.15 argue=0.08 debate=0.12\n\n2. At my construction job we don't really use any of that computer stuff - it's all hands-on work with traditional tools and methods. I've heard about AI taking jobs but that's not happening in my line of work yet. | A | post=0.25 argue=0.35 debate=0.18\n\n3. I'm a marketing coordinator and we use AI for content generation, social media scheduling, and data analysis pretty regularly now. It's become a significant part of how we operate, though we still need human oversight. | C | post=0.22 argue=0.12 debate=0.16\n\n4. I'm a financial analyst and while we have some automated systems, I wouldn't really call them AI tools in the modern sense. Most of my work is still traditional spreadsheet analysis and client meetings. | A | post=0.18 argue=0.28 debate=0.24\n\n5. As a social worker, I use some AI-assisted case management software and documentation tools, but the core of my work - counseling and direct client interaction - is still very much human-centered. | B | post=0.11 argue=0.06 debate=0.09",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.11,
+      "argue_likelihood": 0.06,
+      "debate_frequency": 0.09
+    },
+    {
+      "persona_index": 25,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building.",
+      "raw_response": "1. I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building. | B | post=0.15 argue=0.12 debate=0.08\n\n2. I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs. | A | post=0.08 argue=0.25 debate=0.18\n\n3. As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft. | B | post=0.22 argue=0.18 debate=0.14\n\n4. I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work. | B | post=0.12 argue=0.08 debate=0.06\n\n5. I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out. | B | post=0.18 argue=0.10 debate=0.12",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.08
+    },
+    {
+      "persona_index": 26,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs.",
+      "raw_response": "1. I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building. | B | post=0.15 argue=0.12 debate=0.08\n\n2. I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs. | A | post=0.08 argue=0.25 debate=0.18\n\n3. As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft. | B | post=0.22 argue=0.18 debate=0.14\n\n4. I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work. | B | post=0.12 argue=0.08 debate=0.06\n\n5. I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out. | B | post=0.18 argue=0.10 debate=0.12",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.18
+    },
+    {
+      "persona_index": 27,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft.",
+      "raw_response": "1. I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building. | B | post=0.15 argue=0.12 debate=0.08\n\n2. I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs. | A | post=0.08 argue=0.25 debate=0.18\n\n3. As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft. | B | post=0.22 argue=0.18 debate=0.14\n\n4. I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work. | B | post=0.12 argue=0.08 debate=0.06\n\n5. I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out. | B | post=0.18 argue=0.10 debate=0.12",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.22,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.14
+    },
+    {
+      "persona_index": 28,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work.",
+      "raw_response": "1. I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building. | B | post=0.15 argue=0.12 debate=0.08\n\n2. I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs. | A | post=0.08 argue=0.25 debate=0.18\n\n3. As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft. | B | post=0.22 argue=0.18 debate=0.14\n\n4. I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work. | B | post=0.12 argue=0.08 debate=0.06\n\n5. I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out. | B | post=0.18 argue=0.10 debate=0.12",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.06
+    },
+    {
+      "persona_index": 29,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out.",
+      "raw_response": "1. I work in nonprofit organizing and we're still pretty old-school with spreadsheets and email campaigns, though I've started using ChatGPT occasionally to help draft fundraising letters. Most of my actual work is still person-to-person relationship building. | B | post=0.15 argue=0.12 debate=0.08\n\n2. I'm in construction management and honestly haven't encountered much AI stuff yet - we use project software but nothing I'd call \"AI tools.\" Maybe some of the newer scheduling programs have AI but I just see them as regular computer programs. | A | post=0.08 argue=0.25 debate=0.18\n\n3. As a freelance graphic designer, I've been experimenting with AI image generators for initial concepts, but most of my client work still requires traditional design skills and human creativity. The AI helps with brainstorming but can't replace the actual craft. | B | post=0.22 argue=0.18 debate=0.14\n\n4. I work in policy analysis at a think tank and we've started incorporating some AI research tools for literature reviews and data analysis, though the actual writing and recommendations are still very much human-driven work. | B | post=0.12 argue=0.08 debate=0.06\n\n5. I'm a marketing manager and we use AI tools quite a bit now - for social media scheduling, customer segmentation, and even some content generation, though everything gets human review before going out. | B | post=0.18 argue=0.10 debate=0.12",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.1,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 60,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work. | B | post=0.15 argue=0.25 debate=0.30\n\n2. As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks. | B | post=0.20 argue=0.35 debate=0.40\n\n3. In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity. | C | post=0.10 argue=0.15 debate=0.25\n\n4. I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself. | C | post=0.12 argue=0.18 debate=0.20\n\n5. I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement. | C | post=0.45 argue=0.60 debate=0.55",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.25,
+      "debate_frequency": 0.3
+    },
+    {
+      "persona_index": 61,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work. | B | post=0.15 argue=0.25 debate=0.30\n\n2. As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks. | B | post=0.20 argue=0.35 debate=0.40\n\n3. In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity. | C | post=0.10 argue=0.15 debate=0.25\n\n4. I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself. | C | post=0.12 argue=0.18 debate=0.20\n\n5. I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement. | C | post=0.45 argue=0.60 debate=0.55",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.2,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.4
+    },
+    {
+      "persona_index": 62,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work. | B | post=0.15 argue=0.25 debate=0.30\n\n2. As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks. | B | post=0.20 argue=0.35 debate=0.40\n\n3. In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity. | C | post=0.10 argue=0.15 debate=0.25\n\n4. I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself. | C | post=0.12 argue=0.18 debate=0.20\n\n5. I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement. | C | post=0.45 argue=0.60 debate=0.55",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.1,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 63,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work. | B | post=0.15 argue=0.25 debate=0.30\n\n2. As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks. | B | post=0.20 argue=0.35 debate=0.40\n\n3. In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity. | C | post=0.10 argue=0.15 debate=0.25\n\n4. I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself. | C | post=0.12 argue=0.18 debate=0.20\n\n5. I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement. | C | post=0.45 argue=0.60 debate=0.55",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement.",
+      "raw_response": "1. I work in nonprofit administration and we've started using some AI for grant writing assistance and donor research, though I'm still learning how to use it effectively and worry about it replacing human judgment in our mission-driven work. | B | post=0.15 argue=0.25 debate=0.30\n\n2. As a teacher, I've experimented with AI for lesson planning and grading assistance, but I'm cautious about over-relying on it since education should maintain that human connection - though it does save me time on administrative tasks. | B | post=0.20 argue=0.35 debate=0.40\n\n3. In my marketing role, we use AI tools pretty regularly for content generation, data analysis, and campaign optimization - it's become a standard part of our workflow, though we still need human oversight for strategy and creativity. | C | post=0.10 argue=0.15 debate=0.25\n\n4. I work in policy research and we've integrated AI into most of our data analysis, report drafting, and research processes - it's dramatically improved our efficiency, though I still do the critical thinking and final review myself. | C | post=0.12 argue=0.18 debate=0.20\n\n5. I'm in tech sales and honestly AI tools handle most of my lead generation, email sequences, and even help with client presentations - it's basically essential to stay competitive, even though I have mixed feelings about job displacement. | C | post=0.45 argue=0.60 debate=0.55",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.45,
+      "argue_likelihood": 0.6,
+      "debate_frequency": 0.55
+    },
+    {
+      "persona_index": 40,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything. | C | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts. | C | post=0.12 argue=0.18 debate=0.22\n\n4. I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity. | B | post=0.25 argue=0.35 debate=0.28\n\n5. Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work. | C | post=0.08 argue=0.05 debate=0.11",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.15,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.12
+    },
+    {
+      "persona_index": 41,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything. | C | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts. | C | post=0.12 argue=0.18 debate=0.22\n\n4. I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity. | B | post=0.25 argue=0.35 debate=0.28\n\n5. Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work. | C | post=0.08 argue=0.05 debate=0.11",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.05,
+      "argue_likelihood": 0.03,
+      "debate_frequency": 0.07
+    },
+    {
+      "persona_index": 42,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything. | C | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts. | C | post=0.12 argue=0.18 debate=0.22\n\n4. I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity. | B | post=0.25 argue=0.35 debate=0.28\n\n5. Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work. | C | post=0.08 argue=0.05 debate=0.11",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.18,
+      "debate_frequency": 0.22
+    },
+    {
+      "persona_index": 43,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything. | C | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts. | C | post=0.12 argue=0.18 debate=0.22\n\n4. I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity. | B | post=0.25 argue=0.35 debate=0.28\n\n5. Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work. | C | post=0.08 argue=0.05 debate=0.11",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.35,
+      "debate_frequency": 0.28
+    },
+    {
+      "persona_index": 44,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work.",
+      "raw_response": "1. I work in marketing and use ChatGPT for brainstorming and Canva's AI features for design work pretty regularly, though I still do most of the strategic thinking myself. It's become a normal part of my workflow but hasn't taken over everything. | C | post=0.15 argue=0.08 debate=0.12\n\n2. As a social worker, I occasionally use some basic scheduling software that might have AI components, but my actual client work is all human interaction and case management - can't really automate helping people through crisis situations. | B | post=0.05 argue=0.03 debate=0.07\n\n3. I'm a financial advisor and while our firm's investment platform uses some algorithmic tools for portfolio optimization, I wouldn't say AI dominates my work - most of my time is spent meeting with clients and explaining complex financial concepts. | C | post=0.12 argue=0.18 debate=0.22\n\n4. I teach high school history and honestly haven't integrated much AI into my lesson planning or grading yet - I'm still figuring out how to address students using ChatGPT for essays while maintaining academic integrity. | B | post=0.25 argue=0.35 debate=0.28\n\n5. Working as a nurse practitioner, I use electronic health records that have some predictive features and diagnostic support tools, but the core of patient care - examination, diagnosis, treatment decisions - that's still very much human-centered work. | C | post=0.08 argue=0.05 debate=0.11",
+      "options_order": [
+        "All or most of my work",
+        "None of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.05,
+      "debate_frequency": 0.11
+    },
+    {
+      "persona_index": 0,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major. | A | post=0.12 argue=0.08 debate=0.15\n\n2. I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it. | B | post=0.18 argue=0.22 debate=0.28\n\n3. My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles. | B | post=0.35 argue=0.42 debate=0.38\n\n4. I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them. | A | post=0.25 argue=0.45 debate=0.32\n\n5. I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow. | B | post=0.28 argue=0.15 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.08,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 1,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major. | A | post=0.12 argue=0.08 debate=0.15\n\n2. I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it. | B | post=0.18 argue=0.22 debate=0.28\n\n3. My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles. | B | post=0.35 argue=0.42 debate=0.38\n\n4. I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them. | A | post=0.25 argue=0.45 debate=0.32\n\n5. I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow. | B | post=0.28 argue=0.15 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.22,
+      "debate_frequency": 0.28
+    },
+    {
+      "persona_index": 2,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major. | A | post=0.12 argue=0.08 debate=0.15\n\n2. I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it. | B | post=0.18 argue=0.22 debate=0.28\n\n3. My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles. | B | post=0.35 argue=0.42 debate=0.38\n\n4. I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them. | A | post=0.25 argue=0.45 debate=0.32\n\n5. I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow. | B | post=0.28 argue=0.15 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.42,
+      "debate_frequency": 0.38
+    },
+    {
+      "persona_index": 3,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major. | A | post=0.12 argue=0.08 debate=0.15\n\n2. I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it. | B | post=0.18 argue=0.22 debate=0.28\n\n3. My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles. | B | post=0.35 argue=0.42 debate=0.38\n\n4. I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them. | A | post=0.25 argue=0.45 debate=0.32\n\n5. I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow. | B | post=0.28 argue=0.15 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.25,
+      "argue_likelihood": 0.45,
+      "debate_frequency": 0.32
+    },
+    {
+      "persona_index": 4,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow.",
+      "raw_response": "1. I work in a traditional office environment and honestly haven't encountered much AI in my day-to-day tasks yet, though I keep hearing about it on podcasts - maybe some basic auto-suggestions in email but nothing major. | A | post=0.12 argue=0.08 debate=0.15\n\n2. I use some AI tools occasionally for research and writing assistance at work, but it's definitely not dominating my workflow - more like a helpful supplement when I need it. | B | post=0.18 argue=0.22 debate=0.28\n\n3. My work involves some AI-assisted research tools and automated systems, but I'm cautious about over-relying on them given concerns about accuracy and job displacement that I hear discussed in conservative circles. | B | post=0.35 argue=0.42 debate=0.38\n\n4. I barely use any AI at work - my job is pretty hands-on and traditional, plus I'm skeptical of these corporate tech solutions that seem designed to replace workers rather than help them. | A | post=0.25 argue=0.45 debate=0.32\n\n5. I incorporate AI tools into various aspects of my work for efficiency and analysis, but I'm thoughtful about when and how to use them appropriately - it's become a regular but not overwhelming part of my workflow. | B | post=0.28 argue=0.15 debate=0.35",
+      "options_order": [
+        "None of my work",
+        "Some of my work",
+        "All or most of my work"
+      ],
+      "post_likelihood": 0.28,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.35
+    },
+    {
+      "persona_index": 85,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news.",
+      "raw_response": "1. I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news. | A | post=0.08 argue=0.12 debate=0.15\n\n2. As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks. | C | post=0.18 argue=0.22 debate=0.25\n\n3. I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients. | C | post=0.35 argue=0.28 debate=0.32\n\n4. Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment. | C | post=0.12 argue=0.15 debate=0.20\n\n5. As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive. | B | post=0.42 argue=0.38 debate=0.45",
+      "options_order": [
+        "None of my work",
+        "All or most of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.08,
+      "argue_likelihood": 0.12,
+      "debate_frequency": 0.15
+    },
+    {
+      "persona_index": 86,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks.",
+      "raw_response": "1. I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news. | A | post=0.08 argue=0.12 debate=0.15\n\n2. As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks. | C | post=0.18 argue=0.22 debate=0.25\n\n3. I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients. | C | post=0.35 argue=0.28 debate=0.32\n\n4. Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment. | C | post=0.12 argue=0.15 debate=0.20\n\n5. As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive. | B | post=0.42 argue=0.38 debate=0.45",
+      "options_order": [
+        "None of my work",
+        "All or most of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.18,
+      "argue_likelihood": 0.22,
+      "debate_frequency": 0.25
+    },
+    {
+      "persona_index": 87,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients.",
+      "raw_response": "1. I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news. | A | post=0.08 argue=0.12 debate=0.15\n\n2. As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks. | C | post=0.18 argue=0.22 debate=0.25\n\n3. I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients. | C | post=0.35 argue=0.28 debate=0.32\n\n4. Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment. | C | post=0.12 argue=0.15 debate=0.20\n\n5. As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive. | B | post=0.42 argue=0.38 debate=0.45",
+      "options_order": [
+        "None of my work",
+        "All or most of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.35,
+      "argue_likelihood": 0.28,
+      "debate_frequency": 0.32
+    },
+    {
+      "persona_index": 88,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment.",
+      "raw_response": "1. I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news. | A | post=0.08 argue=0.12 debate=0.15\n\n2. As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks. | C | post=0.18 argue=0.22 debate=0.25\n\n3. I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients. | C | post=0.35 argue=0.28 debate=0.32\n\n4. Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment. | C | post=0.12 argue=0.15 debate=0.20\n\n5. As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive. | B | post=0.42 argue=0.38 debate=0.45",
+      "options_order": [
+        "None of my work",
+        "All or most of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.12,
+      "argue_likelihood": 0.15,
+      "debate_frequency": 0.2
+    },
+    {
+      "persona_index": 89,
+      "question_id": "ai_work_usage",
+      "chosen_option": "All or most of my work",
+      "reasoning": "As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive.",
+      "raw_response": "1. I work in manufacturing and we still do everything the old-fashioned way - haven't seen any of this AI stuff actually make it to the shop floor yet, though I keep hearing about it on the news. | A | post=0.08 argue=0.12 debate=0.15\n\n2. As a marketing coordinator, I use some AI tools for content generation and data analysis, but most of my work is still traditional strategy and client communication - it's helpful but not dominant in my daily tasks. | C | post=0.18 argue=0.22 debate=0.25\n\n3. I'm a freelance graphic designer and honestly I've been experimenting with AI image generators and writing tools quite a bit lately - it's probably about half my workflow now, though I don't always admit that to clients. | C | post=0.35 argue=0.28 debate=0.32\n\n4. Working in nonprofit program management, I occasionally use AI for drafting emails and summarizing reports, but the core of my job is still relationship building and direct service coordination that requires human judgment. | C | post=0.12 argue=0.15 debate=0.20\n\n5. As a social media manager, I'm constantly using AI for content creation, scheduling optimization, and trend analysis - it's become essential to keeping up with the workload and staying competitive. | B | post=0.42 argue=0.38 debate=0.45",
+      "options_order": [
+        "None of my work",
+        "All or most of my work",
+        "Some of my work"
+      ],
+      "post_likelihood": 0.42,
+      "argue_likelihood": 0.38,
+      "debate_frequency": 0.45
+    }
+  ]
+}

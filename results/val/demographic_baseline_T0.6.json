@@ -2,19 +2,22 @@
   "method_name": "demographic_baseline",
   "total_calls": 100,
   "failed_parses": 0,
-  "elapsed_seconds": 6.127357482910156e-05,
+  "elapsed_seconds": 0.000125885009765625,
   "responses": [
     {
       "persona_index": 0,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5945926775998015,
+      "argue_likelihood": 0.22161688091824236,
+      "debate_frequency": 0.17962362254890682
     },
     {
       "persona_index": 1,
@@ -26,10 +29,28 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.06552512512223688,
+      "debate_frequency": 0.3860484485998594
     },
     {
       "persona_index": 2,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.15677279980756825,
+      "argue_likelihood": 0.18365490177235091,
+      "debate_frequency": 0.14869428267015908
+    },
+    {
+      "persona_index": 3,
       "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
@@ -38,19 +59,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 3,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.16820931092608946,
+      "argue_likelihood": 0.34535949559017765,
+      "debate_frequency": 0.3458756859511619
     },
     {
       "persona_index": 4,
@@ -62,19 +74,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3427861124716187,
+      "argue_likelihood": 0.3421499426237411,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 5,
       "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3165374493701598,
+      "argue_likelihood": 0.21034913856922238,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 6,
@@ -86,7 +104,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.03474151049944825,
+      "argue_likelihood": 0.39238987506101175,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 7,
@@ -98,23 +119,59 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2675999669184074,
+      "argue_likelihood": 0.27662637058458106,
+      "debate_frequency": 0.04244718653458383
     },
     {
       "persona_index": 8,
       "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2146391519886029,
+      "argue_likelihood": 0.35685547646350546,
+      "debate_frequency": 0.14655759358034592
     },
     {
       "persona_index": 9,
       "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.02914303310805262,
+      "argue_likelihood": 0.3698186272644487,
+      "debate_frequency": 0.0961347351510791
+    },
+    {
+      "persona_index": 10,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3466166290467193,
+      "argue_likelihood": 0.12993722205294428,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 11,
+      "question_id": "ai_job_automation",
       "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
@@ -122,31 +179,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 10,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 11,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.45417438704346336,
+      "argue_likelihood": 0.24791555403652618,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 12,
@@ -158,10 +194,28 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5168776311656633,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 13,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.23043444196327798,
+      "argue_likelihood": 0.14930635328852163,
+      "debate_frequency": 0.21282421147592812
+    },
+    {
+      "persona_index": 14,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -170,35 +224,14 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 14,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.17486334727032,
+      "argue_likelihood": 0.3444051723331536,
+      "debate_frequency": 0.4782825598454562
     },
     {
       "persona_index": 15,
       "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 16,
-      "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
@@ -206,7 +239,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.10545232161497899,
+      "argue_likelihood": 0.5187706569156332,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 16,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3869136758833978,
+      "argue_likelihood": 0.2272178795922641,
+      "debate_frequency": 0.19530349827546614
     },
     {
       "persona_index": 17,
@@ -218,7 +269,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.12438875325983176,
+      "argue_likelihood": 0.4776912452845647,
+      "debate_frequency": 0.20600100963908677
     },
     {
       "persona_index": 18,
@@ -230,7 +284,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.03463199116874956,
+      "argue_likelihood": 0.45469360789816515,
+      "debate_frequency": 0.05710500043385653
     },
     {
       "persona_index": 19,
@@ -242,22 +299,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5512134784767367,
+      "argue_likelihood": 0.37982331971697053,
+      "debate_frequency": 0.1401739514926453
     },
     {
       "persona_index": 20,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 21,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -266,31 +314,55 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.40247417544039876,
+      "debate_frequency": 0.12901750983536003
+    },
+    {
+      "persona_index": 21,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.1902442556607407,
+      "debate_frequency": 0.07682711283624641
     },
     {
       "persona_index": 22,
       "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.1883275824706065,
+      "argue_likelihood": 0.18448145798232263,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 23,
       "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.08807343272504345,
+      "argue_likelihood": 0.17207258370092138,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 24,
@@ -302,7 +374,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2881981044404224,
+      "argue_likelihood": 0.3774633136120846,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 25,
@@ -314,19 +389,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3157292518138138,
+      "argue_likelihood": 0.5980290838765883,
+      "debate_frequency": 0.16453455180561224
     },
     {
       "persona_index": 26,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.03332965126120356,
+      "argue_likelihood": 0.1595576749613766,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 27,
@@ -338,7 +419,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2008539348354309,
+      "debate_frequency": 0.05330951266366296
     },
     {
       "persona_index": 28,
@@ -350,7 +434,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.1423152635057889,
+      "argue_likelihood": 0.6508824828909667,
+      "debate_frequency": 0.11098031923891089
     },
     {
       "persona_index": 29,
@@ -362,34 +449,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.28506988429778557,
+      "argue_likelihood": 0.14297144892403307,
+      "debate_frequency": 0.40432700092648366
     },
     {
       "persona_index": 30,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 31,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 32,
       "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
@@ -398,7 +464,40 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3407529314940847,
+      "argue_likelihood": 0.45572142201210114,
+      "debate_frequency": 0.16573131187621723
+    },
+    {
+      "persona_index": 31,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.48865219402802745,
+      "argue_likelihood": 0.04848362280775309,
+      "debate_frequency": 0.5036996683866134
+    },
+    {
+      "persona_index": 32,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.291066244193935,
+      "argue_likelihood": 0.2053594004392157,
+      "debate_frequency": 0.42407714765766014
     },
     {
       "persona_index": 33,
@@ -410,19 +509,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.19674443819876578,
+      "argue_likelihood": 0.45753832144199363,
+      "debate_frequency": 0.045257512492992855
     },
     {
       "persona_index": 34,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.023791387616432305,
+      "argue_likelihood": 0.5005231224874298,
+      "debate_frequency": 0.05248235506405615
     },
     {
       "persona_index": 35,
@@ -434,7 +539,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.05260643987547224,
+      "argue_likelihood": 0.22978962449967497,
+      "debate_frequency": 0.08631575647938423
     },
     {
       "persona_index": 36,
@@ -446,7 +554,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3049240139231336,
+      "argue_likelihood": 0.2556860828211844,
+      "debate_frequency": 0.18639745871220204
     },
     {
       "persona_index": 37,
@@ -458,19 +569,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3800408098431419,
+      "argue_likelihood": 0.25928283920277373,
+      "debate_frequency": 0.6578113676170048
     },
     {
       "persona_index": 38,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.26851918856389123,
+      "argue_likelihood": 0.3746688361052555,
+      "debate_frequency": 0.6291612090153802
     },
     {
       "persona_index": 39,
@@ -482,10 +599,28 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.4274923151689557,
+      "argue_likelihood": 0.5512615704432947,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 40,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.12140938491126312,
+      "argue_likelihood": 0.31876214266082753,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 41,
       "question_id": "ai_job_automation",
       "chosen_option": "More jobs",
       "reasoning": "[dry run]",
@@ -494,10 +629,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2967474512504923,
+      "argue_likelihood": 0.4338317945962239,
+      "debate_frequency": 0.07758342351630632
     },
     {
-      "persona_index": 41,
+      "persona_index": 42,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -506,19 +644,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 42,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.20331092866191558,
+      "argue_likelihood": 0.321395860810246,
+      "debate_frequency": 0.05229039400103426
     },
     {
       "persona_index": 43,
@@ -530,7 +659,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.5429942380512522,
+      "debate_frequency": 0.06141615408800916
     },
     {
       "persona_index": 44,
@@ -542,7 +674,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2603901725550376,
+      "argue_likelihood": 0.11158482443494536,
+      "debate_frequency": 0.12898923173561128
     },
     {
       "persona_index": 45,
@@ -554,31 +689,40 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.31603726429157597,
+      "argue_likelihood": 0.149554992613106,
+      "debate_frequency": 0.20697163184423034
     },
     {
       "persona_index": 46,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.29412235211217286,
+      "argue_likelihood": 0.6968007850892985,
+      "debate_frequency": 0.360719681469753
     },
     {
       "persona_index": 47,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5223613097947044,
+      "argue_likelihood": 0.12127893406782977,
+      "debate_frequency": 0.16346901384892212
     },
     {
       "persona_index": 48,
@@ -590,19 +734,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.32298954814626,
+      "argue_likelihood": 0.18900194429553327,
+      "debate_frequency": 0.09687751192088159
     },
     {
       "persona_index": 49,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.28417895437425705,
+      "argue_likelihood": 0.2268392911145352,
+      "debate_frequency": 0.10256121004199945
     },
     {
       "persona_index": 50,
@@ -614,7 +764,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.809554397124211,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 51,
@@ -626,10 +779,28 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.12288351358702618,
+      "argue_likelihood": 0.13752142449094085,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 52,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5970210967393598,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 53,
       "question_id": "ai_job_automation",
       "chosen_option": "More jobs",
       "reasoning": "[dry run]",
@@ -638,10 +809,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.2845072050714058,
+      "argue_likelihood": 0.2471356363621396,
+      "debate_frequency": 0.42563840163179956
     },
     {
-      "persona_index": 53,
+      "persona_index": 54,
       "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
@@ -650,19 +824,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 54,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.12515311484749872,
+      "argue_likelihood": 0.37851347462777307,
+      "debate_frequency": 0.11496200569326265
     },
     {
       "persona_index": 55,
@@ -674,19 +839,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.08378241936242001,
+      "argue_likelihood": 0.12233472122844687,
+      "debate_frequency": 0.3364690387146814
     },
     {
       "persona_index": 56,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.4023184104549673,
+      "argue_likelihood": 0.03251521774213892,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 57,
@@ -698,7 +869,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.12998754400819842,
+      "debate_frequency": 0.17201050882100388
     },
     {
       "persona_index": 58,
@@ -710,7 +884,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.09493909796755216,
+      "argue_likelihood": 0.2526987603675466,
+      "debate_frequency": 0.2406601359158644
     },
     {
       "persona_index": 59,
@@ -722,34 +899,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.09497749435176195,
+      "argue_likelihood": 0.3891169267512162,
+      "debate_frequency": 0.061247381186319526
     },
     {
       "persona_index": 60,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 61,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 62,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -758,10 +914,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.07361706083764169,
+      "argue_likelihood": 0.8393132142994906,
+      "debate_frequency": 0.054607579748617734
     },
     {
-      "persona_index": 63,
+      "persona_index": 61,
       "question_id": "ai_job_automation",
       "chosen_option": "More jobs",
       "reasoning": "[dry run]",
@@ -770,19 +929,55 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5006586696289578,
+      "argue_likelihood": 0.49205512840751847,
+      "debate_frequency": 0.7013892718583956
     },
     {
-      "persona_index": 64,
+      "persona_index": 62,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.05814131559740171,
+      "argue_likelihood": 0.20543754163517433,
+      "debate_frequency": 0.136388166295644
+    },
+    {
+      "persona_index": 63,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.13806835914260915,
+      "argue_likelihood": 0.04030452346009453,
+      "debate_frequency": 0.32068252174971323
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.44722219120992956,
+      "argue_likelihood": 0.4166542570409226,
+      "debate_frequency": 0.2237213886784654
     },
     {
       "persona_index": 65,
@@ -794,7 +989,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.23310722356807853,
+      "argue_likelihood": 0.20367572752317586,
+      "debate_frequency": 0.1245233352230281
     },
     {
       "persona_index": 66,
@@ -806,19 +1004,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.20028369285295167,
+      "argue_likelihood": 0.20553601428972207,
+      "debate_frequency": 0.30329600009895197
     },
     {
       "persona_index": 67,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.21685148126288856,
+      "argue_likelihood": 0.4843829546782873,
+      "debate_frequency": 0.042138489599237855
     },
     {
       "persona_index": 68,
@@ -830,7 +1034,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.4169530649213691,
+      "argue_likelihood": 0.32238928616370294,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 69,
@@ -842,7 +1049,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.14093804007259747,
+      "argue_likelihood": 0.25482346460390254,
+      "debate_frequency": 0.09433820164367568
     },
     {
       "persona_index": 70,
@@ -854,7 +1064,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.22730865999224248,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 71,
@@ -866,10 +1079,43 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.21453491489653864,
+      "argue_likelihood": 0.24418783141981665,
+      "debate_frequency": 0.3496018749341781
     },
     {
       "persona_index": 72,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.3604506966408954,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 73,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5758176055542512,
+      "argue_likelihood": 0.4654547647495856,
+      "debate_frequency": 0.6207523550604057
+    },
+    {
+      "persona_index": 74,
       "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
@@ -878,31 +1124,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 73,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 74,
-      "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.01897613091570785,
+      "argue_likelihood": 0.3769246592337586,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 75,
@@ -914,7 +1139,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.39365401820965495,
+      "argue_likelihood": 0.42843149038985917,
+      "debate_frequency": 0.19765992690618842
     },
     {
       "persona_index": 76,
@@ -926,31 +1154,40 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.02115169427882793,
+      "argue_likelihood": 0.474081583719644,
+      "debate_frequency": 0.40299654640257476
     },
     {
       "persona_index": 77,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.5341048233160434,
+      "argue_likelihood": 0.22848875873173846,
+      "debate_frequency": 0.0889303670982654
     },
     {
       "persona_index": 78,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.18197483765240538,
+      "argue_likelihood": 0.07199949781064605,
+      "debate_frequency": 0.42106975986575745
     },
     {
       "persona_index": 79,
@@ -962,19 +1199,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.42506626662395325,
+      "argue_likelihood": 0.029771927472966003,
+      "debate_frequency": 0.025903955367593892
     },
     {
       "persona_index": 80,
       "question_id": "ai_job_automation",
-      "chosen_option": "Fewer jobs",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.7832123969801019,
+      "argue_likelihood": 0.6017436688686679,
+      "debate_frequency": 0.10607129882365252
     },
     {
       "persona_index": 81,
@@ -986,19 +1229,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.22468953232171437,
+      "argue_likelihood": 0.05719420553324189,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 82,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.44500944641039475,
+      "argue_likelihood": 0.35648567095611716,
+      "debate_frequency": 0.07789807752910596
     },
     {
       "persona_index": 83,
@@ -1010,46 +1259,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.45280209527880066,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.013511757162384973
     },
     {
       "persona_index": 84,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 85,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 86,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 87,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -1058,10 +1274,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.39698279662628033,
+      "argue_likelihood": 0.4614341939192711,
+      "debate_frequency": 0.03406294458602585
     },
     {
-      "persona_index": 88,
+      "persona_index": 85,
       "question_id": "ai_job_automation",
       "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
@@ -1070,10 +1289,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.566888567765042,
+      "argue_likelihood": 0.594017043683867,
+      "debate_frequency": 0.25946023509896554
     },
     {
-      "persona_index": 89,
+      "persona_index": 86,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -1082,10 +1304,43 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.559108065040456,
+      "argue_likelihood": 0.3891905323397056,
+      "debate_frequency": 0.18145816648625945
     },
     {
-      "persona_index": 90,
+      "persona_index": 87,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1136005507927007,
+      "argue_likelihood": 0.5037444608171542,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 88,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.13073742419895235,
+      "argue_likelihood": 0.23147640260649918,
+      "debate_frequency": 0.34304720276638007
+    },
+    {
+      "persona_index": 89,
       "question_id": "ai_job_automation",
       "chosen_option": "More jobs",
       "reasoning": "[dry run]",
@@ -1094,7 +1349,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.6680385074975386,
+      "argue_likelihood": 0.25361795993215747,
+      "debate_frequency": 0.3057047272830732
+    },
+    {
+      "persona_index": 90,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.1947760289438224,
+      "debate_frequency": 0.1120793624488638
     },
     {
       "persona_index": 91,
@@ -1106,19 +1379,25 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.06802392464059352,
+      "argue_likelihood": 0.37669201591888024,
+      "debate_frequency": 0.22627759940960507
     },
     {
       "persona_index": 92,
       "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.1727431085332491,
+      "debate_frequency": 0.2322108942514912
     },
     {
       "persona_index": 93,
@@ -1130,58 +1409,13 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.11689321518543146,
+      "argue_likelihood": 0.3299547157368473,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 94,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 95,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 96,
-      "question_id": "ai_job_automation",
-      "chosen_option": "More jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 97,
-      "question_id": "ai_job_automation",
-      "chosen_option": "About the same number of jobs",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs"
-      ]
-    },
-    {
-      "persona_index": 98,
       "question_id": "ai_job_automation",
       "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
@@ -1190,7 +1424,70 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.3483378493537731,
+      "argue_likelihood": 0.44375673405113114,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 95,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1385709810285415,
+      "argue_likelihood": 0.2383431208998932,
+      "debate_frequency": 0.01656659747516462
+    },
+    {
+      "persona_index": 96,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3291806945319785,
+      "argue_likelihood": 0.12639773295139017,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 97,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.18954634203930643,
+      "argue_likelihood": 0.4383786998365473,
+      "debate_frequency": 0.3214848163062744
+    },
+    {
+      "persona_index": 98,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.28151092552460155,
+      "argue_likelihood": 0.5411616821613742,
+      "debate_frequency": 0.47232212496139225
     },
     {
       "persona_index": 99,
@@ -1202,7 +1499,10 @@
         "More jobs",
         "Fewer jobs",
         "About the same number of jobs"
-      ]
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.5258580429959221,
+      "debate_frequency": 0.06235308470205632
     }
   ]
 }
