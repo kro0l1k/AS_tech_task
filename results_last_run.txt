@@ -1,4 +1,3 @@
-$ python main.py
 ==============================================================
   LLM SURVEY PERSONA EXPERIMENT  (train / val / test)
 ==============================================================
@@ -33,19 +32,20 @@ Mode: LIVE API
 [cognitive_deliberation] Deliberation cues: recent sources + gut reaction
   persona[0]: 'Age: 28 | Gender: Male | Race/Ethnicity: Hispanic or Latino | Education: Bachelor's degree | Household income: $50,000 to $75,000 | Region: South | Community type: Urban | Political identity: ne…'
   Batch API: 600 request(s) across 5 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 600 requests → batch id msgbatch_01TSBYSd6g2UaXzpsHoD8Yea
+  [chunk 1/1] submitted 600 requests → batch id msgbatch_01CbSn8yX4TmM6KbF8pc9tba
   [chunk 1] processing… proc=600 ok=0 err=0  (0s)
   [chunk 1] processing… proc=600 ok=0 err=0  (10s)
   [chunk 1] processing… proc=600 ok=0 err=0  (62s)
   [chunk 1] processing… proc=600 ok=0 err=0  (90s)
   [chunk 1] processing… proc=600 ok=0 err=0  (128s)
-  [chunk 1] ended. succeeded=600 errored=0 expired=0 canceled=0 (176s elapsed)
+  [chunk 1] processing… proc=600 ok=0 err=0  (176s)
+  [chunk 1] ended. succeeded=600 errored=0 expired=0 canceled=0 (236s elapsed)
   [demographic_baseline] 0/600 parse failures
   [narrative_backstory] 0/600 parse failures
   [value_anchored] 0/600 parse failures
   [distribution_aware] 0/600 parse failures
   [cognitive_deliberation] 0/600 parse failures
-  Batch API total wall-clock: 179.6s
+  Batch API total wall-clock: 240.2s
 
 ==============================================================
   PHASE 2 — method selection on TRAIN
@@ -53,118 +53,119 @@ Mode: LIVE API
 
 Method                            JSD      TVD  MAE(pp)  Plurality   Valid
 -------------------------------------------------------------------------
-  value_anchored               0.0291   0.1617    10.8       83%   100%
-  distribution_aware           0.0304   0.1633    10.9       67%   100%
-  cognitive_deliberation       0.0307   0.1733    11.6       67%   100%
-  demographic_baseline         0.0329   0.1650    11.0       67%   100%
-  narrative_backstory          0.0379   0.1917    12.8       67%   100%
+  distribution_aware           0.0279   0.1617    10.8       67%   100%
+  cognitive_deliberation       0.0305   0.1700    11.3       67%   100%
+  narrative_backstory          0.0338   0.1800    12.0       67%   100%
+  demographic_baseline         0.0350   0.1767    11.8       67%   100%
+  value_anchored               0.0376   0.1767    11.8       67%   100%
 
-→ Best method: value_anchored  (train JSD=0.0291, valid=100%)
+→ Best method: distribution_aware  (train JSD=0.0279, valid=100%)
 
 ==============================================================
-  PHASE 3 — temperature sweep on VAL  (method: 'value_anchored')
+  PHASE 3 — temperature sweep on VAL  (method: 'distribution_aware')
   Sweep grid: [0.3, 0.6, 0.8, 1.0]
 ==============================================================
   Batch API: 80 request(s) across 4 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 80 requests → batch id msgbatch_01SUPgCwKFdWDGcJox4pypFy
+  [chunk 1/1] submitted 80 requests → batch id msgbatch_01X2oW3JgTTdjRqP1GBLLCji
   [chunk 1] processing… proc=80 ok=0 err=0  (0s)
   [chunk 1] processing… proc=80 ok=0 err=0  (10s)
   [chunk 1] processing… proc=80 ok=0 err=0  (62s)
   [chunk 1] processing… proc=80 ok=0 err=0  (90s)
   [chunk 1] processing… proc=80 ok=0 err=0  (128s)
-  [chunk 1] ended. succeeded=80 errored=0 expired=0 canceled=0 (176s elapsed)
-  [value_anchored] 0/100 parse failures
-  [value_anchored] 0/100 parse failures
-  [value_anchored] 0/100 parse failures
-  [value_anchored] 0/100 parse failures
-  Batch API total wall-clock: 179.6s
+  [chunk 1] processing… proc=80 ok=0 err=0  (176s)
+  [chunk 1] ended. succeeded=80 errored=0 expired=0 canceled=0 (236s elapsed)
+  [distribution_aware] 0/100 parse failures
+  [distribution_aware] 0/100 parse failures
+  [distribution_aware] 0/100 parse failures
+  [distribution_aware] 0/100 parse failures
+  Batch API total wall-clock: 240.0s
 
    Temp      JSD      TVD  MAE(pp)  Plurality   Valid
   ---------------------------------------------------
-   0.30   0.0012   0.0400     2.7      100%   100%
-   0.60   0.0056   0.0800     5.3      100%   100%
-   0.80   0.0042   0.0700     4.7      100%   100%
-   1.00   0.0014   0.0400     2.7      100%   100%
+   0.30   0.0060   0.0900     6.0      100%   100%
+   0.60   0.0104   0.1100     7.3      100%   100%
+   0.80   0.0104   0.1100     7.3      100%   100%
+   1.00   0.0031   0.0600     4.0      100%   100%
 
-  → Best temperature: T=0.3  (val JSD=0.0012, valid=100%)
+  → Best temperature: T=1.0  (val JSD=0.0031, valid=100%)
 
 ==============================================================
-  PHASE 4 — TEST  (method='value_anchored', T=0.3)
+  PHASE 4 — TEST  (method='distribution_aware', T=1.0)
 ==============================================================
-  [value_anchored] 100 personas × 1 questions = 20 batch calls (batch_size=5, T=0.3)
+  [distribution_aware] 100 personas × 1 questions = 20 batch calls (batch_size=5, T=1.0)
   Batch API: 20 request(s) across 1 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 20 requests → batch id msgbatch_019bxFbTLNnjgaKmB94TSipS
+  [chunk 1/1] submitted 20 requests → batch id msgbatch_018oaCtEdMejuP8c78SQU9c6
   [chunk 1] processing… proc=20 ok=0 err=0  (0s)
   [chunk 1] processing… proc=20 ok=0 err=0  (10s)
   [chunk 1] processing… proc=20 ok=0 err=0  (62s)
   [chunk 1] processing… proc=20 ok=0 err=0  (90s)
   [chunk 1] ended. succeeded=20 errored=0 expired=0 canceled=0 (128s elapsed)
-  [value_anchored] 0/100 parse failures
-  Batch API total wall-clock: 130.4s
-  [value_anchored] Done. 0/100 parse failures. (130.4s)
+  [distribution_aware] 0/100 parse failures
+  Batch API total wall-clock: 131.4s
+  [distribution_aware] Done. 0/100 parse failures. (131.4s)
 
-  Split comparison for 'value_anchored' @ T=0.3
+  Split comparison for 'distribution_aware' @ T=1.0
 
   Split    Questions                           JSD      TVD  MAE(pp)  Plurality
   --------------------------------------------------------------------
-  TRAIN    gun_sales_laws, climate_human_contribution, climate_local_impact, abortion_legal_circumstances, abortion_legal_all_or_most, _path_vs_deport   0.0291   0.1617    10.8       83%
-  VAL      ai_job_automation                0.0012   0.0400     2.7      100%
-  TEST     ai_work_usage                    0.2499   0.5700    38.0        0%
+  TRAIN    gun_sales_laws, climate_human_contribution, climate_local_impact, abortion_legal_circumstances, abortion_legal_all_or_most, _path_vs_deport   0.0279   0.1617    10.8       67%
+  VAL      ai_job_automation                0.0031   0.0600     4.0      100%
+  TEST     ai_work_usage                    0.1828   0.4900    32.7        0%
 
-  Generalisation gap (test JSD − train JSD): +0.2208  [tentative (only 1 test question)]
+  Generalisation gap (test JSD − train JSD): +0.1550  [tentative (only 1 test question)]
 
   ─── TRAIN detail (6 questions) ─────────────────────────
-  [gun_sales_laws]  JSD=0.0135  TVD=0.1100  MAE=7.3pp  n=100
+  [gun_sales_laws]  JSD=0.0316  TVD=0.1700  MAE=11.3pp  n=100
     Predicted top: 'More strict'  |  True top: 'More strict'  ✓
-    More strict                              pred=61.0%  true=56.0%  Δ=+5.0%  ██████████████████
-    Kept as they are now                     pred=23.0%  true=34.0%  Δ=-11.0%  ██████
-    Less strict                              pred=16.0%  true=10.0%  Δ=+6.0%  ████
-  [climate_human_contribution]  JSD=0.0649  TVD=0.2700  MAE=18.0pp  n=100
+    More strict                              pred=65.0%  true=56.0%  Δ=+9.0%  ███████████████████
+    Kept as they are now                     pred=17.0%  true=34.0%  Δ=-17.0%  █████
+    Less strict                              pred=18.0%  true=10.0%  Δ=+8.0%  █████
+  [climate_human_contribution]  JSD=0.0450  TVD=0.2400  MAE=16.0pp  n=100
     Predicted top: 'Contributes a great deal'  |  True top: 'Contributes a great deal'  ✓
-    Contributes a great deal                 pred=72.0%  true=45.0%  Δ=+27.0%  █████████████████████
-    Contributes some                         pred=20.0%  true=29.0%  Δ=-9.0%  ██████
-    Not too much or not at all               pred= 8.0%  true=26.0%  Δ=-18.0%  ██
-  [climate_local_impact]  JSD=0.0241  TVD=0.1600  MAE=10.7pp  n=100
-    Predicted top: 'Some'  |  True top: 'Some'  ✓
-    A great deal                             pred=36.0%  true=26.0%  Δ=+10.0%  ██████████
-    Some                                     pred=44.0%  true=38.0%  Δ=+6.0%  █████████████
+    Contributes a great deal                 pred=69.0%  true=45.0%  Δ=+24.0%  ████████████████████
+    Contributes some                         pred=19.0%  true=29.0%  Δ=-10.0%  █████
+    Not too much or not at all               pred=12.0%  true=26.0%  Δ=-14.0%  ███
+  [climate_local_impact]  JSD=0.0338  TVD=0.1800  MAE=12.0pp  n=100
+    Predicted top: 'A great deal'  |  True top: 'Some'  ✗
+    A great deal                             pred=44.0%  true=26.0%  Δ=+18.0%  █████████████
+    Some                                     pred=36.0%  true=38.0%  Δ=-2.0%  ██████████
     Not too much or not at all               pred=20.0%  true=36.0%  Δ=-16.0%  ██████
-  [abortion_legal_circumstances]  JSD=0.0017  TVD=0.0300  MAE=2.0pp  n=100
+  [abortion_legal_circumstances]  JSD=0.0026  TVD=0.0400  MAE=2.7pp  n=100
     Predicted top: 'Legal under certain circumstances'  |  True top: 'Legal under certain circumstances'  ✓
-    Legal under any circumstances            pred=33.0%  true=30.0%  Δ=+3.0%  █████████
-    Legal under certain circumstances        pred=55.0%  true=55.0%  Δ=+0.0%  ████████████████
-    Illegal in all circumstances             pred=12.0%  true=15.0%  Δ=-3.0%  ███
-  [abortion_legal_all_or_most]  JSD=0.0255  TVD=0.1700  MAE=11.3pp  n=100
+    Legal under any circumstances            pred=31.0%  true=30.0%  Δ=+1.0%  █████████
+    Legal under certain circumstances        pred=58.0%  true=55.0%  Δ=+3.0%  █████████████████
+    Illegal in all circumstances             pred=11.0%  true=15.0%  Δ=-4.0%  ███
+  [abortion_legal_all_or_most]  JSD=0.0276  TVD=0.1700  MAE=11.3pp  n=100
     Predicted top: 'Legal in most cases'  |  True top: 'Illegal in all or most cases'  ✗
-    Legal in all cases                       pred=33.0%  true=28.0%  Δ=+5.0%  █████████
-    Legal in most cases                      pred=45.0%  true=33.0%  Δ=+12.0%  █████████████
+    Legal in all cases                       pred=30.0%  true=28.0%  Δ=+2.0%  █████████
+    Legal in most cases                      pred=48.0%  true=33.0%  Δ=+15.0%  ██████████████
     Illegal in all or most cases             pred=22.0%  true=39.0%  Δ=-17.0%  ██████
-  [_path_vs_deport]  JSD=0.0451  TVD=0.2300  MAE=15.3pp  n=100
+  [_path_vs_deport]  JSD=0.0265  TVD=0.1700  MAE=11.3pp  n=100
     Predicted top: 'Given a pathway to legal status'  |  True top: 'Given a pathway to legal status'  ✓
-    Given a pathway to legal status          pred=78.0%  true=55.0%  Δ=+23.0%  ███████████████████████
-    Deported from the U.S.                   pred=16.0%  true=36.0%  Δ=-20.0%  ████
-    Not sure                                 pred= 6.0%  true= 9.0%  Δ=-3.0%  █
+    Given a pathway to legal status          pred=69.0%  true=55.0%  Δ=+14.0%  ████████████████████
+    Deported from the U.S.                   pred=19.0%  true=36.0%  Δ=-17.0%  █████
+    Not sure                                 pred=12.0%  true= 9.0%  Δ=+3.0%  ███
 
   ─── VAL detail (1 question) ─────────────────────────
-  [ai_job_automation]  JSD=0.0012  TVD=0.0400  MAE=2.7pp  n=100
+  [ai_job_automation]  JSD=0.0031  TVD=0.0600  MAE=4.0pp  n=100
     Predicted top: 'Fewer jobs'  |  True top: 'Fewer jobs'  ✓
-    More jobs                                pred=23.0%  true=21.0%  Δ=+2.0%  ██████
-    Fewer jobs                               pred=47.0%  true=51.0%  Δ=-4.0%  ██████████████
-    About the same number of jobs            pred=30.0%  true=28.0%  Δ=+2.0%  █████████
+    More jobs                                pred=20.0%  true=21.0%  Δ=-1.0%  ██████
+    Fewer jobs                               pred=46.0%  true=51.0%  Δ=-5.0%  █████████████
+    About the same number of jobs            pred=34.0%  true=28.0%  Δ=+6.0%  ██████████
 
   ════════════════════════════════════════
      ★ TEST — HELD OUT FROM SELECTION ★
   ════════════════════════════════════════
-★ [ai_work_usage]  JSD=0.2499  TVD=0.5700  MAE=38.0pp  n=100
+★ [ai_work_usage]  JSD=0.1828  TVD=0.4900  MAE=32.7pp  n=100
 ★   Predicted top: 'Some of my work'  |  True top: 'None of my work'  ✗
-★   All or most of my work                   pred= 5.0%  true= 2.0%  Δ=+3.0%  █
-★   Some of my work                          pred=73.0%  true=19.0%  Δ=+54.0%  █████████████████████
-★   None of my work                          pred=22.0%  true=79.0%  Δ=-57.0%  ██████
+★   All or most of my work                   pred= 6.0%  true= 2.0%  Δ=+4.0%  █
+★   Some of my work                          pred=64.0%  true=19.0%  Δ=+45.0%  ███████████████████
+★   None of my work                          pred=30.0%  true=79.0%  Δ=-49.0%  █████████
 
   Report saved → results/report_splits.json
 
 ==============================================================
-  PHASE 5 — behavioral stats  (best method: 'value_anchored')
+  PHASE 5 — behavioral stats  (best method: 'distribution_aware')
 ==============================================================
 
 ────────────────────────────────────────────────────────────────────────────
@@ -175,34 +176,34 @@ Method                            JSD      TVD  MAE(pp)  Plurality   Valid
 ────────────────────────────────────────────────────────────────────────────
 
   gun_sales_laws
-    More strict                                 n= 61  post=0.37±0.16   argue=0.35±0.17   debate=0.30±0.11
-    Kept as they are now                        n= 23  post=0.26±0.15   argue=0.33±0.19   debate=0.30±0.12
-    Less strict                                 n= 16  post=0.67±0.13   argue=0.75±0.10   debate=0.55±0.13
+    More strict                                 n= 65  post=0.36±0.19   argue=0.31±0.19   debate=0.29±0.12
+    Kept as they are now                        n= 17  post=0.21±0.09   argue=0.25±0.08   debate=0.26±0.08
+    Less strict                                 n= 18  post=0.54±0.19   argue=0.63±0.16   debate=0.41±0.12
 
   climate_human_contribution
-    Contributes a great deal                    n= 72  post=0.37±0.20   argue=0.37±0.20   debate=0.33±0.13
-    Contributes some                            n= 20  post=0.23±0.14   argue=0.39±0.16   debate=0.29±0.15
-    Not too much or not at all                  n=  8  post=0.48±0.18   argue=0.62±0.14   debate=0.40±0.12
+    Contributes a great deal                    n= 69  post=0.35±0.22   argue=0.34±0.23   debate=0.30±0.13
+    Contributes some                            n= 19  post=0.20±0.09   argue=0.34±0.12   debate=0.25±0.07
+    Not too much or not at all                  n= 12  post=0.54±0.21   argue=0.67±0.17   debate=0.41±0.13
 
   climate_local_impact
-    A great deal                                n= 36  post=0.55±0.18   argue=0.50±0.20   debate=0.44±0.12
-    Some                                        n= 44  post=0.26±0.11   argue=0.26±0.14   debate=0.29±0.09
-    Not too much or not at all                  n= 20  post=0.38±0.19   argue=0.59±0.14   debate=0.37±0.10
+    A great deal                                n= 44  post=0.51±0.19   argue=0.46±0.21   debate=0.43±0.11
+    Some                                        n= 36  post=0.22±0.07   argue=0.24±0.12   debate=0.24±0.07
+    Not too much or not at all                  n= 20  post=0.39±0.23   argue=0.54±0.23   debate=0.34±0.11
 
   abortion_legal_circumstances
-    Legal under any circumstances               n= 33  post=0.56±0.19   argue=0.55±0.17   debate=0.41±0.14
-    Legal under certain circumstances           n= 55  post=0.26±0.12   argue=0.28±0.12   debate=0.29±0.09
-    Illegal in all circumstances                n= 12  post=0.68±0.18   argue=0.75±0.16   debate=0.56±0.15
+    Legal under any circumstances               n= 31  post=0.61±0.16   argue=0.58±0.13   debate=0.40±0.08
+    Legal under certain circumstances           n= 58  post=0.21±0.07   argue=0.24±0.08   debate=0.23±0.06
+    Illegal in all circumstances                n= 11  post=0.43±0.20   argue=0.54±0.16   debate=0.37±0.13
 
   abortion_legal_all_or_most
-    Legal in all cases                          n= 33  post=0.55±0.19   argue=0.58±0.18   debate=0.42±0.14
-    Legal in most cases                         n= 45  post=0.25±0.09   argue=0.25±0.07   debate=0.24±0.07
-    Illegal in all or most cases                n= 22  post=0.48±0.25   argue=0.58±0.23   debate=0.45±0.16
+    Legal in all cases                          n= 30  post=0.56±0.18   argue=0.54±0.17   debate=0.41±0.11
+    Legal in most cases                         n= 48  post=0.21±0.11   argue=0.23±0.10   debate=0.24±0.08
+    Illegal in all or most cases                n= 22  post=0.37±0.21   argue=0.47±0.18   debate=0.36±0.10
 
   _path_vs_deport
-    Given a pathway to legal status             n= 78  post=0.38±0.20   argue=0.39±0.20   debate=0.33±0.13
-    Deported from the U.S.                      n= 16  post=0.67±0.18   argue=0.74±0.15   debate=0.55±0.15
-    Not sure                                    n=  6  post=0.17±0.04   argue=0.29±0.06   debate=0.32±0.06
+    Given a pathway to legal status             n= 69  post=0.36±0.20   argue=0.35±0.20   debate=0.30±0.13
+    Deported from the U.S.                      n= 19  post=0.48±0.23   argue=0.56±0.16   debate=0.40±0.10
+    Not sure                                    n= 12  post=0.17±0.06   argue=0.23±0.10   debate=0.25±0.08
 
 ────────────────────────────────────────────────────────────────────────────
   VAL   — behavioral
@@ -212,9 +213,9 @@ Method                            JSD      TVD  MAE(pp)  Plurality   Valid
 ────────────────────────────────────────────────────────────────────────────
 
   ai_job_automation
-    More jobs                                   n= 23  post=0.28±0.13   argue=0.30±0.13   debate=0.34±0.10
-    Fewer jobs                                  n= 47  post=0.41±0.20   argue=0.45±0.22   debate=0.38±0.13
-    About the same number of jobs               n= 30  post=0.18±0.06   argue=0.22±0.08   debate=0.26±0.08
+    More jobs                                   n= 20  post=0.23±0.07   argue=0.23±0.09   debate=0.28±0.10
+    Fewer jobs                                  n= 46  post=0.36±0.15   argue=0.38±0.19   debate=0.32±0.12
+    About the same number of jobs               n= 34  post=0.17±0.07   argue=0.17±0.10   debate=0.23±0.09
 
 ────────────────────────────────────────────────────────────────────────────
   TEST  — behavioral
@@ -224,7 +225,7 @@ Method                            JSD      TVD  MAE(pp)  Plurality   Valid
 ────────────────────────────────────────────────────────────────────────────
 
   ai_work_usage
-    All or most of my work                      n=  5  post=0.31±0.18   argue=0.34±0.20   debate=0.34±0.10
-    Some of my work                             n= 73  post=0.17±0.07   argue=0.16±0.09   debate=0.21±0.08
-    None of my work                             n= 22  post=0.19±0.14   argue=0.27±0.17   debate=0.23±0.13
+    All or most of my work                      n=  6  post=0.28±0.03   argue=0.20±0.07   debate=0.28±0.04
+    Some of my work                             n= 64  post=0.19±0.08   argue=0.16±0.09   debate=0.19±0.10
+    None of my work                             n= 30  post=0.15±0.11   argue=0.17±0.16   debate=0.14±0.08
   R^3 scatter → results/behavioral/r3_ai_work_usage.png

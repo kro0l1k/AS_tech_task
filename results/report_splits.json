@@ -1,78 +1,78 @@
 {
-  "best_method": "demographic_baseline",
-  "best_temperature": 0.3,
+  "best_method": "distribution_aware",
+  "best_temperature": 1.0,
   "temperature_sweep_val": {
     "0.3": {
-      "mean_jsd": 0.010791073521461456,
-      "mean_tvd": 0.11999999996400001,
-      "mean_mae_pp": 7.999999997600001,
+      "mean_jsd": 0.006030896828782077,
+      "mean_tvd": 0.089999999973,
+      "mean_mae_pp": 5.9999999982,
       "plurality_accuracy": 1.0
     },
     "0.6": {
-      "mean_jsd": 0.010791073521461456,
-      "mean_tvd": 0.11999999996400001,
-      "mean_mae_pp": 7.999999997600001,
+      "mean_jsd": 0.010377262318885392,
+      "mean_tvd": 0.10999999996699995,
+      "mean_mae_pp": 7.333333331133331,
       "plurality_accuracy": 1.0
     },
     "0.8": {
-      "mean_jsd": 0.010791073521461456,
-      "mean_tvd": 0.11999999996400001,
-      "mean_mae_pp": 7.999999997600001,
+      "mean_jsd": 0.010377262318885392,
+      "mean_tvd": 0.10999999996699995,
+      "mean_mae_pp": 7.333333331133331,
       "plurality_accuracy": 1.0
     },
     "1.0": {
-      "mean_jsd": 0.010791073521461456,
-      "mean_tvd": 0.11999999996400001,
-      "mean_mae_pp": 7.999999997600001,
+      "mean_jsd": 0.003115477447729069,
+      "mean_tvd": 0.059999999981999966,
+      "mean_mae_pp": 3.9999999987999977,
       "plurality_accuracy": 1.0
     }
   },
   "train": {
     "demographic_baseline": {
-      "mean_jsd": 0.002436750109217961,
-      "mean_tvd": 0.044999999986500006,
-      "mean_mae_pp": 2.9999999991000004,
-      "plurality_accuracy": 0.8333333333333334
+      "mean_jsd": 0.03501144201102322,
+      "mean_tvd": 0.17666666661366667,
+      "mean_mae_pp": 11.777777774244447,
+      "plurality_accuracy": 0.6666666666666666
     },
     "narrative_backstory": {
-      "mean_jsd": 0.002436750109217961,
-      "mean_tvd": 0.044999999986500006,
-      "mean_mae_pp": 2.9999999991000004,
-      "plurality_accuracy": 0.8333333333333334
+      "mean_jsd": 0.03375700829543581,
+      "mean_tvd": 0.17999999994600002,
+      "mean_mae_pp": 11.9999999964,
+      "plurality_accuracy": 0.6666666666666666
     },
     "value_anchored": {
-      "mean_jsd": 0.002436750109217961,
-      "mean_tvd": 0.044999999986500006,
-      "mean_mae_pp": 2.9999999991000004,
-      "plurality_accuracy": 0.8333333333333334
+      "mean_jsd": 0.0376062608188357,
+      "mean_tvd": 0.17666666661366667,
+      "mean_mae_pp": 11.777777774244443,
+      "plurality_accuracy": 0.6666666666666666
     },
     "distribution_aware": {
-      "mean_jsd": 0.002436750109217961,
-      "mean_tvd": 0.044999999986500006,
-      "mean_mae_pp": 2.9999999991000004,
-      "plurality_accuracy": 0.8333333333333334
+      "mean_jsd": 0.02785567608355897,
+      "mean_tvd": 0.16166666661816667,
+      "mean_mae_pp": 10.777777774544445,
+      "plurality_accuracy": 0.6666666666666666
     },
     "cognitive_deliberation": {
-      "mean_jsd": 0.002436750109217961,
-      "mean_tvd": 0.044999999986500006,
-      "mean_mae_pp": 2.9999999991000004,
-      "plurality_accuracy": 0.8333333333333334
+      "mean_jsd": 0.030511942817812273,
+      "mean_tvd": 0.16999999994899997,
+      "mean_mae_pp": 11.333333329933332,
+      "plurality_accuracy": 0.6666666666666666
     }
   },
   "val": {
-    "mean_jsd": 0.010791073521461456,
-    "mean_tvd": 0.11999999996400001,
-    "mean_mae_pp": 7.999999997600001,
+    "mean_jsd": 0.003115477447729069,
+    "mean_tvd": 0.059999999981999966,
+    "mean_mae_pp": 3.9999999987999977,
     "plurality_accuracy": 1.0,
     "per_question": {
       "ai_job_automation": {
-        "jsd": 0.010791073521461456,
-        "tvd": 0.11999999996400001,
-        "mae_pp": 7.999999997600001,
+        "jsd": 0.003115477447729069,
+        "tvd": 0.059999999981999966,
+        "mae_pp": 3.9999999987999977,
         "predicted": {
-          "More jobs": 0.15,
-          "Fewer jobs": 0.63,
-          "About the same number of jobs": 0.22
+          "More jobs": 0.2,
+          "Fewer jobs": 0.46,
+          "About the same number of jobs": 0.34
         },
         "ground_truth": {
           "More jobs": 0.21,
@@ -83,19 +83,19 @@
     }
   },
   "test": {
-    "mean_jsd": 0.006821849003552424,
-    "mean_tvd": 0.06999999997899994,
-    "mean_mae_pp": 4.666666665266663,
-    "plurality_accuracy": 1.0,
+    "mean_jsd": 0.18282715254061765,
+    "mean_tvd": 0.489999999853,
+    "mean_mae_pp": 32.66666665686667,
+    "plurality_accuracy": 0.0,
     "per_question": {
       "ai_work_usage": {
-        "jsd": 0.006821849003552424,
-        "tvd": 0.06999999997899994,
-        "mae_pp": 4.666666665266663,
+        "jsd": 0.18282715254061765,
+        "tvd": 0.489999999853,
+        "mae_pp": 32.66666665686667,
         "predicted": {
-          "All or most of my work": 0.02,
-          "Some of my work": 0.12,
-          "None of my work": 0.86
+          "All or most of my work": 0.06,
+          "Some of my work": 0.64,
+          "None of my work": 0.3
         },
         "ground_truth": {
           "All or most of my work": 0.02,
