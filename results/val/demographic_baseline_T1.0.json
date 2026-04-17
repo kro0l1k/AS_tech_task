@@ -2,1106 +2,1206 @@
   "method_name": "demographic_baseline",
   "total_calls": 100,
   "failed_parses": 0,
-  "elapsed_seconds": 5.412101745605469e-05,
+  "elapsed_seconds": 5.602836608886719e-05,
   "responses": [
     {
       "persona_index": 0,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 1,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 2,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 3,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 4,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 5,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 6,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 7,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 8,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 9,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 10,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 11,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 12,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 13,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 14,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 15,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 16,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 17,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 18,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 19,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 20,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 21,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 22,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 23,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 24,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 25,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 26,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 27,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 28,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 29,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 30,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 31,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 32,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 33,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 34,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 35,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 36,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 37,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 38,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 39,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 40,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 41,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 42,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 43,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 44,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 45,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 46,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 47,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 48,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 49,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 50,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 51,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 52,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 53,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 54,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 55,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 56,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 57,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 58,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 59,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 60,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 61,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 62,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 63,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 64,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 65,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 66,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 67,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 68,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 69,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 70,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 71,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 72,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 73,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 74,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 75,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 76,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 77,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 78,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 79,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 80,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 81,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 82,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 83,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 84,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 85,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 86,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 87,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 88,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 89,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 90,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 91,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 92,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 93,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 94,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 95,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 96,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 97,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 98,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     },
     {
       "persona_index": 99,
-      "question_id": "border_policy_biden",
-      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
-        "Keep border policies the same",
-        "Make it tougher to get in the U.S. illegally"
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
       ]
     }
   ]

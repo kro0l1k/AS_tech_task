@@ -244,48 +244,24 @@ QUESTIONS: list[SurveyQuestion] = [
         source="The 19th/SurveyMonkey poll, 2025",
         url="https://www.surveymonkey.com/curiosity/the-19th-surveymonkey-poll-september-2025/",
     ),
-        SurveyQuestion(
-        id="immigration_top_priority",
-        text=(
-            "Which of the following should be the top priority on immigration for the United States?"
-        ),
-        options=[
-            "Securing the U.S.-Mexico border",
-            "Offering a path to citizenship for undocumented immigrants currently living in the U.S.",
-            "Deporting those who are in the country illegally",
-            "Ensuring opportunities remain for those who wish to enter the U.S. legally",
-            "Providing asylum to those who qualify",
-            "Other",
-        ],
-        ground_truth={
-        "Securing the U.S.-Mexico border": 0.33,
-        "Offering a path to citizenship for undocumented immigrants currently living in the U.S.": 0.20,
-        "Deporting those who are in the country illegally": 0.18,
-        "Ensuring opportunities remain for those who wish to enter the U.S. legally": 0.18,
-        "Providing asylum to those who qualify": 0.06,
-        "Other":0.05,
-        },
-        source="Scripps News/Ipsos, 2024",
-        url="https://www.ipsos.com/en-us/securing-border-seen-top-immigration-priority",
-    ),
 
-    SurveyQuestion(
-        id="border_policy_biden",
-        text=(
-            "Do you think the Biden administration should keep its border policies the same "
-            "or make it tougher to get in the U.S. illegally?"
-        ),
-        options=[
-            "Keep border policies the same",
-            "Make it tougher to get in the U.S. illegally",
-        ],
-        ground_truth={
-            "Keep border policies the same": 0.27,
-            "Make it tougher to get in the U.S. illegally": 0.73,
-        },
-        source="Harris X / The Harris Poll, 2024",
-        url="https://cis.org/Arthur/Polls-Show-2024-Shaping-Be-Immigration-Election",
-    ),
+    # SurveyQuestion(
+    #     id="border_policy_biden",
+    #     text=(
+    #         "Do you think the Biden administration should keep its border policies the same "
+    #         "or make it tougher to get in the U.S. illegally?"
+    #     ),
+    #     options=[
+    #         "Keep border policies the same",
+    #         "Make it tougher to get in the U.S. illegally",
+    #     ],
+    #     ground_truth={
+    #         "Keep border policies the same": 0.27,
+    #         "Make it tougher to get in the U.S. illegally": 0.73,
+    #     },
+    #     source="Harris X / The Harris Poll, 2024",
+    #     url="https://cis.org/Arthur/Polls-Show-2024-Shaping-Be-Immigration-Election",
+    # ),
     SurveyQuestion(
     id="_path_vs_deport",
     text=(
@@ -306,42 +282,42 @@ QUESTIONS: list[SurveyQuestion] = [
     source="Quinnipiac University Poll, December 2024",
     url="https://poll.qu.edu/poll-release?releaseid=3926",
 ),
-#     SurveyQuestion(
-#     id="ai_job_automation",
-#     text=(
-#         "Compared to today, do you think the use of artificial intelligence will lead "
-#         "to more jobs, fewer jobs, or about the same number of jobs in the U.S.?"
-#     ),
-#     options=[
-#         "More jobs",
-#         "Fewer jobs",
-#         "About the same number of jobs",
-#     ],
-#     ground_truth={
-#         "More jobs": 0.21,
-#         "Fewer jobs": 0.51,
-#         "About the same number of jobs": 0.28,
-#     },
-#     source="CBS News/YouGov, March 2026",
-#     url="https://www.cbsnews.com/news/what-ai-artificial-intelligence-should-do-poll-analysis/",
-# ),
-#     SurveyQuestion(
-#     id="ai_work_usage",
-#     text=(
-#         "At your current or most recent job, how much of your work is done with AI tools?"
-#     ),
-#     options=[
-#         "All or most of my work",
-#         "Some of my work",
-#         "None of my work",
-#     ],
-#     ground_truth={
-#         "All or most of my work": 0.02,
-#         "Some of my work": 0.19,
-#         "None of my work": 0.79,
-#     },
-#     source="Pew Research Center, September 2025",
-#     url="https://www.pewresearch.org/short-reads/2025/10/06/about-1-in-5-us-workers-now-use-ai-in-their-job-up-since-last-year/",
-# ),
+    SurveyQuestion(
+    id="ai_job_automation",
+    text=(
+        "Compared to today, do you think the use of artificial intelligence will lead "
+        "to more jobs, fewer jobs, or about the same number of jobs in the U.S.?"
+    ),
+    options=[
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs",
+    ],
+    ground_truth={
+        "More jobs": 0.21,
+        "Fewer jobs": 0.51,
+        "About the same number of jobs": 0.28,
+    },
+    source="CBS News/YouGov, March 2026",
+    url="https://www.cbsnews.com/news/what-ai-artificial-intelligence-should-do-poll-analysis/",
+),
+    SurveyQuestion(
+    id="ai_work_usage",
+    text=(
+        "At your current or most recent job, how much of your work is done with AI tools?"
+    ),
+    options=[
+        "All or most of my work",
+        "Some of my work",
+        "None of my work",
+    ],
+    ground_truth={
+        "All or most of my work": 0.02,
+        "Some of my work": 0.19,
+        "None of my work": 0.79,
+    },
+    source="Pew Research Center, September 2025",
+    url="https://www.pewresearch.org/short-reads/2025/10/06/about-1-in-5-us-workers-now-use-ai-in-their-job-up-since-last-year/",
+),
     
 ]

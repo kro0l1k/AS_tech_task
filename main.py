@@ -350,23 +350,62 @@ def _print_split_comparison(
         verdict = "overfit" if gap > 0.02 else "OK"
     print(f"\n  Generalisation gap (test JSD − train JSD): {gap:+.4f}  [{verdict}]")
 
-    # Per-question detail for val and test
+    # Per-question detail — ALL splits, with held-out test visually highlighted.
+    # TRAIN comes from the Phase-1 method-selection run (at T=1.0);
+    # VAL / TEST come from the Phase-3/4 runs at best_T.
     q_lookup = {q.id: q for q in train_qs + val_qs + test_qs}
-    for split_label, mm in [("VAL", val_mm), ("TEST", test_mm)]:
-        print(f"\n  --- {split_label} detail ---")
+
+    # ANSI styling — suppressed if not a TTY.
+    import sys
+    _use_ansi = sys.stdout.isatty()
+    BOLD     = "\033[1m"     if _use_ansi else ""
+    RED      = "\033[91m"    if _use_ansi else ""
+    YELLOW   = "\033[93m"    if _use_ansi else ""
+    DIM      = "\033[2m"     if _use_ansi else ""
+    RESET    = "\033[0m"     if _use_ansi else ""
+    BG_TEST  = "\033[41;97m" if _use_ansi else ""   # white on red
+
+    splits = [
+        ("TRAIN", train_mm, train_qs, False),
+        ("VAL",   val_mm,   val_qs,   False),
+        ("TEST",  test_mm,  test_qs,  True),   # held out — highlight
+    ]
+
+    for split_label, mm, qs, is_heldout in splits:
+        if is_heldout:
+            banner = f" ★ {split_label} — HELD OUT FROM SELECTION ★ "
+            line = "═" * (len(banner) + 4)
+            print(f"\n  {BG_TEST}{line}{RESET}")
+            print(f"  {BG_TEST}  {banner}  {RESET}")
+            print(f"  {BG_TEST}{line}{RESET}")
+        else:
+            label_color = DIM
+            print(f"\n  {label_color}─── {split_label} detail "
+                  f"({len(qs)} question{'s' if len(qs)!=1 else ''}) "
+                  f"─────────────────────────{RESET}")
+
         for qm in mm.per_question:
             q = q_lookup[qm.question_id]
-            print(f"  [{qm.question_id}]  JSD={qm.jsd:.4f}  TVD={qm.tvd:.4f}  "
+            prefix = f"{RED}★ {RESET}" if is_heldout else "  "
+            qid_disp = f"{BOLD}{RED}{qm.question_id}{RESET}" if is_heldout else qm.question_id
+            print(f"{prefix}[{qid_disp}]  JSD={qm.jsd:.4f}  TVD={qm.tvd:.4f}  "
                   f"MAE={qm.mae_pp:.1f}pp  n={qm.n_valid}")
-            max_opt = max(qm.predicted_dist, key=qm.predicted_dist.get)
-            true_top = max(q.ground_truth, key=q.ground_truth.get)
-            print(f"    Predicted top: '{max_opt}'  |  True top: '{true_top}'  "
-                  f"{'✓' if max_opt == true_top else '✗'}")
+            if qm.n_valid == 0:
+                print(f"{prefix}  {YELLOW}(no valid responses — skipping detail){RESET}")
+                continue
+            max_opt  = max(qm.predicted_dist, key=qm.predicted_dist.get)
+            true_top = max(q.ground_truth,    key=q.ground_truth.get)
+            match    = (max_opt == true_top)
+            mark     = "✓" if match else "✗"
+            mark_col = "" if match else RED
+            print(f"{prefix}  Predicted top: '{max_opt}'  |  True top: '{true_top}'  "
+                  f"{mark_col}{mark}{RESET}")
             for opt in q.options:
                 pred = qm.predicted_dist.get(opt, 0)
                 true = q.ground_truth.get(opt, 0)
                 bar  = "█" * int(pred * 30)
-                print(f"    {opt:<40} pred={pred:5.1%}  true={true:5.1%}  Δ={pred-true:+5.1%}  {bar}")
+                print(f"{prefix}  {opt:<40} pred={pred:5.1%}  true={true:5.1%}  "
+                      f"Δ={pred-true:+5.1%}  {bar}")
 
 
 def _save_all_reports(
