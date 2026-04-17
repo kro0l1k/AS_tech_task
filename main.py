@@ -27,9 +27,9 @@ import sys
 import time
 from collections import Counter
 
-from config import NUM_PERSONAS, RESULTS_DIR
+from config import NUM_PERSONAS, RESULTS_DIR, TEMPERATURE, TEMPERATURE_SWEEP, FOCUS_AGE
 from ground_truth import QUESTIONS, SurveyQuestion
-from demographics import sample_panel
+from demographics import sample_focused_panel
 from personas import METHODS
 from survey import run_survey, save_results, load_results, SurveyResults, SurveyResponse
 from metrics import evaluate_method, MethodMetrics
@@ -73,13 +73,20 @@ def run_dry_survey(
     questions: list[SurveyQuestion],
     method_name: str,
     seed: int = 42,
+    temperature: float = TEMPERATURE,
 ) -> SurveyResults:
+    """
+    Simulated responses. Temperature widens/narrows the noise band so sweeps
+    produce a (toy) signal: moderate T ≈ best, extremes get noisier.
+    """
     rng = random.Random(seed)
+    # Noise scales with |T - 1.0|; flat floor so low T is quiet but not perfect.
+    noise_sigma = 0.03 + 0.08 * abs(temperature - 1.0)
     results = SurveyResults(method_name=method_name)
     t0 = time.time()
     for q in questions:
         gt = [q.ground_truth[o] for o in q.options]
-        noise = [rng.gauss(0, 0.05) for _ in gt]
+        noise = [rng.gauss(0, noise_sigma) for _ in gt]
         perturbed = [max(0.01, p + n) for p, n in zip(gt, noise)]
         s = sum(perturbed)
         perturbed = [p / s for p in perturbed]
@@ -94,7 +101,7 @@ def run_dry_survey(
             ))
             results.total_calls += 1
     results.elapsed_seconds = time.time() - t0
-    print(f"  [{method_name}] dry-run: {results.total_calls} responses")
+    print(f"  [{method_name}] dry-run T={temperature}: {results.total_calls} responses")
     return results
 
 
@@ -109,11 +116,18 @@ async def _run_one_method(
     dry_run: bool,
     seed: int,
     save_path: str,
+    temperature: float = TEMPERATURE,
 ) -> SurveyResults:
     if dry_run:
-        results = run_dry_survey(descriptions, questions, method_name, seed=seed)
+        results = run_dry_survey(
+            descriptions, questions, method_name,
+            seed=seed, temperature=temperature,
+        )
     else:
-        results = await run_survey(descriptions, questions, method_name, seed=seed)
+        results = await run_survey(
+            descriptions, questions, method_name,
+            seed=seed, temperature=temperature,
+        )
     save_results(results, save_path)
     return results
 
@@ -135,10 +149,16 @@ async def run_experiment(
     print("  VAL:  ", [q.id for q in val_qs])
     print("  TEST: ", [q.id for q in test_qs])
 
-    # --- Sample panel (shared across all methods & splits for fair comparison) ---
-    panel = sample_panel(NUM_PERSONAS, seed=seed)
-    basket_counts = Counter(p.political_basket for p in panel)
-    print(f"\nPanel: {len(panel)} personas  baskets={dict(basket_counts)}")
+    # --- Sample focused panel: all age=FOCUS_AGE, all with a degree.
+    # Shared across all methods/splits/temps for fair comparison.
+    panel = sample_focused_panel(NUM_PERSONAS, seed=seed, age=FOCUS_AGE)
+    basket_counts  = Counter(p.political_basket for p in panel)
+    edu_counts     = Counter(p.education for p in panel)
+    party_counts   = Counter(p.party for p in panel)
+    print(f"\nPanel: {len(panel)} personas   (all age={FOCUS_AGE})")
+    print(f"  education = {dict(edu_counts)}")
+    print(f"  party     = {dict(party_counts)}")
+    print(f"  basket    = {dict(basket_counts)}")
     print(f"Mode: {'DRY RUN' if dry_run else 'LIVE API'}\n")
 
     methods = methods_to_run or list(METHODS.keys())
@@ -188,10 +208,11 @@ async def run_experiment(
     print(f"\n→ Best method: {best_method}  (train JSD={best_train_jsd:.4f})")
 
     # =========================================================
-    # PHASE 3 — best method on VAL and TEST
+    # PHASE 3 — temperature sweep on VAL (best method only)
     # =========================================================
     print("\n" + "=" * 62)
-    print(f"  PHASE 3 — '{best_method}' on VAL and TEST")
+    print(f"  PHASE 3 — temperature sweep on VAL  (method: '{best_method}')")
+    print(f"  Sweep grid: {TEMPERATURE_SWEEP}")
     print("=" * 62)
 
     best_method_cfg = METHODS[best_method]
@@ -200,28 +221,46 @@ async def run_experiment(
         desc_fn(panel, seed=seed) if best_method_cfg.get("needs_seed") else desc_fn(panel)
     )
 
-    val_path  = os.path.join(RESULTS_DIR, "val",  f"{best_method}.json")
-    test_path = os.path.join(RESULTS_DIR, "test", f"{best_method}.json")
+    val_by_temp: dict[float, SurveyResults] = {}
+    val_metrics_by_temp: dict[float, MethodMetrics] = {}
+    for T in TEMPERATURE_SWEEP:
+        path = os.path.join(RESULTS_DIR, "val", f"{best_method}_T{T}.json")
+        print(f"\n  [VAL  T={T}]")
+        r = await _run_one_method(
+            best_method, best_descriptions, val_qs,
+            dry_run, seed, path, temperature=T,
+        )
+        val_by_temp[T] = r
+        val_metrics_by_temp[T] = evaluate_method(r, val_qs)
 
-    print(f"\n  Running on VAL  ({[q.id for q in val_qs]})…")
-    val_results = await _run_one_method(
-        best_method, best_descriptions, val_qs, dry_run, seed, val_path
-    )
+    print(f"\n  {'Temp':>5} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10}")
+    print("  " + "-" * 43)
+    for T in TEMPERATURE_SWEEP:
+        mm = val_metrics_by_temp[T]
+        print(f"  {T:>5.2f} {mm.mean_jsd:>8.4f} {mm.mean_tvd:>8.4f} "
+              f"{mm.mean_mae_pp:>7.1f} {mm.plurality_accuracy:>9.0%}")
 
-    print(f"\n  Running on TEST ({[q.id for q in test_qs]})…")
-    test_results = await _run_one_method(
-        best_method, best_descriptions, test_qs, dry_run, seed, test_path
-    )
+    best_T = min(val_metrics_by_temp, key=lambda t: val_metrics_by_temp[t].mean_jsd)
+    best_val_jsd = val_metrics_by_temp[best_T].mean_jsd
+    print(f"\n  → Best temperature: T={best_T}  (val JSD={best_val_jsd:.4f})")
 
     # =========================================================
-    # PHASE 4 — compare train / val / test
+    # PHASE 4 — final TEST eval at (best_method, best_T)
     # =========================================================
     print("\n" + "=" * 62)
-    print(f"  PHASE 4 — generalisation report: '{best_method}'")
+    print(f"  PHASE 4 — TEST  (method='{best_method}', T={best_T})")
     print("=" * 62)
 
-    val_metrics  = evaluate_method(val_results,  val_qs)
+    test_path = os.path.join(RESULTS_DIR, "test", f"{best_method}_T{best_T}.json")
+    test_results = await _run_one_method(
+        best_method, best_descriptions, test_qs,
+        dry_run, seed, test_path, temperature=best_T,
+    )
     test_metrics = evaluate_method(test_results, test_qs)
+
+    # Use the val run at best_T for the split comparison.
+    val_results  = val_by_temp[best_T]
+    val_metrics  = val_metrics_by_temp[best_T]
 
     _print_split_comparison(
         best_method,
@@ -229,12 +268,14 @@ async def run_experiment(
         val_metrics,
         test_metrics,
         train_qs, val_qs, test_qs,
+        best_T=best_T,
     )
 
-    # Save full reports
+    # Save full reports (includes sweep table)
     _save_all_reports(
         train_metrics, val_metrics, test_metrics,
-        best_method, train_qs, val_qs, test_qs,
+        best_method, best_T, val_metrics_by_temp,
+        train_qs, val_qs, test_qs,
     )
 
     return train_results, val_results, test_results
@@ -250,7 +291,10 @@ def _print_split_comparison(
     val_mm: MethodMetrics,
     test_mm: MethodMetrics,
     train_qs, val_qs, test_qs,
+    best_T: float | None = None,
 ):
+    tag = f"'{method_name}'" + (f" @ T={best_T}" if best_T is not None else "")
+    print(f"\n  Split comparison for {tag}")
     print(f"\n  {'Split':<8} {'Questions':<30} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10}")
     print("  " + "-" * 68)
 
@@ -292,11 +336,23 @@ def _save_all_reports(
     val_mm: MethodMetrics,
     test_mm: MethodMetrics,
     best_method: str,
+    best_T: float,
+    val_metrics_by_temp: dict[float, MethodMetrics],
     train_qs, val_qs, test_qs,
 ):
     os.makedirs(RESULTS_DIR, exist_ok=True)
     report = {
         "best_method": best_method,
+        "best_temperature": best_T,
+        "temperature_sweep_val": {
+            str(T): {
+                "mean_jsd": mm.mean_jsd,
+                "mean_tvd": mm.mean_tvd,
+                "mean_mae_pp": mm.mean_mae_pp,
+                "plurality_accuracy": mm.plurality_accuracy,
+            }
+            for T, mm in val_metrics_by_temp.items()
+        },
         "train": {
             name: {
                 "mean_jsd": mm.mean_jsd,

@@ -2,86 +2,147 @@
 
 ## The Problem
 
-Can LLMs simulate a representative panel of humans well enough to reproduce real public opinion distributions? The challenge breaks into three sub-problems: (1) what information do you condition the model on, (2) how do you prompt for authentic responses rather than stereotypical or safety-trained defaults, and (3) how do you measure success.
+Can LLMs simulate a representative panel of US adults well enough to reproduce real public opinion distributions? The challenge decomposes into three sub-problems: (1) what to condition the model on, (2) how to elicit authentic responses rather than stereotype-driven or safety-trained defaults, and (3) how to measure success rigorously.
 
 ## Objective
 
-Build 100 LLM personas representing US adults, ask them 7 real survey questions with known ground-truth distributions from Gallup and Pew, and evaluate distributional fidelity. Test multiple persona-construction methods to understand what drives accuracy.
+Build 100 LLM personas representing US adults, ask them single-select survey questions drawn from recent Gallup and Pew polls with known ground-truth distributions, and evaluate five different persona-construction methods against real response distributions. Use a train/val/test split over questions to select and validate the best method.
 
 ## Why This Is Hard
 
-LLMs have systematic biases that work against faithful opinion simulation:
+LLMs have systematic biases that fight faithful opinion simulation:
 
-1. **Training distribution skew**: Models are trained on internet text, which over-represents certain demographics (younger, more educated, more liberal). This means the model's "default voice" doesn't match the US population.
+1. **Training distribution skew** — text corpora over-represent the young, educated, and liberal. The model's "default voice" does not match the US population.
+2. **Safety-training pull** — RLHF compresses response tails, under-generating extreme positions.
+3. **Stereotype caricature** — given "MAGA conservative," the model often produces an exaggerated version rather than the actual within-group variance. The modal conservative view on guns is "enforce existing laws"; the model produces "fewer laws."
+4. **Status-quo blindness** — training data is written by people with strong opinions. Americans who answer "keep things as they are" or "haven't thought about it" are under-represented in the corpus and therefore in the model's latent voice.
+5. **Position bias** — models systematically favor earlier or later options, adding noise orthogonal to the persona.
 
-2. **Safety-training pull**: RLHF/Constitutional AI training pushes models toward moderate, socially desirable responses. This compresses the tails of opinion distributions — the model under-generates extreme positions.
+## Approach: Five Methods Along Three Axes
 
-3. **Stereotype amplification**: When given demographics, models often map to a caricature rather than the genuine within-group variance. A prompt saying "Republican man from Texas" might produce an exaggerated conservative position that doesn't reflect the actual diversity of views within that group.
+Each method tests a different lever.
 
-4. **Position bias**: LLMs systematically favor options listed earlier (primacy bias) or later (recency bias), introducing noise that has nothing to do with the persona.
+### Methods (what we vary)
 
-## My Approach: Five Methods
+| Method | What it conditions on | Hypothesis being tested |
+|--------|----------------------|------------------------|
+| **Demographic Baseline** | Age, gender, race, education, income, region, community type, party, political basket, top 5 information sources | Null hypothesis: demographics + media diet are sufficient |
+| **Narrative Backstory** | A biographical sketch (name, occupation, life stage, housing, experience) woven around the same attributes | Lived experience grounds the persona; reduces stereotype defaults |
+| **Value-Belief Anchoring** | Moral Foundations scores (Care, Fairness, Loyalty, Authority, Sanctity, Liberty) + information sources | Values are more proximally causal than demographics |
+| **Distribution-Aware Ensemble** | Demographics + meta-prompt: "you are respondent #N of 100; minority views must be represented" | Leverages the model's aggregate knowledge of opinion distributions directly |
+| **Cognitive Deliberation** | Demographics + explicit reasoning cues: "think about what you'd have seen in your sources; what gut reaction does this trigger?" | Reasoning produces more authentic responses than pattern-matching demographics |
 
-I test five methods that vary along three axes — what you condition on (content), how you frame the task (individual vs. ensemble), and how the model processes the question (direct vs. reasoned).
+### Design decisions
 
-### Method 1: Demographic Baseline
-Give the model explicit demographic attributes (age, gender, race, education, income, region, community type, political leaning) sampled from Census/Gallup distributions. This is the simplest approach and serves as the null hypothesis. If demographics alone are sufficient, more complex methods aren't worth it.
-
-### Method 2: Narrative Backstory
-Same demographics, but wrapped in a biographical narrative — name, occupation, key life experience, community context. The hypothesis is that grounding the persona in specific lived experience constrains the model more tightly than abstract attributes. A "34-year-old nurse raising two kids in suburban Ohio" feels different from "Female, 34, Bachelor's, Midwest, $50-75k." The narrative reduces the model's degrees of freedom for defaulting to its training distribution.
-
-### Method 3: Value-Belief Anchoring
-Instead of demographics, condition on moral foundations (Care, Fairness, Loyalty, Authority, Sanctity, Liberty). Value profiles are sampled from distributions calibrated to match known liberal/conservative moral psychology research (Haidt et al.). The hypothesis: values are more proximally causal of opinions than demographics. Demographics predict opinions because they correlate with values — so cutting out the middleman might produce tighter distributions.
-
-### Method 4: Distribution-Aware Ensemble
-A meta-approach: tell the model it's respondent #N of 100, that the aggregate should match US population opinion, and that minority positions must be represented. This is philosophically different — it doesn't pretend the model IS an individual, it asks the model to CONTRIBUTE to a population distribution. This leverages the model's aggregate knowledge of public opinion directly.
-
-### Method 5: Cognitive Deliberation
-Same demographics as Method 1, but add a chain-of-thought step: "Before answering, think about what life experiences shape your view, what your community thinks, and what values matter most." The hypothesis is that reasoning produces more authentic responses by forcing the model to construct a rationale rather than pattern-matching demographics to a stereotypical answer. The counter-hypothesis: CoT might actually REDUCE diversity by giving the model room to rationalize toward its default position.
-
-## Cross-Cutting Design Decisions
-
-**Shared demographic panel**: All methods draw from the same set of 100 sampled demographic profiles (where applicable). This ensures differences in output are attributable to the persona-construction method, not sampling variation.
-
-**Option randomization**: Survey options are shuffled for every question-persona pair. This controls for LLM position bias, which can dominate the signal if unchecked.
-
-**Temperature = 1.0**: High temperature increases response diversity. For aggregate distributional accuracy, we want the full range of the model's conditional distribution, not just the mode.
+- **Political basket** — each persona gets one of five identities (`progressive`, `neo_liberal`, `neo_conservative`, `maga`, `alt_right`), sampled conditional on party lean. Drives information-diet composition.
+- **Top 5 information influences** — 3 drawn from the basket's source pool (Pod Save America, Breitbart, Infowars, etc.), 2 from a general mainstream pool (local news, Facebook, coworkers). Appears in every persona description so the model can ground reasoning in a plausible info diet.
+- **Short internal dialogue** — every response includes 1–2 sentences of reasoning before the letter choice. Prevents the model from reflexively pattern-matching demographics to stereotype answers (which it does badly when forced to `max_tokens=5`).
+- **Batched API calls** — five personas per call, reduces request count 5× with minimal token overhead. The model sees all five profiles and produces numbered answers.
+- **Option randomization** — options are shuffled per question-persona pair to mitigate position bias.
+- **Shared panel** — all methods evaluate against the same sampled demographic panel so differences attribute to method, not sampling variance.
+- **Temperature 1.0** — high temperature maximizes within-method diversity, which matters for distributional (not individual-level) accuracy.
 
 ## Evaluation
 
-Three complementary metrics:
+### Metrics
 
-- **Jensen-Shannon Divergence (JSD)**: Information-theoretic measure bounded [0,1]. Zero means identical distributions. Captures the overall shape of distributional mismatch.
-- **Total Variation Distance (TVD)**: The amount of probability mass you'd need to move to make the distributions match. More interpretable than JSD.
-- **Mean Absolute Error (pp)**: Average per-option error in percentage points. Most intuitive — "each option is off by X points on average."
-- **Plurality accuracy**: Binary — did the most popular answer match? A necessary but insufficient condition.
+- **Jensen-Shannon Divergence (JSD)** — information-theoretic, bounded [0, 1], log base 2. Primary metric.
+- **Total Variation Distance (TVD)** — L1/2; "how much probability mass would need to move to match?"
+- **Mean Absolute Error (pp)** — average per-option percentage-point error. Most interpretable.
+- **Plurality accuracy** — does the most-chosen option match the true top?
+- **Chi-squared p-value** — significance of distributional difference.
 
-Chi-squared goodness-of-fit tests provide significance testing.
+### Train / Val / Test Split
 
-## What I'd Expect (Hypotheses Before Running)
+Questions are split 80/10/10 sequentially (at least 1 in val and test):
 
-1. **Demographic Baseline** will get plurality right most of the time but over-concentrate on majority positions (compressed tails).
-2. **Narrative Backstory** will produce more variance but may not improve aggregate accuracy — richer prompts don't necessarily fix the model's systematic biases.
-3. **Value-Belief Anchoring** will do well on socially contentious questions (abortion, gun control) where values are the primary driver, but may struggle on policy questions (immigration levels) where instrumental reasoning matters.
-4. **Distribution-Aware Ensemble** will produce the best aggregate distributions because it directly leverages the model's population-level knowledge, but at the cost of individual-level authenticity.
-5. **Cognitive Deliberation** could go either way — it's the method I'm least sure about. If the model's reasoning is genuinely persona-consistent, it helps. If reasoning just creates room for safety-training to pull responses toward the center, it hurts.
+1. **Phase 1** — run all methods on train questions.
+2. **Phase 2** — select the best method by mean JSD on train.
+3. **Phase 3** — evaluate only the selected method on val and test.
+4. **Phase 4** — compare train/val/test metrics to check generalization.
 
-## Limitations and Future Directions
+This prevents method selection from overfitting to a single question set and provides an honest held-out evaluation.
 
-**This experiment doesn't answer**: Whether individual personas are "authentic" (only aggregate distributions are evaluated). You could have terrible individual simulation but good aggregate distributions if errors cancel out.
+## Current Results (n=10 personas, 3 train / 1 val / 1 test)
 
-**What would make this better**:
-- Joint demographic sampling from PUMS microdata instead of independent marginals
-- Testing across multiple LLM families (GPT-4, Gemini, Llama) to see if method rankings are model-dependent
-- Subgroup analysis: do persona distributions match ground truth WITHIN demographic slices (e.g., do Republican personas match Republican polling)?
-- Post-stratification weighting as a correction layer on top of each method
-- Iterative refinement: use Method 4's distributional awareness AS a calibration step for Method 1's individual personas
-- Testing with actual validation surveys (not just known poll toplines) to avoid overfitting to widely-reported numbers the model has seen in training
+```
+Method                       JSD     TVD    MAE(pp)  Plurality
+distribution_aware         0.0375  0.1567   10.4      33%
+demographic_baseline       0.0568  0.2067   13.8      67%
+narrative_backstory        0.1040  0.2133   14.2      67%
+value_anchored             0.1047  0.2233   14.9      67%
+cognitive_deliberation     0.1130  0.2433   16.2      67%
+```
 
-**The deepest concern**: For questions where the ground-truth distribution is widely reported in news and training data, the model may simply recall the distribution rather than genuinely simulating individual opinions. Distribution-Aware Ensemble is especially susceptible to this — it may score well precisely because it's doing retrieval rather than simulation. Testing on obscure or custom survey questions would disentangle retrieval from simulation.
+Best method: `distribution_aware`. Generalization gap (test − train JSD) is −0.027 — no overfitting detected. But with one question per split, these single-point estimates are statistically meaningless.
+
+### What the results actually tell us (honest read)
+
+**Real signal despite small n:**
+
+- **Status-quo options are systematically under-predicted.** Across every method, every run, "kept as they are now" and "kept at present level" come out at a small fraction of their true rate. This is not noise — it is model bias. The training corpus lacks fluent voice for the satisfied or disengaged.
+- **"Less strict" on gun laws is over-predicted by every method.** The model has learned the Twitter/talk-radio libertarian gun position, not the modal conservative voter position (which is "enforce existing laws").
+
+**Probable signal, unconfirmed at n=10:**
+
+- `distribution_aware` may be winning through retrieval, not simulation — it probably recalls poll toplines from training data. Would collapse on obscure questions the model has not seen; individual-based methods would hold up.
+- `cognitive_deliberation` amplifies bias rather than reducing it. When asked to reason carefully, the model defaults to salient moral frames (e.g., "drugs are bad" reasoning over-generates prohibition responses).
+- `narrative_backstory` and `value_anchored` produce nearly identical aggregate distributions. Richer conditioning may not be sampling different parts of the model's distribution.
+
+**Noise, probably:** the ~0.07 JSD gap between methods. At n=10, 95% CI on a 33% proportion is ±30pp; method differences fall inside a single standard error. Cannot rank methods confidently until n ≥ 100.
+
+## Limitations
+
+1. **Small n** — most observed differences are sampling noise. The framework is correct but underpowered.
+2. **Aggregate-only evaluation** — distributional accuracy can be achieved either through good individual simulation or through cancelling errors. We cannot tell which. `distribution_aware`'s strength is suspicious in this light.
+3. **Training-data contamination** — for widely-polled questions, the model may recall the headline number rather than simulating responses from first principles.
+4. **Independent marginal sampling** — demographic attributes are drawn from independent marginals, producing occasional unrealistic combos (22-year-old retired graduate). A joint sample from ACS microdata would fix this.
+5. **Forced choice** — personas must commit to an option. In reality many respondents volunteer "don't know." Our "Not sure" options help but do not fully close the gap.
+6. **Batch contamination risk** — when 5 personas are answered in one call, the model may artificially diversify responses within the batch. Unverified.
+
+## What I Would Do Next (Prioritized)
+
+Before scaling to 100 personas × 100 questions, I would invest in:
+
+### Tier 1 — highest leverage, lowest effort
+
+- **Post-stratification weighting.** Our panel will have basket imbalances; reweight by inverse propensity to match Census marginals. Closes 3–8pp of error with zero new API calls.
+- **Multiple seeds with bootstrap confidence intervals.** Run each condition 3–5× with different seeds. Without CIs, method rankings are not statistically sound.
+- **Response caching + cost tracking.** Hash `(persona, question, method, seed)` → response. Resumable runs, no duplicate cost. Essential at scale.
+
+### Tier 2 — fixes known biases
+
+- **Engagement / salience attribute.** Sample ~30% of personas as low-engagement; give them a prompt path that allows "haven't really thought about it" / status-quo answers. Directly targets the status-quo blindness that dominates current errors.
+- **Subgroup validation.** Pew publishes crosstabs by party, age, education. Check whether Republican personas match Republican polling, not just whether aggregate matches aggregate. Reveals whether individual simulation is working or errors are cancelling.
+- **Counterfactual sensitivity.** Swap one persona attribute (e.g., party R→D), measure response shift. Tests whether conditioning does real causal work or just adds texture.
+
+### Tier 3 — scientific rigor
+
+- **Retrieval-vs-simulation probe.** Test methods on obscure/local/hypothetical questions the model has not seen in training. If `distribution_aware` collapses while individual methods hold up, retrieval hypothesis confirmed.
+- **Temperature sweep.** Test t ∈ {0.5, 0.7, 1.0, 1.3} as an orthogonal axis. Likely different optima per question type.
+- **PUMS joint demographic sampling.** Replaces independent marginals with correlated attributes sampled from real microdata.
+- **Age × basket correlation.** Currently basket only depends on party. Should also correlate with age (Gen Z more progressive / alt-right, Boomers more neo-conservative / neo-liberal).
+
+### Tier 4 — quality polish
+
+- **Persona voice calibration.** Blue-collar MAGA prose should not read like PhD progressive prose. Style stamping per basket.
+- **Current-events priming.** Each basket "saw" 2–3 specific recent news items this week. Anchors personas in time.
+- **Method ensembling.** Weighted combination of methods, weights learned on train split. Likely beats any single method.
+- **Within-persona consistency.** Ask same question twice paraphrased; inconsistent personas are noise and should be downweighted.
 
 ## Code
 
-GitHub link: [to be filled in]
+The codebase is organized as focused Python modules — no notebooks, no frameworks:
 
-The codebase is organized as a set of focused Python modules — no notebooks, no frameworks, just clean functions and dataclasses. The `--dry-run` flag lets you run the full pipeline with simulated responses to verify everything works without API calls.
+```
+config.py         — API and experiment configuration
+ground_truth.py   — Survey questions with real polling distributions + source URLs
+demographics.py   — Census-based sampling, political baskets, influence pools
+personas.py       — Five persona-description methods, shared batch system prompt
+survey.py         — Async batched survey runner, multi-strategy response parser
+metrics.py        — JSD / TVD / MAE / χ² evaluation
+analysis.py       — Comparison tables and matplotlib charts
+main.py           — Train/val/test pipeline: run methods, select best, validate
+```
+
+A `--dry-run` flag exercises the full pipeline with simulated responses, letting reviewers run everything end-to-end without an API key.

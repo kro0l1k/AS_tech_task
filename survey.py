@@ -208,6 +208,7 @@ async def _ask_batch(
     persona_indices: list[int],
     rng: random.Random,
     semaphore: asyncio.Semaphore,
+    temperature: float = TEMPERATURE,
 ) -> list[SurveyResponse]:
     """Send one batch (up to BATCH_SIZE personas) for one question."""
     n = len(descriptions)
@@ -221,7 +222,7 @@ async def _ask_batch(
                 response = await client.messages.create(
                     model=MODEL,
                     max_tokens=max_tokens,
-                    temperature=TEMPERATURE,
+                    temperature=temperature,
                     system=system_prompt,
                     messages=[{"role": "user", "content": user_msg}],
                 )
@@ -283,6 +284,7 @@ async def run_survey(
     method_name: str,
     batch_system_prompt: str = BATCH_SYSTEM_PROMPT,
     seed: int = 42,
+    temperature: float = TEMPERATURE,
 ) -> SurveyResults:
     """Run a full survey using batched API calls (BATCH_SIZE personas per call)."""
     client = anthropic.AsyncAnthropic()
@@ -300,7 +302,10 @@ async def run_survey(
             indices = list(range(batch_start, batch_start + len(chunk)))
             batch_rng = random.Random(rng.randint(0, 2**32))
             tasks.append(
-                _ask_batch(client, batch_system_prompt, chunk, q, indices, batch_rng, semaphore)
+                _ask_batch(
+                    client, batch_system_prompt, chunk, q, indices,
+                    batch_rng, semaphore, temperature=temperature,
+                )
             )
 
     n_personas = len(persona_descriptions)
@@ -310,7 +315,7 @@ async def run_survey(
 
     print(
         f"  [{method_name}] {n_personas} personas × {len(questions)} questions "
-        f"= {total_batches} batch calls (batch_size={BATCH_SIZE})"
+        f"= {total_batches} batch calls (batch_size={BATCH_SIZE}, T={temperature})"
     )
 
     completed = 0

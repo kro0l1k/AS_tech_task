@@ -1,0 +1,248 @@
+{
+  "method_name": "cognitive_deliberation",
+  "total_calls": 4,
+  "failed_parses": 0,
+  "elapsed_seconds": 11.39863395690918,
+  "responses": [
+    {
+      "persona_index": 5,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me.",
+      "raw_response": "1. My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me. | A\n\n2. From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario. | C\n\n3. Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans. | C\n\n4. Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases. | B\n\n5. CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians. | A",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario.",
+      "raw_response": "1. My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me. | A\n\n2. From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario. | C\n\n3. Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans. | C\n\n4. Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases. | B\n\n5. CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians. | A",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans.",
+      "raw_response": "1. My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me. | A\n\n2. From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario. | C\n\n3. Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans. | C\n\n4. Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases. | B\n\n5. CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians. | A",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases.",
+      "raw_response": "1. My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me. | A\n\n2. From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario. | C\n\n3. Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans. | C\n\n4. Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases. | B\n\n5. CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians. | A",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians.",
+      "raw_response": "1. My news sources constantly discuss reproductive rights as fundamental healthcare access, and Pod Save America regularly frames abortion bans as attacks on women's autonomy - this feels like a clear-cut issue of personal freedom to me. | A\n\n2. From what I hear on Prager and Shapiro, abortion ends a human life, and while I understand there might be extreme situations, I generally believe we need to protect the unborn - though I'm not completely rigid about every possible scenario. | C\n\n3. Trump and my sources keep saying the left uses abortion to distract from real issues, and I've heard that most Americans actually support some restrictions, so I think there should be limits but not total bans. | C\n\n4. Everything I see on Newsmax and Gorka talks about defending innocent life and how the abortion industry exploits women, plus my Catholic upbringing makes me feel this is fundamentally wrong in all cases. | B\n\n5. CNN and The Atlantic constantly cover how abortion bans disproportionately harm women of color and low-income women like me, and I see this as essential healthcare that shouldn't be restricted by politicians. | A",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 10,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative.",
+      "raw_response": "1. I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative. | B\n\n2. Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected. | C\n\n3. I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions. | B\n\n4. The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy. | B\n\n5. Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable. | A",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 11,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected.",
+      "raw_response": "1. I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative. | B\n\n2. Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected. | C\n\n3. I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions. | B\n\n4. The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy. | B\n\n5. Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable. | A",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 12,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions.",
+      "raw_response": "1. I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative. | B\n\n2. Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected. | C\n\n3. I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions. | B\n\n4. The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy. | B\n\n5. Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable. | A",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 13,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy.",
+      "raw_response": "1. I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative. | B\n\n2. Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected. | C\n\n3. I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions. | B\n\n4. The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy. | B\n\n5. Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable. | A",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 14,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Illegal in all circumstances",
+      "reasoning": "Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable.",
+      "raw_response": "1. I've been hearing from Alex Jones and others about how this is all part of a bigger agenda to control population and destroy traditional values, but as a Black woman I also know the reality of what happens when women don't have choices - I think there should be some middle ground even though I'm skeptical of the mainstream narrative. | B\n\n2. Everything I'm seeing from Rachel Maddow and TYT shows how Republican extremists are trying to control women's bodies and roll back basic rights - this is clearly about bodily autonomy and reproductive freedom that should be protected. | C\n\n3. I've been listening to Ezra Klein discuss the nuanced policy implications and CNN coverage of various state restrictions, and while I support reproductive rights, I think most Americans believe in some reasonable limitations like viability or health exceptions. | B\n\n4. The Times and NPR have been covering how even many Republicans support exceptions for rape, incest, and maternal health, and while I lean right on some issues, I think completely banning abortion goes too far and isn't practical policy. | B\n\n5. Ben Shapiro and Prager have been making strong arguments about protecting unborn life and the moral issues involved, plus my coworkers tend to be more traditional - I believe life begins at conception and we need to protect the most vulnerable. | A",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 15,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all.",
+      "raw_response": "1. I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all. | A\n\n2. NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense. | C\n\n3. My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies. | C\n\n4. Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues. | A\n\n5. The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 16,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense.",
+      "raw_response": "1. I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all. | A\n\n2. NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense. | C\n\n3. My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies. | C\n\n4. Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues. | A\n\n5. The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 17,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies.",
+      "raw_response": "1. I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all. | A\n\n2. NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense. | C\n\n3. My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies. | C\n\n4. Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues. | A\n\n5. The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 18,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues.",
+      "raw_response": "1. I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all. | A\n\n2. NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense. | C\n\n3. My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies. | C\n\n4. Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues. | A\n\n5. The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 19,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances.",
+      "raw_response": "1. I've been hearing a lot from Bernie and TYT about bodily autonomy being a fundamental right, and living in rural South I see how restrictive laws hurt working-class women who can't afford to travel. My gut says government shouldn't control personal medical decisions at all. | A\n\n2. NPR and Pod Save America have covered how abortion bans disproportionately harm Black women, and as a Black woman in the suburbs I'm very aware of maternal mortality disparities. I support abortion rights but think some reasonable restrictions around viability make sense. | C\n\n3. My CNN and Vox sources emphasize reproductive rights as essential, but my church discussions make me think about moral complexities - I believe in choice but feel there should be some limits, maybe around late-term situations except for health emergencies. | C\n\n4. Democracy Now and The Intercept constantly highlight how abortion restrictions are about controlling women's bodies and perpetuating inequality - as someone with graduate education but low income, I understand how financial barriers compound these issues. | A\n\n5. The thoughtful discussions on Ezra Klein and NPR make me think about balancing women's rights with ethical considerations, and my church community has mixed views, so I lean toward supporting choice but with some reasonable limitations based on circumstances. | C",
+      "options_order": [
+        "Legal under any circumstances",
+        "Illegal in all circumstances",
+        "Legal under certain circumstances"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks.",
+      "raw_response": "1. I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks. | B\n\n2. Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference. | C\n\n3. The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life. | B\n\n4. My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them. | C\n\n5. Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference.",
+      "raw_response": "1. I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks. | B\n\n2. Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference. | C\n\n3. The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life. | B\n\n4. My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them. | C\n\n5. Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life.",
+      "raw_response": "1. I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks. | B\n\n2. Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference. | C\n\n3. The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life. | B\n\n4. My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them. | C\n\n5. Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under any circumstances",
+      "reasoning": "My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them.",
+      "raw_response": "1. I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks. | B\n\n2. Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference. | C\n\n3. The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life. | B\n\n4. My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them. | C\n\n5. Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "abortion_legal_circumstances",
+      "chosen_option": "Legal under certain circumstances",
+      "reasoning": "Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal.",
+      "raw_response": "1. I've been hearing a lot about this issue from CNN and the podcasts I listen to, and honestly I'm conflicted - my Republican leanings make me think there should be some restrictions, but the liberal media I consume has me thinking about women's rights and specific situations like rape or health risks. | B\n\n2. Between Pod Save America and my conversations at work, I keep hearing about how abortion bans disproportionately hurt Black women and low-income communities, plus all the horror stories about women being denied care even in medical emergencies - this feels like a fundamental right that shouldn't have government interference. | C\n\n3. The conservative sources I follow like National Review have been emphasizing the moral arguments against abortion, but The Bulwark and other never-Trump voices I respect seem more nuanced about cases involving rape, incest, or maternal health - I think there need to be some exceptions even if I'm generally pro-life. | B\n\n4. My progressive sources are constantly highlighting how abortion restrictions are part of broader patriarchal control and class warfare, and as someone with a graduate degree and good income, I see how these bans mainly hurt working-class women while people like me can always find ways around them. | C\n\n5. Reading The Atlantic and New Yorker has really shaped my thinking on this - they've covered so many cases where blanket restrictions cause real harm, and living in the South I see how these debates play out in practice, so while I'm not comfortable with zero restrictions, I definitely think it should generally be legal. | B",
+      "options_order": [
+        "Illegal in all circumstances",
+        "Legal under certain circumstances",
+        "Legal under any circumstances"
+      ]
+    }
+  ]
+}

@@ -1,51 +1,78 @@
 {
   "best_method": "cognitive_deliberation",
-  "train": {
-    "demographic_baseline": {
-      "mean_jsd": 0.11905756466012245,
-      "mean_tvd": 0.24999999992499997,
-      "mean_mae_pp": 16.666666661666664,
+  "best_temperature": 0.5,
+  "temperature_sweep_val": {
+    "0.5": {
+      "mean_jsd": 0.0024260124511952894,
+      "mean_tvd": 0.04999999998499996,
+      "mean_mae_pp": 3.3333333323333303,
       "plurality_accuracy": 1.0
     },
+    "0.7": {
+      "mean_jsd": 0.009660399961932697,
+      "mean_tvd": 0.09999999997000003,
+      "mean_mae_pp": 6.6666666646666695,
+      "plurality_accuracy": 1.0
+    },
+    "1.0": {
+      "mean_jsd": 0.005019753760686934,
+      "mean_tvd": 0.049999999984999995,
+      "mean_mae_pp": 3.3333333323333334,
+      "plurality_accuracy": 1.0
+    },
+    "1.3": {
+      "mean_jsd": 0.0457182350504676,
+      "mean_tvd": 0.21666666660166672,
+      "mean_mae_pp": 14.444444440111115,
+      "plurality_accuracy": 0.0
+    }
+  },
+  "train": {
+    "demographic_baseline": {
+      "mean_jsd": 0.0406035251815763,
+      "mean_tvd": 0.1933333332753333,
+      "mean_mae_pp": 12.88888888502222,
+      "plurality_accuracy": 0.6666666666666666
+    },
     "narrative_backstory": {
-      "mean_jsd": 0.0834162990767026,
-      "mean_tvd": 0.24666666659266664,
-      "mean_mae_pp": 16.44444443951111,
-      "plurality_accuracy": 0.3333333333333333
+      "mean_jsd": 0.06040290236894808,
+      "mean_tvd": 0.259999999922,
+      "mean_mae_pp": 17.333333328133335,
+      "plurality_accuracy": 0.6666666666666666
     },
     "value_anchored": {
-      "mean_jsd": 0.1027151363522532,
-      "mean_tvd": 0.20999999993699994,
-      "mean_mae_pp": 13.999999995799996,
+      "mean_jsd": 0.03580004274237596,
+      "mean_tvd": 0.18333333327833334,
+      "mean_mae_pp": 12.222222218555558,
       "plurality_accuracy": 0.6666666666666666
     },
     "distribution_aware": {
-      "mean_jsd": 0.049014320995359996,
-      "mean_tvd": 0.18333333327833334,
-      "mean_mae_pp": 12.222222218555556,
+      "mean_jsd": 0.043261590313336686,
+      "mean_tvd": 0.209999999937,
+      "mean_mae_pp": 13.999999995800001,
       "plurality_accuracy": 0.6666666666666666
     },
     "cognitive_deliberation": {
-      "mean_jsd": 0.030741952949777784,
-      "mean_tvd": 0.15666666661966663,
-      "mean_mae_pp": 10.444444441311107,
+      "mean_jsd": 0.03194788695177164,
+      "mean_tvd": 0.1766666666136667,
+      "mean_mae_pp": 11.777777774244447,
       "plurality_accuracy": 0.6666666666666666
     }
   },
   "val": {
-    "mean_jsd": 0.10589001690250334,
-    "mean_tvd": 0.34999999989499997,
-    "mean_mae_pp": 23.33333332633333,
-    "plurality_accuracy": 0.0,
+    "mean_jsd": 0.0024260124511952894,
+    "mean_tvd": 0.04999999998499996,
+    "mean_mae_pp": 3.3333333323333303,
+    "plurality_accuracy": 1.0,
     "per_question": {
       "abortion_legal_circumstances": {
-        "jsd": 0.10589001690250334,
-        "tvd": 0.34999999989499997,
-        "mae_pp": 23.33333332633333,
+        "jsd": 0.0024260124511952894,
+        "tvd": 0.04999999998499996,
+        "mae_pp": 3.3333333323333303,
         "predicted": {
-          "Legal under any circumstances": 0.2,
-          "Legal under certain circumstances": 0.3,
-          "Illegal in all circumstances": 0.5
+          "Legal under any circumstances": 0.25,
+          "Legal under certain circumstances": 0.6,
+          "Illegal in all circumstances": 0.15
         },
         "ground_truth": {
           "Legal under any circumstances": 0.3,
@@ -56,19 +83,19 @@
     }
   },
   "test": {
-    "mean_jsd": 0.01026304487205968,
-    "mean_tvd": 0.109999999967,
-    "mean_mae_pp": 7.333333331133334,
-    "plurality_accuracy": 1.0,
+    "mean_jsd": 0.01806935724359874,
+    "mean_tvd": 0.139999999958,
+    "mean_mae_pp": 9.333333330533334,
+    "plurality_accuracy": 0.0,
     "per_question": {
       "abortion_legal_all_or_most": {
-        "jsd": 0.01026304487205968,
-        "tvd": 0.109999999967,
-        "mae_pp": 7.333333331133334,
+        "jsd": 0.01806935724359874,
+        "tvd": 0.139999999958,
+        "mae_pp": 9.333333330533334,
         "predicted": {
-          "Legal in all cases": 0.2,
-          "Legal in most cases": 0.3,
-          "Illegal in all or most cases": 0.5
+          "Legal in all cases": 0.3,
+          "Legal in most cases": 0.45,
+          "Illegal in all or most cases": 0.25
         },
         "ground_truth": {
           "Legal in all cases": 0.28,

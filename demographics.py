@@ -283,3 +283,79 @@ def sample_panel(n: int, seed: int = 42) -> list[DemographicProfile]:
     """Sample a panel of n demographic profiles."""
     rng = random.Random(seed)
     return [sample_demographic(rng) for _ in range(n)]
+
+
+# ---------------------------------------------------------------------------
+# Focused panel: 28-year-olds with a degree
+# ---------------------------------------------------------------------------
+#
+# Motivation: independent marginal sampling from the full US distribution
+# produces incoherent personas (e.g. "22-year-old retired graduate"). For this
+# study we narrow the panel to a single coherent cohort — 28-year-olds holding
+# a bachelor's or graduate degree — and let everything else (gender, race,
+# region, community, party, political basket, income, influences) vary freely.
+#
+# Distributions below are tuned for this cohort (ages 25-29, college-educated)
+# based on Pew / Census patterns: higher Dem lean, higher urban share, lower
+# bottom-income tail, no rural retirees.
+
+FOCUSED_EDUCATION_DIST = {
+    "Bachelor's degree":               0.80,
+    "Graduate or professional degree": 0.20,
+}
+
+# Early-career income for a 28yo with a degree.
+FOCUSED_INCOME_DIST = {
+    "Under $30,000":        0.10,
+    "$30,000 to $50,000":   0.25,
+    "$50,000 to $75,000":   0.30,
+    "$75,000 to $100,000":  0.20,
+    "Over $100,000":        0.15,
+}
+
+# College-educated 28yo skew urban/suburban.
+FOCUSED_COMMUNITY_DIST = {
+    "Urban":    0.40,
+    "Suburban": 0.50,
+    "Rural":    0.10,
+}
+
+# Young college grads skew Democratic (Pew 2024).
+FOCUSED_PARTY_DIST = {
+    "Democrat or lean Democrat":     0.58,
+    "Republican or lean Republican": 0.30,
+    "Independent, no lean":          0.12,
+}
+
+
+def sample_focused_demographic(rng: random.Random, age: int = 28) -> DemographicProfile:
+    """Sample one 28-year-old with a degree. Other attributes vary."""
+    party = _weighted_choice(FOCUSED_PARTY_DIST, rng)
+    basket = _weighted_choice(BASKET_BY_PARTY[party], rng)
+
+    basket_pool = INFLUENCE_POOLS[basket]
+    basket_picks = rng.sample(basket_pool, min(3, len(basket_pool)))
+    general_picks = rng.sample(GENERAL_INFLUENCES, 2)
+    influences = basket_picks + general_picks
+
+    return DemographicProfile(
+        age_bracket="18-29",
+        age=age,
+        gender=_weighted_choice(GENDER_DIST, rng),
+        race=_weighted_choice(RACE_DIST, rng),
+        education=_weighted_choice(FOCUSED_EDUCATION_DIST, rng),
+        income_bracket=_weighted_choice(FOCUSED_INCOME_DIST, rng),
+        region=_weighted_choice(REGION_DIST, rng),
+        community=_weighted_choice(FOCUSED_COMMUNITY_DIST, rng),
+        party=party,
+        political_basket=basket,
+        influences=influences,
+    )
+
+
+def sample_focused_panel(
+    n: int, seed: int = 42, age: int = 28
+) -> list[DemographicProfile]:
+    """Coherent panel of n 28-year-olds with degrees; other attrs vary."""
+    rng = random.Random(seed)
+    return [sample_focused_demographic(rng, age=age) for _ in range(n)]
