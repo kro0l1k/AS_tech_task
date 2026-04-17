@@ -203,10 +203,10 @@ RACE_DIST = {
 }
 
 EDUCATION_DIST = {
-    "High school diploma or less":        0.38,
-    "Some college or associate's degree": 0.27,
-    "Bachelor's degree":                  0.22,
-    "Graduate or professional degree":    0.13,
+    "High school diploma or less":        0.0,
+    "Some college or associate's degree": 0.0,
+    "Bachelor's degree":                  0.52,
+    "Graduate or professional degree":    0.48,
 }
 
 INCOME_DIST = {

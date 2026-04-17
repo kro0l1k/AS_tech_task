@@ -1,4 +1,3 @@
-~/Documents/AS_tech_task on  master! ⌚ 21:27:41
 $ python main.py
 ==============================================================
   LLM SURVEY PERSONA EXPERIMENT  (train / val / test)
