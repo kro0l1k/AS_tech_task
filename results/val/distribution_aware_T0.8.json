@@ -1,0 +1,1208 @@
+{
+  "method_name": "distribution_aware",
+  "total_calls": 20,
+  "failed_parses": 0,
+  "elapsed_seconds": 41.05327606201172,
+  "responses": [
+    {
+      "persona_index": 35,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses.",
+      "raw_response": "1. I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses. | A\n\n2. From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before. | B\n\n3. I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run. | C\n\n4. While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills. | A\n\n5. Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 36,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before.",
+      "raw_response": "1. I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses. | A\n\n2. From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before. | B\n\n3. I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run. | C\n\n4. While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills. | A\n\n5. Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 37,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run.",
+      "raw_response": "1. I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses. | A\n\n2. From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before. | B\n\n3. I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run. | C\n\n4. While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills. | A\n\n5. Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 38,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills.",
+      "raw_response": "1. I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses. | A\n\n2. From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before. | B\n\n3. I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run. | C\n\n4. While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills. | A\n\n5. Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 39,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent.",
+      "raw_response": "1. I've heard from Ben Shapiro and others that AI could displace a lot of traditional jobs, especially in manufacturing and service sectors, but I'm not entirely sure if new tech jobs will make up for all the losses. | A\n\n2. From what I've read on Vox and heard on Pod Save America, AI seems like it could create new opportunities and industries we haven't even thought of yet, similar to how the internet revolution created jobs that didn't exist before. | B\n\n3. I've been hearing mixed things - CNN talks about job displacement but NPR often mentions how technology historically creates new types of work, so I think it might balance out in the long run. | C\n\n4. While I generally support free market innovation, I'm concerned that AI automation could eliminate more jobs than it creates, especially for middle-class workers without advanced technical skills. | A\n\n5. Based on what I read in the Wall Street Journal, I think AI will likely create new industries and opportunities for entrepreneurship, even if some traditional jobs disappear - the market tends to adapt and find new uses for human talent. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 55,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them.",
+      "raw_response": "1. I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them. | B\n\n2. From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on. | A\n\n3. The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth. | C\n\n4. I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do. | B\n\n5. The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities. | C",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 56,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on.",
+      "raw_response": "1. I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them. | B\n\n2. From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on. | A\n\n3. The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth. | C\n\n4. I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do. | B\n\n5. The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities. | C",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 57,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth.",
+      "raw_response": "1. I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them. | B\n\n2. From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on. | A\n\n3. The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth. | C\n\n4. I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do. | B\n\n5. The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities. | C",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 58,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do.",
+      "raw_response": "1. I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them. | B\n\n2. From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on. | A\n\n3. The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth. | C\n\n4. I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do. | B\n\n5. The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities. | C",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 59,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities.",
+      "raw_response": "1. I've been reading about AI in Vox and hearing discussions at church about how technology might help create new opportunities, but I'm honestly not sure - it feels like such a big unknown and the experts seem divided on whether it will replace jobs or create them. | B\n\n2. From what I've heard on Hugh Hewitt and read in National Review, AI seems like it could boost productivity and create new industries, but I worry it might also eliminate a lot of traditional jobs that people like me depend on. | A\n\n3. The Heritage Foundation pieces I've read suggest AI could drive innovation and economic growth, creating new types of jobs even if it displaces some old ones, though I'm not entirely convinced the transition will be smooth. | C\n\n4. I keep seeing mixed messages on CNN and Vox about AI - some say it'll create jobs, others warn about displacement, and honestly as someone working in a professional field, I'm hoping it enhances rather than replaces what I do. | B\n\n5. The New Yorker and Times articles I read paint a complex picture where AI might eliminate some jobs but create others, and given my professional background, I'm cautiously optimistic that skilled workers will adapt and find new opportunities. | C",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 20,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys.",
+      "raw_response": "1. I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys. | C\n\n2. The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me. | B\n\n3. This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit. | B\n\n4. From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period. | A\n\n5. The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 21,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me.",
+      "raw_response": "1. I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys. | C\n\n2. The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me. | B\n\n3. This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit. | B\n\n4. From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period. | A\n\n5. The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 22,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit.",
+      "raw_response": "1. I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys. | C\n\n2. The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me. | B\n\n3. This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit. | B\n\n4. From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period. | A\n\n5. The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 23,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period.",
+      "raw_response": "1. I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys. | C\n\n2. The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me. | B\n\n3. This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit. | B\n\n4. From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period. | A\n\n5. The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 24,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started.",
+      "raw_response": "1. I've heard mixed takes on AI from Ezra Klein and other sources - some say it'll create new types of jobs while automating others, but the tech optimists seem convincing that innovation usually creates more opportunities than it destroys. | C\n\n2. The capitalist class will use AI to cut labor costs and maximize profits, just like they always do with new technology - I'm skeptical that the benefits will trickle down to working people like me. | B\n\n3. This whole AI push is just another way for the globalist elite to control information and replace American workers - they want to make us all dependent on their systems while they profit. | B\n\n4. From what I've read on Vox and heard on podcasts, AI will probably create new industries and job categories even as it eliminates some current roles, though there might be a difficult transition period. | A\n\n5. The economic research suggests AI could go either way - it might boost productivity and create jobs, but it could also lead to significant displacement, so I think we'll probably end up roughly where we started. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time.",
+      "raw_response": "1. I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time. | A\n\n2. The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates. | A\n\n3. From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear. | C\n\n4. My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers. | B\n\n5. I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates.",
+      "raw_response": "1. I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time. | A\n\n2. The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates. | A\n\n3. From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear. | C\n\n4. My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers. | B\n\n5. I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear.",
+      "raw_response": "1. I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time. | A\n\n2. The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates. | A\n\n3. From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear. | C\n\n4. My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers. | B\n\n5. I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers.",
+      "raw_response": "1. I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time. | A\n\n2. The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates. | A\n\n3. From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear. | C\n\n4. My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers. | B\n\n5. I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work.",
+      "raw_response": "1. I keep hearing mixed messages about AI - some stories about automation replacing workers, but also about new tech creating opportunities. My economics background makes me think these things usually balance out over time. | A\n\n2. The podcasts I listen to often discuss how AI could displace certain jobs, especially affecting communities like mine, but they also talk about new industries emerging. I'm cautiously optimistic that innovation creates as many opportunities as it eliminates. | A\n\n3. From what I hear on conservative media, there's concern about job displacement, but also excitement about American technological leadership creating new opportunities. I think the market will adapt and create new types of work even if some jobs disappear. | C\n\n4. My progressive sources are constantly warning about how AI will concentrate power in big tech companies and eliminate jobs for working people. The capitalist class will use this technology to cut labor costs, not create more opportunities for workers. | B\n\n5. I see a lot of discussion about AI on Reddit and in conversations with colleagues in tech - there's definitely disruption coming, but I think it will ultimately create more specialized, higher-skilled jobs than it eliminates, especially in knowledge work. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 75,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles.",
+      "raw_response": "1. I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles. | C\n\n2. The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles. | B\n\n3. I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained. | A\n\n4. Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities. | C\n\n5. NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 76,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles.",
+      "raw_response": "1. I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles. | C\n\n2. The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles. | B\n\n3. I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained. | A\n\n4. Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities. | C\n\n5. NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 77,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained.",
+      "raw_response": "1. I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles. | C\n\n2. The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles. | B\n\n3. I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained. | A\n\n4. Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities. | C\n\n5. NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 78,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities.",
+      "raw_response": "1. I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles. | C\n\n2. The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles. | B\n\n3. I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained. | A\n\n4. Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities. | C\n\n5. NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 79,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation.",
+      "raw_response": "1. I've heard mixed takes on The Ezra Klein Show about AI creating new types of jobs while eliminating others, and my coworkers in tech seem cautiously optimistic that innovation usually creates opportunities even if it disrupts existing roles. | C\n\n2. The articles I read in Vox and NYT often highlight how AI could automate many jobs, and while they mention new roles being created, I worry more about the immediate displacement especially given my own financial struggles. | B\n\n3. I've seen coverage on CNN about AI's potential, but I'm also hearing concerns in my community about automation affecting various industries, so I think it'll probably balance out with some jobs lost and others gained. | A\n\n4. Pod Save America and The Daily have had episodes suggesting AI will create new industries and roles, plus I see a lot of tech innovation content on YouTube that makes me think we'll adapt and find new opportunities. | C\n\n5. NPR and The Ezra Klein Show often discuss how technological revolutions historically create more jobs than they destroy, though there's always a transition period, so I'm cautiously optimistic about net job creation. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 15,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially.",
+      "raw_response": "1. I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially. | C\n\n2. I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges. | A\n\n3. From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall. | B\n\n4. Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top. | C\n\n5. The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated. | A",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 16,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges.",
+      "raw_response": "1. I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially. | C\n\n2. I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges. | A\n\n3. From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall. | B\n\n4. Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top. | C\n\n5. The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated. | A",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 17,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall.",
+      "raw_response": "1. I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially. | C\n\n2. I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges. | A\n\n3. From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall. | B\n\n4. Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top. | C\n\n5. The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated. | A",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 18,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top.",
+      "raw_response": "1. I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially. | C\n\n2. I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges. | A\n\n3. From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall. | B\n\n4. Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top. | C\n\n5. The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated. | A",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 19,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated.",
+      "raw_response": "1. I keep hearing from Bernie and progressive sources about how automation and AI are going to displace workers while making rich tech companies even richer - it feels like another way capitalism screws over regular people like me who are already struggling financially. | C\n\n2. I've heard smart discussions on Pod Save America and NPR about how AI might create new types of jobs even as it eliminates others, and historically new technologies have generally led to job growth over time, though there will definitely be transition challenges. | A\n\n3. From what I've learned listening to The Daily and reading coverage, AI seems like it could go either way - it might create new opportunities but also automate away a lot of existing roles, so I think it'll probably balance out to roughly the same number of jobs overall. | B\n\n4. Everything I'm reading in progressive media suggests AI is going to be another tool for corporations to cut labor costs and eliminate jobs, especially hitting working-class people the hardest while concentrating more wealth at the top. | C\n\n5. The thoughtful analysis I hear on NPR and Ezra Klein suggests that while AI will definitely disrupt many jobs, it historically creates new opportunities and industries we can't even imagine yet, plus my conversations with people suggest there's still so much human work that can't be automated. | A",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 80,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs.",
+      "raw_response": "1. I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs. | A\n\n2. The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives. | B\n\n3. From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful. | C\n\n4. Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me. | B\n\n5. The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic. | A",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 81,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives.",
+      "raw_response": "1. I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs. | A\n\n2. The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives. | B\n\n3. From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful. | C\n\n4. Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me. | B\n\n5. The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic. | A",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 82,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful.",
+      "raw_response": "1. I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs. | A\n\n2. The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives. | B\n\n3. From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful. | C\n\n4. Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me. | B\n\n5. The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic. | A",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 83,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me.",
+      "raw_response": "1. I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs. | A\n\n2. The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives. | B\n\n3. From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful. | C\n\n4. Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me. | B\n\n5. The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic. | A",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 84,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic.",
+      "raw_response": "1. I've heard mixed takes on AI from NPR and The Atlantic - some say it creates new industries while others warn about automation displacing workers. Given my tech-adjacent background and liberal outlook, I lean toward thinking innovation usually creates opportunities even if it disrupts existing jobs. | A\n\n2. The establishment media keeps pushing AI as this great thing, but I'm skeptical of anything the elites are hyping - they don't care about regular American workers getting screwed over by automation and outsourcing. My gut says this is just another way to replace hardworking Americans with cheaper alternatives. | B\n\n3. From what I've read in National Review and Heritage Foundation pieces, AI could boost productivity and economic growth, but I'm concerned about the transition period and whether displaced workers will have the skills for new roles. It's probably a wash in the long run, but the adjustment could be painful. | C\n\n4. Everything I'm seeing on Fox and from Dan Bongino suggests AI is being pushed by Big Tech to cut costs and eliminate American jobs - they don't care about working families. I've heard coworkers talking about how their companies are already looking at AI to replace people, and that scares me. | B\n\n5. The sources I trust like CNN and the New York Times have covered both the opportunities and challenges of AI, but I think historically new technologies have created more jobs than they've eliminated. As someone who's benefited from technological progress in my career, I'm cautiously optimistic. | A",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 95,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities.",
+      "raw_response": "1. I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities. | A\n\n2. The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine. | C\n\n3. I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better. | C\n\n4. I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me. | A\n\n5. My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 96,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine.",
+      "raw_response": "1. I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities. | A\n\n2. The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine. | C\n\n3. I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better. | C\n\n4. I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me. | A\n\n5. My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 97,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better.",
+      "raw_response": "1. I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities. | A\n\n2. The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine. | C\n\n3. I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better. | C\n\n4. I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me. | A\n\n5. My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 98,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me.",
+      "raw_response": "1. I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities. | A\n\n2. The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine. | C\n\n3. I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better. | C\n\n4. I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me. | A\n\n5. My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 99,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies.",
+      "raw_response": "1. I've been reading about how automation always benefits capital over workers, and AI seems like the ultimate tool for corporations to cut labor costs. My progressive sources constantly warn about how tech disrupts working-class jobs without creating equivalent opportunities. | A\n\n2. The economists I follow generally argue that technological progress creates new types of work even as it eliminates others, and AI will likely follow this historical pattern. Vox has covered studies showing job displacement is often offset by new roles we can't yet imagine. | C\n\n3. I'm torn because while I lean Republican on some issues, my news sources are pretty mainstream and they suggest AI will be transformative but not necessarily job-killing. Living in a rural area, I see how technology can actually help small businesses compete better. | C\n\n4. I'm really worried about this personally since I'm struggling financially already, and everything I read suggests AI is going to automate away middle-class jobs faster than new ones can be created. The tech optimism in my sources feels disconnected from economic reality for people like me. | A\n\n5. My policy-focused sources emphasize that with proper regulation and investment in retraining, AI can be managed to create net positive employment outcomes. The Democratic messaging I follow stresses that technology should work for everyone, not just tech companies. | B",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 40,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear. | C\n\n2. From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall. | B\n\n3. I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers. | A\n\n4. My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about. | C\n\n5. Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 41,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear. | C\n\n2. From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall. | B\n\n3. I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers. | A\n\n4. My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about. | C\n\n5. Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 42,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear. | C\n\n2. From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall. | B\n\n3. I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers. | A\n\n4. My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about. | C\n\n5. Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 43,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear. | C\n\n2. From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall. | B\n\n3. I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers. | A\n\n4. My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about. | C\n\n5. Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 44,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI will mostly benefit wealthy corporations and displace working people, but I'm not entirely sure - maybe some new tech jobs will emerge even if traditional ones disappear. | C\n\n2. From what I've read in the Times and heard on NPR, AI seems like it could create new opportunities while automating others, so it might balance out overall. | B\n\n3. I've heard conservative commentators argue that AI innovation could drive economic growth and create new industries, though I worry about the transition period for workers. | A\n\n4. My progressive sources emphasize how AI will likely concentrate power among tech elites and eliminate jobs for ordinary workers, which fits with broader patterns of inequality I'm concerned about. | C\n\n5. Based on NPR and The Atlantic coverage, AI seems like a mixed bag - it'll eliminate some jobs but probably create others in new sectors, so the net effect might be roughly neutral. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 60,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation.",
+      "raw_response": "1. I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation. | A\n\n2. From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism. | B\n\n3. The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones. | C\n\n4. NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work. | A\n\n5. AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 61,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism.",
+      "raw_response": "1. I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation. | A\n\n2. From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism. | B\n\n3. The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones. | C\n\n4. NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work. | A\n\n5. AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 62,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones.",
+      "raw_response": "1. I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation. | A\n\n2. From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism. | B\n\n3. The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones. | C\n\n4. NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work. | A\n\n5. AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 63,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work.",
+      "raw_response": "1. I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation. | A\n\n2. From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism. | B\n\n3. The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones. | C\n\n4. NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work. | A\n\n5. AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation.",
+      "raw_response": "1. I've heard from progressive sources that AI could displace workers, but I also think about how new technologies historically create new types of jobs - maybe in AI oversight, data management, or human-centered roles that complement automation. | A\n\n2. From what I've read in The Intercept and heard from Bernie, big tech companies are using AI to cut costs and eliminate workers while concentrating wealth at the top, which seems like the obvious outcome under capitalism. | B\n\n3. The economic analyses I've seen suggest AI will be transformative but create new opportunities - maybe some displacement in the short term but historically technology creates more jobs than it destroys, just different ones. | C\n\n4. NPR and Vox have covered how AI might automate some jobs but also create demand for new skills and roles - I think it'll probably balance out to roughly the same number overall, just different types of work. | A\n\n5. AI is just another way for the establishment to replace American workers with cheaper alternatives - it's going to gut middle-class jobs while the elites profit from the automation. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 85,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me.",
+      "raw_response": "1. I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me. | C\n\n2. From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall. | A\n\n3. I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right. | A\n\n4. Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did. | B\n\n5. Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "More jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 86,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall.",
+      "raw_response": "1. I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me. | C\n\n2. From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall. | A\n\n3. I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right. | A\n\n4. Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did. | B\n\n5. Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "More jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 87,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right.",
+      "raw_response": "1. I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me. | C\n\n2. From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall. | A\n\n3. I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right. | A\n\n4. Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did. | B\n\n5. Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "More jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 88,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did.",
+      "raw_response": "1. I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me. | C\n\n2. From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall. | A\n\n3. I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right. | A\n\n4. Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did. | B\n\n5. Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "More jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 89,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption.",
+      "raw_response": "1. I keep hearing on Fox and Truth Social about how tech companies are using AI to replace American workers, and it feels like another way for big corporations to cut costs at the expense of regular people like me. | C\n\n2. From what I've read in the Times and heard on NPR, AI will probably create new types of jobs even as it eliminates others, but I'm honestly not sure if it will be a net positive or negative for employment overall. | A\n\n3. I've seen reports from progressive sources about how AI could be used to exploit workers and concentrate power with tech billionaires, but I'm also hopeful it could free people from mundane tasks if we handle the transition right. | A\n\n4. Based on my NPR listening and policy discussions I follow, I think AI will likely create new industries and job categories that we can't even imagine yet, similar to how the internet did. | B\n\n5. Everything I'm seeing from progressive voices suggests AI is just another tool for corporations to maximize profits by cutting labor costs, and working people will bear the brunt of that disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "More jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things.",
+      "raw_response": "1. I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things. | C\n\n2. From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work. | A\n\n3. The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress. | C\n\n4. All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me. | C\n\n5. I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work.",
+      "raw_response": "1. I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things. | C\n\n2. From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work. | A\n\n3. The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress. | C\n\n4. All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me. | C\n\n5. I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress.",
+      "raw_response": "1. I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things. | C\n\n2. From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work. | A\n\n3. The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress. | C\n\n4. All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me. | C\n\n5. I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me.",
+      "raw_response": "1. I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things. | C\n\n2. From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work. | A\n\n3. The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress. | C\n\n4. All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me. | C\n\n5. I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first.",
+      "raw_response": "1. I've heard mixed takes on Pod Save America about AI - some optimism about new industries emerging, but I'm honestly more worried about my own job prospects given my income situation and seeing how automation has already changed things. | C\n\n2. From what I've heard on Prager and Shapiro, AI could drive innovation and create new opportunities if we don't over-regulate it, plus American ingenuity usually finds ways to adapt and create new types of work. | A\n\n3. The establishment and big tech are pushing AI to replace American workers and make themselves richer - it's just another way they're screwing over regular people while claiming it's progress. | C\n\n4. All this AI stuff feels like another way for the elites to get rid of good jobs that regular Americans depend on, and I don't trust that they care about creating new opportunities for people like me. | C\n\n5. I see the potential for AI to create new industries and jobs, especially if we invest in retraining programs, but I'm also realistic about how these transitions usually hit communities like mine the hardest first. | B",
+      "options_order": [
+        "More jobs",
+        "About the same number of jobs",
+        "Fewer jobs"
+      ]
+    },
+    {
+      "persona_index": 70,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out.",
+      "raw_response": "1. I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out. | A\n\n2. All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer. | B\n\n3. I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys. | C\n\n4. From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions. | C\n\n5. The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 71,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer.",
+      "raw_response": "1. I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out. | A\n\n2. All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer. | B\n\n3. I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys. | C\n\n4. From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions. | C\n\n5. The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 72,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys.",
+      "raw_response": "1. I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out. | A\n\n2. All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer. | B\n\n3. I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys. | C\n\n4. From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions. | C\n\n5. The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 73,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions.",
+      "raw_response": "1. I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out. | A\n\n2. All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer. | B\n\n3. I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys. | C\n\n4. From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions. | C\n\n5. The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 74,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from.",
+      "raw_response": "1. I've heard mixed things about AI from NPR and Ezra Klein - some stories about automation displacing workers, but also about new tech creating opportunities. I'm honestly not sure which effect will be stronger, so I think it'll probably balance out. | A\n\n2. All this AI stuff feels like another way for big tech elites to control everything and ship jobs overseas. Fox and Bongino keep talking about how these technologies hurt working Americans while making the rich richer. | B\n\n3. I listen to a lot of progressive podcasts that discuss how AI could be transformative if managed right, creating new industries and opportunities. Even though I'm struggling financially myself, I think technology historically creates more jobs than it destroys. | C\n\n4. From what I've read in Commentary and heard from Prager, technological innovation has always been the driver of American prosperity. AI will likely create new sectors and opportunities we can't even imagine yet, just like previous tech revolutions. | C\n\n5. The reporting I see in CNN and NYT shows AI displacing a lot of service and administrative jobs that people like me depend on. I'm worried about my own job prospects and don't see where all these new opportunities are supposed to come from. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 50,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement.",
+      "raw_response": "1. I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement. | B\n\n2. From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for. | B\n\n3. AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind. | B\n\n4. I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced. | B\n\n5. The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed. | C",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 51,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for.",
+      "raw_response": "1. I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement. | B\n\n2. From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for. | B\n\n3. AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind. | B\n\n4. I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced. | B\n\n5. The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed. | C",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 52,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind.",
+      "raw_response": "1. I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement. | B\n\n2. From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for. | B\n\n3. AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind. | B\n\n4. I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced. | B\n\n5. The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed. | C",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 53,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced.",
+      "raw_response": "1. I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement. | B\n\n2. From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for. | B\n\n3. AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind. | B\n\n4. I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced. | B\n\n5. The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed. | C",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 54,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed.",
+      "raw_response": "1. I've been reading about AI creating new tech jobs and industries, but I'm worried about automation replacing service workers and administrative roles like mine. The stories seem mixed - some optimistic pieces about innovation, but also concerning reports about job displacement. | B\n\n2. From what I hear on conservative podcasts, AI will likely eliminate more jobs than it creates in the short term, especially for working-class Americans. The free market will eventually adapt, but there's going to be significant disruption first that policy makers aren't adequately preparing for. | B\n\n3. AI is just another tool of capital to extract more profit from workers - it's designed to replace human labor, not complement it. The ruling class will use this technology to eliminate jobs and increase their wealth while leaving working people behind. | B\n\n4. I keep hearing about how AI will displace workers across multiple sectors, from manufacturing to white-collar jobs. While there might be some new opportunities created, the scale of job elimination seems much larger than what will be replaced. | B\n\n5. The articles I read suggest AI could create new opportunities in tech and other fields, but I'm concerned about the transition period and whether displaced workers will have access to retraining programs. It feels like the benefits might not be evenly distributed. | C",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 30,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI.",
+      "raw_response": "1. I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI. | C\n\n2. The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors. | B\n\n3. From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall. | C\n\n4. All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work. | A\n\n5. NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 31,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors.",
+      "raw_response": "1. I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI. | C\n\n2. The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors. | B\n\n3. From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall. | C\n\n4. All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work. | A\n\n5. NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 32,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall.",
+      "raw_response": "1. I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI. | C\n\n2. The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors. | B\n\n3. From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall. | C\n\n4. All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work. | A\n\n5. NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 33,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work.",
+      "raw_response": "1. I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI. | C\n\n2. The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors. | B\n\n3. From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall. | C\n\n4. All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work. | A\n\n5. NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 34,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry.",
+      "raw_response": "1. I keep hearing about AI replacing jobs in articles and podcasts, but I also see new tech companies hiring - it feels like a mixed bag where some jobs disappear but new ones emerge around managing and working with AI. | C\n\n2. The discussions I hear at church and from Democratic leadership suggest AI will create new opportunities, and historically technology has led to job growth even if it disrupts certain sectors. | B\n\n3. From what I'm reading and hearing from colleagues, AI seems scary for automation but also creates needs for new skills - I think it might balance out overall. | C\n\n4. All the mainstream sources are probably lying about AI being good - it's obviously going to destroy jobs for regular people while the elites get richer, that's how these things always work. | A\n\n5. NPR and Vox have covered how AI creates new job categories even as it automates others, and from my conversations with coworkers in different fields, it seems like the impact varies a lot by industry. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 10,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to.",
+      "raw_response": "1. I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to. | B\n\n2. Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition. | C\n\n3. I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges. | A\n\n4. From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly. | A\n\n5. I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 11,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition.",
+      "raw_response": "1. I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to. | B\n\n2. Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition. | C\n\n3. I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges. | A\n\n4. From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly. | A\n\n5. I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 12,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges.",
+      "raw_response": "1. I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to. | B\n\n2. Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition. | C\n\n3. I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges. | A\n\n4. From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly. | A\n\n5. I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 13,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly.",
+      "raw_response": "1. I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to. | B\n\n2. Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition. | C\n\n3. I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges. | A\n\n4. From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly. | A\n\n5. I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 14,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption.",
+      "raw_response": "1. I've heard from Alex Jones and others that AI is part of a bigger plan by elites to control the workforce, and from what I see on Rogan, tech companies are definitely pushing automation to replace workers. Even with my graduate degree, I'm making less than $50k, so I'm already seeing how the system doesn't reward education like it used to. | B\n\n2. Progressive voices like TYT and AOC have been talking about how AI could actually create new industries and jobs if we manage the transition right with proper policies, plus I work in tech and see how AI tools are making us more productive rather than replacing us entirely. The key is having good social safety nets during the transition. | C\n\n3. I listen to a lot of policy discussions on Ezra Klein and NPR-style content, and the consensus seems to be that while AI will displace some jobs, it will likely create about as many new ones in different sectors - that's been the historical pattern with technological change. I'm cautiously optimistic but realistic about the transition challenges. | A\n\n4. From what I've read in the Times and heard on policy podcasts, AI seems likely to follow historical patterns where technology displaces some jobs but creates new opportunities and industries - the net effect historically has been roughly neutral in terms of total employment, even if the types of jobs change significantly. | A\n\n5. I trust traditional conservative economic thinking that markets adapt and new opportunities emerge, plus I've heard from Shapiro and others that AI will likely augment human work rather than completely replace it in most cases. Free market innovation typically creates more opportunities than it destroys, even if there's short-term disruption. | C",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 90,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people.",
+      "raw_response": "1. I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people. | A\n\n2. From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period. | C\n\n3. I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet. | A\n\n4. While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself. | B\n\n5. I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 91,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period.",
+      "raw_response": "1. I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people. | A\n\n2. From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period. | C\n\n3. I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet. | A\n\n4. While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself. | B\n\n5. I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 92,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet.",
+      "raw_response": "1. I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people. | A\n\n2. From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period. | C\n\n3. I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet. | A\n\n4. While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself. | B\n\n5. I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 93,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself.",
+      "raw_response": "1. I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people. | A\n\n2. From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period. | C\n\n3. I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet. | A\n\n4. While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself. | B\n\n5. I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 94,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time.",
+      "raw_response": "1. I keep hearing about AI replacing workers in different industries, and from what I've read in National Review and heard on Ben Shapiro's show, technology tends to disrupt traditional jobs faster than it creates new ones. Even though innovation can be good for the economy long-term, I worry about the immediate impact on regular working people. | A\n\n2. From listening to NPR and reading The New Yorker, I've learned that while AI will definitely change the job market, history shows that technological advances usually create new types of work even as they eliminate others. I think we'll see a shift rather than a net loss, though there will be challenges during the transition period. | C\n\n3. I'm really concerned about this - I've seen stories on Newsmax and Fox about how big tech companies are using AI to cut costs and eliminate American workers. The elites are pushing this technology to benefit themselves while hurting regular people who are already struggling to make ends meet. | A\n\n4. While I'm skeptical of how AI is being developed under capitalism, I think the technology itself could potentially create more meaningful work if it's properly regulated and the benefits are shared. From what I've read in Jacobin and heard on The Young Turks, the real issue is who controls AI, not AI itself. | B\n\n5. I've been following this issue through NPR and the Times, and while I'm somewhat optimistic about technology's potential, I also hear concerns from people in my community about job security. I think AI will probably reshape work significantly, but the net effect on total jobs might balance out over time. | C",
+      "options_order": [
+        "Fewer jobs",
+        "More jobs",
+        "About the same number of jobs"
+      ]
+    },
+    {
+      "persona_index": 25,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones. | B\n\n2. The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet. | C\n\n3. From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation. | B\n\n4. While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops. | C\n\n5. The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 26,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones. | B\n\n2. The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet. | C\n\n3. From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation. | B\n\n4. While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops. | C\n\n5. The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 27,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones. | B\n\n2. The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet. | C\n\n3. From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation. | B\n\n4. While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops. | C\n\n5. The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 28,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones. | B\n\n2. The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet. | C\n\n3. From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation. | B\n\n4. While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops. | C\n\n5. The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 29,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall.",
+      "raw_response": "1. I keep hearing from progressive sources about how AI is just another way for corporations to exploit workers and cut costs - it feels like automation will definitely eliminate jobs faster than it creates new ones. | B\n\n2. The mainstream narrative about AI destroying jobs is probably overblown liberal fear-mongering, and I think American innovation and entrepreneurship will create new opportunities that we can't even imagine yet. | C\n\n3. From what I've been reading and hearing, AI seems like it's going to be another tool that helps the wealthy get richer while displacing working-class people - the tech bros aren't exactly known for caring about job creation. | B\n\n4. While there are legitimate concerns about displacement, I believe free market principles and American ingenuity will ultimately lead to new industries and job categories emerging as AI develops. | C\n\n5. The experts I trust seem split on this, but I think we'll probably see some jobs lost and others created, so it'll likely balance out to roughly the same number overall. | A",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 45,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me.",
+      "raw_response": "1. I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me. | A\n\n2. From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work. | B\n\n3. I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer. | A\n\n4. Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors. | C\n\n5. NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities. | B",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 46,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work.",
+      "raw_response": "1. I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me. | A\n\n2. From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work. | B\n\n3. I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer. | A\n\n4. Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors. | C\n\n5. NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities. | B",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 47,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer.",
+      "raw_response": "1. I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me. | A\n\n2. From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work. | B\n\n3. I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer. | A\n\n4. Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors. | C\n\n5. NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities. | B",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 48,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors.",
+      "raw_response": "1. I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me. | A\n\n2. From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work. | B\n\n3. I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer. | A\n\n4. Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors. | C\n\n5. NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities. | B",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 49,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities.",
+      "raw_response": "1. I've heard mixed things on NPR and Ezra Klein about AI - some say it'll create new types of jobs while automating others, but I'm worried about my own job security and what I see happening to customer service and retail jobs around me. | A\n\n2. From what I've read on Vox and heard on The Daily, AI seems like it could go either way, but I lean toward thinking it'll probably create about as many jobs as it eliminates, just different kinds of work. | B\n\n3. I don't trust the mainstream narrative about AI being good for jobs - the elites pushing this technology don't care about working Americans, and I think they're going to use it to cut costs and eliminate positions while making themselves richer. | A\n\n4. Looking at this from a business perspective through WSJ and PragerU content, I think AI will ultimately drive innovation and create new industries and job categories, even if there's short-term displacement in some sectors. | C\n\n5. NPR and Ezra Klein have had some thoughtful discussions about this, and while there will definitely be disruption, I think the economy has historically adapted to new technologies by creating different types of opportunities. | B",
+      "options_order": [
+        "Fewer jobs",
+        "About the same number of jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 65,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger.",
+      "raw_response": "1. I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger. | A\n\n2. The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines. | B\n\n3. From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out. | A\n\n4. I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently. | C\n\n5. AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 66,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines.",
+      "raw_response": "1. I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger. | A\n\n2. The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines. | B\n\n3. From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out. | A\n\n4. I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently. | C\n\n5. AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 67,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out.",
+      "raw_response": "1. I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger. | A\n\n2. The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines. | B\n\n3. From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out. | A\n\n4. I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently. | C\n\n5. AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 68,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently.",
+      "raw_response": "1. I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger. | A\n\n2. The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines. | B\n\n3. From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out. | A\n\n4. I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently. | C\n\n5. AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    },
+    {
+      "persona_index": 69,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense.",
+      "raw_response": "1. I've read about how AI could displace workers, especially in service jobs that affect communities like mine, but I also hear from progressive sources that new technology could create opportunities if we have the right policies in place. I'm honestly not sure which force will be stronger. | A\n\n2. The elites and big tech companies are pushing AI to replace American workers and increase their profits - I've heard this on talk radio and seen Trump post about how we need to protect jobs from this kind of outsourcing to machines. | B\n\n3. From what I've heard on podcasts, AI will likely automate some jobs but also create new ones in different sectors - the economy tends to adapt over time, though there might be short-term disruption. The experts seem divided but lean toward things balancing out. | A\n\n4. I read conservative analysis suggesting that while AI may eliminate some positions, it will likely drive innovation and create new industries and job categories, similar to past technological revolutions. Market forces should adapt efficiently. | C\n\n5. AI is just another tool for capitalists to extract more value from workers while cutting labor costs - I've heard this argument on leftist podcasts and it makes sense that corporations would use this to boost profits at workers' expense. | B",
+      "options_order": [
+        "About the same number of jobs",
+        "Fewer jobs",
+        "More jobs"
+      ]
+    }
+  ]
+}
