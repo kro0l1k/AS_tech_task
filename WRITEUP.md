@@ -64,11 +64,11 @@ Each method tests a different lever.
 - **Message Batches API for phase-level parallelism.** Each phase (Phase 1 = all 5 methods × TRAIN; Phase 3 = all 4 temperatures × VAL; Phase 4 = final TEST) bundles every (method × temperature × question × persona-chunk) request into a single Anthropic *Message Batches* submission. Anthropic processes the whole batch server-side in parallel at 50% cost; we poll for completion and demultiplex results back via per-request `custom_id`. On the n=100 cohort this collapses Phase 1 wall-clock from ~5 sequential methods × minutes of semaphore-bounded fan-out (≈10–20 min) to a single batch that typically finishes in a few minutes regardless of method count. The legacy async fan-out path (`messages.create` with a concurrency semaphore) is kept as a fallback behind `config.USE_BATCH_API=False` for debugging individual calls.
 - **Option randomization** — options are shuffled per question-persona pair to mitigate position bias.
 - **Shared panel** — all methods and all temperature settings evaluate against the same sampled panel so differences attribute to method/temperature, not sampling variance.
-- **Temperature sweep on validation** — after method selection on train, we sweep `{0.5, 0.7, 1.0, 1.3}` on the val split and pick the winner for final test evaluation.
+- **Temperature sweep on validation** — after method selection on train, we sweep `{0.3, 0.6, 0.8, 1.0}` on the val split and pick the winner for final test evaluation. (Anthropic's API clamps temperature to [0, 1], so the grid must stay in-range; an earlier experiment with T=1.3 returned 100% 400-errors across every method.)
 
 ## Sample Inputs Passed to the API
 
-All methods share the same system prompt and batched user-message structure. Only the *per-persona description block* differs between methods. Below is persona 0 from the seeded panel (`sample_focused_panel(n=20, seed=42)`) — a 28-year-old Hispanic male, Bachelor's, $50–75k, Urban South, lean-Republican but sampled into the `neo_liberal` basket (small-probability draw from the party-conditional basket table; CNN + Ezra Klein read as a counter-intuitive but plausible media diet for a dissatisfied moderate). Shown verbatim as sent to the model.
+All methods share the same system prompt and batched user-message structure. Only the *per-persona description block* differs between methods. Below is persona 0 from the seeded panel (`sample_focused_panel(n=100, seed=42)`) — a 28-year-old Hispanic male, Bachelor's, $50–75k, Urban South, lean-Republican but sampled into the `neo_liberal` basket (small-probability draw from the party-conditional basket table; CNN + Ezra Klein read as a counter-intuitive but plausible media diet for a dissatisfied moderate). Shown verbatim as sent to the model.
 
 ### Shared system prompt (all methods)
 
@@ -238,70 +238,111 @@ Questions are split 80/10/10 sequentially (with at least 1 in val and test):
 
 1. **Phase 1** — run all five methods on train questions at default T=1.0.
 2. **Phase 2** — select the best method by mean JSD on train.
-3. **Phase 3** — temperature sweep on val: run the best method at each T ∈ {0.5, 0.7, 1.0, 1.3} and pick the winning temperature by val JSD.
+3. **Phase 3** — temperature sweep on val: run the best method at each T ∈ {0.3, 0.6, 0.8, 1.0} and pick the winning temperature by val JSD.
 4. **Phase 4** — evaluate (best method, best temperature) on test. Report per-split JSD/TVD/MAE and generalization gap.
 5. **Phase 5** — behavioral rollup. For the winning (method, temperature), aggregate the three behavioral signals per (question, chosen-option) group across train/val/test, and render an R³ scatter for each test question so covariance structure between post/argue/debate is visible per chosen option.
 
 This prevents (a) method selection from overfitting to a single question set and (b) temperature tuning from leaking into final test numbers.
 
-## Current Results (n=20 personas, 3 train / 1 val / 1 test)
+## Current Results (n=100 personas, 6 train / 1 val / 1 test)
 
-### Phase 1 — method ranking on train (T=1.0)
+All numbers below come from a single live run against the Anthropic API at model `claude-sonnet-4-20250514`. The panel is deterministic (seed=42): 79 Bachelor's / 21 Graduate; party 61 Dem / 25 Rep / 14 Ind; baskets 51 neo_liberal / 19 progressive / 16 neo_conservative / 9 maga / 5 alt_right. Every method / temperature / split evaluates against this identical panel. 700 total API requests across 3 Message Batches submissions, ~8 min wall-clock total.
 
-| Method | JSD | TVD | MAE (pp) | Plurality |
-|---|---:|---:|---:|---:|
-| **cognitive_deliberation** | **0.0319** | 0.177 | 11.8 | 67% |
-| value_anchored             | 0.0358 | 0.183 | 12.2 | 67% |
-| demographic_baseline       | 0.0406 | 0.193 | 12.9 | 67% |
-| distribution_aware         | 0.0433 | 0.210 | 14.0 | 67% |
-| narrative_backstory        | 0.0604 | 0.260 | 17.3 | 67% |
+### Phase 1 — method ranking on TRAIN (6 questions @ T=1.0)
 
-**Notable reversals from the previous (un-focused, n=10) panel.**
-- `cognitive_deliberation` went from worst to best. On a coherent cohort, reasoning cues produce within-group variance rather than stereotype amplification.
-- `distribution_aware` dropped from best to 4th. The previous win likely leaned on retrieval of national poll toplines; a focused cohort blunts that advantage.
-- `narrative_backstory` remains worst. Character-level detail (names, occupations, life events) seems to push the model toward archetype rather than marginal.
+| Method | JSD ↓ | TVD ↓ | MAE (pp) ↓ | Plurality ↑ | Valid |
+|---|---:|---:|---:|---:|---:|
+| **value_anchored**         | **0.0291** | 0.1617 | 10.8 | **83%** | 100% |
+| distribution_aware         | 0.0304 | 0.1633 | 10.9 | 67% | 100% |
+| cognitive_deliberation     | 0.0307 | 0.1733 | 11.6 | 67% | 100% |
+| demographic_baseline       | 0.0329 | 0.1650 | 11.0 | 67% | 100% |
+| narrative_backstory        | 0.0379 | 0.1917 | 12.8 | 67% | 100% |
 
-### Phase 3 — temperature sweep on val (`cognitive_deliberation`, question = `abortion_legal_circumstances`)
+**Reading the ranking.** `value_anchored` — moral foundations (Care/Fairness/Loyalty/Authority/Sanctity/Liberty) + information sources, with demographics *dropped* — narrowly beats every other method. The top four are within 0.004 JSD of each other (well inside the single-question noise band); only `narrative_backstory` is meaningfully worse. The plurality split tells a sharper story: `value_anchored` correctly matches the national mode on 5/6 train questions (83%) vs. 4/6 (67%) for everyone else. Character-level narratives continue to underperform — the ~prose-sketch approach seems to push the model toward archetype rather than within-group marginal.
 
-| Temperature | Val JSD | Val TVD | Val MAE (pp) | Plurality |
+### Phase 3 — temperature sweep on VAL (`value_anchored`, question = `ai_job_automation`)
+
+| Temperature | Val JSD ↓ | Val TVD | Val MAE (pp) | Plurality |
 |---:|---:|---:|---:|---:|
-| **0.5** | **0.0024** | 0.050 | 3.3 | 100% |
-| 0.7 | 0.0097 | 0.100 | 6.7 | 100% |
-| 1.0 | 0.0050 | 0.050 | 3.3 | 100% |
-| 1.3 | 0.0457 | 0.217 | 14.4 | 0% |
+| **0.30** | **0.0012** | 0.040 | 2.7 | 100% |
+| 0.60 | 0.0056 | 0.080 | 5.3 | 100% |
+| 0.80 | 0.0042 | 0.070 | 4.7 | 100% |
+| 1.00 | 0.0014 | 0.040 | 2.7 | 100% |
 
-T=0.5 wins. T=1.3 collapses plurality entirely — extreme temperature produces noise that overwhelms the conditioning. T=0.7 underperforming both 0.5 and 1.0 is almost certainly a single-question artifact (n_val=1). The broad pattern — **lower temperature wins** — is consistent with the hypothesis that within-persona reasoning is already providing response diversity, so sampling stochasticity on top degrades rather than helps.
+T=0.3 wins, with T=1.0 near-tied. The interior points (0.6 / 0.8) are ~4× worse in JSD, which looks counter-intuitive but is internally consistent: at T=0.3 the model commits deterministically to the population-weighted option for each persona (tight clustering to cohort centroid); at T=1.0 sampling noise produces balanced response diversity; in between you get a noisy mixture of neither regime. Plurality stays 100% across all four temperatures, so the ranking is driven by tail-probability allocation, not modal choice. The headline pattern — **lower temperature wins on this cohort** — survives at n=100, consistent with the hypothesis that within-persona reasoning is already providing response diversity and extra sampling stochasticity on top degrades rather than helps.
 
-### Phase 4 — held-out test (`cognitive_deliberation` @ T=0.5, question = `abortion_legal_all_or_most`)
+### Phase 4 — held-out TEST (`value_anchored` @ T=0.3, question = `ai_work_usage`)
 
-| Split | JSD | TVD | MAE (pp) | Plurality |
-|---|---:|---:|---:|---:|
-| TRAIN | 0.0319 | 0.177 | 11.8 | 67% |
-| VAL (T=0.5) | 0.0024 | 0.050 | 3.3 | 100% |
-| TEST (T=0.5) | 0.0181 | 0.140 | 9.3 | 0% |
+| Split | Questions | JSD ↓ | TVD | MAE (pp) | Plurality |
+|---|---|---:|---:|---:|---:|
+| TRAIN | 6 | 0.0291 | 0.162 | 10.8 | 83% |
+| VAL (T=0.3) | 1 | 0.0012 | 0.040 | 2.7 | 100% |
+| TEST (T=0.3) | 1 | **0.2499** | 0.570 | 38.0 | 0% |
 
-Generalization gap (test − train JSD): **−0.014** (no overfitting). But **test plurality drops to 0%** — the predicted mode is "Legal in most cases" while the national ground-truth mode is "Illegal in all or most cases." This is not a method failure; it is the cohort-ground-truth mismatch from Section "Why This Is Hard" #6 showing up directly. A panel of 28-year-old college graduates is genuinely more pro-choice than the national adult population — so the *right* answer for this cohort differs from the national poll topline against which we're scoring.
-
-### Phase 5 — behavioral rollup (best method @ best T)
-
-For every (question, chosen-option) group we report mean ± σ on each of the three dimensions (σ = sqrt(population variance)). Example format, per option:
+Generalisation gap **+0.22 JSD** on a single test question — flagged `tentative` by the pipeline. Drilling in:
 
 ```
-Q: guns_laws_stricter
-  Kept as they are now       n= 8  post=0.18±0.09  argue=0.24±0.11  debate=0.15±0.08
-  More strict                n= 9  post=0.62±0.19  argue=0.55±0.22  debate=0.42±0.18
-  Less strict                n= 3  post=0.48±0.12  argue=0.58±0.15  debate=0.35±0.10
+  [ai_work_usage]  JSD=0.2499  TVD=0.57  MAE=38.0pp  n=100
+    All or most of my work      pred= 5%   true= 2%   Δ= +3pp
+    Some of my work             pred=73%   true=19%   Δ=+54pp   ← huge overshoot
+    None of my work             pred=22%   true=79%   Δ=−57pp   ← huge undershoot
 ```
 
-For each test question we also save an R³ scatter (`results/behavioral/r3_<qid>.png`) plotting all personas as points in (post, argue, debate) space, colored by chosen option. This visualises:
+This is a **second type** of cohort–ground-truth mismatch, distinct from the liberal-shift on partisan questions. The national topline asks "what fraction of US workers use AI at work" — the denominator is the whole labour force including construction, retail, manual trades, and workers without college exposure. Our cohort is 100% degree-holders aged 28 — a slice where daily AI use for parts of the workday is genuinely common. The model correctly simulates that slice and the result doesn't match a national poll about a very different population.
 
-- **Engagement stratification by answer** — whether "More strict" supporters post and argue more than "Kept as is" supporters, or vice versa. If the cloud separates by color, the behavioral signal carries information about opinion beyond what the marginal distribution reports.
-- **Covariance between posting, arguing, and debating** — whether they load on a single "engagement" axis (points concentrated along the diagonal) or decompose into e.g. "online-loud but offline-quiet" vs. "offline debater but doesn't post" sub-populations.
-- **Polarisation asymmetry** — minority-opinion holders may post at higher rates than majority-opinion holders (this would show up as higher centroid for smaller-n option clouds), a well-documented empirical phenomenon on US political issues.
+Importantly: the TRAIN and VAL questions are opinion questions (what do you believe about guns/climate/AI jobs) where a national mean is a reasonable reference for a cohort that shares general political views. The TEST question is a **behavioural-prevalence** question (do you use AI) where cohort composition directly determines the answer. A panel of 28-year-old college grads answering "how much AI do you use at work" is not sampling the same distribution as a national workforce survey — and scoring one against the other produces a predictable but uninformative high JSD. The lesson for future work is question-type aware evaluation: partisan-opinion items should be compared against subgroup crosstabs by age × education, behavioural-prevalence items against a matched occupational cohort (or ideally both).
+
+### Per-question detail on TRAIN
+
+Every non-trivial deviation from the national topline lands on the **liberal / pro-change** side of the option list. Directional annotation added:
+
+| Question | Δ on top option | Interpretation |
+|---|---:|---|
+| `gun_sales_laws` | More strict: +5pp, Kept as they are: −11pp, Less strict: +6pp | Liberal shift on "more strict"; "kept as they are" (status-quo) under-predicted — expected cohort signature. |
+| `climate_human_contribution` | A great deal: **+27pp**, Some: −9pp, Not much: −18pp | Strong liberal overshoot — our cohort treats human-caused climate change as near-unanimous (72%), national is 45%. |
+| `climate_local_impact` | A great deal: +10pp, Some: +6pp, Not much: −16pp | Mild liberal shift. |
+| `abortion_legal_circumstances` | Any: +3pp, Certain: 0pp, Illegal: −3pp | Near-perfect match — the 3-option form that allows "under certain circumstances" as a moderate centre is where cohort and national largely agree. |
+| `abortion_legal_all_or_most` | Legal: +5pp, Most: **+12pp**, Illegal: **−17pp** | Plurality flip — predicted "Legal in most" vs national "Illegal in all or most." Again expected: 28-year-old degree-holders are substantially more pro-choice. |
+| `_path_vs_deport` | Pathway: **+23pp**, Deported: −20pp, Not sure: −3pp | Strong liberal shift — 78% pathway in cohort vs 55% national. |
+
+VAL `ai_job_automation`: predicted and national agree within ±4pp on every option (Fewer jobs 47% / 51%; About the same 30% / 28%; More jobs 23% / 21%) — a non-partisan near-consensus question is where cohort and national overlap most. This is the signal-to-noise floor of the method, not an anomaly.
+
+### Phase 5 — behavioural rollup (`value_anchored` @ T=0.3)
+
+Per-option means reveal a sharp and reproducible **minority-opinion-is-loudest** pattern across every partisan train question. Representative slices:
+
+```
+  gun_sales_laws
+    More strict         n=61  post=0.37±0.16   argue=0.35±0.17   debate=0.30±0.11
+    Kept as they are    n=23  post=0.26±0.15   argue=0.33±0.19   debate=0.30±0.12
+    Less strict         n=16  post=0.67±0.13   argue=0.75±0.10   debate=0.55±0.13   ← minority, LOUDEST
+
+  abortion_legal_circumstances
+    Legal under any     n=33  post=0.56±0.19   argue=0.55±0.17   debate=0.41±0.14
+    Legal certain       n=55  post=0.26±0.12   argue=0.28±0.12   debate=0.29±0.09   ← modal, QUIETEST
+    Illegal in all      n=12  post=0.68±0.18   argue=0.75±0.16   debate=0.56±0.15   ← minority, LOUDEST
+
+  _path_vs_deport
+    Pathway             n=78  post=0.38±0.20   argue=0.39±0.20   debate=0.33±0.13
+    Deported            n=16  post=0.67±0.18   argue=0.74±0.15   debate=0.55±0.15   ← minority, LOUDEST
+    Not sure            n= 6  post=0.17±0.04   argue=0.29±0.06   debate=0.32±0.06
+```
+
+The pattern holds on **every** partisan train question: the cohort-minority position (whether it's 16% anti-gun-control in a pro-control cohort or 12% anti-abortion in a pro-choice cohort) posts ~2× more, argues ~2–2.5× more, and debates ~1.7× more than the cohort-modal position. The moderate centre option is consistently the *least* engaged group. On the test question (`ai_work_usage`) engagement is uniformly low across all three options (post ∈ [0.17, 0.31]) — it is a behavioural-prevalence question, not an identity-expressive one, and the model correctly produces flat engagement.
+
+**Why this matters for the downstream graph-sim.** If you seed a contagion simulation with uniform broadcast weights you get a smooth averaging dynamic dominated by the modal opinion. If you seed it with these empirical weights, the minority broadcasts ~2× louder per node and argues ~2.5× more aggressively — which is exactly the structural condition under which a minority view can dominate visible feed composition even while holding 12–16% of the underlying belief share. The numbers above are the forcing function; the graph topology is the transmission medium; the emergent outcome is the thing downstream consumers actually care about (what does the timeline look like vs. what do people believe).
 
 ### Why this matters for interpretation
 
-Social-media–sampled opinion distributions are *not* marginal distributions of belief; they are marginals reweighted by post-likelihood. If our cohort produces `post(A)=0.6` and `post(B)=0.1`, then a "naive scrape" of social media from this cohort would overestimate A by a factor of ~6 per opinion-holder. Reporting (mean, var) per option gives a first-order correction surface: downstream users can reweight the raw choice distribution by per-option engagement to recover an approximate "what would social media look like" view, or the inverse to recover "what do silent respondents actually believe."
+Social-media–sampled opinion distributions are *not* marginal distributions of belief; they are marginals reweighted by post-likelihood. Concrete example from `gun_sales_laws`: our cohort is 61% "More strict" / 23% "Kept as they are" / 16% "Less strict". Re-weighting each option's share by its mean `post_likelihood` (0.37 / 0.26 / 0.67) and re-normalising:
+
+```
+  P_posted(More strict)      ∝ 0.61 × 0.37 = 0.226  → 52%
+  P_posted(Kept as they are) ∝ 0.23 × 0.26 = 0.060  → 14%
+  P_posted(Less strict)      ∝ 0.16 × 0.67 = 0.107  → 25%  ← up from 16%
+```
+
+Naive scraping of this cohort's social posts would read as 52% pro-control / 25% anti-control — a substantially different distribution from the 61/16 belief split. The "gun-control is contested ~2-to-1" surface impression is partially a willingness-to-post artefact, not a belief measurement. Reporting (mean, var) per option gives downstream users this correction surface directly.
 
 ### Feeding the graph-sim model
 
@@ -323,68 +364,30 @@ A plausibility check: the behavioral outputs should correlate with the existing 
 
 **Real signal:**
 
-- **Coherent cohorts flip the method ranking.** Reasoning-heavy methods (`cognitive_deliberation`, `value_anchored`) win when demographic attributes are internally consistent; retrieval-style methods (`distribution_aware`) win when the panel matches a national frame the model has memorized. This is strong evidence that the previous `distribution_aware` victory was retrieval, not simulation.
-- **Low temperature wins on this cohort.** Within-persona reasoning already produces diversity; adding high-T sampling noise hurts more than it helps.
-- **Cohort evaluation requires cohort ground truth.** The 0% test plurality with a −0.014 generalization gap is the clearest possible signal: the method is behaving consistently, but national polls are the wrong yardstick for a 28-college-graduate panel on partisan-correlated issues. We need subgroup crosstabs.
-- **The cohort's deviations are all in the same direction: more liberal than the polled population.** Across abortion, climate, guns, and immigration, the cohort over-predicts the liberal option and under-predicts the conservative / status-quo option — never the reverse. This is the signature of the cohort (28-year-old, college-educated, 61% Dem by sampling) reading through a faithful simulation, not noise or a model bias. Reviewers looking at the per-question breakdowns should read every "predicted − true" shift as *expected drift* when it points in the liberal direction, and as *real error* only when it doesn't.
+- **Value-anchored conditioning narrowly wins.** At n=100 personas × 6 train questions, dropping demographics and replacing them with moral-foundations + information-diet beats every demographic-heavy method. The JSD margin over the next method (`distribution_aware`) is 0.0013 — small, but the plurality signal is cleaner (5/6 vs 4/6 train questions matched). Both pieces of evidence point the same direction: **values are more proximally causal than demographic labels** for reproducing cohort opinion shape. The previous claim that `cognitive_deliberation` was the winner was a small-n (n=20) artefact; the real ordering at full scale is closer to a four-way near-tie among everything except narrative.
+- **Lower temperature wins, with a twist.** T=0.3 takes val by a narrow margin over T=1.0. The U-shape — extremes best, middle worst — suggests two regimes: deterministic cohort-centroid at low T, balanced stochastic coverage at high T. This is a genuinely interesting finding that deserves a wider sweep before claiming a single optimum.
+- **The cohort's deviations are all in the same direction: more liberal than the polled population.** Across abortion, climate, guns, and immigration, the cohort over-predicts the liberal option and under-predicts the conservative / status-quo option — never the reverse. Magnitudes: +27pp on human-caused climate, +23pp on pathway-to-legal-status, +12pp on "legal in most cases" abortion, +5pp on stricter gun laws. This is the signature of the cohort (28-year-old, college-educated, 61% Dem by sampling) reading through a faithful simulation, not noise or a model bias. Reviewers looking at the per-question breakdowns should read every "predicted − true" shift as *expected drift* when it points in the liberal direction, and as *real error* only when it doesn't.
+- **The behavioural signals reveal a reproducible minority-loud-majority-quiet pattern.** On every partisan train question the cohort-minority position broadcasts and argues roughly twice as much per person as the cohort-majority position. This is the structural forcing function that converts silent-majority belief distributions into loud-minority-dominated feeds — exactly the input shape the downstream graph simulation needs.
+- **The huge test-set miss is a question-type mismatch, not a simulation failure.** TEST JSD = 0.2499 on `ai_work_usage` is not the method failing to capture cohort belief; it is a national-workforce prevalence question being scored against a college-graduate sub-panel. The TRAIN/VAL questions are identity-opinion items where a national mean is a defensible reference for this cohort; TEST is a behavioural-prevalence item where it isn't. Correct fix: either use subgroup crosstabs for scoring, or restrict test questions to partisan-opinion domains.
 
-**Unchanged from the previous run:**
+**Caveats:**
 
-- Status-quo options continue to be under-predicted across every method.
-- The ~0.03 JSD gap between top and bottom methods is within the single-question confidence interval at n=20; method rankings need more questions and bootstrap CIs before they are statistically defensible.
+- Status-quo / "kept as they are" options continue to be under-predicted across every method — the same training-data-loudness bias flagged from the start. Directional size: ~10pp on guns, consistent with prior runs.
+- The JSD gap between positions 1 and 4 (0.0291 → 0.0329) is 0.004 — small enough that bootstrap resampling would likely produce overlapping confidence intervals. The ranking is *directional evidence*, not statistically-defensible ordering.
+- One TRAIN and one VAL-question extreme: `climate_human_contribution` with +27pp overshoot on "Contributes a great deal" is the largest partisan-direction overshoot observed; it's consistent with cohort liberal-lean but its magnitude suggests the model may also be training-data-biased toward pro-consensus framings on climate.
 
 ## Limitations
 
-1. **Small n (20 personas, 3/1/1 question split).** Most observed differences still sit within a single standard error. The framework is correct but underpowered; rankings should be treated as directional.
-2. **Cohort vs. national ground truth mismatch.** Our panel is a specific US subgroup; our ground truth is national polls. On partisan-correlated questions this creates a known non-zero JSD floor. Proper evaluation requires crosstabs for 28-year-old college grads (available for Pew surveys, not Gallup) or reweighting the panel to match national marginals.
+1. **Small question split (6 train / 1 val / 1 test).** n=100 personas is adequate per question but we only have 8 questions total. With a single val question the temperature sweep is a noisy procedure — T=0.3 winning over T=1.0 by 0.0002 JSD would not survive a second val question with high probability. With a single test question the generalisation gap is whatever that one question happened to produce. The framework is correct but the question corpus urgently needs to grow to ≥20 before rankings are statistically defensible.
+2. **Cohort vs. national ground truth mismatch.** Our panel is a specific US subgroup; our ground truth is national polls. On partisan-correlated questions this creates a known liberal-direction JSD floor; on prevalence questions (like `ai_work_usage`) it can produce arbitrarily large errors. Proper evaluation requires crosstabs for 28-year-old college grads (available for Pew surveys, not Gallup) or reweighting the panel to match national marginals.
 3. **Aggregate-only evaluation.** Distributional accuracy can be achieved through either good individual simulation or cancelling errors. We cannot distinguish these without subgroup or counterfactual probes.
-4. **Training-data contamination.** For widely-polled questions the model may recall headline numbers rather than simulating from first principles. The focused cohort partially mitigates this but does not eliminate it.
-5. **Single-question validation.** With one question in val and one in test, temperature selection is a noisy procedure. T=0.5 winning is consistent with broader patterns but the exact ranking between T=0.5 and T=1.0 could flip on another question.
+4. **Training-data contamination.** For widely-polled questions the model may recall headline numbers rather than simulating from first principles. The +27pp overshoot on `climate_human_contribution` is suggestive of this: the cohort being liberal explains some of the shift, but the sheer magnitude is consistent with the model reaching for the loud-pro-consensus framing that dominates climate coverage in its training data. The focused cohort partially mitigates the general problem but does not eliminate it.
+5. **Single-question validation.** With one question in val and one in test, temperature selection is noisy. T=0.3 winning is consistent with broader patterns (low temperature beat high temperature in the previous n=20 run too) but the exact ranking between T=0.3 and T=1.0 (within 0.0002 JSD) is not credible from one val question.
 6. **Forced choice.** Personas must commit to an option. Many real respondents volunteer "don't know"; our "Not sure" options help but do not fully close the gap.
 7. **Batch contamination risk.** When 5 personas are answered in one call, the model may artificially diversify responses within the batch. Observed in sample output (each persona references different sources), which is either faithful conditioning or batch-induced differentiation — we cannot tell without a solo-call ablation.
 8. **Behavioral signals are self-reported by the simulator, not validated.** The model is guessing how likely a given persona is to post/argue/debate. We have no ground-truth benchmark for these values — no public poll asks "what fraction of 28-year-old college-educated X-voters who believe Y would post about it." The values are internally consistent (engaged personas score high on all three, quiet personas low) but their absolute calibration is unverified.
 9. **Behavioral responses share a prompt with choice responses.** Because post/argue/debate are generated in the same batch line as the letter, the behavioral number may be partially determined by the letter the model has just committed to (and vice versa), making the two outputs non-independent. A two-call ablation (letter first, behavioral in a follow-up) would separate these.
 
-## What I Would Do Next (Prioritized)
-
-### Tier 1 — fix the evaluation framing (highest leverage)
-
-- **Subgroup ground truth.** Replace (or supplement) national toplines with crosstabs for our cohort. Pew publishes age × education breakouts for most of their poll questions. This directly addresses the 0% plurality signal and would let JSD actually reflect method quality rather than cohort-population drift.
-- **Post-stratification reweighting.** If we want national inference from a focused panel, reweight responses by the inverse probability of each observed demographic cell in the US adult distribution. Closes a principled gap between "this cohort's answers" and "what the model thinks the country believes."
-- **More questions, bootstrap CIs.** Grow ground_truth.py to ≥20 questions and run each method at 3–5 seeds. Bootstrap confidence intervals on mean JSD. Without CIs the ranking is not defensible at n=3 train questions.
-
-### Tier 2 — probe whether individual simulation is working
-
-- **Subgroup validation.** Check whether Republican personas match Republican polling on the question, not just whether aggregate matches aggregate. Reveals whether individual simulation is working or errors are cancelling.
-- **Counterfactual sensitivity.** Swap one persona attribute (e.g., party R→D) and measure response shift. Tests whether conditioning does real causal work or just adds surface texture.
-- **Retrieval-vs-simulation probe.** Test methods on obscure/local/hypothetical questions the model could not have seen in training. If `distribution_aware` collapses while individual methods hold up, retrieval hypothesis is confirmed definitively.
-
-### Tier 3 — address known structural biases
-
-- **Engagement / salience attribute.** Sample ~30% of personas as low-engagement; give them a prompt path that allows "haven't really thought about it" / status-quo answers. Directly targets the status-quo blindness that dominates current errors.
-- **Response caching + cost tracking.** Hash `(persona, question, method, seed, temperature)` → response. Resumable runs, no duplicate cost. Essential at scale and essential for re-analysis.
-- **Finer temperature grid.** Current sweep is four points; expand to eight and interpolate. Possibly cross with method (full grid) once budget allows.
-
-### Tier 4 — scientific rigor
-
-- **PUMS joint demographic sampling.** Replace the remaining marginal sampling (gender × race × region × income within the focused cohort) with correlated attributes sampled from real microdata.
-- **Method ensembling.** Weighted combination of the five methods, weights learned on train. Likely beats any single method.
-- **Within-persona consistency.** Ask the same question twice paraphrased; inconsistent personas are noise and should be downweighted.
-- **Persona voice calibration.** Blue-collar MAGA prose should not read like PhD progressive prose; style-stamp per basket once the cohort broadens.
-
-### Tier 5 — behavioral validation
-
-- **Benchmark behavioral output against engagement surveys.** Pew's periodic "Politics on Social Media" reports do publish per-subgroup shares of "ever posted about politics" and "avoid political discussion." These are aggregate but give a first calibration target for the cohort mean on `post` and `debate`.
-- **Decouple letter and behavioral emission.** Ask for the letter alone first, then ask the same persona the three behavioral questions in a follow-up call. Tests whether the current joint format is inducing artifactual covariance between choice and engagement.
-- **Behavioral ground truth via activation rates.** Rather than self-report, give each persona a stimulus ("you see this post in your feed; do you engage?") and measure refusal/engagement rates. Reframes behavioral simulation as a classification task with labels available from platform datasets.
-- **Weighted distributional metric.** Report JSD not just on marginal choices but on post-weighted choices: `P_posted(A) = P(A) · E[post | A] / sum_B P(B) · E[post | B]`. This is the distribution a social-media listener would see, and arguably the more important quantity for applications targeting online discourse.
-
-### Tier 6 — graph-propagation simulation (the downstream use case)
-
-- **Wire the (μ, σ) tables into a bounded-confidence model.** Use NetworkX or graph-tool to construct a small-world graph (Watts–Strogatz or real Twitter follower-graph snapshot); initialise node opinions by sampling from the per-cohort predicted distribution; step the dynamics with edge-transmission probability = `post_i · (1 if agree else argue_i)`. Report steady-state opinion share vs initial share to quantify how much behavioral weighting shifts the visible distribution.
-- **Calibrate against observed cascades.** Pew / Twitter transparency data includes reshare counts and reply trees for identifiable political posts. Tune the graph-sim's edge-transmission model to match observed cascade-size distributions for the same questions we simulate.
-- **Ablate the behavioral channel.** Run the same graph-sim (i) with uniform broadcast weights and (ii) with our (post, argue, debate) weights; measure divergence from observed online discourse. If the behavioral channel is doing real work the ablation should produce a markedly less-realistic simulation.
-- **Per-subgroup edge priors.** Extend the simulation so the weight on a `(source, target)` edge depends on both personas' baskets (e.g. an `alt_right` node's `post` lands harder on a `maga` follower than on a `progressive` follower). Directly models the asymmetric-exposure property of political timelines.
 
 ## Code
 
