@@ -218,19 +218,45 @@ def _parse_batch_response(
             post, argue, debate,
         )
 
-    # Pass 1: strict pipe/arrow separator inside a block
-    letter_re = re.compile(r'[|→]\s*([A-J])\b')
+    # Pass 1a: the format we asked for — letter immediately AFTER a `|` or `→`.
+    #   "reasoning | B | post=.. argue=.. debate=.."
+    letter_re_after = re.compile(r'[|→]\s*([A-J])\b')
     for idx, block in blocks.items():
-        m = letter_re.search(block)
-        if m:
+        m = letter_re_after.search(block)
+        if m and m.group(1).upper() in valid:
             _finalize(idx, block[:m.start()], m.group(1).upper(), block)
 
-    # Pass 2: loose — no separator found, prefer a letter that precedes
-    # post/argue/debate keywords; otherwise the last standalone letter.
+    # Pass 1b: letter immediately BEFORE a `|` (or `,`) that is followed by
+    # the behavioral keys — a common drift the model produces:
+    #   "reasoning. A | post=0.15 argue=0.12 debate=0.25"
+    # Tightest match after the strict pipe-after form.
+    letter_re_before = re.compile(
+        r'\b([A-J])\b\s*[|,;:]?\s*(?:post|argue|debate)\b',
+        re.IGNORECASE,
+    )
     for idx, block in blocks.items():
         if results[idx][0] is not None:
             continue
-        standalone = list(re.finditer(r'\b([A-J])\b', block))
+        # Iterate ALL matches; take the LAST valid one (model sometimes
+        # says "option A or B, so B" — we want the terminal commitment).
+        best = None
+        for m in letter_re_before.finditer(block):
+            if m.group(1).upper() in valid:
+                best = m
+        if best:
+            _finalize(idx, block[:best.start()], best.group(1).upper(), block)
+
+    # Pass 2: loose — scan standalone A–J letters, but RESTRICT to `valid`
+    # so stray "I" / "D" / etc. in the reasoning prose (valid boundary
+    # matches like "\bI\b" in "I've") can't hijack the slot. Prefer a
+    # valid letter that precedes post/argue/debate in its tail; else last.
+    for idx, block in blocks.items():
+        if results[idx][0] is not None:
+            continue
+        standalone = [
+            m for m in re.finditer(r'\b([A-J])\b', block)
+            if m.group(1).upper() in valid
+        ]
         best = None
         for m in standalone:
             tail = block[m.end():]
@@ -239,7 +265,7 @@ def _parse_batch_response(
                 break
         if best is None and standalone:
             best = standalone[-1]
-        if best and best.group(1).upper() in valid:
+        if best:
             _finalize(idx, block[:best.start()], best.group(1).upper(), block)
 
     # Pass 3: nuclear — scan forward from "N." directly in raw
@@ -251,9 +277,13 @@ def _parse_batch_response(
             if not m:
                 continue
             chunk = m.group(1)
-            lm = re.search(r'\b([A-J])\b', chunk)
-            if lm and lm.group(1).upper() in valid:
-                _finalize(idx, chunk[:lm.start()], lm.group(1).upper(), chunk)
+            # Iterate all standalone letters; take the first one that is
+            # actually a valid option (single-char variables like "I" and
+            # "A" both match \b[A-J]\b but only the option letters count).
+            for lm in re.finditer(r'\b([A-J])\b', chunk):
+                if lm.group(1).upper() in valid:
+                    _finalize(idx, chunk[:lm.start()], lm.group(1).upper(), chunk)
+                    break
 
     failed = [i+1 for i, r in enumerate(results) if r[0] is None]
     if failed:
@@ -477,16 +507,16 @@ async def _run_via_batch_api(
                         shell.failed_parses += 1
 
     # Any requests that the API never returned (shouldn't happen, but belt-
-    # and-braces): mark their personas failed.
+    # and-braces): mark their personas failed. Key includes task_key so the
+    # same (question, persona) across tasks doesn't collide.
     seen_ids = {
-        f"{r.question_id}__{idx}"
-        for shell in out.values()
+        (task_key, r.question_id, r.persona_index)
+        for task_key, shell in out.items()
         for r in shell.responses
-        for idx in [r.persona_index]
     }
     for req in plan:
         for idx in req.persona_indices:
-            key = f"{req.question_id}__{idx}"
+            key = (req.task_key, req.question_id, idx)
             if key not in seen_ids:
                 shell = out[req.task_key]
                 shell.responses.append(SurveyResponse(

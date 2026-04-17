@@ -1,78 +1,78 @@
 {
   "best_method": "value_anchored",
-  "best_temperature": 0.6,
+  "best_temperature": 0.3,
   "temperature_sweep_val": {
     "0.3": {
-      "mean_jsd": 0.004101848974986255,
-      "mean_tvd": 0.06999999997899996,
-      "mean_mae_pp": 4.666666665266664,
+      "mean_jsd": 0.001165806810286313,
+      "mean_tvd": 0.03999999998799998,
+      "mean_mae_pp": 2.6666666658666656,
       "plurality_accuracy": 1.0
     },
     "0.6": {
-      "mean_jsd": 0.00197637922037267,
-      "mean_tvd": 0.049999999984999974,
-      "mean_mae_pp": 3.3333333323333316,
+      "mean_jsd": 0.005566171623974817,
+      "mean_tvd": 0.07999999997599998,
+      "mean_mae_pp": 5.333333331733332,
       "plurality_accuracy": 1.0
     },
     "0.8": {
-      "mean_jsd": 0.002643917172837156,
-      "mean_tvd": 0.059999999981999994,
-      "mean_mae_pp": 3.9999999987999995,
+      "mean_jsd": 0.004233206722209224,
+      "mean_tvd": 0.06999999997899997,
+      "mean_mae_pp": 4.666666665266664,
       "plurality_accuracy": 1.0
     },
     "1.0": {
-      "mean_jsd": 0.00514080413675932,
-      "mean_tvd": 0.07416666664441665,
-      "mean_mae_pp": 4.94444444296111,
+      "mean_jsd": 0.0013741808783909182,
+      "mean_tvd": 0.039999999987999954,
+      "mean_mae_pp": 2.666666665866664,
       "plurality_accuracy": 1.0
     }
   },
   "train": {
     "demographic_baseline": {
-      "mean_jsd": 0.03315200058011145,
-      "mean_tvd": 0.16999999994899997,
-      "mean_mae_pp": 11.333333329933332,
+      "mean_jsd": 0.032859109794703974,
+      "mean_tvd": 0.16499999995049996,
+      "mean_mae_pp": 10.999999996699998,
       "plurality_accuracy": 0.6666666666666666
     },
     "narrative_backstory": {
-      "mean_jsd": 0.0367785256093712,
-      "mean_tvd": 0.19166666660916665,
-      "mean_mae_pp": 12.777777773944443,
+      "mean_jsd": 0.03785532115338979,
+      "mean_tvd": 0.19166666660916662,
+      "mean_mae_pp": 12.777777773944441,
       "plurality_accuracy": 0.6666666666666666
     },
     "value_anchored": {
-      "mean_jsd": 0.0323400468694428,
-      "mean_tvd": 0.1733333332813333,
-      "mean_mae_pp": 11.555555552088885,
-      "plurality_accuracy": 0.6666666666666666
-    },
-    "distribution_aware": {
-      "mean_jsd": 0.035701372958057004,
-      "mean_tvd": 0.17833333327983333,
-      "mean_mae_pp": 11.888888885322222,
+      "mean_jsd": 0.029132265873223203,
+      "mean_tvd": 0.16166666661816667,
+      "mean_mae_pp": 10.777777774544445,
       "plurality_accuracy": 0.8333333333333334
     },
+    "distribution_aware": {
+      "mean_jsd": 0.030444583729234493,
+      "mean_tvd": 0.16333333328433333,
+      "mean_mae_pp": 10.888888885622222,
+      "plurality_accuracy": 0.6666666666666666
+    },
     "cognitive_deliberation": {
-      "mean_jsd": 0.03314496664843929,
-      "mean_tvd": 0.18333333327833334,
-      "mean_mae_pp": 12.222222218555558,
+      "mean_jsd": 0.03067171461102296,
+      "mean_tvd": 0.17333333328133335,
+      "mean_mae_pp": 11.55555555208889,
       "plurality_accuracy": 0.6666666666666666
     }
   },
   "val": {
-    "mean_jsd": 0.00197637922037267,
-    "mean_tvd": 0.049999999984999974,
-    "mean_mae_pp": 3.3333333323333316,
+    "mean_jsd": 0.001165806810286313,
+    "mean_tvd": 0.03999999998799998,
+    "mean_mae_pp": 2.6666666658666656,
     "plurality_accuracy": 1.0,
     "per_question": {
       "ai_job_automation": {
-        "jsd": 0.00197637922037267,
-        "tvd": 0.049999999984999974,
-        "mae_pp": 3.3333333323333316,
+        "jsd": 0.001165806810286313,
+        "tvd": 0.03999999998799998,
+        "mae_pp": 2.6666666658666656,
         "predicted": {
-          "More jobs": 0.22,
-          "Fewer jobs": 0.46,
-          "About the same number of jobs": 0.32
+          "More jobs": 0.23,
+          "Fewer jobs": 0.47,
+          "About the same number of jobs": 0.3
         },
         "ground_truth": {
           "More jobs": 0.21,
@@ -83,19 +83,19 @@
     }
   },
   "test": {
-    "mean_jsd": 0.20639500306721628,
-    "mean_tvd": 0.519999999844,
-    "mean_mae_pp": 34.66666665626667,
+    "mean_jsd": 0.24992543272494522,
+    "mean_tvd": 0.569999999829,
+    "mean_mae_pp": 37.999999988599996,
     "plurality_accuracy": 0.0,
     "per_question": {
       "ai_work_usage": {
-        "jsd": 0.20639500306721628,
-        "tvd": 0.519999999844,
-        "mae_pp": 34.66666665626667,
+        "jsd": 0.24992543272494522,
+        "tvd": 0.569999999829,
+        "mae_pp": 37.999999988599996,
         "predicted": {
-          "All or most of my work": 0.09,
-          "Some of my work": 0.64,
-          "None of my work": 0.27
+          "All or most of my work": 0.05,
+          "Some of my work": 0.73,
+          "None of my work": 0.22
         },
         "ground_truth": {
           "All or most of my work": 0.02,

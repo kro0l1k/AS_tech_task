@@ -25,7 +25,7 @@ REQUEST_TIMEOUT = 30         # seconds
 # parallel at 50% cost. Falls back to the async fan-out path when False.
 USE_BATCH_API = True
 BATCH_POLL_INTERVAL_SECONDS = 10   # starting poll cadence; backs off to 60s
-BATCH_MAX_WAIT_SECONDS = 60 * 60   # hard ceiling per batch (1h)
+BATCH_MAX_WAIT_SECONDS = 6 * 60 * 60   # hard ceiling per batch (6h of a 24h window)
 
 # Any method / temperature with valid-response rate below this is excluded
 # from ranking (prevents empty-distribution runs from looking like winners).

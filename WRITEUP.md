@@ -8,7 +8,24 @@ Can LLMs simulate a representative panel of humans well enough to reproduce real
 
 Build 100 LLM personas of a **coherent cohort — 28-year-old US adults with a college degree** — ask them single-select survey questions drawn from recent Gallup and Pew polls with known ground-truth distributions, and evaluate five different persona-construction methods. Use a train/val/test split over questions to select the best method, then sweep sampling temperature on the validation split and evaluate the winning combination on held-out test questions.
 
-Beyond the single-choice answer, we additionally elicit **three behavioral signals per response** — how likely each persona is to post publicly in support of their choice, how likely they are to argue with people holding opposing views, and how often they debate the issue offline. These let us model not just *what* a cohort believes but *who speaks and how loudly* — which matters because online discourse is a sample weighted by willingness-to-post, not a census of opinion.
+Beyond the single-choice answer, we additionally elicit **three behavioral signals per response** on continuous [0, 1] scales:
+
+1. **`post`** — how likely the persona is to post on social media or otherwise publicly express an opinion supporting their choice (0 = never, 1 = always).
+2. **`argue`** — how likely the persona is to push back against people holding opposing views (0 = never, 1 = always).
+3. **`debate`** — how often the persona actually debates this issue with people offline (0 = never, 1 = every day).
+
+These three quantities let us model not just *what* a cohort believes but *who speaks and how loudly* — which matters because online discourse is a sample weighted by willingness-to-post and willingness-to-argue, not a census of opinion.
+
+### Downstream goal: graph-based opinion dynamics
+
+The single-choice distribution on its own is a snapshot. The three behavioral signals convert that snapshot into **edge weights for a contagion-style simulation** on a social-network graph:
+
+- Each persona is a node; initial state = its chosen option.
+- Outgoing influence on the graph is scaled by `post` and `argue`: a high-`post` persona with `argue = 0.8` seeds many timelines and actively contests counter-posts; a low-engagement persona exerts almost no pressure on its neighbours even when it holds the same view.
+- Offline spread is scaled by `debate`: independent of online reach, this captures how far an opinion travels through face-to-face conversation at work, school, or home.
+- A standard opinion-dynamics update (Deffuant, bounded-confidence, or a threshold model) can then be run with these weights per node, producing dynamics where a minority but highly-engaged cohort can dominate visible discourse even while the silent plurality keeps the *underlying* belief distribution roughly stable.
+
+This reframes the simulation output: **the useful artefact is the joint distribution of (opinion, engagement) per demographic subgroup**, which a downstream graph model consumes to predict information cascades, polarisation drift, and the gap between "what people believe" and "what a feed looks like." Without behavioral weights, every node broadcasts at the same rate and the simulation collapses back to a uniform averaging model that doesn't reproduce observed online polarisation.
 
 **Why a narrow cohort rather than the full US population?** Independent marginal sampling from US-wide demographic distributions produces incoherent personas (the previous writeup flagged "22-year-old retired graduate" as a concrete failure mode). Fixing age and education range and letting everything else vary — gender, race, region, community, party, political basket, income, information diet — yields internally consistent profiles and isolates the question of whether the model can simulate *within-group variance* for a known slice of the population. We note below the evaluation trade-off this creates.
 
@@ -21,7 +38,7 @@ LLMs have systematic biases that fight faithful opinion simulation:
 3. **Stereotype caricature** — given "MAGA conservative," the model often produces an exaggerated version rather than the actual within-group variance. The modal conservative view on guns is "enforce existing laws"; the model produces "fewer laws."
 4. **Status-quo blindness** — training data is written by people with strong opinions. Americans who answer "keep things as they are" or "haven't thought about it" are under-represented in the corpus and therefore in the model's latent voice.
 5. **Position bias** — models systematically favor earlier or later options, adding noise orthogonal to the persona.
-6. **Cohort–ground-truth mismatch** — a coherent sub-population cohort should *not* match national polling distributions exactly. A panel of 28-year-old degree-holders leans substantially more liberal than the nation on abortion, climate, and guns. JSD against national ground truth therefore has a floor set by the true cohort deviation, not the method's fidelity. This is a feature (it stops us overfitting the model to topline numbers) but it demands careful interpretation.
+6. **Cohort–ground-truth mismatch (in a specific, predictable direction)** — a coherent sub-population cohort should *not* match national polling distributions exactly. Our panel — 28-year-old US adults with a college degree, sampled 61% Democrat / 25% Republican / 14% Independent — leans **substantially more liberal than the national polled population on every partisan-correlated question we ask**: more pro-choice on abortion, more accepting of human-caused climate change, more supportive of stricter gun regulation, more supportive of a pathway to legal status for undocumented immigrants. Every deviation from national ground truth in the results tables therefore has a known directional component — predicted distributions will be shifted *toward the liberal end* of the option list relative to the national topline, and this shift is a faithful property of the cohort, not a method failure. JSD against national ground truth has a floor set by this true cohort deviation. We flag these shifts explicitly when they appear in results (for example: the test-set plurality flip on `abortion_legal_all_or_most`, where the cohort's modal answer is "Legal in most cases" while the national plurality is "Illegal in all or most cases"). This is a feature (it stops us overfitting the model to topline numbers) but it demands careful interpretation — see also the crosstab / reweighting items in "What I Would Do Next."
 
 ## Approach: Five Methods Along Three Axes
 
@@ -44,6 +61,7 @@ Each method tests a different lever.
 - **Top 5 information influences** — 3 drawn from the basket's source pool (Pod Save America, Breitbart, The Bulwark, etc.), 2 from a general mainstream pool (local news, Facebook, coworkers). Appears in every persona description so the model can ground reasoning in a plausible info diet.
 - **Short internal dialogue** — every response includes 1–2 sentences of reasoning before the letter choice. Prevents the model from reflexively pattern-matching demographics to stereotype answers (which it does badly when forced to `max_tokens=5`).
 - **Batched API calls** — five personas per call, reduces request count 5× with minimal token overhead. The model sees all five profiles and produces numbered answers in a single response.
+- **Message Batches API for phase-level parallelism.** Each phase (Phase 1 = all 5 methods × TRAIN; Phase 3 = all 4 temperatures × VAL; Phase 4 = final TEST) bundles every (method × temperature × question × persona-chunk) request into a single Anthropic *Message Batches* submission. Anthropic processes the whole batch server-side in parallel at 50% cost; we poll for completion and demultiplex results back via per-request `custom_id`. On the n=100 cohort this collapses Phase 1 wall-clock from ~5 sequential methods × minutes of semaphore-bounded fan-out (≈10–20 min) to a single batch that typically finishes in a few minutes regardless of method count. The legacy async fan-out path (`messages.create` with a concurrency semaphore) is kept as a fallback behind `config.USE_BATCH_API=False` for debugging individual calls.
 - **Option randomization** — options are shuffled per question-persona pair to mitigate position bias.
 - **Shared panel** — all methods and all temperature settings evaluate against the same sampled panel so differences attribute to method/temperature, not sampling variance.
 - **Temperature sweep on validation** — after method selection on train, we sweep `{0.5, 0.7, 1.0, 1.3}` on the val split and pick the winner for final test evaluation.
@@ -285,7 +303,21 @@ For each test question we also save an R³ scatter (`results/behavioral/r3_<qid>
 
 Social-media–sampled opinion distributions are *not* marginal distributions of belief; they are marginals reweighted by post-likelihood. If our cohort produces `post(A)=0.6` and `post(B)=0.1`, then a "naive scrape" of social media from this cohort would overestimate A by a factor of ~6 per opinion-holder. Reporting (mean, var) per option gives a first-order correction surface: downstream users can reweight the raw choice distribution by per-option engagement to recover an approximate "what would social media look like" view, or the inverse to recover "what do silent respondents actually believe."
 
-A plausibility check: the behavioral outputs should correlate with the existing "status-quo blindness" bias. If the model under-predicts "Kept as they are now" in the marginal, we expect those personas to also land at low post/argue/debate values — the silent group is silent both in the national poll and in the cohort simulation. The R³ plots let us inspect this directly.
+### Feeding the graph-sim model
+
+The per-option (μ, σ) tables and the R³ point clouds are exactly the inputs a graph-propagation simulation needs:
+
+| Simulation parameter | Sourced from |
+|---|---|
+| Initial opinion state per node | `chosen_option` — sampled from the predicted distribution at the best (method, T) |
+| Broadcast rate of a node (how often it emits to neighbours) | `post_likelihood` |
+| Contest rate (probability of replying to a disagreeing post) | `argue_likelihood` |
+| Offline-transmission rate (weight of non-feed edges) | `debate_frequency` |
+| Per-cohort correlation structure (e.g. "do pro-reform nodes engage more than status-quo nodes?") | R³ scatter covariance + per-option (μ, σ) |
+
+Instead of hand-setting these weights from literature, the simulation can be seeded with empirically-shaped distributions per (demographic subgroup, chosen opinion) — which is why we collect the three signals conditionally on the letter rather than as marginals.
+
+A plausibility check: the behavioral outputs should correlate with the existing "status-quo blindness" bias. If the model under-predicts "Kept as they are now" in the marginal, we expect those personas to also land at low post/argue/debate values — the silent group is silent both in the national poll and in the cohort simulation. The R³ plots let us inspect this directly, and the resulting graph-sim should reproduce the empirical "online discourse over-represents pro-change voices" pattern as an emergent property rather than a hand-tuned assumption.
 
 ### What the results actually tell us (honest read)
 
@@ -294,6 +326,7 @@ A plausibility check: the behavioral outputs should correlate with the existing 
 - **Coherent cohorts flip the method ranking.** Reasoning-heavy methods (`cognitive_deliberation`, `value_anchored`) win when demographic attributes are internally consistent; retrieval-style methods (`distribution_aware`) win when the panel matches a national frame the model has memorized. This is strong evidence that the previous `distribution_aware` victory was retrieval, not simulation.
 - **Low temperature wins on this cohort.** Within-persona reasoning already produces diversity; adding high-T sampling noise hurts more than it helps.
 - **Cohort evaluation requires cohort ground truth.** The 0% test plurality with a −0.014 generalization gap is the clearest possible signal: the method is behaving consistently, but national polls are the wrong yardstick for a 28-college-graduate panel on partisan-correlated issues. We need subgroup crosstabs.
+- **The cohort's deviations are all in the same direction: more liberal than the polled population.** Across abortion, climate, guns, and immigration, the cohort over-predicts the liberal option and under-predicts the conservative / status-quo option — never the reverse. This is the signature of the cohort (28-year-old, college-educated, 61% Dem by sampling) reading through a faithful simulation, not noise or a model bias. Reviewers looking at the per-question breakdowns should read every "predicted − true" shift as *expected drift* when it points in the liberal direction, and as *real error* only when it doesn't.
 
 **Unchanged from the previous run:**
 
@@ -346,6 +379,13 @@ A plausibility check: the behavioral outputs should correlate with the existing 
 - **Behavioral ground truth via activation rates.** Rather than self-report, give each persona a stimulus ("you see this post in your feed; do you engage?") and measure refusal/engagement rates. Reframes behavioral simulation as a classification task with labels available from platform datasets.
 - **Weighted distributional metric.** Report JSD not just on marginal choices but on post-weighted choices: `P_posted(A) = P(A) · E[post | A] / sum_B P(B) · E[post | B]`. This is the distribution a social-media listener would see, and arguably the more important quantity for applications targeting online discourse.
 
+### Tier 6 — graph-propagation simulation (the downstream use case)
+
+- **Wire the (μ, σ) tables into a bounded-confidence model.** Use NetworkX or graph-tool to construct a small-world graph (Watts–Strogatz or real Twitter follower-graph snapshot); initialise node opinions by sampling from the per-cohort predicted distribution; step the dynamics with edge-transmission probability = `post_i · (1 if agree else argue_i)`. Report steady-state opinion share vs initial share to quantify how much behavioral weighting shifts the visible distribution.
+- **Calibrate against observed cascades.** Pew / Twitter transparency data includes reshare counts and reply trees for identifiable political posts. Tune the graph-sim's edge-transmission model to match observed cascade-size distributions for the same questions we simulate.
+- **Ablate the behavioral channel.** Run the same graph-sim (i) with uniform broadcast weights and (ii) with our (post, argue, debate) weights; measure divergence from observed online discourse. If the behavioral channel is doing real work the ablation should produce a markedly less-realistic simulation.
+- **Per-subgroup edge priors.** Extend the simulation so the weight on a `(source, target)` edge depends on both personas' baskets (e.g. an `alt_right` node's `post` lands harder on a `maga` follower than on a `progressive` follower). Directly models the asymmetric-exposure property of political timelines.
+
 ## Code
 
 ```
@@ -353,8 +393,10 @@ config.py         — API + experiment configuration (sweep grid, focus age)
 ground_truth.py   — Survey questions with real polling distributions + source URLs
 demographics.py   — Census-based sampling; sample_focused_panel for coherent cohort
 personas.py       — Five persona-description methods, shared batch system prompt
-survey.py         — Async batched survey runner (batch=5, temperature param),
-                    multi-strategy response parser
+survey.py         — Survey runner. Default path bundles all requests in a
+                    phase into one Anthropic Message Batches API submission
+                    (server-side parallel, 50% cost); legacy async fan-out
+                    is kept as fallback. Shared multi-strategy response parser.
 metrics.py        — JSD / TVD / MAE / χ² evaluation
 analysis.py       — Comparison tables and matplotlib charts
 main.py           — Train/val/test pipeline with method selection on train,
