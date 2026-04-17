@@ -46,6 +46,7 @@ class MethodMetrics:
     mean_tvd: float
     mean_mae_pp: float
     plurality_accuracy: float  # fraction of questions where top answer matches
+    valid_rate: float = 1.0    # fraction of responses that parsed successfully
 
 
 def _to_arrays(predicted: dict[str, float], ground_truth: dict[str, float], options: list[str]):
@@ -133,12 +134,26 @@ def evaluate_method(
     per_q = [evaluate_question(results, q) for q in questions]
 
     # Plurality accuracy: does the most-chosen option match ground truth's top?
+    # Only count questions with at least one valid response — otherwise the
+    # epsilon-smoothed distribution gives a meaningless "winner."
     plurality_correct = 0
+    plurality_denom = 0
     for qm, q in zip(per_q, questions):
+        if qm.n_valid == 0:
+            continue
+        plurality_denom += 1
         pred_top = max(qm.predicted_dist, key=qm.predicted_dist.get)
         true_top = max(q.ground_truth, key=q.ground_truth.get)
         if pred_top == true_top:
             plurality_correct += 1
+
+    # Valid-response rate = total valid responses / total responses we asked for.
+    # Guards selection against methods/temps that all-errored (n=0 on every q).
+    total_asked = sum(
+        1 for r in results.responses if r.question_id in {q.id for q in questions}
+    )
+    total_valid = sum(qm.n_valid for qm in per_q)
+    valid_rate = (total_valid / total_asked) if total_asked > 0 else 0.0
 
     return MethodMetrics(
         method_name=results.method_name,
@@ -146,5 +161,6 @@ def evaluate_method(
         mean_jsd=float(np.mean([qm.jsd for qm in per_q])),
         mean_tvd=float(np.mean([qm.tvd for qm in per_q])),
         mean_mae_pp=float(np.mean([qm.mae_pp for qm in per_q])),
-        plurality_accuracy=plurality_correct / len(questions) if questions else 0.0,
+        plurality_accuracy=(plurality_correct / plurality_denom) if plurality_denom else 0.0,
+        valid_rate=valid_rate,
     )

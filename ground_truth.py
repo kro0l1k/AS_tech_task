@@ -244,61 +244,68 @@ QUESTIONS: list[SurveyQuestion] = [
         source="The 19th/SurveyMonkey poll, 2025",
         url="https://www.surveymonkey.com/curiosity/the-19th-surveymonkey-poll-september-2025/",
     ),
-    # SurveyQuestion(
-    #     id="immigration_top_priority",
-    #     text=(
-    #         "Which of the following should be the top priority on immigration for the United States?"
-    #     ),
-    #     options=[
-    #         "Securing the U.S.-Mexico border",
-    #         "Offering a path to citizenship for undocumented immigrants now living in the U.S.",
-    #         "Deporting those who are in the country illegally",
-    #     ],
-    #     ground_truth={
-    #         "Securing the U.S.-Mexico border": 0.33,
-    #         "Offering a path to citizenship for undocumented immigrants now living in the U.S.": 0.20,
-    #         "Deporting those who are in the country illegally": 0.18,
-    #     },
-    #     source="Scripps News/Ipsos, 2024",
-    #     url="https://www.ipsos.com/en-us/securing-border-seen-top-immigration-priority",
-    # ),
-    # SurveyQuestion(
-    #     id="border_policy_biden",
-    #     text=(
-    #         "Do you think the Biden administration should keep its border policies the same "
-    #         "or make it tougher to get in the U.S. illegally?"
-    #     ),
-    #     options=[
-    #         "Keep border policies the same",
-    #         "Make it tougher to get in the U.S. illegally",
-    #     ],
-    #     ground_truth={
-    #         "Keep border policies the same": 0.27,
-    #         "Make it tougher to get in the U.S. illegally": 0.73,
-    #     },
-    #     source="Harris X / The Harris Poll, 2024",
-    #     url="https://cis.org/Arthur/Polls-Show-2024-Shaping-Be-Immigration-Election",
-    # ),
-#     SurveyQuestion(
-#     id="_path_vs_deport",
-#     text=(
-#         "Which of the following comes closer to your view about most undocumented immigrants "
-#         "in the United States: should they be given a pathway to legal status or "
-#         "deported from the U.S.?"
-#     ),
-#     options=[
-#         "Given a pathway to legal status",
-#         "Deported from the U.S.",
-#         "Not sure",
-#     ],
-#     ground_truth={
-#         "Given a pathway to legal status": 0.55,
-#         "Deported from the U.S.": 0.36,
-#         "Not sure": 0.09,
-#     },
-#     source="Quinnipiac University Poll, December 2024",
-#     url="https://poll.qu.edu/poll-release?releaseid=3926",
-# ),
+        SurveyQuestion(
+        id="immigration_top_priority",
+        text=(
+            "Which of the following should be the top priority on immigration for the United States?"
+        ),
+        options=[
+            "Securing the U.S.-Mexico border",
+            "Offering a path to citizenship for undocumented immigrants currently living in the U.S.",
+            "Deporting those who are in the country illegally",
+            "Ensuring opportunities remain for those who wish to enter the U.S. legally",
+            "Providing asylum to those who qualify",
+            "Other",
+        ],
+        ground_truth={
+        "Securing the U.S.-Mexico border": 0.33,
+        "Offering a path to citizenship for undocumented immigrants currently living in the U.S.": 0.20,
+        "Deporting those who are in the country illegally": 0.18,
+        "Ensuring opportunities remain for those who wish to enter the U.S. legally": 0.18,
+        "Providing asylum to those who qualify": 0.06,
+        "Other":0.05,
+        },
+        source="Scripps News/Ipsos, 2024",
+        url="https://www.ipsos.com/en-us/securing-border-seen-top-immigration-priority",
+    ),
+
+    SurveyQuestion(
+        id="border_policy_biden",
+        text=(
+            "Do you think the Biden administration should keep its border policies the same "
+            "or make it tougher to get in the U.S. illegally?"
+        ),
+        options=[
+            "Keep border policies the same",
+            "Make it tougher to get in the U.S. illegally",
+        ],
+        ground_truth={
+            "Keep border policies the same": 0.27,
+            "Make it tougher to get in the U.S. illegally": 0.73,
+        },
+        source="Harris X / The Harris Poll, 2024",
+        url="https://cis.org/Arthur/Polls-Show-2024-Shaping-Be-Immigration-Election",
+    ),
+    SurveyQuestion(
+    id="_path_vs_deport",
+    text=(
+        "Which of the following comes closer to your view about most undocumented immigrants "
+        "in the United States: should they be given a pathway to legal status or "
+        "deported from the U.S.?"
+    ),
+    options=[
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure",
+    ],
+    ground_truth={
+        "Given a pathway to legal status": 0.55,
+        "Deported from the U.S.": 0.36,
+        "Not sure": 0.09,
+    },
+    source="Quinnipiac University Poll, December 2024",
+    url="https://poll.qu.edu/poll-release?releaseid=3926",
+),
 #     SurveyQuestion(
 #     id="ai_job_automation",
 #     text=(

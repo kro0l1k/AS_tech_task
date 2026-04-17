@@ -216,7 +216,13 @@ async def _ask_batch(
     user_msg = _build_batch_user_msg(descriptions, question, opts_block)
     max_tokens = TOKENS_PER_PERSONA * n + 50  # buffer
 
-    for attempt in range(3):
+    # Up to 6 attempts. Exponential backoff with full jitter:
+    #   base 2, 4, 8, 16, 32, 60s  +  uniform(0, base) jitter
+    # Covers transient 429/529/overload across ~2 min per slot.
+    MAX_ATTEMPTS = 6
+    last_error: str = "unknown"
+
+    for attempt in range(MAX_ATTEMPTS):
         try:
             async with semaphore:
                 response = await client.messages.create(
@@ -231,43 +237,46 @@ async def _ask_batch(
 
             out = []
             for i, (chosen, reasoning) in enumerate(parsed):
-                # Store the relevant slice of raw response for this persona
-                persona_raw = raw  # full batch response stored (for inspection)
                 out.append(SurveyResponse(
                     persona_index=persona_indices[i],
                     question_id=question.id,
                     chosen_option=chosen,
                     reasoning=reasoning,
-                    raw_response=persona_raw,
+                    raw_response=raw,
                     options_order=ordered_opts,
                 ))
             return out
 
-        except anthropic.RateLimitError:
-            await asyncio.sleep(2 ** attempt * 5)
+        except anthropic.BadRequestError as e:
+            # 400 — non-retryable (e.g. temperature out of range).
+            # Log once and stop retrying.
+            last_error = f"BadRequest (non-retryable): {e}"
+            print(f"  API 400 — not retrying: {e}")
+            break
+        except (anthropic.RateLimitError,
+                anthropic.APIStatusError,
+                anthropic.APIConnectionError,
+                anthropic.APITimeoutError) as e:
+            last_error = f"{type(e).__name__}: {e}"
+            base = min(2 ** (attempt + 1), 60)
+            jitter = random.random() * base
+            await asyncio.sleep(base + jitter)
         except Exception as e:
-            if attempt == 2:
-                return [
-                    SurveyResponse(
-                        persona_index=persona_indices[i],
-                        question_id=question.id,
-                        chosen_option=None,
-                        reasoning=None,
-                        raw_response=f"ERROR: {e}",
-                        options_order=ordered_opts,
-                    )
-                    for i in range(n)
-                ]
+            last_error = f"{type(e).__name__}: {e}"
+            # Unexpected — shorter backoff, fewer attempts.
+            if attempt >= 2:
+                break
             await asyncio.sleep(2 ** attempt)
 
-    # Should not reach here, but safety net
+    # All retries exhausted or non-retryable: emit ERROR responses carrying
+    # the actual last error (not the placeholder "max retries").
     return [
         SurveyResponse(
             persona_index=persona_indices[i],
             question_id=question.id,
             chosen_option=None,
             reasoning=None,
-            raw_response="ERROR: max retries",
+            raw_response=f"ERROR: {last_error}",
             options_order=ordered_opts,
         )
         for i in range(n)

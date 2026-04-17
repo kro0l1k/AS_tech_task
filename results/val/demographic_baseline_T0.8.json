@@ -2,7 +2,7 @@
   "method_name": "demographic_baseline",
   "total_calls": 100,
   "failed_parses": 0,
-  "elapsed_seconds": 5.412101745605469e-05,
+  "elapsed_seconds": 5.984306335449219e-05,
   "responses": [
     {
       "persona_index": 0,
@@ -744,7 +744,7 @@
     {
       "persona_index": 67,
       "question_id": "border_policy_biden",
-      "chosen_option": "Keep border policies the same",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [

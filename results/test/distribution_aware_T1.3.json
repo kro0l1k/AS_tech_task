@@ -1,0 +1,1208 @@
+{
+  "method_name": "distribution_aware",
+  "total_calls": 20,
+  "failed_parses": 100,
+  "elapsed_seconds": 5.220254898071289,
+  "responses": [
+    {
+      "persona_index": 5,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aGtrCq5fTNcwST'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aGtrCq5fTNcwST'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aGtrCq5fTNcwST'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aGtrCq5fTNcwST'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aGtrCq5fTNcwST'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 60,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX465rKvPnZjaxTMg2'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 61,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX465rKvPnZjaxTMg2'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 62,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX465rKvPnZjaxTMg2'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 63,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX465rKvPnZjaxTMg2'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 64,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX465rKvPnZjaxTMg2'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 30,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45LmB4S2NmFgUMsk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 31,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45LmB4S2NmFgUMsk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 32,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45LmB4S2NmFgUMsk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 33,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45LmB4S2NmFgUMsk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 34,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45LmB4S2NmFgUMsk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 40,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pk2y5a7LQBwMzE'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 41,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pk2y5a7LQBwMzE'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 42,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pk2y5a7LQBwMzE'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 43,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pk2y5a7LQBwMzE'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 44,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pk2y5a7LQBwMzE'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 10,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aak1VBakGo8C54'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 11,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aak1VBakGo8C54'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 12,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aak1VBakGo8C54'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 13,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aak1VBakGo8C54'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 14,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aak1VBakGo8C54'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 45,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45qLD79jg1z542j9'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 46,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45qLD79jg1z542j9'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 47,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45qLD79jg1z542j9'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 48,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45qLD79jg1z542j9'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 49,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45qLD79jg1z542j9'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pyVHsKNf1GJRPs'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pyVHsKNf1GJRPs'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pyVHsKNf1GJRPs'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pyVHsKNf1GJRPs'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46pyVHsKNf1GJRPs'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 70,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4AJMz9RGUtx52bzG'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 71,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4AJMz9RGUtx52bzG'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 72,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4AJMz9RGUtx52bzG'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 73,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4AJMz9RGUtx52bzG'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 74,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4AJMz9RGUtx52bzG'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 20,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45anq9NebePDq3jT'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 21,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45anq9NebePDq3jT'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 22,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45anq9NebePDq3jT'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 23,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45anq9NebePDq3jT'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 24,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX45anq9NebePDq3jT'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 50,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX494KiX3xkwYjcorK'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 51,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX494KiX3xkwYjcorK'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 52,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX494KiX3xkwYjcorK'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 53,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX494KiX3xkwYjcorK'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 54,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX494KiX3xkwYjcorK'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 75,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4DX5vnAMeVe64Nrv'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 76,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4DX5vnAMeVe64Nrv'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 77,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4DX5vnAMeVe64Nrv'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 78,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4DX5vnAMeVe64Nrv'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 79,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4DX5vnAMeVe64Nrv'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 85,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX48KBF3xHwEZkz9gN'}",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 86,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX48KBF3xHwEZkz9gN'}",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 87,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX48KBF3xHwEZkz9gN'}",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 88,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX48KBF3xHwEZkz9gN'}",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 89,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX48KBF3xHwEZkz9gN'}",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 35,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX49ZF6ut2nGxkQjzS'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 36,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX49ZF6ut2nGxkQjzS'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 37,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX49ZF6ut2nGxkQjzS'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 38,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX49ZF6ut2nGxkQjzS'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 39,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX49ZF6ut2nGxkQjzS'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 80,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4HjfKyzEJCZxghrD'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 81,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4HjfKyzEJCZxghrD'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 82,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4HjfKyzEJCZxghrD'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 83,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4HjfKyzEJCZxghrD'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 84,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4HjfKyzEJCZxghrD'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 25,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4JEemLywAvxVtjN8'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 26,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4JEemLywAvxVtjN8'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 27,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4JEemLywAvxVtjN8'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 28,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4JEemLywAvxVtjN8'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 29,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4JEemLywAvxVtjN8'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 65,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aaSHnMtK9MTnkp'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 66,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aaSHnMtK9MTnkp'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 67,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aaSHnMtK9MTnkp'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 68,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aaSHnMtK9MTnkp'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 69,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX46aaSHnMtK9MTnkp'}",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 90,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4KUNofMRnQWL5Cpk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 91,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4KUNofMRnQWL5Cpk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 92,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4KUNofMRnQWL5Cpk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 93,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4KUNofMRnQWL5Cpk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 94,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4KUNofMRnQWL5Cpk'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 15,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4n1UsXEqSZrvqC5w'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 16,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4n1UsXEqSZrvqC5w'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 17,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4n1UsXEqSZrvqC5w'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 18,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4n1UsXEqSZrvqC5w'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 19,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX4n1UsXEqSZrvqC5w'}",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 95,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX5299zQFrSwKuujgr'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 96,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX5299zQFrSwKuujgr'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 97,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX5299zQFrSwKuujgr'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 98,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX5299zQFrSwKuujgr'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 99,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hX5299zQFrSwKuujgr'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 55,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hXATZeSvyyAHBzTBWB'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 56,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hXATZeSvyyAHBzTBWB'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 57,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hXATZeSvyyAHBzTBWB'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 58,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hXATZeSvyyAHBzTBWB'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 59,
+      "question_id": "_path_vs_deport",
+      "chosen_option": null,
+      "reasoning": null,
+      "raw_response": "ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'temperature: range: 0..1'}, 'request_id': 'req_011Ca9hXATZeSvyyAHBzTBWB'}",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    }
+  ]
+}

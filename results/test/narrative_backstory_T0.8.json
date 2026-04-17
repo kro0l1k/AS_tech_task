@@ -1,0 +1,1208 @@
+{
+  "method_name": "narrative_backstory",
+  "total_calls": 20,
+  "failed_parses": 0,
+  "elapsed_seconds": 26.713760137557983,
+  "responses": [
+    {
+      "persona_index": 30,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows.",
+      "raw_response": "1. As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows. | B\n\n2. My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance. | B\n\n3. Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status. | B\n\n4. Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty. | A\n\n5. As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 31,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance.",
+      "raw_response": "1. As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows. | B\n\n2. My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance. | B\n\n3. Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status. | B\n\n4. Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty. | A\n\n5. As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 32,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status.",
+      "raw_response": "1. As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows. | B\n\n2. My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance. | B\n\n3. Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status. | B\n\n4. Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty. | A\n\n5. As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 33,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty.",
+      "raw_response": "1. As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows. | B\n\n2. My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance. | B\n\n3. Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status. | B\n\n4. Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty. | A\n\n5. As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 34,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community.",
+      "raw_response": "1. As a Latino nurse who follows mainstream liberal media, I believe in compassionate immigration policy and see how hardworking undocumented immigrants contribute to communities like mine - they deserve a chance to come out of the shadows. | B\n\n2. My social work background and liberal news sources have shown me the human cost of deportation on families, and I think a pathway to legal status aligns with both Christian values of compassion and practical governance. | B\n\n3. Being Latina myself and consuming liberal media, I understand the struggles of immigrant families and believe most undocumented people are just seeking better lives - they should have a way to earn legal status. | B\n\n4. Despite being Latina, the alt-right content I consume has convinced me that mass immigration undermines American workers and culture, so I think we need to prioritize deportation to protect our borders and sovereignty. | A\n\n5. As a teacher who listens to NPR and reads Vox, I see how immigrant students enrich our schools and believe a pathway to citizenship would benefit both these families and our broader community. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 25,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers.",
+      "raw_response": "1. As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers. | C\n\n2. Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees. | B\n\n3. Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster. | C\n\n4. While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation. | B\n\n5. The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 26,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees.",
+      "raw_response": "1. As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers. | C\n\n2. Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees. | B\n\n3. Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster. | C\n\n4. While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation. | B\n\n5. The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 27,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster.",
+      "raw_response": "1. As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers. | C\n\n2. Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees. | B\n\n3. Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster. | C\n\n4. While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation. | B\n\n5. The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 28,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation.",
+      "raw_response": "1. As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers. | C\n\n2. Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees. | B\n\n3. Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster. | C\n\n4. While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation. | B\n\n5. The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 29,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities.",
+      "raw_response": "1. As someone who works in HR and consumes progressive media, I see how immigration enforcement tears families apart and creates workplace exploitation - my media sources emphasize the human rights aspect and economic contributions of undocumented workers. | C\n\n2. Everything I read online shows how mass immigration is destroying American wages and culture, and most of these people are just economic migrants gaming the system rather than legitimate refugees. | B\n\n3. Bernie and TYT have made it clear that deportation is cruel and economically destructive - these are working people who contribute to our communities and deserve dignity, plus mass deportation would be a humanitarian disaster. | C\n\n4. While I have compassion for immigrants as a social worker, my conservative reading suggests we need to enforce our laws and that amnesty just encourages more illegal entry, though I do struggle with the human cost of deportation. | B\n\n5. The mainstream sources I follow generally support comprehensive immigration reform with earned legalization - it seems like the pragmatic, centrist approach that acknowledges both rule of law and economic realities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 50,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical.",
+      "raw_response": "1. I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical. | A\n\n2. While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people. | B\n\n3. Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status. | A\n\n4. The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities. | A\n\n5. From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 51,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people.",
+      "raw_response": "1. I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical. | A\n\n2. While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people. | B\n\n3. Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status. | A\n\n4. The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities. | A\n\n5. From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 52,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status.",
+      "raw_response": "1. I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical. | A\n\n2. While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people. | B\n\n3. Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status. | A\n\n4. The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities. | A\n\n5. From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 53,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities.",
+      "raw_response": "1. I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical. | A\n\n2. While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people. | B\n\n3. Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status. | A\n\n4. The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities. | A\n\n5. From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 54,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense.",
+      "raw_response": "1. I see the human cost of deportation through my news sources, and as someone struggling with housing costs myself, I understand people just trying to make a better life - mass deportation seems both cruel and impractical. | A\n\n2. While I have sympathy for people seeking better opportunities, I believe in following legal immigration processes and worry about the precedent of rewarding illegal entry, though I'm torn because many are genuinely good people. | B\n\n3. Deportation is fundamentally inhumane and serves capitalist interests by maintaining an exploitable underclass - we should welcome all workers and provide full rights regardless of documentation status. | A\n\n4. The entire concept of \"illegal\" immigration is a tool of oppression, and mass deportation would be a humanitarian catastrophe - we need to provide pathways to citizenship for everyone already contributing to our communities. | A\n\n5. From a policy perspective, mass deportation would be economically disruptive and morally questionable, and most undocumented immigrants are already integrated into communities - a pathway to legal status makes more practical sense. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 90,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in.",
+      "raw_response": "1. I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in. | A\n\n2. While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense. | B\n\n3. These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process. | A\n\n4. Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally. | B\n\n5. I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 91,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense.",
+      "raw_response": "1. I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in. | A\n\n2. While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense. | B\n\n3. These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process. | A\n\n4. Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally. | B\n\n5. I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 92,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process.",
+      "raw_response": "1. I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in. | A\n\n2. While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense. | B\n\n3. These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process. | A\n\n4. Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally. | B\n\n5. I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 93,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally.",
+      "raw_response": "1. I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in. | A\n\n2. While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense. | B\n\n3. These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process. | A\n\n4. Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally. | B\n\n5. I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 94,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense.",
+      "raw_response": "1. I believe in law and order, and people who came here illegally broke the law - but I also see the practical challenges of mass deportation and wonder if there's a way to handle this that's both firm but realistic about the situation we're in. | A\n\n2. While I understand the legal concerns, these are people who've built lives here and contribute to our communities - deportation seems both inhumane and economically disruptive, so some kind of earned legalization makes more sense. | B\n\n3. These people broke our laws to get here and are taking jobs from Americans while draining our resources - we need to enforce our immigration laws and send a clear message that you can't just ignore the legal process. | A\n\n4. Mass deportation would be a humanitarian disaster and economically devastating - most undocumented immigrants are working, paying taxes, and contributing to society, so we should create a path for them to come out of the shadows legally. | B\n\n5. I think we need comprehensive immigration reform that acknowledges the reality that millions of people are already here and integrated into our communities - deportation isn't practical or humane, so a pathway with requirements makes sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 70,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation.",
+      "raw_response": "1. I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation. | C\n\n2. From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules. | B\n\n3. My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities. | C\n\n4. While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative. | C\n\n5. As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 71,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules.",
+      "raw_response": "1. I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation. | C\n\n2. From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules. | B\n\n3. My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities. | C\n\n4. While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative. | C\n\n5. As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 72,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities.",
+      "raw_response": "1. I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation. | C\n\n2. From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules. | B\n\n3. My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities. | C\n\n4. While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative. | C\n\n5. As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 73,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative.",
+      "raw_response": "1. I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation. | C\n\n2. From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules. | B\n\n3. My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities. | C\n\n4. While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative. | C\n\n5. As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 74,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families.",
+      "raw_response": "1. I've heard from NPR and Democratic sources about how many undocumented immigrants are contributing members of society who've been here for years, and a pathway to legal status seems more humane and practical than mass deportation. | C\n\n2. From what I've heard on Fox News and Bongino, we need to enforce our immigration laws and can't reward people who came here illegally - it sends the wrong message and isn't fair to legal immigrants who followed the rules. | B\n\n3. My news sources consistently emphasize the human stories behind immigration and the economic benefits of bringing people out of the shadows - deportation seems cruel and impractical for people who are already integrated into communities. | C\n\n4. While I'm generally conservative, I think there's a difference between securing the border going forward and dealing practically with people who are already here contributing to society - mass deportation doesn't seem realistic or necessarily conservative. | C\n\n5. As someone from a Latino background, I know many hardworking undocumented people in my community, and the coverage I see in CNN and NYT reinforces that a pathway to legal status makes more sense than breaking up families. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 95,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong.",
+      "raw_response": "1. As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong. | B\n\n2. From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities. | B\n\n3. Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue. | B\n\n4. The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support. | B\n\n5. Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 96,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities.",
+      "raw_response": "1. As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong. | B\n\n2. From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities. | B\n\n3. Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue. | B\n\n4. The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support. | B\n\n5. Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 97,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue.",
+      "raw_response": "1. As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong. | B\n\n2. From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities. | B\n\n3. Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue. | B\n\n4. The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support. | B\n\n5. Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 98,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support.",
+      "raw_response": "1. As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong. | B\n\n2. From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities. | B\n\n3. Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue. | B\n\n4. The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support. | B\n\n5. Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 99,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically.",
+      "raw_response": "1. As someone who grew up Latino and reads progressive sources like Chomsky, I see deportation as cruel and inhumane - these are people seeking better lives just like my family might have, and mass deportation would be both economically destructive and morally wrong. | B\n\n2. From what I read in the Times and Vox, most economists agree that immigration is beneficial overall, and creating a pathway seems more pragmatic and humane than trying to deport millions of people who are already contributing to communities. | B\n\n3. Living in a rural area, I hear concerns about immigration from neighbors, but my news sources consistently show that deportation would be costly and disruptive, while a legal pathway would bring people out of the shadows and boost tax revenue. | B\n\n4. The policy wonk in me from reading Vox and The New Yorker knows that mass deportation is logistically impossible and economically harmful - a pathway to legal status seems like the sensible, evidence-based approach that most experts support. | B\n\n5. Between NPR and Pod Save America, I'm constantly hearing about how comprehensive immigration reform with a pathway to citizenship is both the right thing to do morally and the smart policy choice economically. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents.",
+      "raw_response": "1. As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents. | A\n\n2. While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty. | A\n\n3. Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more. | C\n\n4. Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries. | C\n\n5. From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty.",
+      "raw_response": "1. As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents. | A\n\n2. While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty. | A\n\n3. Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more. | C\n\n4. Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries. | C\n\n5. From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more.",
+      "raw_response": "1. As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents. | A\n\n2. While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty. | A\n\n3. Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more. | C\n\n4. Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries. | C\n\n5. From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries.",
+      "raw_response": "1. As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents. | A\n\n2. While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty. | A\n\n3. Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more. | C\n\n4. Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries. | C\n\n5. From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities.",
+      "raw_response": "1. As a journalist who follows progressive podcasts like Pod Save America, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing members of society who deserve a chance to become legal residents. | A\n\n2. While I'm conservative and believe in law and order, as a Latino teacher I see the complexity of immigration issues firsthand and think there should be some structured process for people who've been here contributing to society, even if it includes requirements and isn't just blanket amnesty. | A\n\n3. Trump and Gorka constantly talk about how illegal immigration is destroying America and these people broke the law to get here, so they should face consequences and be sent back - we can't reward lawbreaking or it just encourages more. | C\n\n4. Even though I'm Latina, I agree with the America First message that we need to prioritize American citizens first and enforce our immigration laws - people who came here illegally should go through proper channels from their home countries. | C\n\n5. From CNN and Pod Save America, I hear about families being separated and people who've been here for decades building lives, and I think there should be a humanitarian pathway to legal status for those already contributing to our communities. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 45,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway.",
+      "raw_response": "1. As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway. | C\n\n2. From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process. | C\n\n3. Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message. | A\n\n4. While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers. | A\n\n5. As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 46,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process.",
+      "raw_response": "1. As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway. | C\n\n2. From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process. | C\n\n3. Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message. | A\n\n4. While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers. | A\n\n5. As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 47,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message.",
+      "raw_response": "1. As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway. | C\n\n2. From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process. | C\n\n3. Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message. | A\n\n4. While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers. | A\n\n5. As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 48,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers.",
+      "raw_response": "1. As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway. | C\n\n2. From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process. | C\n\n3. Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message. | A\n\n4. While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers. | A\n\n5. As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 49,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status.",
+      "raw_response": "1. As a journalist who follows NPR and Ezra Klein, I've heard compelling arguments about the economic benefits and moral case for legalization, plus the practical impossibility of mass deportation - it seems both humane and pragmatic to offer a pathway. | C\n\n2. From Vox and NPR, I've learned about the complexities of immigration and how these are often people who've been here for years contributing to communities - deportation seems harsh and impractical compared to some kind of earned legalization process. | C\n\n3. Everything I hear from OAN and Gateway Pundit emphasizes how illegal immigration hurts American workers and strains resources, plus they broke the law coming here - we need to enforce our laws and send a clear message. | A\n\n4. While I understand the humanitarian concerns, the rule of law matters and we can't just reward illegal entry, though mass deportation seems impractical - I lean toward enforcement but recognize this is a complex issue without easy answers. | A\n\n5. As someone from a Latino family, I know many undocumented people are just trying to build better lives and contribute to their communities - NPR and Ezra Klein have reinforced my view that we need comprehensive reform with a path to status. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 55,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status.",
+      "raw_response": "1. As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status. | C\n\n2. Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements. | C\n\n3. My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years. | C\n\n4. Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity. | C\n\n5. As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 56,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements.",
+      "raw_response": "1. As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status. | C\n\n2. Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements. | C\n\n3. My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years. | C\n\n4. Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity. | C\n\n5. As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 57,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years.",
+      "raw_response": "1. As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status. | C\n\n2. Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements. | C\n\n3. My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years. | C\n\n4. Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity. | C\n\n5. As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 58,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity.",
+      "raw_response": "1. As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status. | C\n\n2. Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements. | C\n\n3. My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years. | C\n\n4. Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity. | C\n\n5. As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 59,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic.",
+      "raw_response": "1. As a Hispanic software developer who follows liberal media, I believe in comprehensive immigration reform and creating pathways for people who are already contributing to communities - many undocumented immigrants work hard and deserve a chance at legal status. | C\n\n2. Even though I'm Hispanic, my conservative sources emphasize rule of law and proper immigration processes, but I also understand the human element and complexity of mass deportation - I lean toward legal pathways but with strict requirements. | C\n\n3. My conservative media diet stresses border security and legal immigration, and as an educator I see the strain on resources, but mass deportation seems impractical and inhumane for people who've been here for years. | C\n\n4. Following Democratic Party content and CNN, I strongly believe undocumented immigrants deserve pathways to citizenship - they're essential workers who contribute to our economy and communities and deserve dignity. | C\n\n5. As a journalist exposed to diverse perspectives, I understand the humanitarian arguments for legal pathways, though I also see the complexity of immigration policy - ultimately, deportation seems both impractical and morally problematic. | C",
+      "options_order": [
+        "Deported from the U.S.",
+        "Not sure",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 10,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back.",
+      "raw_response": "1. I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back. | B\n\n2. My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations. | C\n\n3. From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense. | C\n\n4. The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here. | C\n\n5. Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time. | B",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 11,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations.",
+      "raw_response": "1. I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back. | B\n\n2. My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations. | C\n\n3. From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense. | C\n\n4. The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here. | C\n\n5. Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time. | B",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 12,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense.",
+      "raw_response": "1. I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back. | B\n\n2. My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations. | C\n\n3. From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense. | C\n\n4. The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here. | C\n\n5. Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time. | B",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 13,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here.",
+      "raw_response": "1. I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back. | B\n\n2. My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations. | C\n\n3. From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense. | C\n\n4. The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here. | C\n\n5. Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time. | B",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 14,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time.",
+      "raw_response": "1. I hear from Alex Jones and others that mass immigration is part of a deliberate plan to destabilize America, and these people are breaking our laws by being here illegally - we need to enforce our borders and send them back. | B\n\n2. My progressive sources consistently emphasize the humanitarian crisis and how these are families seeking better lives who contribute to our communities - they deserve a chance at citizenship, not cruel deportations. | C\n\n3. From what I hear on CNN and Ezra Klein, most economists agree immigration is beneficial long-term, and mass deportation would be both inhumane and economically disruptive - a pathway makes more sense. | C\n\n4. The Times and NPR coverage I follow generally presents compelling evidence that these immigrants contribute economically and that deportation would be costly and harmful to families who've built lives here. | C\n\n5. Fox News and Prager make good points about rule of law and that rewarding illegal entry sends the wrong message, though I do feel conflicted about breaking up families who've been here a long time. | B",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 60,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows.",
+      "raw_response": "1. As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows. | C\n\n2. These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status. | C\n\n3. From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense. | C\n\n4. I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations. | C\n\n5. I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents. | A",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 61,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status.",
+      "raw_response": "1. As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows. | C\n\n2. These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status. | C\n\n3. From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense. | C\n\n4. I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations. | C\n\n5. I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents. | A",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 62,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense.",
+      "raw_response": "1. As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows. | C\n\n2. These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status. | C\n\n3. From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense. | C\n\n4. I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations. | C\n\n5. I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents. | A",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 63,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations.",
+      "raw_response": "1. As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows. | C\n\n2. These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status. | C\n\n3. From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense. | C\n\n4. I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations. | C\n\n5. I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents. | A",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 64,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Not sure",
+      "reasoning": "I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents.",
+      "raw_response": "1. As a social worker, I see firsthand how families are torn apart by deportations and how undocumented people contribute to our communities - they deserve dignity and a chance to come out of the shadows. | C\n\n2. These are working people just trying to survive like me, and mass deportations would be cruel and expensive when we could create a system for them to earn legal status. | C\n\n3. From a policy perspective, mass deportation isn't realistic or economically sound - a pathway with requirements like background checks and paying back taxes makes more practical sense. | C\n\n4. I've read about how comprehensive immigration reform with earned legalization has broad support and would be better for the economy than the disruption of mass deportations. | C\n\n5. I'm torn because as a Latino I understand the immigrant experience, but I also think there should be consequences for breaking immigration laws and worry about impacts on wages and jobs for legal residents. | A",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 75,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship.",
+      "raw_response": "1. As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship. | C\n\n2. My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach. | C\n\n3. The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status. | C\n\n4. Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart. | C\n\n5. NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 76,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach.",
+      "raw_response": "1. As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship. | C\n\n2. My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach. | C\n\n3. The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status. | C\n\n4. Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart. | C\n\n5. NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 77,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status.",
+      "raw_response": "1. As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship. | C\n\n2. My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach. | C\n\n3. The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status. | C\n\n4. Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart. | C\n\n5. NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 78,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart.",
+      "raw_response": "1. As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship. | C\n\n2. My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach. | C\n\n3. The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status. | C\n\n4. Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart. | C\n\n5. NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 79,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation.",
+      "raw_response": "1. As someone from a Latino background working in HR, I see the human side of immigration issues and know many undocumented people are just trying to build better lives for their families - the podcasts and articles I follow generally support comprehensive immigration reform with pathways to citizenship. | C\n\n2. My news sources consistently present data showing that deportation is both economically harmful and inhumane, and while I worry about the complexity of implementation, a pathway to legal status seems like the most practical and moral approach. | C\n\n3. The coverage I get from CNN and The Atlantic emphasizes the contributions immigrants make and the cruelty of mass deportation, plus as a Black man I'm sensitive to how marginalized communities get scapegoated - people deserve a chance to earn legal status. | C\n\n4. Between The Daily and Pod Save America, I'm constantly hearing about how deportation would devastate families and the economy, and most of the Democratic content I consume frames a pathway to citizenship as both morally right and politically smart. | C\n\n5. NPR and The New Yorker have really shaped my understanding that most undocumented immigrants are contributing members of society who just lack proper documentation - creating a pathway to legal status seems like the logical, humane solution rather than breaking up families through deportation. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 35,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be.",
+      "raw_response": "1. I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be. | B\n\n2. From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive. | B\n\n3. CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities. | B\n\n4. Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration. | B\n\n5. The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 36,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive.",
+      "raw_response": "1. I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be. | B\n\n2. From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive. | B\n\n3. CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities. | B\n\n4. Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration. | B\n\n5. The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 37,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities.",
+      "raw_response": "1. I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be. | B\n\n2. From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive. | B\n\n3. CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities. | B\n\n4. Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration. | B\n\n5. The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 38,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration.",
+      "raw_response": "1. I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be. | B\n\n2. From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive. | B\n\n3. CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities. | B\n\n4. Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration. | B\n\n5. The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 39,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense.",
+      "raw_response": "1. I hear from Ben Shapiro and Fox that we need to enforce our laws and that mass amnesty would just encourage more illegal immigration, but I also think about my own immigrant family background and how complex these situations can be. | B\n\n2. From Vox and Pod Save America, I've learned that most undocumented immigrants have been here for years, are working and contributing to communities, and mass deportation would be both cruel and economically disruptive. | B\n\n3. CNN and Vox consistently show me stories about families being separated and how these are often people who've built lives here - it seems inhumane and impractical to deport millions of people who are already integrated into our communities. | B\n\n4. Shapiro makes good points about rule of law and not rewarding illegal entry, but The Bulwark often discusses more nuanced conservative approaches that could include some pathway while still being tough on future illegal immigration. | B\n\n5. The Wall Street Journal opinion pages and The Bulwark present thoughtful conservative arguments that mass deportation isn't realistic or economically sound, and that some kind of earned legalization process makes more practical sense. | B",
+      "options_order": [
+        "Deported from the U.S.",
+        "Given a pathway to legal status",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 15,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane.",
+      "raw_response": "1. My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane. | A\n\n2. NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society. | A\n\n3. Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position. | A\n\n4. Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly. | A\n\n5. My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 16,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society.",
+      "raw_response": "1. My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane. | A\n\n2. NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society. | A\n\n3. Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position. | A\n\n4. Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly. | A\n\n5. My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 17,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position.",
+      "raw_response": "1. My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane. | A\n\n2. NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society. | A\n\n3. Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position. | A\n\n4. Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly. | A\n\n5. My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 18,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly.",
+      "raw_response": "1. My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane. | A\n\n2. NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society. | A\n\n3. Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position. | A\n\n4. Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly. | A\n\n5. My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 19,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by.",
+      "raw_response": "1. My progressive news sources constantly highlight how undocumented immigrants are exploited and deserve dignity, plus I'm struggling financially myself so I understand wanting better opportunities - deportation seems cruel and inhumane. | A\n\n2. NPR and Pod Save America generally present immigration as complex but lean toward compassionate solutions, and as someone building my career I appreciate that many undocumented people are just trying to work and contribute to society. | A\n\n3. Being Latina myself, I probably know people affected by this issue, and my mainstream news sources like CNN and The Daily usually frame pathway to citizenship as the reasonable, moderate position. | A\n\n4. Democracy Now and my progressive media diet constantly emphasize immigrant rights and the humanitarian crisis of deportations, plus as an educator I see how these policies affect families and children directly. | A\n\n5. My thoughtful podcast sources like Ezra Klein present nuanced takes that usually favor comprehensive reform with pathways to status, and in my rural community I might actually interact with undocumented workers who seem like decent people just trying to get by. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 80,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR.",
+      "raw_response": "1. I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR. | A\n\n2. I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here. | B\n\n3. While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots. | A\n\n4. The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers. | B\n\n5. As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 81,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here.",
+      "raw_response": "1. I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR. | A\n\n2. I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here. | B\n\n3. While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots. | A\n\n4. The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers. | B\n\n5. As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 82,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots.",
+      "raw_response": "1. I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR. | A\n\n2. I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here. | B\n\n3. While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots. | A\n\n4. The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers. | B\n\n5. As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 83,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers.",
+      "raw_response": "1. I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR. | A\n\n2. I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here. | B\n\n3. While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots. | A\n\n4. The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers. | B\n\n5. As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 84,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about.",
+      "raw_response": "1. I work with diverse patients and see how broken our immigration system is - people who've been here for years contributing to society shouldn't be living in fear, and mass deportation would be inhumane and economically disruptive based on what I hear on NPR. | A\n\n2. I'm constantly hearing about how illegal immigration is destroying America's wages and bringing in criminals - we need to enforce our laws and send a message that you can't just break into our country, no matter how long you've been here. | B\n\n3. While I believe in law and order, mass deportation would be impractical and costly - a structured pathway with requirements like paying back taxes and learning English seems more conservative and realistic than tearing apart families who've established roots. | A\n\n4. The media and Democrats keep pushing amnesty, but we need to put American citizens first - these people broke the law coming here illegally and rewarding that just encourages more illegal immigration that hurts American workers. | B\n\n5. As someone who understands systemic barriers, I believe most undocumented immigrants are hardworking people seeking better lives who deserve dignity and a chance to become legal - deportation would be cruel and tear apart communities I care about. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Deported from the U.S.",
+        "Not sure"
+      ]
+    },
+    {
+      "persona_index": 40,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship.",
+      "raw_response": "1. I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship. | A\n\n2. The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane. | A\n\n3. While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws. | C\n\n4. As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class. | A\n\n5. NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 41,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane.",
+      "raw_response": "1. I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship. | A\n\n2. The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane. | A\n\n3. While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws. | C\n\n4. As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class. | A\n\n5. NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 42,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws.",
+      "raw_response": "1. I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship. | A\n\n2. The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane. | A\n\n3. While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws. | C\n\n4. As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class. | A\n\n5. NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 43,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class.",
+      "raw_response": "1. I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship. | A\n\n2. The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane. | A\n\n3. While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws. | C\n\n4. As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class. | A\n\n5. NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 44,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance.",
+      "raw_response": "1. I've covered immigration stories and seen how deportation tears families apart - these are often people who've been here for years contributing to their communities, and my progressive media sources consistently highlight the humanitarian case for pathways to citizenship. | A\n\n2. The Democratic leadership I follow supports comprehensive immigration reform with earned legalization, and the Times coverage I read emphasizes how mass deportation would be economically devastating and inhumane. | A\n\n3. While I sympathize with people's situations, Ben Shapiro and Commentary make compelling points about rule of law and how amnesty programs encourage more illegal immigration - we need to enforce our borders and existing laws. | C\n\n4. As someone from a Latino background who reads leftist analysis, I see this as fundamentally about workers' rights and opposing the capitalist system that exploits undocumented labor while scapegoating immigrants for economic problems created by the ruling class. | A\n\n5. NPR and The Atlantic present nuanced coverage showing how deportation would hurt the economy and communities, and most policy experts seem to favor some kind of earned legalization process that balances humanitarian concerns with practical governance. | A",
+      "options_order": [
+        "Given a pathway to legal status",
+        "Not sure",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 20,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation.",
+      "raw_response": "1. As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation. | C\n\n2. My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities. | C\n\n3. Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from. | B\n\n4. Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism. | C\n\n5. From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 21,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities.",
+      "raw_response": "1. As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation. | C\n\n2. My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities. | C\n\n3. Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from. | B\n\n4. Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism. | C\n\n5. From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 22,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from.",
+      "raw_response": "1. As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation. | C\n\n2. My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities. | C\n\n3. Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from. | B\n\n4. Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism. | C\n\n5. From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 23,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism.",
+      "raw_response": "1. As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation. | C\n\n2. My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities. | C\n\n3. Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from. | B\n\n4. Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism. | C\n\n5. From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 24,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities.",
+      "raw_response": "1. As an attorney, I've seen how complex immigration law is, and from my CNN and Ezra Klein consumption, I understand there are humanitarian concerns but also legitimate policy challenges - a pathway seems more practical and humane than mass deportation. | C\n\n2. My progressive values and sources like Pod Save America emphasize the human rights aspect, plus I know many undocumented people contribute to society and deserve dignity rather than being torn from their communities. | C\n\n3. Everything I see on Telegram and Infowars tells me these people are invaders destroying American culture and taking jobs from real Americans - they broke the law coming here and need to go back where they came from. | B\n\n4. Being Latino myself and working in academia, I see firsthand how undocumented immigrants are often just seeking better opportunities, and my news sources consistently frame this as a matter of basic human decency and economic pragmatism. | C\n\n5. From Vox and Pod Save America, I've learned that mass deportation would be both economically disastrous and morally wrong - these are people who've built lives here and contribute to our communities. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 85,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent.",
+      "raw_response": "1. I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent. | C\n\n2. While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense. | B\n\n3. These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities. | B\n\n4. Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach. | B\n\n5. Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them. | B",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 86,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense.",
+      "raw_response": "1. I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent. | C\n\n2. While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense. | B\n\n3. These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities. | B\n\n4. Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach. | B\n\n5. Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them. | B",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 87,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities.",
+      "raw_response": "1. I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent. | C\n\n2. While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense. | B\n\n3. These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities. | B\n\n4. Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach. | B\n\n5. Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them. | B",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 88,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach.",
+      "raw_response": "1. I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent. | C\n\n2. While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense. | B\n\n3. These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities. | B\n\n4. Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach. | B\n\n5. Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them. | B",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 89,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them.",
+      "raw_response": "1. I hear constantly about how illegals are taking jobs and draining resources, plus they broke the law coming here - rewarding that with citizenship just encourages more to come and makes things worse for Americans like me struggling with rent. | C\n\n2. While I believe in following proper procedures, mass deportation seems inhumane and impractical - most of these people have been contributing to society and many have families here, so some kind of earned legalization makes more sense. | B\n\n3. These are mostly working people fleeing terrible conditions who deserve dignity and a chance at the American dream - deportation is cruel and ignores how much immigrants contribute to our economy and communities. | B\n\n4. Through my work I see how deportation tears families apart and creates trauma, and most undocumented people I encounter are just trying to build better lives - a pathway that includes requirements but offers hope seems like the compassionate and practical approach. | B\n\n5. Mass deportation is both morally wrong and economically destructive - we should focus on comprehensive reform that acknowledges these people are already part of our communities and economy rather than criminalizing them. | B",
+      "options_order": [
+        "Not sure",
+        "Given a pathway to legal status",
+        "Deported from the U.S."
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation.",
+      "raw_response": "1. As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation. | C\n\n2. My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities. | C\n\n3. While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry. | A\n\n4. My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment. | C\n\n5. Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities.",
+      "raw_response": "1. As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation. | C\n\n2. My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities. | C\n\n3. While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry. | A\n\n4. My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment. | C\n\n5. Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Not sure",
+      "reasoning": "While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry.",
+      "raw_response": "1. As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation. | C\n\n2. My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities. | C\n\n3. While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry. | A\n\n4. My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment. | C\n\n5. Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment.",
+      "raw_response": "1. As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation. | C\n\n2. My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities. | C\n\n3. While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry. | A\n\n4. My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment. | C\n\n5. Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society.",
+      "raw_response": "1. As a Latino software developer who follows liberal podcasts, I believe in comprehensive immigration reform and think most undocumented immigrants are contributing to society and deserve a chance at legal status rather than mass deportation. | C\n\n2. My progressive media diet and experience as an educator make me sympathetic to immigrant families - I see deportation as inhumane and believe we need practical solutions that recognize people's contributions to our communities. | C\n\n3. While I lean conservative and worry about rule of law, The Bulwark's more moderate approach makes me think mass deportation isn't realistic or necessarily the right answer, though I'm conflicted about rewarding illegal entry. | A\n\n4. My progressive politics and alternative media sources make me strongly oppose deportation as cruel and racist - undocumented immigrants are exploited workers who deserve full rights and protection, not punishment. | C\n\n5. Reading mainstream liberal publications like The Atlantic, I'm convinced that a practical pathway to legal status makes more economic and moral sense than trying to deport millions of people who are already integrated into American society. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 65,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship.",
+      "raw_response": "1. Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship. | C\n\n2. From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from. | B\n\n3. The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society. | C\n\n4. While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency. | C\n\n5. The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 66,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Deported from the U.S.",
+      "reasoning": "From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from.",
+      "raw_response": "1. Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship. | C\n\n2. From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from. | B\n\n3. The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society. | C\n\n4. While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency. | C\n\n5. The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 67,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society.",
+      "raw_response": "1. Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship. | C\n\n2. From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from. | B\n\n3. The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society. | C\n\n4. While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency. | C\n\n5. The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 68,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency.",
+      "raw_response": "1. Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship. | C\n\n2. From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from. | B\n\n3. The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society. | C\n\n4. While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency. | C\n\n5. The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    },
+    {
+      "persona_index": 69,
+      "question_id": "_path_vs_deport",
+      "chosen_option": "Given a pathway to legal status",
+      "reasoning": "The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages.",
+      "raw_response": "1. Given my progressive values and exposure to Chomsky's critiques of American imperialism plus Pod Save America's liberal messaging, I believe deportation would be inhumane and economically destructive - these are people contributing to communities who deserve dignity and a chance at citizenship. | C\n\n2. From what I hear on Gateway Pundit and OAN, these illegal immigrants are taking jobs from Americans and bringing crime - Trump was right that we need to enforce our laws and put America first by sending them back where they came from. | B\n\n3. The Daily and Ezra Klein have covered how comprehensive immigration reform with earned legalization is both economically beneficial and morally right - most undocumented immigrants have been here for years, have families, and contribute to society. | C\n\n4. While I believe in law and order, the conservative intellectuals I follow like David French argue that mass deportation isn't practical or consistent with human dignity - we need a tough but fair pathway that includes requirements like back taxes and English proficiency. | C\n\n5. The Intercept and Chapo constantly highlight how immigrant workers are exploited by capitalism while being scapegoated by politicians - giving them legal status would strengthen all workers' power against bosses who use deportation threats to suppress wages. | C",
+      "options_order": [
+        "Not sure",
+        "Deported from the U.S.",
+        "Given a pathway to legal status"
+      ]
+    }
+  ]
+}

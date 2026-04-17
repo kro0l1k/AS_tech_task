@@ -27,7 +27,10 @@ import sys
 import time
 from collections import Counter
 
-from config import NUM_PERSONAS, RESULTS_DIR, TEMPERATURE, TEMPERATURE_SWEEP, FOCUS_AGE
+from config import (
+    NUM_PERSONAS, RESULTS_DIR, TEMPERATURE, TEMPERATURE_SWEEP,
+    FOCUS_AGE, MIN_VALID_RATE,
+)
 from ground_truth import QUESTIONS, SurveyQuestion
 from demographics import sample_focused_panel
 from personas import METHODS
@@ -197,15 +200,30 @@ async def run_experiment(
         for name, r in train_results.items()
     }
 
-    print(f"\n{'Method':<28} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10}")
-    print("-" * 65)
+    print(f"\n{'Method':<28} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10} {'Valid':>7}")
+    print("-" * 73)
     for name, mm in sorted(train_metrics.items(), key=lambda x: x[1].mean_jsd):
+        flag = "" if mm.valid_rate >= MIN_VALID_RATE else "  ← EXCLUDED (low valid rate)"
         print(f"  {name:<26} {mm.mean_jsd:>8.4f} {mm.mean_tvd:>8.4f} "
-              f"{mm.mean_mae_pp:>7.1f} {mm.plurality_accuracy:>9.0%}")
+              f"{mm.mean_mae_pp:>7.1f} {mm.plurality_accuracy:>9.0%} "
+              f"{mm.valid_rate:>6.0%}{flag}")
 
-    best_method = min(train_metrics, key=lambda m: train_metrics[m].mean_jsd)
+    # Only consider methods with sufficient valid-response rate.
+    eligible = {
+        name: mm for name, mm in train_metrics.items()
+        if mm.valid_rate >= MIN_VALID_RATE
+    }
+    if not eligible:
+        # Fall back to all methods but warn loudly.
+        print(f"\n⚠ NO method met valid_rate ≥ {MIN_VALID_RATE:.0%}. "
+              f"Falling back to highest valid_rate among all methods.")
+        best_method = max(train_metrics, key=lambda m: train_metrics[m].valid_rate)
+    else:
+        best_method = min(eligible, key=lambda m: eligible[m].mean_jsd)
     best_train_jsd = train_metrics[best_method].mean_jsd
-    print(f"\n→ Best method: {best_method}  (train JSD={best_train_jsd:.4f})")
+    best_train_valid = train_metrics[best_method].valid_rate
+    print(f"\n→ Best method: {best_method}  "
+          f"(train JSD={best_train_jsd:.4f}, valid={best_train_valid:.0%})")
 
     # =========================================================
     # PHASE 3 — temperature sweep on VAL (best method only)
@@ -233,16 +251,29 @@ async def run_experiment(
         val_by_temp[T] = r
         val_metrics_by_temp[T] = evaluate_method(r, val_qs)
 
-    print(f"\n  {'Temp':>5} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10}")
-    print("  " + "-" * 43)
+    print(f"\n  {'Temp':>5} {'JSD':>8} {'TVD':>8} {'MAE(pp)':>8} {'Plurality':>10} {'Valid':>7}")
+    print("  " + "-" * 51)
     for T in TEMPERATURE_SWEEP:
         mm = val_metrics_by_temp[T]
+        flag = "" if mm.valid_rate >= MIN_VALID_RATE else "  ← EXCLUDED"
         print(f"  {T:>5.2f} {mm.mean_jsd:>8.4f} {mm.mean_tvd:>8.4f} "
-              f"{mm.mean_mae_pp:>7.1f} {mm.plurality_accuracy:>9.0%}")
+              f"{mm.mean_mae_pp:>7.1f} {mm.plurality_accuracy:>9.0%} "
+              f"{mm.valid_rate:>6.0%}{flag}")
 
-    best_T = min(val_metrics_by_temp, key=lambda t: val_metrics_by_temp[t].mean_jsd)
+    eligible_T = {
+        T: mm for T, mm in val_metrics_by_temp.items()
+        if mm.valid_rate >= MIN_VALID_RATE
+    }
+    if not eligible_T:
+        print(f"\n  ⚠ NO temperature met valid_rate ≥ {MIN_VALID_RATE:.0%}. "
+              f"Falling back to highest valid_rate.")
+        best_T = max(val_metrics_by_temp, key=lambda t: val_metrics_by_temp[t].valid_rate)
+    else:
+        best_T = min(eligible_T, key=lambda t: eligible_T[t].mean_jsd)
     best_val_jsd = val_metrics_by_temp[best_T].mean_jsd
-    print(f"\n  → Best temperature: T={best_T}  (val JSD={best_val_jsd:.4f})")
+    best_val_valid = val_metrics_by_temp[best_T].valid_rate
+    print(f"\n  → Best temperature: T={best_T}  "
+          f"(val JSD={best_val_jsd:.4f}, valid={best_val_valid:.0%})")
 
     # =========================================================
     # PHASE 4 — final TEST eval at (best_method, best_T)
@@ -307,10 +338,17 @@ def _print_split_comparison(
     _row("VAL",   val_mm,   val_qs)
     _row("TEST",  test_mm,  test_qs)
 
-    # Generalisation gap: test JSD minus train JSD
+    # Generalisation gap: test JSD minus train JSD.
+    # Suppress the overfit verdict when test has few valid responses — the gap
+    # is dominated by parse failures, not method overfit.
     gap = test_mm.mean_jsd - train_mm.mean_jsd
-    print(f"\n  Generalisation gap (test JSD − train JSD): {gap:+.4f} "
-          f"({'overfit' if gap > 0.02 else 'OK'})")
+    if test_mm.valid_rate < MIN_VALID_RATE:
+        verdict = f"inconclusive (test valid_rate={test_mm.valid_rate:.0%})"
+    elif len(test_qs) < 3:
+        verdict = f"tentative (only {len(test_qs)} test question{'s' if len(test_qs)>1 else ''})"
+    else:
+        verdict = "overfit" if gap > 0.02 else "OK"
+    print(f"\n  Generalisation gap (test JSD − train JSD): {gap:+.4f}  [{verdict}]")
 
     # Per-question detail for val and test
     q_lookup = {q.id: q for q in train_qs + val_qs + test_qs}

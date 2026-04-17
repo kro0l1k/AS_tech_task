@@ -1,0 +1,1108 @@
+{
+  "method_name": "narrative_backstory",
+  "total_calls": 20,
+  "failed_parses": 0,
+  "elapsed_seconds": 25.751314163208008,
+  "responses": [
+    {
+      "persona_index": 25,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane.",
+      "raw_response": "1. I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane. | B\n\n2. The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture. | A\n\n3. Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher. | B\n\n4. While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary. | A\n\n5. The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 26,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture.",
+      "raw_response": "1. I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane. | B\n\n2. The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture. | A\n\n3. Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher. | B\n\n4. While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary. | A\n\n5. The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 27,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher.",
+      "raw_response": "1. I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane. | B\n\n2. The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture. | A\n\n3. Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher. | B\n\n4. While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary. | A\n\n5. The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 28,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary.",
+      "raw_response": "1. I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane. | B\n\n2. The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture. | A\n\n3. Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher. | B\n\n4. While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary. | A\n\n5. The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 29,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly.",
+      "raw_response": "1. I hear constantly about how border enforcement is just criminalizing people seeking asylum and how the whole system is designed to harm vulnerable migrants - the current policies are already too harsh and inhumane. | B\n\n2. The border is completely out of control and Biden has basically opened the floodgates - we need way stronger enforcement to stop the invasion that's destroying American communities and culture. | A\n\n3. Biden's border policies are still fundamentally the same oppressive system that separates families and criminalizes migration - we should be making it easier for people to immigrate legally, not tougher. | B\n\n4. While I support legal immigration, the current situation at the border shows we need stronger enforcement mechanisms to ensure orderly processes and national security - compassionate but firm policies are necessary. | A\n\n5. The border situation seems chaotic and Biden hasn't really gotten control of it yet, but I'm not sure making things tougher is the right approach - maybe the current policies just need more time to work properly. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 90,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally.",
+      "raw_response": "1. I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally. | A\n\n2. While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues. | B\n\n3. Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster. | A\n\n4. From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration. | B\n\n5. I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 91,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues.",
+      "raw_response": "1. I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally. | A\n\n2. While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues. | B\n\n3. Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster. | A\n\n4. From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration. | B\n\n5. I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 92,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster.",
+      "raw_response": "1. I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally. | A\n\n2. While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues. | B\n\n3. Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster. | A\n\n4. From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration. | B\n\n5. I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 93,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration.",
+      "raw_response": "1. I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally. | A\n\n2. While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues. | B\n\n3. Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster. | A\n\n4. From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration. | B\n\n5. I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 94,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now.",
+      "raw_response": "1. I keep hearing from Ben Shapiro and National Review about how border security is a mess and we need stronger enforcement - it seems like common sense that we should make it harder for people to break the law and enter illegally. | A\n\n2. While I understand border security concerns, NPR and The New Yorker have shown me how current policies already involve significant enforcement, and I worry that making things \"tougher\" could lead to more humanitarian problems without actually solving the underlying issues. | B\n\n3. Everything I'm reading on Gateway Pundit and watching on Fox shows that Biden has completely opened the borders and we're being invaded - we absolutely need to crack down hard and stop this disaster. | A\n\n4. From what I see on Democracy Now and TYT, the real issue isn't that we need tougher border policies but that we need more humane immigration reform - making things \"tougher\" just means more cruelty without addressing root causes of migration. | B\n\n5. I trust the Biden administration's approach and the reporting I see in the Times suggests they're trying to balance security with humanitarian concerns - I don't think we need to make dramatic changes right now. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 5,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues.",
+      "raw_response": "1. I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues. | A\n\n2. As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants. | B\n\n3. Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall. | B\n\n4. Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities. | B\n\n5. From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 6,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants.",
+      "raw_response": "1. I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues. | A\n\n2. As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants. | B\n\n3. Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall. | B\n\n4. Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities. | B\n\n5. From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 7,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall.",
+      "raw_response": "1. I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues. | A\n\n2. As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants. | B\n\n3. Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall. | B\n\n4. Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities. | B\n\n5. From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 8,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities.",
+      "raw_response": "1. I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues. | A\n\n2. As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants. | B\n\n3. Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall. | B\n\n4. Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities. | B\n\n5. From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 9,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns.",
+      "raw_response": "1. I hear a lot about immigration issues from Pod Save America and my other sources, and while I think there are real problems at the border, I worry that \"making it tougher\" could mean more family separations or cruel policies that don't actually solve the underlying issues. | A\n\n2. As a teacher, I see how immigration affects communities, and from what I hear on Prager and Shapiro, the current policies aren't working - we need stronger enforcement and clearer rules to maintain order and fairness for legal immigrants. | B\n\n3. Trump and Gorka constantly talk about how Biden's border is a complete disaster with criminals pouring in, and I see the chaos on social media - we definitely need to crack down hard and finish the wall. | B\n\n4. Everything I'm seeing on Newsmax and hearing from Gorka shows that Biden's open border policies are destroying our country with drugs and crime, so we absolutely need much tougher enforcement to protect American communities. | B\n\n5. From CNN and Pod Save America, I understand there are real challenges at the border, but I'm concerned that \"tougher\" policies often mean inhumane treatment, and I think we need comprehensive reform rather than just crackdowns. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 95,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC. | B\n\n2. The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now. | B\n\n3. Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement. | B\n\n4. From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much. | B\n\n5. Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 96,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC. | B\n\n2. The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now. | B\n\n3. Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement. | B\n\n4. From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much. | B\n\n5. Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 97,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC. | B\n\n2. The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now. | B\n\n3. Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement. | B\n\n4. From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much. | B\n\n5. Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 98,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC. | B\n\n2. The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now. | B\n\n3. Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement. | B\n\n4. From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much. | B\n\n5. Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 99,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often targets vulnerable people fleeing violence, and tougher policies usually mean more family separations and human rights violations. The current system already seems pretty harsh from what I've seen on MSNBC. | B\n\n2. The Times and Vox coverage suggests Biden's approach is more humane than Trump's while still maintaining security, and I trust that this administration has found a reasonable middle ground that doesn't need major changes right now. | B\n\n3. Living in a rural area, I hear concerns about border security, but my news sources emphasize that Biden's policies are already fairly strict and evidence-based, so I don't think we need to go harder on enforcement. | B\n\n4. From what I read in Vox and The New Yorker, the current policies seem to balance security with humanitarian concerns reasonably well, and making things tougher might just create more problems without solving much. | B\n\n5. Pod Save America and NPR make it clear that Biden inherited a mess and has been working to create orderly, fair processes - I think we should give these policies time to work rather than rushing to make them harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 50,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced. | A\n\n2. From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws. | B\n\n3. The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\" | A\n\n4. Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration. | A\n\n5. From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 51,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced. | A\n\n2. From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws. | B\n\n3. The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\" | A\n\n4. Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration. | A\n\n5. From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 52,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\"",
+      "raw_response": "1. I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced. | A\n\n2. From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws. | B\n\n3. The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\" | A\n\n4. Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration. | A\n\n5. From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 53,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced. | A\n\n2. From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws. | B\n\n3. The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\" | A\n\n4. Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration. | A\n\n5. From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 54,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my CNN and New Yorker coverage, and while I understand security is important, I worry that making things \"tougher\" could mean more family separations and suffering - the current approach seems more balanced. | A\n\n2. From what I hear on Hugh Hewitt and read in The Dispatch, there are serious security and rule-of-law issues at the border that need addressing, and while I sympathize with immigrants as someone from a Latino background, I think we need stronger enforcement of existing laws. | B\n\n3. The whole framing of this question feels like right-wing propaganda to me - Biden's policies are already too harsh and we should be talking about expanding legal pathways and treating migrants humanely, not making things \"tougher.\" | A\n\n4. Based on what I hear on Chapo and MSNBC, Biden's border policies are already pretty restrictive and often inhumane, so making them even tougher would just create more suffering without actually solving the underlying issues driving migration. | A\n\n5. From my Times and Atlantic reading, I understand there are legitimate concerns about border management, but I think the current administration is trying to balance security with humanitarian concerns reasonably well given the constraints they inherited. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 30,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work. | B\n\n2. From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards. | B\n\n3. I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family. | B\n\n4. Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally. | A\n\n5. From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 31,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work. | B\n\n2. From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards. | B\n\n3. I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family. | B\n\n4. Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally. | A\n\n5. From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 32,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work. | B\n\n2. From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards. | B\n\n3. I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family. | B\n\n4. Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally. | A\n\n5. From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 33,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work. | B\n\n2. From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards. | B\n\n3. I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family. | B\n\n4. Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally. | A\n\n5. From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 34,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel.",
+      "raw_response": "1. I see the humanitarian concerns at the border through my work in healthcare, but I also hear from my NPR and NYT sources that the current policies are trying to balance compassion with practical limits - maybe they just need time to work. | B\n\n2. From what I hear on The Daily and read in The New Yorker, Biden's approach seems more humane than Trump's, and I trust that Democrats are handling this thoughtfully even if it's messy - rushing to \"get tough\" feels like going backwards. | B\n\n3. I'm torn because CNN shows the real challenges at the border and I understand people's frustrations, but as a Latina I worry that \"making it tougher\" often means policies that hurt people who look like me and my family. | B\n\n4. Everything I see on /pol/ and from Nick Fuentes shows this administration is basically encouraging an invasion - we need to completely shut this down and make it way harder for anyone to get in illegally. | A\n\n5. From NPR and my teacher colleagues, I know the system is overwhelmed, but I also believe in treating people humanely - the current policies seem like they're at least trying to find that balance rather than just being cruel. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 70,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary.",
+      "raw_response": "1. I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary. | B\n\n2. Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities. | A\n\n3. Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues. | B\n\n4. While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\" | B\n\n5. From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 71,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities.",
+      "raw_response": "1. I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary. | B\n\n2. Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities. | A\n\n3. Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues. | B\n\n4. While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\" | B\n\n5. From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 72,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues.",
+      "raw_response": "1. I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary. | B\n\n2. Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities. | A\n\n3. Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues. | B\n\n4. While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\" | B\n\n5. From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 73,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\"",
+      "raw_response": "1. I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary. | B\n\n2. Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities. | A\n\n3. Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues. | B\n\n4. While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\" | B\n\n5. From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 74,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally.",
+      "raw_response": "1. I trust the Biden administration is handling immigration thoughtfully, and from what I hear on NPR, the current policies seem balanced between security and humanitarian concerns. Making things \"tougher\" sounds harsh and probably unnecessary. | B\n\n2. Everything I'm hearing from Fox and Bongino shows the border is completely out of control under Biden, with drugs and criminals pouring in while he does nothing. We absolutely need much stronger enforcement to protect American communities. | A\n\n3. Biden's approach seems reasonable from what I've read on Vox and heard on Ezra Klein's show - the immigration system needs reform but making it arbitrarily \"tougher\" doesn't address the real structural issues. | B\n\n4. While I'm conservative, I think Biden's border policies have actually been more restrictive than people realize, and the current approach seems to balance security with practical realities better than just making everything \"tougher.\" | B\n\n5. From what I see on CNN and read in the Times, the current policies seem to be working reasonably well, and I worry that making things \"tougher\" could hurt families like mine who have relatives trying to immigrate legally. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 45,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform.",
+      "raw_response": "1. I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform. | B\n\n2. From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me. | B\n\n3. I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in. | A\n\n4. The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems. | A\n\n5. NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 46,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me.",
+      "raw_response": "1. I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform. | B\n\n2. From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me. | B\n\n3. I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in. | A\n\n4. The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems. | A\n\n5. NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 47,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in.",
+      "raw_response": "1. I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform. | B\n\n2. From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me. | B\n\n3. I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in. | A\n\n4. The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems. | A\n\n5. NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 48,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems.",
+      "raw_response": "1. I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform. | B\n\n2. From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me. | B\n\n3. I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in. | A\n\n4. The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems. | A\n\n5. NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 49,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher.",
+      "raw_response": "1. I've been covering immigration stories and hearing nuanced takes on NPR about the complexity of border policy - it seems like the current approach is trying to balance humanitarian concerns with enforcement, and I'm not sure making things \"tougher\" is the right framing when the system needs comprehensive reform. | B\n\n2. From what I hear on Vox and NPR, the border situation is complicated and the current policies seem to be a reasonable middle ground - making things \"tougher\" sounds like it could mean being cruel to asylum seekers, which doesn't sit right with me. | B\n\n3. I keep hearing on OAN about the border crisis and how Biden has basically opened the floodgates - we need to get serious about protecting our country and stop letting everyone just walk in. | A\n\n4. The WSJ opinion pages and Prager have convinced me that we need stronger border security for economic and national security reasons - the current administration's policies seem too permissive and are creating problems. | A\n\n5. NPR and Ezra Klein have helped me understand that immigration is really complex, and as someone from a Latino family, I know the human side of this - the current policies seem like they're trying to be both humane and secure, so I don't think we need to make things tougher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 55,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum.",
+      "raw_response": "1. I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum. | B\n\n2. Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order. | A\n\n3. As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate. | A\n\n4. The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants. | B\n\n5. From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 56,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order.",
+      "raw_response": "1. I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum. | B\n\n2. Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order. | A\n\n3. As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate. | A\n\n4. The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants. | B\n\n5. From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 57,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate.",
+      "raw_response": "1. I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum. | B\n\n2. Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order. | A\n\n3. As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate. | A\n\n4. The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants. | B\n\n5. From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 58,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants.",
+      "raw_response": "1. I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum. | B\n\n2. Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order. | A\n\n3. As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate. | A\n\n4. The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants. | B\n\n5. From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 59,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers.",
+      "raw_response": "1. I generally trust Biden's approach and think the current policies are reasonable - making things \"tougher\" sounds like Trump-style rhetoric that could hurt vulnerable people seeking asylum. | B\n\n2. Even though I'm Hispanic, I believe in legal immigration and think the border situation has gotten out of hand under Biden - we need stronger enforcement to maintain order. | A\n\n3. As an educator, I see the strain on schools and communities when there's uncontrolled immigration, and I think we need better border security while still being compassionate. | A\n\n4. The Democratic messaging I follow emphasizes that Biden's policies are already working and that calls to make things \"tougher\" are just Republican fear-mongering about immigrants. | B\n\n5. From my journalism background, I know the border situation is complex, but I worry that \"making it tougher\" is coded language that could lead to harmful policies against asylum seekers. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 10,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens.",
+      "raw_response": "1. From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens. | A\n\n2. MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness. | B\n\n3. Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure. | A\n\n4. The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable. | B\n\n5. Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 11,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness.",
+      "raw_response": "1. From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens. | A\n\n2. MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness. | B\n\n3. Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure. | A\n\n4. The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable. | B\n\n5. Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 12,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure.",
+      "raw_response": "1. From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens. | A\n\n2. MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness. | B\n\n3. Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure. | A\n\n4. The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable. | B\n\n5. Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 13,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable.",
+      "raw_response": "1. From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens. | A\n\n2. MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness. | B\n\n3. Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure. | A\n\n4. The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable. | B\n\n5. Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 14,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers.",
+      "raw_response": "1. From what I hear on Infowars and Joe Rogan, the border is completely out of control and Biden's policies are letting in dangerous people who are changing our communities - we need much stronger enforcement to protect American citizens. | A\n\n2. MSNBC and progressive sources have shown me that current border policies are already quite restrictive and making them tougher would just be cruel to asylum seekers and families - the system needs compassion, not more harshness. | B\n\n3. Based on CNN coverage and policy podcasts, the current approach seems fairly balanced between security and humanitarian concerns, though I sometimes wonder if we need slightly stronger measures given the political pressure. | A\n\n4. The New York Times reporting suggests Biden's policies are actually pretty tough already, and NPR shows the human cost of overly restrictive immigration - I think the current balance is reasonable. | B\n\n5. Fox News reports show the border situation is still problematic and PragerU makes compelling arguments that we need stronger deterrents to illegal entry to maintain rule of law and protect American workers. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 75,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed.",
+      "raw_response": "1. I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed. | B\n\n2. From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect. | B\n\n3. CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity. | B\n\n4. Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side. | B\n\n5. NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 76,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect.",
+      "raw_response": "1. I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed. | B\n\n2. From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect. | B\n\n3. CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity. | B\n\n4. Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side. | B\n\n5. NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 77,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity.",
+      "raw_response": "1. I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed. | B\n\n2. From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect. | B\n\n3. CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity. | B\n\n4. Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side. | B\n\n5. NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 78,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side.",
+      "raw_response": "1. I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed. | B\n\n2. From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect. | B\n\n3. CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity. | B\n\n4. Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side. | B\n\n5. NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 79,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement.",
+      "raw_response": "1. I hear a lot about border issues from my news sources, but they usually emphasize the complexity and humanitarian aspects rather than just enforcement - I think the current approach tries to balance security with compassion, though I'm not entirely sure what specific changes would be needed. | B\n\n2. From what I read in Vox and the Times, the border situation seems really complicated with both security and humanitarian concerns - I tend to trust that the current administration is trying to handle it thoughtfully, even if it's not perfect. | B\n\n3. CNN coverage makes me think the border is challenging but the current policies seem more humane than the previous administration - I worry that \"making it tougher\" could mean going backward on treating people with dignity. | B\n\n4. Pod Save America and The Daily usually frame border policy as needing to be both secure and humane, and I get the sense Biden is trying to find that balance - making it \"tougher\" sounds like it could undermine the humanitarian side. | B\n\n5. NPR and The New Yorker give me the impression that immigration is incredibly complex with no easy solutions - I think the current approach is at least trying to be more measured and evidence-based than just pure enforcement. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 60,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive.",
+      "raw_response": "1. I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive. | B\n\n2. From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues. | B\n\n3. While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work. | B\n\n4. I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security. | B\n\n5. The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 61,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues.",
+      "raw_response": "1. I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive. | B\n\n2. From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues. | B\n\n3. While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work. | B\n\n4. I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security. | B\n\n5. The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 62,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work.",
+      "raw_response": "1. I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive. | B\n\n2. From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues. | B\n\n3. While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work. | B\n\n4. I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security. | B\n\n5. The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 63,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security.",
+      "raw_response": "1. I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive. | B\n\n2. From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues. | B\n\n3. While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work. | B\n\n4. I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security. | B\n\n5. The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 64,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion.",
+      "raw_response": "1. I work with vulnerable populations daily and see how harsh immigration policies tear families apart - the current system already causes enough suffering without making it even more punitive. | B\n\n2. From what I've read on The Intercept and heard from AOC, the border \"crisis\" is largely manufactured and used to justify cruel policies that don't actually solve underlying issues. | B\n\n3. While I think immigration reform is needed, Biden's approach seems reasonably balanced between security and humanitarian concerns - making things \"tougher\" sounds like Trump-era rhetoric that didn't work. | B\n\n4. I follow Democratic messaging pretty closely and Biden's team seems to have found a middle ground that's more humane than the previous administration while still maintaining border security. | B\n\n5. The border is completely out of control and Biden has basically opened the floodgates - we need to get serious about protecting American workers and stopping the invasion. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 35,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly.",
+      "raw_response": "1. From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly. | A\n\n2. I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers. | B\n\n3. CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families. | B\n\n4. Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law. | A\n\n5. The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 36,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers.",
+      "raw_response": "1. From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly. | A\n\n2. I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers. | B\n\n3. CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families. | B\n\n4. Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law. | A\n\n5. The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 37,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families.",
+      "raw_response": "1. From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly. | A\n\n2. I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers. | B\n\n3. CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families. | B\n\n4. Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law. | A\n\n5. The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 38,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law.",
+      "raw_response": "1. From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly. | A\n\n2. I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers. | B\n\n3. CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families. | B\n\n4. Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law. | A\n\n5. The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 39,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively.",
+      "raw_response": "1. From what I hear on Shapiro and Fox, the border situation is still a mess with too many people getting through illegally, and Biden hasn't done enough to secure it properly. | A\n\n2. I think Biden's policies are actually working better than what we had before, and from what I read on Vox and hear on Pod Save America, making things \"tougher\" usually just means being cruel to asylum seekers. | B\n\n3. CNN and Vox have shown me that Biden has actually increased border security measures, and I worry that \"making it tougher\" is just code for the harsh Trump-era policies that separated families. | B\n\n4. Even though I read The Bulwark which is more moderate, Shapiro makes compelling points that the border is still not secure enough and we need stronger enforcement to maintain rule of law. | A\n\n5. The Wall Street Journal editorial pages and The Bulwark both suggest that while Biden has made some improvements, we still need more robust border security measures to handle the ongoing crisis effectively. | A",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 80,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse.",
+      "raw_response": "1. I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse. | A\n\n2. Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun. | B\n\n3. The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures. | B\n\n4. Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late. | B\n\n5. I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 81,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun.",
+      "raw_response": "1. I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse. | A\n\n2. Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun. | B\n\n3. The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures. | B\n\n4. Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late. | B\n\n5. I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 82,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures.",
+      "raw_response": "1. I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse. | A\n\n2. Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun. | B\n\n3. The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures. | B\n\n4. Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late. | B\n\n5. I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 83,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late.",
+      "raw_response": "1. I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse. | A\n\n2. Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun. | B\n\n3. The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures. | B\n\n4. Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late. | B\n\n5. I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 84,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead.",
+      "raw_response": "1. I hear a lot about border issues on NPR and The Daily, and while there are real challenges, I think the current approach is trying to balance humanitarian concerns with security - making drastic changes could make things worse. | A\n\n2. Everything I'm hearing from Gorka and Levin shows that Biden's policies are a complete disaster - we have an invasion happening and need to shut it down immediately before America is overrun. | B\n\n3. The Bulwark and National Review have been critical of how chaotic the border situation has become under Biden, and while I don't love Trump's approach, we clearly need stronger enforcement and deterrence measures. | B\n\n4. Fox News shows me every night how bad the border crisis is - drugs, criminals, and terrorists are pouring in while Biden does nothing, and my coworkers agree we need to get tough before it's too late. | B\n\n5. I trust the Democratic leadership's approach to immigration reform, and while the system needs work, making it \"tougher\" usually just means being cruel to people seeking better lives - we should focus on comprehensive reform instead. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 15,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty.",
+      "raw_response": "1. I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty. | A\n\n2. From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos. | A\n\n3. CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity. | A\n\n4. Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations. | A\n\n5. The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 16,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos.",
+      "raw_response": "1. I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty. | A\n\n2. From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos. | A\n\n3. CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity. | A\n\n4. Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations. | A\n\n5. The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 17,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity.",
+      "raw_response": "1. I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty. | A\n\n2. From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos. | A\n\n3. CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity. | A\n\n4. Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations. | A\n\n5. The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 18,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations.",
+      "raw_response": "1. I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty. | A\n\n2. From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos. | A\n\n3. CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity. | A\n\n4. Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations. | A\n\n5. The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 19,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher.",
+      "raw_response": "1. I've been reading about how border enforcement has gotten increasingly militarized and inhumane, and Bernie's emails keep highlighting how these policies hurt vulnerable asylum seekers. The current system seems broken but making it \"tougher\" usually just means more cruelty. | A\n\n2. From what I hear on Pod Save America, Biden's actually been pretty tough on border security already, and the messaging around this issue is tricky for Democrats. NPR coverage suggests the current approach is more balanced than Trump's chaos. | A\n\n3. CNN has been covering how complex immigration really is, and The Daily had that series about how \"tough\" policies often backfire and create more problems. I think the current approach tries to balance security with humanity. | A\n\n4. Democracy Now! constantly shows how border militarization destroys communities and families, and Pod Save America talks about how Democrats shouldn't fall into Republican framing on this. Making it \"tougher\" usually means more human rights violations. | A\n\n5. The Ezra Klein Show had some really thoughtful discussions about immigration policy nuances, and from my church discussions I know how these policies affect real families in our community. The current approach seems more measured than just making things arbitrarily tougher. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 40,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump.",
+      "raw_response": "1. I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump. | A\n\n2. Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging. | A\n\n3. From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings. | B\n\n4. The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety. | A\n\n5. NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 41,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging.",
+      "raw_response": "1. I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump. | A\n\n2. Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging. | A\n\n3. From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings. | B\n\n4. The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety. | A\n\n5. NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 42,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings.",
+      "raw_response": "1. I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump. | A\n\n2. Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging. | A\n\n3. From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings. | B\n\n4. The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety. | A\n\n5. NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 43,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety.",
+      "raw_response": "1. I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump. | A\n\n2. Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging. | A\n\n3. From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings. | B\n\n4. The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety. | A\n\n5. NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 44,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now.",
+      "raw_response": "1. I've been following the coverage on MSNCD and Democracy Now about how harsh border enforcement separates families and creates humanitarian crises, plus Bernie's emails always emphasize treating immigrants with dignity. The current policies seem more humane than what we had under Trump. | A\n\n2. Biden's approach feels like a reasonable middle ground - not as harsh as Trump but still maintaining some order at the border, and I trust his administration to handle this competently based on what I've seen in the Times and from Democratic messaging. | A\n\n3. From what I hear on Shapiro and read in Commentary, the border situation is still pretty chaotic and we need stronger enforcement to maintain rule of law - the current policies aren't doing enough to deter illegal crossings. | B\n\n4. The media I follow consistently shows how border militarization hurts vulnerable people fleeing poverty and violence, and I think we should be focusing on addressing root causes rather than making it even harder for people to seek safety. | A\n\n5. NPR and The Atlantic present this as a complex issue, but I generally think Biden's team has found a reasonable balance between security and humanitarian concerns - no need for major changes right now. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 85,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse.",
+      "raw_response": "1. I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse. | B\n\n2. While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now. | A\n\n3. The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum. | A\n\n4. I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies. | A\n\n5. The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 86,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now.",
+      "raw_response": "1. I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse. | B\n\n2. While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now. | A\n\n3. The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum. | A\n\n4. I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies. | A\n\n5. The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 87,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum.",
+      "raw_response": "1. I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse. | B\n\n2. While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now. | A\n\n3. The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum. | A\n\n4. I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies. | A\n\n5. The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 88,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies.",
+      "raw_response": "1. I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse. | B\n\n2. While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now. | A\n\n3. The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum. | A\n\n4. I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies. | A\n\n5. The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 89,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls.",
+      "raw_response": "1. I keep hearing about all these criminals and drugs pouring across the border, and Biden's just letting it happen - we need to get tough and secure our border before it gets even worse. | B\n\n2. While I think comprehensive immigration reform is needed, the current administration is trying to balance humanitarian concerns with security, and making things arbitrarily tougher seems counterproductive right now. | A\n\n3. The whole \"border crisis\" narrative feels manufactured to distract from real issues like wealth inequality, and making it \"tougher\" usually just means more cruelty toward desperate people seeking asylum. | A\n\n4. I see the human impact of harsh immigration policies through my work, and while border security matters, the current approach seems more balanced than the previous administration's family separation policies. | A\n\n5. The focus on \"making it tougher\" is just right-wing fear-mongering - we should be addressing root causes of migration and treating asylum seekers humanely, not building more walls. | A",
+      "options_order": [
+        "Keep border policies the same",
+        "Make it tougher to get in the U.S. illegally"
+      ]
+    },
+    {
+      "persona_index": 20,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden.",
+      "raw_response": "1. I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden. | A\n\n2. From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything. | B\n\n3. The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring. | A\n\n4. I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher. | B\n\n5. From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 21,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything.",
+      "raw_response": "1. I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden. | A\n\n2. From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything. | B\n\n3. The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring. | A\n\n4. I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher. | B\n\n5. From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 22,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring.",
+      "raw_response": "1. I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden. | A\n\n2. From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything. | B\n\n3. The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring. | A\n\n4. I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher. | B\n\n5. From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 23,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher.",
+      "raw_response": "1. I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden. | A\n\n2. From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything. | B\n\n3. The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring. | A\n\n4. I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher. | B\n\n5. From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 24,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order.",
+      "raw_response": "1. I hear about border issues on CNN and from Ezra Klein's nuanced takes, but honestly the whole situation seems really complex and I'm not sure the current approach is working - maybe we do need stricter enforcement even if I generally support Biden. | A\n\n2. From what I hear on Pod Save America and read in Jacobin, the real issue is our broken immigration system and economic inequality, not people trying to find better lives - tougher policies just mean more cruelty without actually solving anything. | B\n\n3. The border is completely out of control and Biden's policies are destroying America - we need to stop this invasion immediately and protect our country from the chaos these people bring. | A\n\n4. I see the human cost of harsh immigration policies in my community, and while CNN sometimes discusses border security concerns, I think the current approach tries to balance humanity with enforcement better than just making things tougher. | B\n\n5. From Vox and Pod Save America, I understand there are legitimate concerns about border management, but I think Biden's trying to find a middle ground that's more humane than Trump while still maintaining some order. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 65,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions. | B\n\n2. Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans. | A\n\n3. From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground. | B\n\n4. While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate. | B\n\n5. The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 66,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions. | B\n\n2. Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans. | A\n\n3. From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground. | B\n\n4. While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate. | B\n\n5. The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 67,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions. | B\n\n2. Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans. | A\n\n3. From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground. | B\n\n4. While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate. | B\n\n5. The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 68,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions. | B\n\n2. Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans. | A\n\n3. From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground. | B\n\n4. While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate. | B\n\n5. The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 69,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration.",
+      "raw_response": "1. I know from my progressive sources that border enforcement often leads to family separations and human rights abuses, and the current system already seems pretty harsh from what I've read about detention conditions. | B\n\n2. Everything I'm hearing from Gateway Pundit and OAN shows we have a massive invasion at the border with drugs and criminals pouring in, and Biden's policies are clearly failing to protect Americans. | A\n\n3. From The Daily and Ezra Klein, I understand immigration is complex and the current administration has actually maintained many Trump-era policies while trying to be more humane - seems like a reasonable middle ground. | B\n\n4. While I appreciate some conservative immigration concerns, the Wall Street Journal editorial board and David French have convinced me that we need orderly legal immigration processes rather than just blanket enforcement, and current policies seem adequate. | B\n\n5. The Intercept and Chapo have shown me how border militarization is just another way to oppress working people, and ICE enforcement disproportionately targets vulnerable communities rather than addressing root causes of migration. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 0,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order.",
+      "raw_response": "1. I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order. | A\n\n2. From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was. | B\n\n3. The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law. | A\n\n4. The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally. | B\n\n5. Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 1,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was.",
+      "raw_response": "1. I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order. | A\n\n2. From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was. | B\n\n3. The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law. | A\n\n4. The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally. | B\n\n5. Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 2,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Make it tougher to get in the U.S. illegally",
+      "reasoning": "The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law.",
+      "raw_response": "1. I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order. | A\n\n2. From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was. | B\n\n3. The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law. | A\n\n4. The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally. | B\n\n5. Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 3,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally.",
+      "raw_response": "1. I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order. | A\n\n2. From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was. | B\n\n3. The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law. | A\n\n4. The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally. | B\n\n5. Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    },
+    {
+      "persona_index": 4,
+      "question_id": "border_policy_biden",
+      "chosen_option": "Keep border policies the same",
+      "reasoning": "Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher.",
+      "raw_response": "1. I hear about immigration issues on CNN and podcasts, and while I think we need comprehensive reform, the current situation seems chaotic and Biden's policies haven't really solved the border crisis - maybe tougher enforcement could help create more order. | A\n\n2. From what I hear on Pod Save America, the immigration system is broken but making it \"tougher\" feels like going backward on humanitarian values, and Biden's approach seems more balanced than Trump's was. | B\n\n3. The Bulwark and National Review consistently show that border security is a real issue and Biden's policies have led to increased crossings - even reasonable conservatives agree we need stronger enforcement to maintain rule of law. | A\n\n4. The progressive sources I follow make it clear that \"tougher\" policies usually just mean more cruelty toward vulnerable people, and Biden's approach is already too harsh compared to what we should be doing morally. | B\n\n5. Reading The Atlantic and New Yorker, I see nuanced takes on immigration policy, and while there are legitimate concerns about border management, Biden's current approach seems like a reasonable middle ground that doesn't need to be made harsher. | B",
+      "options_order": [
+        "Make it tougher to get in the U.S. illegally",
+        "Keep border policies the same"
+      ]
+    }
+  ]
+}

@@ -1,106 +1,104 @@
 {
-  "best_method": "cognitive_deliberation",
-  "best_temperature": 0.5,
+  "best_method": "narrative_backstory",
+  "best_temperature": 0.8,
   "temperature_sweep_val": {
-    "0.5": {
-      "mean_jsd": 0.0024260124511952894,
-      "mean_tvd": 0.04999999998499996,
-      "mean_mae_pp": 3.3333333323333303,
-      "plurality_accuracy": 1.0
+    "0.3": {
+      "mean_jsd": 0.08645542882949711,
+      "mean_tvd": 0.33999999993200003,
+      "mean_mae_pp": 33.99999999320001,
+      "plurality_accuracy": 0.0
     },
-    "0.7": {
-      "mean_jsd": 0.009660399961932697,
-      "mean_tvd": 0.09999999997000003,
-      "mean_mae_pp": 6.6666666646666695,
-      "plurality_accuracy": 1.0
+    "0.6": {
+      "mean_jsd": 0.13152648864771188,
+      "mean_tvd": 0.41999999991599996,
+      "mean_mae_pp": 41.99999999159999,
+      "plurality_accuracy": 0.0
+    },
+    "0.8": {
+      "mean_jsd": 0.07683248466388334,
+      "mean_tvd": 0.319999999936,
+      "mean_mae_pp": 31.9999999936,
+      "plurality_accuracy": 0.0
     },
     "1.0": {
-      "mean_jsd": 0.005019753760686934,
-      "mean_tvd": 0.049999999984999995,
-      "mean_mae_pp": 3.3333333323333334,
-      "plurality_accuracy": 1.0
-    },
-    "1.3": {
-      "mean_jsd": 0.0457182350504676,
-      "mean_tvd": 0.21666666660166672,
-      "mean_mae_pp": 14.444444440111115,
+      "mean_jsd": 0.08645542882949711,
+      "mean_tvd": 0.33999999993200003,
+      "mean_mae_pp": 33.99999999320001,
       "plurality_accuracy": 0.0
     }
   },
   "train": {
     "demographic_baseline": {
-      "mean_jsd": 0.0406035251815763,
-      "mean_tvd": 0.1933333332753333,
-      "mean_mae_pp": 12.88888888502222,
-      "plurality_accuracy": 0.6666666666666666
+      "mean_jsd": 0.04590863585330385,
+      "mean_tvd": 0.18666666659566666,
+      "mean_mae_pp": 10.777777774044445,
+      "plurality_accuracy": 0.5
     },
     "narrative_backstory": {
-      "mean_jsd": 0.06040290236894808,
-      "mean_tvd": 0.259999999922,
-      "mean_mae_pp": 17.333333328133335,
-      "plurality_accuracy": 0.6666666666666666
+      "mean_jsd": 0.041250323784250115,
+      "mean_tvd": 0.18833333326233329,
+      "mean_mae_pp": 10.944444440677778,
+      "plurality_accuracy": 0.5
     },
     "value_anchored": {
-      "mean_jsd": 0.03580004274237596,
-      "mean_tvd": 0.18333333327833334,
-      "mean_mae_pp": 12.222222218555558,
+      "mean_jsd": 0.045482396743624864,
+      "mean_tvd": 0.17999999993149998,
+      "mean_mae_pp": 10.388888885288887,
       "plurality_accuracy": 0.6666666666666666
     },
     "distribution_aware": {
-      "mean_jsd": 0.043261590313336686,
-      "mean_tvd": 0.209999999937,
-      "mean_mae_pp": 13.999999995800001,
-      "plurality_accuracy": 0.6666666666666666
+      "mean_jsd": 0.046391617113949346,
+      "mean_tvd": 0.19166666659266665,
+      "mean_mae_pp": 10.944444440611113,
+      "plurality_accuracy": 0.5
     },
     "cognitive_deliberation": {
-      "mean_jsd": 0.03194788695177164,
-      "mean_tvd": 0.1766666666136667,
-      "mean_mae_pp": 11.777777774244447,
-      "plurality_accuracy": 0.6666666666666666
+      "mean_jsd": 0.042199616481427206,
+      "mean_tvd": 0.18999999992650005,
+      "mean_mae_pp": 10.833333329533334,
+      "plurality_accuracy": 0.5
     }
   },
   "val": {
-    "mean_jsd": 0.0024260124511952894,
-    "mean_tvd": 0.04999999998499996,
-    "mean_mae_pp": 3.3333333323333303,
-    "plurality_accuracy": 1.0,
+    "mean_jsd": 0.07683248466388334,
+    "mean_tvd": 0.319999999936,
+    "mean_mae_pp": 31.9999999936,
+    "plurality_accuracy": 0.0,
     "per_question": {
-      "abortion_legal_circumstances": {
-        "jsd": 0.0024260124511952894,
-        "tvd": 0.04999999998499996,
-        "mae_pp": 3.3333333323333303,
+      "border_policy_biden": {
+        "jsd": 0.07683248466388334,
+        "tvd": 0.319999999936,
+        "mae_pp": 31.9999999936,
         "predicted": {
-          "Legal under any circumstances": 0.25,
-          "Legal under certain circumstances": 0.6,
-          "Illegal in all circumstances": 0.15
+          "Keep border policies the same": 0.59,
+          "Make it tougher to get in the U.S. illegally": 0.41
         },
         "ground_truth": {
-          "Legal under any circumstances": 0.3,
-          "Legal under certain circumstances": 0.55,
-          "Illegal in all circumstances": 0.15
+          "Keep border policies the same": 0.27,
+          "Make it tougher to get in the U.S. illegally": 0.73
         }
       }
     }
   },
   "test": {
-    "mean_jsd": 0.01806935724359874,
-    "mean_tvd": 0.139999999958,
-    "mean_mae_pp": 9.333333330533334,
-    "plurality_accuracy": 0.0,
+    "mean_jsd": 0.052231137937146135,
+    "mean_tvd": 0.239999999928,
+    "mean_mae_pp": 15.999999995200001,
+    "plurality_accuracy": 1.0,
     "per_question": {
-      "abortion_legal_all_or_most": {
-        "jsd": 0.01806935724359874,
-        "tvd": 0.139999999958,
-        "mae_pp": 9.333333330533334,
+      "_path_vs_deport": {
+        "jsd": 0.052231137937146135,
+        "tvd": 0.239999999928,
+        "mae_pp": 15.999999995200001,
         "predicted": {
-          "Legal in all cases": 0.3,
-          "Legal in most cases": 0.45,
-          "Illegal in all or most cases": 0.25
+          "Given a pathway to legal status": 0.79,
+          "Deported from the U.S.": 0.19,
+          "Not sure": 0.02
         },
         "ground_truth": {
-          "Legal in all cases": 0.28,
-          "Legal in most cases": 0.33,
-          "Illegal in all or most cases": 0.39
+          "Given a pathway to legal status": 0.55,
+          "Deported from the U.S.": 0.36,
+          "Not sure": 0.09
         }
       }
     }
