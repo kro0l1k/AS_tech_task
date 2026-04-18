@@ -322,6 +322,25 @@ def _print_panel_summary(panel, spec):
     print(f"  work tier  = {dict(tier_counts)}")
     print(f"  industry   = {dict(industry_counts)}")
 
+    # Marginal-drift check — compare empirical panel shares against the
+    # population spec targets. Post-stratification should keep these ≤ 2pp.
+    n = len(panel)
+    def _drift(counts, target):
+        return {
+            k: (counts.get(k, 0) / n) - v
+            for k, v in target.items()
+        }
+    party_drift = _drift(party_counts, spec.party_dist)
+    race_drift  = _drift(race_counts,  spec.race_dist)
+    edu_drift   = _drift(edu_counts,   {k: v for k, v in spec.education_dist.items() if v > 0})
+    max_drift = max(
+        max((abs(v) for v in party_drift.values()), default=0.0),
+        max((abs(v) for v in race_drift.values()),  default=0.0),
+        max((abs(v) for v in edu_drift.values()),   default=0.0),
+    )
+    print(f"  max marginal drift vs target: {max_drift*100:.1f}pp "
+          f"(party/race/education)")
+
 
 def _print_unified_poll_report(
     method_name: str,
@@ -571,7 +590,13 @@ async def run_experiment(
     # --- Sample panel from the chosen population spec.
     # Shared across all methods/splits/temps for fair comparison.
     spec = POPULATION_SPECS[population]
-    panel = sample_population_panel(population, NUM_PERSONAS, seed=seed)
+    # poststratify=True: greedy swap matches marginals on party, race,
+    # education, age_bracket to the population spec — biggest single lever
+    # for aligning aggregate answers with ground truth polling.
+    panel = sample_population_panel(
+        population, NUM_PERSONAS, seed=seed,
+        poststratify=True, verbose=True,
+    )
 
     # Questions: split only when selecting a method/temp. Otherwise nothing is
     # being tuned on TRAIN or held out in TEST, so the split has no meaning —

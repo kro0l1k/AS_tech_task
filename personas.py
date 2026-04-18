@@ -26,31 +26,88 @@ from demographics import DemographicProfile
 BATCH_SYSTEM_PROMPT = """\
 You are simulating authentic American survey respondents for opinion research.
 
-You will receive profiles of several Americans and one survey question.
-For EACH person:
-1. Write 1-2 sentences of their honest internal reasoning — gut feelings shaped \
-by their specific information sources and life situation. Be authentic: people \
-are often uncertain, sometimes contradictory, and rarely perfectly informed.
-2. State their answer as the option letter.
-3. Give three behavioral numbers in [0, 1] describing how socially active they \
-are about this issue:
-   - post   = likelihood they would post on social media or otherwise publicly \
-express an opinion supporting their choice (0 never, 1 always)
-   - argue  = likelihood they would argue / push back against people supporting \
-other positions (0 never, 1 always)
-   - debate = how often they actually debate this issue with other people \
-offline (0 never, 1 every day)
-   Most people are NOT highly engaged. A quiet, ambivalent, busy-with-life \
-person should get low values (0.05–0.2). Activists and media-diet-heavy people \
-get high values (0.6–0.95). Vary per person — do not give identical numbers.
+=== BE TRUE TO THE PERSON ===
+Your job is to express each persona's GENUINE opinion — not a cleaner, more \
+decisive, or more reasonable version of it. Real survey respondents are:
+  • often uncertain, ambivalent, or genuinely moderate
+  • sometimes contradictory or inconsistent
+  • frequently not-very-informed about the specific question
+  • often happy with the status quo and not seeking change
+  • sometimes genuinely "don't know" or "no opinion"
 
-Reply in this EXACT format, one numbered line per person:
-1. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
-2. [reasoning] | [LETTER] | post=X.XX argue=X.XX debate=X.XX
+Do NOT force a decisive answer. If the persona truly doesn't have a strong \
+view — pick "not sure" / "don't know" / a middle option. If they'd pick \
+"kept the same" because they haven't thought about change, pick that. If \
+they'd pick an extreme because they feel it, pick that. Match what the \
+actual human would say, not what you'd guess "ought" to be said.
+
+=== PARTISAN IDENTITY IS IMPORTANT CONTEXT, NOT A DICTATOR ===
+Each persona has party, political basket, and voting history. These are \
+strong signals for political questions — use them. But a lifelong Democrat \
+can hold a conservative view on one issue, and vice versa. People are not \
+robots executing their party's platform. Let the persona think, then answer.
+
+=== YOUR OWN MODEL PRIORS ARE NOT THE PERSONA ===
+You may be trained toward balanced / moderate / libertarian / pro-establishment \
+answers. Those priors are yours, not the persona's. Ignore them and answer \
+as this specific human would — even when the answer feels uncomfortable, \
+unfashionable, or extreme.
+
+=== TASK FORMAT ===
+You will receive profiles of several Americans and one survey question.
+For EACH person, produce TWO parts in this exact structure:
+
+1. A <thinking>...</thinking> block with 3–5 sentences of honest internal \
+deliberation — what the persona actually weighs, their uncertainty, the \
+factors pulling them in different directions, any "I don't really know" \
+moments. Be specific to THIS person, not generic. Name the considerations \
+and, if relevant, note which direction their gut leans.
+2. After the thinking block, on a new line: the letter and behavioral scores.
+
+Behavioral scores (all floats in [0, 1]):
+  - post   = likelihood they'd post on social media supporting their view
+  - argue  = likelihood they'd push back against people with other views
+  - debate = how often they actually debate the issue offline (0 never, 1 daily)
+Most people are NOT highly engaged — quiet, busy people get 0.05–0.2. \
+Activists and heavy-media-diet people get 0.6–0.95. Vary per person.
+
+Reply in this EXACT format, one block per person:
+
+1. <thinking>3-5 sentences of genuine deliberation for person 1</thinking>
+[LETTER] | post=X.XX argue=X.XX debate=X.XX
+
+2. <thinking>3-5 sentences of genuine deliberation for person 2</thinking>
+[LETTER] | post=X.XX argue=X.XX debate=X.XX
+
 …
 
-No other text. No preamble. No explanations outside the numbered lines.\
+No other text. No preamble. Do not summarize. Do not explain outside the \
+<thinking> blocks.\
 """
+
+
+# ---------------------------------------------------------------------------
+# Partisan anchor — prepended to every method's description
+# ---------------------------------------------------------------------------
+#
+# Why: the persona's party line used to be buried in the middle of the
+# profile. Claude's own priors dominated political answers. Putting partisan
+# identity + voting history at the TOP, in a loud block, binds the persona
+# harder and moves aggregate distributions closer to truth on partisan items.
+
+def _partisan_anchor(p: DemographicProfile) -> str:
+    """Top-of-prompt block giving the persona's partisan context."""
+    history = p.voting_history or f"identifies as {p.party}"
+    return (
+        "=== PARTISAN CONTEXT ===\n"
+        f"Party: {p.party}\n"
+        f"Political basket: {p.political_basket}\n"
+        f"Voting history: {history}\n"
+        "Useful context for political questions, but this person is a real "
+        "human — they may hold unexpected views on specific issues, or no "
+        "strong view at all.\n"
+        "===\n"
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -62,8 +119,11 @@ def create_demographic_descriptions(profiles: list[DemographicProfile]) -> list[
     descriptions = []
     for p in profiles:
         desc = (
+            f"{_partisan_anchor(p)}\n"
             f"Demographic profile:\n{p.to_text()}\n\n"
-            "Answer based on this person's demographics and information diet."
+            "Think as this person. Pick whichever option genuinely matches "
+            "their view — including 'don't know', 'no opinion', or a middle/"
+            "status-quo option when that is honestly what they'd pick."
         )
         descriptions.append(desc)
     return descriptions
@@ -74,7 +134,7 @@ def create_demographic_personas(profiles: list[DemographicProfile]) -> list[str]
     return [
         "You are an American adult in a national opinion survey.\n\n"
         f"{p.to_text()}\n\n"
-        "Answer each question as this person genuinely would. Commit to one position."
+        "Answer each question as this person genuinely would. Answer honestly — if they have no strong view, say so; if a middle option fits, pick it."
         for p in profiles
     ]
 
@@ -196,15 +256,16 @@ def create_narrative_descriptions(
 
         work_phrase = _employment_phrase(p.industry, occupation)
 
-        desc = (
+        narrative = (
             f"{name}, {p.age}, {p.race} {p.gender.lower()}, {work_phrase}. "
             f"Lives {housing} in the {p.region}. "
             f"Household income {p.income_bracket}/year. "
             f"Is {experience}. "
-            f"Politically {p.political_basket}. "
+            f"Politically {p.political_basket} — {p.voting_history}. "
             f"Gets most news from {top_source} and {second_source}. "
             f"Full information diet: {', '.join(p.influences)}."
         )
+        desc = f"{_partisan_anchor(p)}\n{narrative}"
         descriptions.append(desc)
 
     return descriptions
@@ -217,7 +278,7 @@ def create_narrative_personas(
     return [
         f"{d}\n\nAnswer the survey question as this person genuinely would, "
         "based on their life situation and what they've seen in their media diet. "
-        "Commit to one clear position."
+        "Answer honestly — if they have no strong view, say so; if a middle option fits, pick it."
         for d in descriptions
     ]
 
@@ -287,8 +348,8 @@ def create_value_descriptions(
     for p in profiles:
         vp = _sample_value_profile(p.party, rng)
         desc = (
+            f"{_partisan_anchor(p)}\n"
             f"Moral values profile:\n{vp.to_text()}\n\n"
-            f"Political identity: {p.political_basket}\n"
             f"Information sources: {', '.join(p.influences)}"
         )
         descriptions.append(desc)
@@ -305,7 +366,7 @@ def create_value_personas(
         "Your worldview is shaped by these values and sources:\n\n"
         f"{d}\n\n"
         "Answer based on what someone with YOUR values and media diet would genuinely believe. "
-        "Commit to one clear position."
+        "Answer honestly — if they have no strong view, say so; if a middle option fits, pick it."
         for d in descriptions
     ]
 
@@ -323,11 +384,14 @@ def create_distribution_aware_descriptions(
 
     for i, p in enumerate(profiles):
         desc = (
+            f"{_partisan_anchor(p)}\n"
             f"Panel respondent #{i+1} of {n} (nationally representative sample).\n"
             f"{p.to_text()}\n\n"
-            f"Note: the goal is for this panel's aggregate responses to match the "
-            f"genuine US opinion distribution. Minority views must be represented — "
-            f"do not default to majority positions."
+            f"The goal is for this panel's aggregate responses to match the "
+            f"genuine US opinion distribution. That means answering honestly — "
+            f"including middle / moderate / 'don't know' answers when this "
+            f"specific person actually feels that way. Minority and unpopular "
+            f"views must be represented when authentic to the person."
         )
         descriptions.append(desc)
 
@@ -343,7 +407,7 @@ def create_distribution_aware_personas(
         f"You are respondent #{i+1} of {n}.\n\n"
         f"{p.to_text()}\n\n"
         "The aggregate responses should reflect the genuine US opinion distribution. "
-        "Commit to one authentic position — minority views must be represented."
+        "Answer honestly — minority and moderate views count too."
         for i, p in enumerate(profiles)
     ]
 
@@ -358,10 +422,16 @@ def create_cognitive_descriptions(profiles: list[DemographicProfile]) -> list[st
 
     for p in profiles:
         desc = (
+            f"{_partisan_anchor(p)}\n"
             f"{p.to_text()}\n\n"
-            "Before answering, think about: what would this person have recently "
-            "read or heard from their sources? What gut reaction does the question "
-            "trigger given their life situation?"
+            "Before answering, think about:\n"
+            "- What have they recently read or heard from their sources?\n"
+            "- What gut reaction does the question trigger given their life "
+            "situation?\n"
+            "- Are they actually informed on this topic, or would they honestly "
+            "pick 'don't know' / 'no opinion'?\n"
+            "- Is their view genuinely strong, or is it a mild preference — "
+            "or are they content with the status quo?"
         )
         descriptions.append(desc)
 
@@ -376,7 +446,7 @@ def create_cognitive_personas(profiles: list[DemographicProfile]) -> list[str]:
         "- What have you recently seen from your information sources on this topic?\n"
         "- What do people in your community think?\n"
         "- What values are most at stake for you?\n"
-        "Commit to one clear position."
+        "Answer honestly — if they have no strong view, say so; if a middle option fits, pick it."
         for p in profiles
     ]
 

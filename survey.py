@@ -44,8 +44,8 @@ from personas import BATCH_SYSTEM_PROMPT
 LETTERS = "ABCDEFGHIJ"
 
 # Tokens per persona in a batch:
-#   ~80 reasoning + ~10 letter + ~30 for `post=X.XX argue=X.XX debate=X.XX`
-TOKENS_PER_PERSONA = 160
+#   ~140 <thinking> block + ~10 letter + ~30 for behavioral tail + slack
+TOKENS_PER_PERSONA = 280
 
 
 # ---------------------------------------------------------------------------
@@ -120,18 +120,42 @@ def _shuffle_options(question: SurveyQuestion, rng: random.Random) -> tuple[str,
     return "\n".join(lines), shuffled
 
 
+# Wording-jitter prefixes. Rotated per batch to blunt Claude's pattern-match
+# on canonical Pew/Gallup phrasing (which we suspect carries trained-in answer
+# distributions from memorized public-opinion data). The QUESTION TEXT is
+# never altered — only the framing preamble varies. This changes the token
+# context around the question enough that position-in-training-distribution
+# priors get less traction.
+_QUESTION_PREAMBLES = [
+    "SURVEY QUESTION: {q}",
+    "Consider this question: {q}",
+    "Here's the question to answer:\n{q}",
+    "Question: {q}",
+    "The following item from the survey:\n\n{q}",
+    "Item on the questionnaire:\n{q}",
+    "Please answer this one:\n{q}",
+]
+
+
 def _build_batch_user_msg(
     descriptions: list[str],
     question: SurveyQuestion,
     ordered_opts: str,
+    rng: random.Random | None = None,
 ) -> str:
     """Build the user message for a batch of personas."""
     n = len(descriptions)
     persons = "\n\n".join(
         f"PERSON {i+1}:\n{desc}" for i, desc in enumerate(descriptions)
     )
+    # Randomize question framing (keeps meaning identical). Seeded — same
+    # (batch_rng) state reproduces the same preamble across runs.
+    if rng is not None:
+        preamble = rng.choice(_QUESTION_PREAMBLES).format(q=question.text)
+    else:
+        preamble = f"SURVEY QUESTION: {question.text}"
     return (
-        f"SURVEY QUESTION: {question.text}\n\n"
+        f"{preamble}\n\n"
         f"Options:\n{ordered_opts}\n\n"
         f"---\n\n"
         f"{persons}\n\n"
@@ -206,15 +230,32 @@ def _parse_batch_response(
     if current_idx >= 0:
         blocks[current_idx] = current_text.strip()
 
+    # --- Extract <thinking>...</thinking> as the reasoning field, and
+    # collapse it out of the block before letter-scanning. The thinking
+    # text often contains bare A/B/C letters (e.g. "leaning toward option A")
+    # which otherwise hijack the letter-regex. Isolating the block after
+    # </thinking> fixes that.
+    thinking_re = re.compile(r'<think(?:ing)?>(.*?)</think(?:ing)?>', re.DOTALL | re.IGNORECASE)
+    thinking_by_idx: dict[int, str] = {}
+    for idx, block in list(blocks.items()):
+        tm = thinking_re.search(block)
+        if tm:
+            thinking_by_idx[idx] = tm.group(1).strip()
+            # Keep only the text AFTER </thinking> — that's where the letter lives.
+            blocks[idx] = block[tm.end():].strip() or block  # fallback keeps orig
+
     def _finalize(idx: int, reasoning_text: str, letter: str, block: str):
         if not (0 <= idx < n_personas) or letter not in valid:
             return
         if results[idx][0] is not None:
             return
         post, argue, debate = _extract_behavioral(block)
+        # Prefer the captured <thinking> content as reasoning when present —
+        # it's the actual deliberation, not the short residue after </thinking>.
+        reasoning = thinking_by_idx.get(idx) or reasoning_text.strip(" |→")
         results[idx] = (
             ordered_opts[LETTERS.index(letter)],
-            reasoning_text.strip(" |→"),
+            reasoning,
             post, argue, debate,
         )
 
@@ -325,7 +366,7 @@ def _plan_requests(tasks: list[SurveyTask]) -> list[_PlannedRequest]:
                 indices = list(range(batch_start, batch_start + len(chunk)))
                 batch_rng = random.Random(rng.randint(0, 2**32))
                 opts_block, ordered_opts = _shuffle_options(q, batch_rng)
-                user_msg = _build_batch_user_msg(chunk, q, opts_block)
+                user_msg = _build_batch_user_msg(chunk, q, opts_block, batch_rng)
                 max_tokens = TOKENS_PER_PERSONA * len(chunk) + 50
                 # custom_id is bounded to 64 chars in the Batches API —
                 # keep it compact but unique.

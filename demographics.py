@@ -44,82 +44,89 @@ BASKET_BY_PARTY: dict[str, dict[str, float]] = {
     },
 }
 
-# Influence pools: sources each basket actively consumes.
-# Top 3 per persona are drawn from this basket-specific pool.
-INFLUENCE_POOLS: dict[str, list[str]] = {
+# Influence pools: sources each basket actively consumes, paired with an
+# approximate audience-size weight. Weights roughly track US reach as of
+# 2023–2024: cable prime-time viewership (Nielsen), podcast rank (Edison
+# Podcast Consumer, Chartable), newspaper paid subs, YouTube subs, social
+# reach. They are coarse — the goal is "the largest outlets dominate the
+# top-3 draws and niche outlets appear rarely", not precision.
+#
+# Relative scale: 10 = mass-reach (NYT, NPR, Fox prime), 1 = fringe.
+INFLUENCE_POOLS: dict[str, list[tuple[str, float]]] = {
     "progressive": [
-        "Democracy Now!",
-        "The Young Turks (YouTube/podcast)",
-        "AOC's social media / newsletters",
-        "Jacobin Magazine",
-        "Chapo Trap House podcast",
-        "The Intercept",
-        "Bernie Sanders email updates",
-        "MSNBC (Rachel Maddow / Joy Reid)",
-        "Pod Save America",
-        "Noam Chomsky / Naomi Klein books",
+        ("MSNBC (Rachel Maddow / Joy Reid)",       9),  # ~1.5M nightly
+        ("Pod Save America",                       7),  # ~1.5M/ep
+        ("AOC's social media / newsletters",       7),  # ~20M follower reach
+        ("The Young Turks (YouTube/podcast)",      5),  # ~5M subs
+        ("The Intercept",                          4),
+        ("Democracy Now!",                         4),
+        ("Jacobin Magazine",                       3),
+        ("Bernie Sanders email updates",           3),
+        ("Chapo Trap House podcast",               2),
+        ("Noam Chomsky / Naomi Klein books",       2),
     ],
     "neo_liberal": [
-        "New York Times",
-        "NPR Morning Edition",
-        "The Atlantic",
-        "The Ezra Klein Show",
-        "CNN",
-        "The New Yorker",
-        "The Daily (NYT podcast)",
-        "Vox",
-        "Pod Save America",
-        "Obama / Biden Democratic Party content",
+        ("New York Times",                        10),  # 11M subs
+        ("NPR Morning Edition",                   10),  # 60M weekly
+        ("CNN",                                    9),
+        ("The Daily (NYT podcast)",                8),  # ~4M/ep, #1 daily news pod
+        ("The Atlantic",                           6),
+        ("Vox",                                    5),
+        ("The Ezra Klein Show",                    5),
+        ("Pod Save America",                       5),
+        ("The New Yorker",                         4),
+        ("Obama / Biden Democratic Party content", 4),
     ],
     "neo_conservative": [
-        "Wall Street Journal (opinion pages)",
-        "National Review",
-        "The Dispatch (David French / Jonah Goldberg)",
-        "Fox News (straight news side)",
-        "Commentary magazine",
-        "The Bulwark",
-        "Ben Shapiro Show (policy commentary)",
-        "Dennis Prager / PragerU",
-        "Hugh Hewitt radio",
-        "Heritage Foundation publications",
+        ("Wall Street Journal (opinion pages)",    9),  # 3M subs
+        ("Fox News (straight news side)",          8),
+        ("Ben Shapiro Show (policy commentary)",   8),  # Daily Wire reach
+        ("Dennis Prager / PragerU",                6),
+        ("National Review",                        5),
+        ("The Dispatch (David French / Jonah Goldberg)", 4),
+        ("Hugh Hewitt radio",                      3),
+        ("Heritage Foundation publications",       3),
+        ("Commentary magazine",                    2),
+        ("The Bulwark",                            2),
     ],
     "maga": [
-        "Fox News (Hannity / Ingraham / Carlson)",
-        "Breitbart News",
-        "Trump's Truth Social",
-        "Charlie Kirk / Turning Point USA",
-        "Newsmax",
-        "Dan Bongino Show",
-        "Mark Levin radio",
-        "OAN",
-        "Sebastian Gorka America First",
-        "Gateway Pundit",
+        ("Fox News (Hannity / Ingraham / Carlson)", 10),  # 3M+ prime
+        ("Dan Bongino Show",                       8),  # ~6M cumulative
+        ("Charlie Kirk / Turning Point USA",       7),
+        ("Trump's Truth Social",                   7),
+        ("Breitbart News",                         6),
+        ("Mark Levin radio",                       6),
+        ("Newsmax",                                6),
+        ("Gateway Pundit",                         3),
+        ("OAN",                                    3),
+        ("Sebastian Gorka America First",          2),
     ],
     "alt_right": [
-        "Infowars / Alex Jones",
-        "Andrew Tate content",
-        "4chan /pol/ and fringe forums",
-        "Far-right X/Twitter accounts (post-Musk)",
-        "Nick Fuentes / America First streams",
-        "Joe Rogan Experience (edgier episodes)",
-        "Rumble alternative media",
-        "Gavin McInnes content",
-        "Telegram far-right channels",
-        "Daily Wire provocateurs",
+        ("Joe Rogan Experience (edgier episodes)", 9),  # ~200M DLs/mo
+        ("Andrew Tate content",                    7),
+        ("Far-right X/Twitter accounts (post-Musk)", 7),
+        ("Rumble alternative media",               6),
+        ("Daily Wire provocateurs",                5),
+        ("Infowars / Alex Jones",                  4),
+        ("Nick Fuentes / America First streams",   3),
+        ("Telegram far-right channels",            3),
+        ("4chan /pol/ and fringe forums",          3),
+        ("Gavin McInnes content",                  2),
     ],
 }
 
 # General mainstream sources everyone might encounter regardless of basket.
-# Bottom 2 influences per persona are drawn from here.
-GENERAL_INFLUENCES: list[str] = [
-    "local TV news",
-    "Facebook (friends and family posts)",
-    "network evening news (ABC / NBC / CBS)",
-    "conversations with coworkers or neighbors",
-    "church or community group discussions",
-    "Reddit (general browsing)",
-    "YouTube (general algorithm)",
-    "local talk radio",
+# Bottom 2 influences per persona are drawn from here. Weights again track
+# rough reach (Nielsen local-TV, Pew social-media use, etc.).
+GENERAL_INFLUENCES: list[tuple[str, float]] = [
+    ("local TV news",                                  10),  # ~70% of US adults
+    ("Facebook (friends and family posts)",            10),  # ~68%
+    ("conversations with coworkers or neighbors",       9),  # universal
+    ("YouTube (general algorithm)",                     8),  # ~83% use YT
+    ("network evening news (ABC / NBC / CBS)",          7),  # ~20M nightly
+    ("Reddit (general browsing)",                       5),
+    ("local talk radio",                                5),
+    ("church or community group discussions",           4),
 ]
 
 
@@ -142,6 +149,7 @@ class DemographicProfile:
     influences: list = field(default_factory=list)  # list[str], top 5
     state: str | None = None     # set only when the pop spec constrains state
     industry: str = "employed"   # industry tag — see assign_industry() below
+    voting_history: str = ""     # concrete recent vote — anchors partisan ID
 
     def to_dict(self) -> dict:
         d = {
@@ -154,6 +162,7 @@ class DemographicProfile:
             "community": self.community,
             "political_leaning": self.party,
             "political_basket": self.political_basket,
+            "voting_history": self.voting_history,
             "industry": self.industry,
             "influences": self.influences,
         }
@@ -175,6 +184,7 @@ class DemographicProfile:
             f"Employment / industry: {self.industry}\n"
             f"Political identity: {self.political_basket} "
             f"(broadly {self.party})\n"
+            f"Voting history: {self.voting_history}\n"
             f"Top 5 information sources:\n{influence_str}"
         )
 
@@ -255,6 +265,70 @@ def _weighted_choice(dist: dict[str, float], rng: random.Random) -> str:
     return rng.choices(categories, weights=weights, k=1)[0]
 
 
+def _weighted_sample_no_replace(
+    items: list[tuple[str, float]], k: int, rng: random.Random,
+) -> list[str]:
+    """
+    Draw k distinct items proportional to weight using Efraimidis–Spirakis
+    keys (U^(1/w) per item, take top-k). Large-audience sources (e.g. NYT,
+    Fox News, Pod Save America) dominate the top-3 picks; niche sources
+    appear rarely, matching real audience shares rather than uniform mix.
+    """
+    k = min(k, len(items))
+    if k == 0:
+        return []
+    keys = []
+    for name, w in items:
+        if w <= 0:
+            key = 0.0
+        else:
+            u = rng.random() or 1e-12  # avoid log(0)
+            key = u ** (1.0 / w)
+        keys.append((key, name))
+    keys.sort(reverse=True)
+    return [name for _, name in keys[:k]]
+
+
+def _generate_voting_history(party: str, age: int, rng: random.Random) -> str:
+    """
+    Concrete vote record coherent with party ID. Strongest single partisan
+    anchor we can give Claude — "voted Trump in 2024" binds identity harder
+    than any abstract label. Ages gate which cycles the persona could vote in
+    (18 by 2024 → 2024 only; 22+ by 2020 → both).
+    """
+    could_vote_2020 = age >= 22
+    could_vote_2016 = age >= 26
+
+    if "Democrat" in party:
+        if could_vote_2016:
+            return "voted Harris in 2024, Biden in 2020, Clinton in 2016"
+        if could_vote_2020:
+            return "voted Harris in 2024, Biden in 2020"
+        return "voted Harris in 2024 (first presidential election they were eligible for)"
+    if "Republican" in party:
+        if could_vote_2016:
+            return "voted Trump in 2024, Trump in 2020, Trump in 2016"
+        if could_vote_2020:
+            return "voted Trump in 2024, Trump in 2020"
+        return "voted Trump in 2024 (first presidential election they were eligible for)"
+    # Independent, no lean — mixed histories or non-voters
+    options = [
+        "voted Trump in 2024 after Biden in 2020 — disillusioned with both parties",
+        "voted Harris in 2024 after not voting in 2020 — motivated by the stakes",
+        "didn't vote in 2024, didn't vote in 2020 — turned off by politics",
+        "voted third-party in 2024 (protest vote), split tickets in prior years",
+        "voted Harris in 2024 after Trump in 2020 — changed mind on Trump",
+    ]
+    if not could_vote_2020:
+        options = [
+            "voted third-party in 2024 as a protest — dislikes both major parties",
+            "didn't vote in 2024 — didn't like either candidate",
+            "voted Trump in 2024 but doesn't identify as Republican",
+            "voted Harris in 2024 but doesn't identify as Democrat",
+        ]
+    return rng.choice(options)
+
+
 def sample_demographic(rng: random.Random) -> DemographicProfile:
     """Sample a single demographic profile from marginal distributions."""
     party = _weighted_choice(PARTY_DIST, rng)
@@ -264,8 +338,8 @@ def sample_demographic(rng: random.Random) -> DemographicProfile:
 
     # Sample influences: 3 from basket pool + 2 from general mainstream
     basket_pool = INFLUENCE_POOLS[basket]
-    basket_picks = rng.sample(basket_pool, min(3, len(basket_pool)))
-    general_picks = rng.sample(GENERAL_INFLUENCES, 2)
+    basket_picks  = _weighted_sample_no_replace(basket_pool, 3, rng)
+    general_picks = _weighted_sample_no_replace(GENERAL_INFLUENCES, 2, rng)
     influences = basket_picks + general_picks
 
     age_bracket = _weighted_choice(AGE_DIST, rng)
@@ -286,6 +360,7 @@ def sample_demographic(rng: random.Random) -> DemographicProfile:
         political_basket=basket,
         influences=influences,
         industry=assign_industry(age, education, rng),
+        voting_history=_generate_voting_history(party, age, rng),
     )
 
 
@@ -344,8 +419,8 @@ def sample_focused_demographic(rng: random.Random, age: int = 28) -> Demographic
     basket = _weighted_choice(BASKET_BY_PARTY[party], rng)
 
     basket_pool = INFLUENCE_POOLS[basket]
-    basket_picks = rng.sample(basket_pool, min(3, len(basket_pool)))
-    general_picks = rng.sample(GENERAL_INFLUENCES, 2)
+    basket_picks  = _weighted_sample_no_replace(basket_pool, 3, rng)
+    general_picks = _weighted_sample_no_replace(GENERAL_INFLUENCES, 2, rng)
     influences = basket_picks + general_picks
 
     education = _weighted_choice(FOCUSED_EDUCATION_DIST, rng)
@@ -362,6 +437,7 @@ def sample_focused_demographic(rng: random.Random, age: int = 28) -> Demographic
         political_basket=basket,
         influences=influences,
         industry=assign_industry(age, education, rng),
+        voting_history=_generate_voting_history(party, age, rng),
     )
 
 
@@ -738,8 +814,8 @@ def sample_from_spec(spec: PopulationSpec, rng: random.Random) -> DemographicPro
     basket = _weighted_choice(BASKET_BY_PARTY[party], rng)
 
     basket_pool = INFLUENCE_POOLS[basket]
-    basket_picks  = rng.sample(basket_pool, min(3, len(basket_pool)))
-    general_picks = rng.sample(GENERAL_INFLUENCES, 2)
+    basket_picks  = _weighted_sample_no_replace(basket_pool, 3, rng)
+    general_picks = _weighted_sample_no_replace(GENERAL_INFLUENCES, 2, rng)
     influences = basket_picks + general_picks
 
     age_bucket = _weighted_choice(spec.age_dist, rng)
@@ -769,16 +845,168 @@ def sample_from_spec(spec: PopulationSpec, rng: random.Random) -> DemographicPro
         influences=influences,
         state=state,
         industry=assign_industry(age, education, rng),
+        voting_history=_generate_voting_history(party, age, rng),
     )
 
 
+def _panel_marginals(
+    panel: list[DemographicProfile],
+    spec: PopulationSpec | None = None,
+) -> dict[str, dict[str, float]]:
+    """
+    Empirical marginals over the dims we post-stratify on.
+    Age bracket is always computed against the spec's own bucket scheme
+    (so keys line up with _target_marginals).
+    """
+    n = max(len(panel), 1)
+    if spec is not None:
+        age_vals = [_bucket_age_to_spec(p.age, spec) for p in panel]
+    else:
+        age_vals = [p.age_bracket for p in panel]
+    dims = {
+        "party":       [p.party for p in panel],
+        "race":        [p.race for p in panel],
+        "education":   [p.education for p in panel],
+        "age_bracket": age_vals,
+    }
+    out: dict[str, dict[str, float]] = {}
+    for name, vals in dims.items():
+        d: dict[str, float] = {}
+        for v in vals:
+            d[v] = d.get(v, 0.0) + 1.0 / n
+        out[name] = d
+    return out
+
+
+def _bucket_age_to_spec(age: int, spec: PopulationSpec) -> str:
+    """Which age-dist bucket in the spec does this age fall into?"""
+    for bucket, (lo, hi) in spec.age_ranges.items():
+        if lo <= age <= hi:
+            return bucket
+    # Fallback — use narrative bucket
+    return _narrative_bucket(age)
+
+
+def _target_marginals(spec: PopulationSpec) -> dict[str, dict[str, float]]:
+    """Target marginals drawn from the spec's distributions."""
+    return {
+        "party":       dict(spec.party_dist),
+        "race":        dict(spec.race_dist),
+        "education":   {k: v for k, v in spec.education_dist.items() if v > 0},
+        "age_bracket": dict(spec.age_dist),
+    }
+
+
+def _marginal_tvd(
+    empirical: dict[str, dict[str, float]],
+    target: dict[str, dict[str, float]],
+) -> float:
+    """
+    Summed TVD across tracked dimensions. 0 = panel marginals perfectly
+    match target marginals; higher = worse drift.
+    """
+    total = 0.0
+    for dim, tgt in target.items():
+        emp = empirical.get(dim, {})
+        keys = set(tgt) | set(emp)
+        total += 0.5 * sum(abs(emp.get(k, 0.0) - tgt.get(k, 0.0)) for k in keys)
+    return total
+
+
+def _profile_key(p: DemographicProfile, spec: PopulationSpec) -> dict[str, str]:
+    return {
+        "party":       p.party,
+        "race":        p.race,
+        "education":   p.education,
+        "age_bracket": _bucket_age_to_spec(p.age, spec),
+    }
+
+
+def _poststratify(
+    spec: PopulationSpec,
+    panel: list[DemographicProfile],
+    pool: list[DemographicProfile],
+    target: dict[str, dict[str, float]],
+    max_swaps: int = 2000,
+) -> tuple[list[DemographicProfile], float]:
+    """
+    Greedy swap: repeatedly replace the panel member whose removal most
+    improves marginal TVD with the pool candidate whose addition best
+    closes the gap. Stops when no swap helps or max_swaps hit.
+    """
+    n = len(panel)
+    panel = list(panel)
+    tvd = _marginal_tvd(_panel_marginals(panel, spec), target)
+
+    for _ in range(max_swaps):
+        # Identify the most over-represented (dim, value) in the panel.
+        emp = _panel_marginals(panel, spec)
+        worst_dim = None
+        worst_val = None
+        worst_excess = 0.0
+        for dim, tgt in target.items():
+            e = emp.get(dim, {})
+            for val, p_emp in e.items():
+                excess = p_emp - tgt.get(val, 0.0)
+                if excess > worst_excess:
+                    worst_excess = excess
+                    worst_dim = dim
+                    worst_val = val
+        if worst_dim is None or worst_excess < 0.005:
+            break
+
+        # Find a panel member of that (dim, val) to evict.
+        evict_candidates = [
+            i for i, p in enumerate(panel)
+            if _profile_key(p, spec).get(worst_dim) == worst_val
+        ]
+        if not evict_candidates:
+            break
+
+        best_gain = 0.0
+        best_evict = None
+        best_insert = None
+        for i in evict_candidates[:50]:  # cap search width
+            # Search pool for a candidate that improves TVD most.
+            for cand in pool[:200]:
+                trial = panel[:i] + [cand] + panel[i + 1:]
+                new_tvd = _marginal_tvd(_panel_marginals(trial, spec), target)
+                gain = tvd - new_tvd
+                if gain > best_gain:
+                    best_gain = gain
+                    best_evict = i
+                    best_insert = cand
+            if best_gain > 0.005:
+                break
+
+        if best_evict is None or best_gain <= 0.0005:
+            break
+
+        panel[best_evict] = best_insert
+        tvd -= best_gain
+
+    return panel, tvd
+
+
 def sample_population_panel(
-    population: str, n: int, seed: int = 42,
+    population: str,
+    n: int,
+    seed: int = 42,
+    poststratify: bool = True,
+    oversample: int = 6,
+    verbose: bool = False,
 ) -> list[DemographicProfile]:
     """
     Draw a panel of n personas for the named population.
 
     population ∈ {"college_educated", "seniors_south", "general_us"}
+
+    When `poststratify=True`, oversample a larger pool, then greedily swap
+    panel members to minimize marginal TVD against the target distributions
+    on (party, race, education, age_bracket). This is the single biggest
+    lever for matching ground-truth polling — independent marginal sampling
+    alone at n=100 drifts ±5pp on each dim, which translates directly into
+    answer-distribution error on partisan questions.
     """
     if population not in POPULATION_SPECS:
         raise ValueError(
@@ -787,4 +1015,21 @@ def sample_population_panel(
         )
     spec = POPULATION_SPECS[population]
     rng = random.Random(seed)
-    return [sample_from_spec(spec, rng) for _ in range(n)]
+
+    if not poststratify:
+        return [sample_from_spec(spec, rng) for _ in range(n)]
+
+    # Oversample, then stratify.
+    pool = [sample_from_spec(spec, rng) for _ in range(n * oversample)]
+    panel = pool[:n]
+    pool_rest = pool[n:]
+
+    pre_tvd = _marginal_tvd(_panel_marginals(panel, spec), _target_marginals(spec))
+    panel, post_tvd = _poststratify(
+        spec, panel, pool_rest, _target_marginals(spec),
+    )
+
+    if verbose:
+        print(f"  [poststratify] marginal TVD  {pre_tvd:.3f} → {post_tvd:.3f} "
+              f"(n={n}, pool={len(pool)})")
+    return panel
