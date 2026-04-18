@@ -32,9 +32,21 @@ BATCH_MAX_WAIT_SECONDS = 6 * 60 * 60   # hard ceiling per batch (6h of a 24h win
 MIN_VALID_RATE = 0.80
 
 # --- Panel focus ---
-# Panel is a coherent slice: 28-year-olds with a degree.
-# Vary everything else (gender / race / region / party / basket / income).
+# Legacy: used only by the deprecated sample_focused_panel path. The new
+# population-aware pipeline (demographics.sample_population_panel) ignores this
+# and samples age from each population spec directly.
 FOCUS_AGE = 28
+
+# --- Population selection ---
+# Which underlying group the synthetic personas are meant to model.
+# Choices: "college_educated" | "seniors_south" | "general_us"
+DEFAULT_POPULATION = "college_educated"
+
+# --- Default pick when model-selection is skipped ---
+# Empirically the best configuration from prior full runs:
+# value_anchored @ T=0.3. Used unless --model_selection is passed.
+DEFAULT_METHOD = "value_anchored"
+DEFAULT_TEMPERATURE = 0.3
 
 # --- Output ---
 RESULTS_DIR = "results"

@@ -3,19 +3,50 @@
 LLM Survey Persona Experiment
 ==============================
 
-Workflow:
-  Phase 1 — run ALL methods on TRAIN questions
-  Phase 2 — pick best method by mean JSD on train
-  Phase 3 — evaluate best method on VAL and TEST questions
-  Phase 4 — compare train / val / test to check generalisation
+Default run: sample a panel from the chosen population, answer every survey
+question with method='value_anchored' @ T=0.3, then report split metrics and
+behavioral stats. Phases 1-3 (method comparison + temp sweep) only fire when
+--model_selection is passed.
 
-Split: first 80% train, next 10% val, last 10% test
-       (at least 1 question guaranteed in val and test)
+Flags:
+  --population {college_educated | seniors_south | general_us}
+      Which underlying group the synthetic personas model. Distributions are
+      from Census / ACS / Pew. Default: college_educated.
+          college_educated → bachelor's+ adults across USA, ages 22-65
+          seniors_south    → 65+ in FL / AL / LA / TX (state weights from
+                             Census senior counts)
+          general_us       → national adult sample (matches poll frames)
+
+  --model_selection
+      Opt into the full 4-phase pipeline:
+          Phase 1 — run ALL methods on TRAIN questions
+          Phase 2 — pick best method by mean JSD on TRAIN
+          Phase 3 — sweep temperature on VAL for the best method
+          Phase 4 — evaluate (best method, best T) on TEST
+      Off by default because prior runs already identified
+      value_anchored @ T=0.3 as the winner; skipping saves ~90% of API calls.
+
+  --method NAME
+      Restrict the Phase-1 sweep to a single method. Requires
+      --model_selection (no effect otherwise).
+
+  --dry-run
+      Simulate responses locally — no API key needed. Useful for testing the
+      pipeline end-to-end.
+
+  --seed INT
+      Controls panel sampling and all stochastic persona construction.
+      Default: 42.
+
+Question split: first 80% train, next 10% val, last 10% test (at least one
+question guaranteed in val and test).
 
 Usage:
-    python main.py                # live API run
-    python main.py --dry-run      # simulated responses (no key needed)
-    python main.py --analyze-only # re-analyse saved results
+    python main.py                                     # default pipeline, live API
+    python main.py --population seniors_south          # different cohort
+    python main.py --dry-run                           # no API key needed
+    python main.py --model_selection                   # full 4-phase pipeline
+    python main.py --model_selection --method value_anchored  # single-method sweep
 """
 import argparse
 import asyncio
@@ -30,9 +61,10 @@ from collections import Counter
 from config import (
     NUM_PERSONAS, RESULTS_DIR, TEMPERATURE, TEMPERATURE_SWEEP,
     FOCUS_AGE, MIN_VALID_RATE,
+    DEFAULT_POPULATION, DEFAULT_METHOD, DEFAULT_TEMPERATURE,
 )
 from ground_truth import QUESTIONS, SurveyQuestion
-from demographics import sample_focused_panel
+from demographics import sample_population_panel, POPULATION_SPECS
 from personas import METHODS
 from survey import (
     run_survey, run_surveys, SurveyTask,
@@ -182,7 +214,154 @@ async def _run_many(
     return out
 
 
+def _print_panel_summary(panel, spec):
+    """Print the composition of the sampled panel against the spec."""
+    print(f"\nPanel: {len(panel)} personas")
+    print(f"  population: {spec.name}  —  {spec.description}")
+
+    ages = [p.age for p in panel]
+    print(f"  age        : min={min(ages)} max={max(ages)} "
+          f"mean={sum(ages)/len(ages):.1f}")
+
+    edu_counts     = Counter(p.education for p in panel)
+    party_counts   = Counter(p.party for p in panel)
+    race_counts    = Counter(p.race for p in panel)
+    region_counts  = Counter(p.region for p in panel)
+    basket_counts  = Counter(p.political_basket for p in panel)
+    print(f"  education  = {dict(edu_counts)}")
+    print(f"  race       = {dict(race_counts)}")
+    print(f"  region     = {dict(region_counts)}")
+    print(f"  party      = {dict(party_counts)}")
+    print(f"  basket     = {dict(basket_counts)}")
+
+    # Show state breakdown only when the spec constrains it.
+    if spec.state_dist:
+        state_counts = Counter(p.state for p in panel if p.state)
+        print(f"  state      = {dict(state_counts)}")
+
+
+async def _run_default_pipeline(
+    panel,
+    train_qs: list[SurveyQuestion],
+    val_qs: list[SurveyQuestion],
+    test_qs: list[SurveyQuestion],
+    dry_run: bool,
+    seed: int,
+    population: str,
+):
+    """
+    Skip method selection + temperature sweep. Run the hard-coded default
+    (DEFAULT_METHOD @ DEFAULT_TEMPERATURE) on train / val / test and report.
+    """
+    method_name = DEFAULT_METHOD
+    T = DEFAULT_TEMPERATURE
+
+    print("=" * 62)
+    print(f"  DEFAULT RUN — method='{method_name}'  T={T}  population='{population}'")
+    print("  (pass --model_selection to run the full 4-phase pipeline)")
+    print("=" * 62)
+
+    method = METHODS[method_name]
+    desc_fn = method["desc_fn"]
+    descriptions = (
+        desc_fn(panel, seed=seed) if method.get("needs_seed") else desc_fn(panel)
+    )
+    preview = descriptions[0][:180].replace("\n", " | ")
+    print(f"\n[{method_name}] {method['description']}")
+    print(f"  persona[0]: '{preview}…'")
+
+    # One SurveyTask per split → single batch submission.
+    tasks: list[SurveyTask] = []
+    paths: dict[str, str] = {}
+    for split_name, qs in [("train", train_qs), ("val", val_qs), ("test", test_qs)]:
+        if not qs:
+            continue
+        key = f"{split_name}_{method_name}_T{T}"
+        tasks.append(SurveyTask(
+            method_name=method_name,
+            descriptions=descriptions,
+            questions=qs,
+            temperature=T,
+            seed=seed,
+            run_key=key,
+        ))
+        paths[key] = os.path.join(
+            RESULTS_DIR, split_name, f"{method_name}_T{T}.json",
+        )
+
+    out = await _run_many(tasks, dry_run, paths)
+
+    train_results = out[f"train_{method_name}_T{T}"]
+    val_results   = out[f"val_{method_name}_T{T}"]
+    test_results  = out[f"test_{method_name}_T{T}"]
+
+    train_metrics = evaluate_method(train_results, train_qs)
+    val_metrics   = evaluate_method(val_results,   val_qs)
+    test_metrics  = evaluate_method(test_results,  test_qs)
+
+    _print_split_comparison(
+        method_name,
+        train_metrics, val_metrics, test_metrics,
+        train_qs, val_qs, test_qs,
+        best_T=T,
+    )
+
+    # Minimal report: no train-across-methods table, no temp sweep table.
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    report = {
+        "population": population,
+        "method": method_name,
+        "temperature": T,
+        "model_selection": False,
+        "splits": {
+            split: {
+                "mean_jsd": mm.mean_jsd,
+                "mean_tvd": mm.mean_tvd,
+                "mean_mae_pp": mm.mean_mae_pp,
+                "plurality_accuracy": mm.plurality_accuracy,
+                "per_question": {
+                    qm.question_id: {
+                        "jsd": qm.jsd, "tvd": qm.tvd, "mae_pp": qm.mae_pp,
+                        "predicted": qm.predicted_dist,
+                        "ground_truth": qm.ground_truth_dist,
+                    }
+                    for qm in mm.per_question
+                },
+            }
+            for split, mm in [
+                ("train", train_metrics),
+                ("val",   val_metrics),
+                ("test",  test_metrics),
+            ]
+        },
+    }
+    report_path = os.path.join(RESULTS_DIR, "report_default.json")
+    with open(report_path, "w") as f:
+        json.dump(report, f, indent=2)
+    print(f"\n  Report saved → {report_path}")
+
+    # Behavioral stats + R^3 scatter, same as the full pipeline.
+    print("\n" + "=" * 62)
+    print(f"  PHASE 5 — behavioral stats  (method: '{method_name}')")
+    print("=" * 62)
+    print_behavioral_summary(train_results, train_qs, header="TRAIN — behavioral")
+    print_behavioral_summary(val_results,   val_qs,   header="VAL   — behavioral")
+    print_behavioral_summary(test_results,  test_qs,  header="TEST  — behavioral")
+
+    plot_dir = os.path.join(RESULTS_DIR, "behavioral")
+    for q in test_qs:
+        path = os.path.join(plot_dir, f"r3_{q.id}.png")
+        plot_behavioral_r3(
+            test_results, q, path,
+            title_suffix=f"[TEST · {method_name} · T={T}]",
+        )
+
+    return train_results, val_results, test_results
+
+
 async def run_experiment(
+    population: str = DEFAULT_POPULATION,
+    do_model_selection: bool = False,
     methods_to_run: list[str] | None = None,
     dry_run: bool = False,
     seed: int = 42,
@@ -199,17 +378,29 @@ async def run_experiment(
     print("  VAL:  ", [q.id for q in val_qs])
     print("  TEST: ", [q.id for q in test_qs])
 
-    # --- Sample focused panel: all age=FOCUS_AGE, all with a degree.
+    # --- Sample panel from the chosen population spec.
     # Shared across all methods/splits/temps for fair comparison.
-    panel = sample_focused_panel(NUM_PERSONAS, seed=seed, age=FOCUS_AGE)
-    basket_counts  = Counter(p.political_basket for p in panel)
-    edu_counts     = Counter(p.education for p in panel)
-    party_counts   = Counter(p.party for p in panel)
-    print(f"\nPanel: {len(panel)} personas   (all age={FOCUS_AGE})")
-    print(f"  education = {dict(edu_counts)}")
-    print(f"  party     = {dict(party_counts)}")
-    print(f"  basket    = {dict(basket_counts)}")
-    print(f"Mode: {'DRY RUN' if dry_run else 'LIVE API'}\n")
+    spec = POPULATION_SPECS[population]
+    panel = sample_population_panel(population, NUM_PERSONAS, seed=seed)
+    _print_panel_summary(panel, spec)
+    print(f"Mode: {'DRY RUN' if dry_run else 'LIVE API'}")
+    sel_str = (
+        "ON"
+        if do_model_selection
+        else f"OFF — using '{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}"
+    )
+    print(f"Model selection: {sel_str}\n")
+
+    # Fast path: no model selection. Run the default (method, T) on all splits
+    # directly and report. This skips Phase 1 (all methods), Phase 2 (ranking),
+    # and Phase 3 (temperature sweep).
+    if not do_model_selection:
+        return await _run_default_pipeline(
+            panel=panel,
+            train_qs=train_qs, val_qs=val_qs, test_qs=test_qs,
+            dry_run=dry_run, seed=seed,
+            population=population,
+        )
 
     methods = methods_to_run or list(METHODS.keys())
 
@@ -574,17 +765,50 @@ def _save_all_reports(
 
 def main():
     parser = argparse.ArgumentParser(description="LLM Survey Persona Experiment")
-    parser.add_argument("--dry-run",      action="store_true")
-    parser.add_argument("--method",       type=str,  default=None)
-    parser.add_argument("--seed",         type=int,  default=42)
+    parser.add_argument(
+        "--population",
+        type=str,
+        choices=list(POPULATION_SPECS.keys()),
+        default=DEFAULT_POPULATION,
+        help=(
+            "Which underlying group the personas should model. "
+            "college_educated = bachelor's+ adults across USA (default). "
+            "seniors_south = 65+ in FL/AL/LA/TX. "
+            "general_us = national adult sample matching poll frames."
+        ),
+    )
+    parser.add_argument(
+        "--model_selection",
+        action="store_true",
+        help=(
+            "Run the full 4-phase pipeline: evaluate all methods on TRAIN, pick "
+            "the best, sweep temperature on VAL, then eval on TEST. "
+            f"Default (off) uses method='{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}."
+        ),
+    )
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--method",
+        type=str,
+        default=None,
+        help="Restrict model selection to a single method (requires --model_selection).",
+    )
+    parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
 
     if not args.dry_run and not os.getenv("ANTHROPIC_API_KEY"):
         print("ANTHROPIC_API_KEY not set. Use --dry-run or export the key.")
         sys.exit(1)
 
+    if args.method and not args.model_selection:
+        print("--method has no effect without --model_selection "
+              f"(default path is fixed to '{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}).")
+        sys.exit(1)
+
     methods = [args.method] if args.method else None
     asyncio.run(run_experiment(
+        population=args.population,
+        do_model_selection=args.model_selection,
         methods_to_run=methods,
         dry_run=args.dry_run,
         seed=args.seed,

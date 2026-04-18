@@ -48,11 +48,20 @@ export ANTHROPIC_API_KEY='...'
 ## Run
 
 ```bash
-python main.py                      # full experiment via batch API
-python main.py --dry-run            # simulated responses, no API calls
-python main.py --method value_anchored   # single method on all splits
-python main.py --analyze-only       # re-analyze saved results
+python main.py                                  # default: value_anchored @ T=0.3, college_educated
+python main.py --population seniors_south       # 65+ in FL/AL/LA/TX
+python main.py --population general_us          # national adult frame
+python main.py --model_selection                # full 4-phase pipeline
+python main.py --dry-run                        # simulated responses, no API calls
 ```
+
+### Flags
+
+- `--population {college_educated | seniors_south | general_us}` — which underlying group the personas model. Distributions are from Census / ACS / Pew. Default: `college_educated` (bachelor's+ adults across USA, ages 22–65). `seniors_south` = 65+ in FL / AL / LA / TX with state weights from Census senior counts. `general_us` = national adult sample matching poll frames.
+- `--model_selection` — opt in to the full 4-phase pipeline (all methods on TRAIN → pick best → temp sweep on VAL → TEST at best config). Off by default; the default run uses `value_anchored` @ T=0.3 directly, which was identified as the winner in prior sweeps. Off saves ~90% of API calls.
+- `--method NAME` — restrict the Phase-1 sweep to a single method. Requires `--model_selection`.
+- `--dry-run` — simulate responses locally; no API key needed.
+- `--seed INT` — controls panel sampling and persona construction. Default 42.
 
 Results land in `results/`. Cached batch outputs in `cache/`.
 
