@@ -105,11 +105,11 @@ class _Tee:
         return getattr(self.streams[0], name)
 
 
-def _start_logging() -> tuple[str, "object"]:
-    """Open logs/output_<timestamp>.txt and tee stdout/stderr into it."""
+def _start_logging(population: str) -> tuple[str, "object"]:
+    """Open logs/output_<population>_<timestamp>.txt and tee stdout/stderr into it."""
     os.makedirs(LOG_DIR, exist_ok=True)
     ts = time.strftime("%Y-%m-%d_%H-%M-%S")
-    log_path = os.path.join(LOG_DIR, f"output_{ts}.txt")
+    log_path = os.path.join(LOG_DIR, f"output_{population}_{ts}.txt")
     log_file = open(log_path, "w", buffering=1)  # line-buffered
     sys.stdout = _Tee(sys.__stdout__, log_file)
     sys.stderr = _Tee(sys.__stderr__, log_file)
@@ -134,7 +134,7 @@ from config import (
     DEFAULT_POPULATION, DEFAULT_METHOD, DEFAULT_TEMPERATURE,
 )
 from ground_truth import QUESTIONS, SurveyQuestion
-from demographics import sample_population_panel, POPULATION_SPECS
+from demographics import sample_population_panel, POPULATION_SPECS, industry_tier
 from personas import METHODS
 from survey import (
     run_survey, run_surveys, SurveyTask,
@@ -308,6 +308,19 @@ def _print_panel_summary(panel, spec):
     if spec.state_dist:
         state_counts = Counter(p.state for p in panel if p.state)
         print(f"  state      = {dict(state_counts)}")
+
+    # Employment status + work-tier rollup, then the detailed industry mix.
+    status_counts = Counter(
+        "retired" if p.industry.startswith("retired_former_")
+        else p.industry if p.industry in ("unemployed", "student")
+        else "employed"
+        for p in panel
+    )
+    tier_counts = Counter(industry_tier(p.industry) for p in panel)
+    industry_counts = Counter(p.industry for p in panel)
+    print(f"  status     = {dict(status_counts)}")
+    print(f"  work tier  = {dict(tier_counts)}")
+    print(f"  industry   = {dict(industry_counts)}")
 
 
 def _print_unified_poll_report(
@@ -1001,7 +1014,10 @@ def main():
         sys.exit(1)
 
     # Archive the full run transcript to logs/output_<timestamp>.txt.
-    log_path, log_file = _start_logging()
+    # Skip for --dry-run — those are throwaway sanity checks, no need to clutter logs/.
+    log_path, log_file = (None, None)
+    if not args.dry_run:
+        log_path, log_file = _start_logging(args.population)
     try:
         methods = [args.method] if args.method else None
         asyncio.run(run_experiment(
@@ -1012,7 +1028,8 @@ def main():
             seed=args.seed,
         ))
     finally:
-        _stop_logging(log_path, log_file)
+        if log_file is not None:
+            _stop_logging(log_path, log_file)
 
 
 if __name__ == "__main__":

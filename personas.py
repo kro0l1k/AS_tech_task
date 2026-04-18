@@ -159,6 +159,24 @@ _NAMES_F = ["Mary", "Patricia", "Jennifer", "Linda", "Maria", "Ashley", "Keisha"
             "Sandra", "Margaret", "Dorothy", "Emily", "Olivia", "Sophia"]
 
 
+def _employment_phrase(industry: str, occupation: str) -> str:
+    """
+    Turn the industry tag into a natural biographical sentence fragment.
+    Handles the 'retired_former_*' prefix plus the unemployed/student states
+    so we never describe a retiree as 'works as a…'.
+    """
+    if industry == "unemployed":
+        return "is currently unemployed, last worked in an entry-level role"
+    if industry == "student":
+        return "is a student, not yet in the workforce full-time"
+    if industry.startswith("retired_former_"):
+        former = industry.removeprefix("retired_former_").replace("_", " ")
+        return f"is retired, spent their career in the {former} industry"
+    # Employed: weave the specific occupation and industry together.
+    industry_label = industry.replace("_", " ")
+    return f"works as a {occupation} in the {industry_label} sector"
+
+
 def create_narrative_descriptions(
     profiles: list[DemographicProfile], seed: int = 42
 ) -> list[str]:
@@ -176,8 +194,10 @@ def create_narrative_descriptions(
         top_source = p.influences[0] if p.influences else "local news"
         second_source = p.influences[1] if len(p.influences) > 1 else "Facebook"
 
+        work_phrase = _employment_phrase(p.industry, occupation)
+
         desc = (
-            f"{name}, {p.age}, {p.race} {p.gender.lower()}, works as a {occupation}. "
+            f"{name}, {p.age}, {p.race} {p.gender.lower()}, {work_phrase}. "
             f"Lives {housing} in the {p.region}. "
             f"Household income {p.income_bracket}/year. "
             f"Is {experience}. "

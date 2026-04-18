@@ -141,6 +141,7 @@ class DemographicProfile:
     political_basket: str        # one of POLITICAL_BASKETS
     influences: list = field(default_factory=list)  # list[str], top 5
     state: str | None = None     # set only when the pop spec constrains state
+    industry: str = "employed"   # industry tag — see assign_industry() below
 
     def to_dict(self) -> dict:
         d = {
@@ -153,6 +154,7 @@ class DemographicProfile:
             "community": self.community,
             "political_leaning": self.party,
             "political_basket": self.political_basket,
+            "industry": self.industry,
             "influences": self.influences,
         }
         if self.state:
@@ -170,6 +172,7 @@ class DemographicProfile:
             f"Household income: {self.income_bracket}\n"
             f"Region: {location}\n"
             f"Community type: {self.community}\n"
+            f"Employment / industry: {self.industry}\n"
             f"Political identity: {self.political_basket} "
             f"(broadly {self.party})\n"
             f"Top 5 information sources:\n{influence_str}"
@@ -268,19 +271,21 @@ def sample_demographic(rng: random.Random) -> DemographicProfile:
     age_bracket = _weighted_choice(AGE_DIST, rng)
     lo, hi = AGE_RANGES[age_bracket]
     age = rng.randint(lo, hi)
+    education = _weighted_choice(EDUCATION_DIST, rng)
 
     return DemographicProfile(
         age_bracket=age_bracket,
         age=age,
         gender=_weighted_choice(GENDER_DIST, rng),
         race=_weighted_choice(RACE_DIST, rng),
-        education=_weighted_choice(EDUCATION_DIST, rng),
+        education=education,
         income_bracket=_weighted_choice(INCOME_DIST, rng),
         region=_weighted_choice(REGION_DIST, rng),
         community=_weighted_choice(COMMUNITY_DIST, rng),
         party=party,
         political_basket=basket,
         influences=influences,
+        industry=assign_industry(age, education, rng),
     )
 
 
@@ -343,18 +348,20 @@ def sample_focused_demographic(rng: random.Random, age: int = 28) -> Demographic
     general_picks = rng.sample(GENERAL_INFLUENCES, 2)
     influences = basket_picks + general_picks
 
+    education = _weighted_choice(FOCUSED_EDUCATION_DIST, rng)
     return DemographicProfile(
         age_bracket="18-29",
         age=age,
         gender=_weighted_choice(GENDER_DIST, rng),
         race=_weighted_choice(RACE_DIST, rng),
-        education=_weighted_choice(FOCUSED_EDUCATION_DIST, rng),
+        education=education,
         income_bracket=_weighted_choice(FOCUSED_INCOME_DIST, rng),
         region=_weighted_choice(REGION_DIST, rng),
         community=_weighted_choice(FOCUSED_COMMUNITY_DIST, rng),
         party=party,
         political_basket=basket,
         influences=influences,
+        industry=assign_industry(age, education, rng),
     )
 
 
@@ -364,6 +371,194 @@ def sample_focused_panel(
     """Coherent panel of n 28-year-olds with degrees; other attrs vary."""
     rng = random.Random(seed)
     return [sample_focused_demographic(rng, age=age) for _ in range(n)]
+
+
+# ---------------------------------------------------------------------------
+# Industry / employment
+# ---------------------------------------------------------------------------
+#
+# Industries are tagged by work-type tier so downstream models can reason
+# about knowledge- vs service- vs physical-labor cohorts. Distributions per
+# education tier follow BLS Current Population Survey (2023) industry shares
+# among employed civilians 16+, rounded and slightly consolidated.
+#
+# Employment status (employed / unemployed / retired / student) is assigned
+# conditional on age so we don't get 21-year-old retirees or 80-year-old
+# active software developers at high rates. Retirees are tagged with the
+# industry they came from, e.g. "retired_former_manufacturing".
+
+# Tier mapping — useful for downstream analysis.
+WORK_TIER: dict[str, str] = {
+    # Knowledge / white-collar
+    "technology":                  "knowledge",
+    "finance_insurance":           "knowledge",
+    "professional_services":       "knowledge",   # consulting, legal, accounting, R&D
+    "education":                   "knowledge",
+    "healthcare_professional":     "knowledge",   # doctors, RNs, pharmacists
+    "government":                  "knowledge",
+    "information_media":           "knowledge",
+    # Services / pink-collar
+    "healthcare_support":          "services",    # aides, assistants, techs
+    "retail":                      "services",
+    "food_hospitality":            "services",
+    "transportation_warehousing":  "services",
+    "real_estate":                 "services",
+    "personal_other_services":     "services",    # personal care, repair, non-profit
+    # Physical / blue-collar
+    "construction":                "physical",
+    "manufacturing":               "physical",
+    "agriculture_fishing":         "physical",
+    "mining_energy_utilities":     "physical",
+}
+
+# Industry distribution conditioned on education.
+# Shares within each education tier reflect BLS CPS 2023 patterns and sum to 1.
+INDUSTRY_BY_EDUCATION: dict[str, dict[str, float]] = {
+    "Graduate or professional degree": {
+        # Heavy in professional services, healthcare-professional, education.
+        "technology":              0.10,
+        "finance_insurance":       0.10,
+        "professional_services":   0.22,
+        "education":               0.18,
+        "healthcare_professional": 0.20,
+        "government":              0.10,
+        "information_media":       0.04,
+        "manufacturing":           0.02,
+        "real_estate":             0.02,
+        "personal_other_services": 0.01,
+        "retail":                  0.01,
+    },
+    "Bachelor's degree": {
+        "technology":              0.11,
+        "finance_insurance":       0.11,
+        "professional_services":   0.18,
+        "education":               0.14,
+        "healthcare_professional": 0.14,
+        "government":              0.08,
+        "information_media":       0.04,
+        "manufacturing":           0.04,
+        "retail":                  0.04,
+        "healthcare_support":      0.03,
+        "real_estate":             0.03,
+        "personal_other_services": 0.02,
+        "construction":            0.02,
+        "food_hospitality":        0.01,
+        "transportation_warehousing": 0.01,
+    },
+    "Some college or associate's degree": {
+        # Mixed — heavy in service-tier with some knowledge (admin, IT support).
+        "healthcare_support":         0.14,
+        "retail":                     0.13,
+        "professional_services":      0.08,
+        "finance_insurance":          0.06,
+        "transportation_warehousing": 0.08,
+        "construction":               0.07,
+        "manufacturing":              0.10,
+        "food_hospitality":           0.09,
+        "government":                 0.05,
+        "personal_other_services":    0.07,
+        "technology":                 0.04,
+        "education":                  0.04,
+        "real_estate":                0.03,
+        "information_media":          0.01,
+        "agriculture_fishing":        0.01,
+    },
+    "High school diploma or less": {
+        # Heavy in physical and low-skill services.
+        "construction":               0.13,
+        "manufacturing":              0.13,
+        "retail":                     0.14,
+        "food_hospitality":           0.14,
+        "transportation_warehousing": 0.11,
+        "healthcare_support":         0.08,
+        "agriculture_fishing":        0.04,
+        "personal_other_services":    0.10,
+        "mining_energy_utilities":    0.02,
+        "government":                 0.03,
+        "real_estate":                0.02,
+        "professional_services":      0.03,
+        "education":                  0.02,
+        "information_media":          0.01,
+    },
+}
+
+
+def _employment_status(age: int, rng: random.Random) -> str:
+    """
+    Pick one of {'employed', 'unemployed', 'retired', 'student'} subject to
+    age-realistic rates. Based on BLS labor-force participation / CPS.
+    """
+    # Young adults still in school — 18-21 skew heavily toward student status.
+    # Probability drops as age increases in the range.
+    if age <= 21:
+        if rng.random() < 0.55:
+            return "student"
+
+    # Retirement ramps with age; essentially nobody retires before 55.
+    if age >= 75:
+        p_retired = 0.92
+    elif age >= 70:
+        p_retired = 0.82
+    elif age >= 65:
+        p_retired = 0.62
+    elif age >= 60:
+        p_retired = 0.25
+    elif age >= 55:
+        p_retired = 0.10
+    else:
+        p_retired = 0.0
+    if rng.random() < p_retired:
+        return "retired"
+
+    # ~4% unemployment among working-age adults (BLS U-3 ~3.5-4.5% recently).
+    # Don't unemploy people who were about to be retired — already filtered.
+    if rng.random() < 0.04:
+        return "unemployed"
+
+    return "employed"
+
+
+def assign_industry(age: int, education: str, rng: random.Random) -> str:
+    """
+    Return an industry tag accounting for employment status and age:
+      - "student"                     (only 18-21)
+      - "unemployed"
+      - "retired_former_<industry>"   (retirees, age-gated)
+      - "<industry>"                  (employed)
+
+    Industry itself is drawn from the education-tier CPS distribution —
+    there is no cross-education distribution shift; each tier samples from
+    its own column.
+    """
+    status = _employment_status(age, rng)
+    if status == "student":
+        return "student"
+    if status == "unemployed":
+        return "unemployed"
+
+    dist = INDUSTRY_BY_EDUCATION.get(
+        education, INDUSTRY_BY_EDUCATION["Some college or associate's degree"],
+    )
+    industry = _weighted_choice(dist, rng)
+
+    if status == "retired":
+        return f"retired_former_{industry}"
+    return industry
+
+
+def industry_tier(industry: str) -> str:
+    """
+    Collapse an industry tag to its work-type tier:
+      knowledge | services | physical | other
+
+    Handles the 'retired_former_*' prefix and the non-industry statuses.
+    """
+    if industry == "student":
+        return "other"
+    if industry == "unemployed":
+        return "other"
+    raw = industry.removeprefix("retired_former_")
+    return WORK_TIER.get(raw, "other")
 
 
 # ---------------------------------------------------------------------------
@@ -559,12 +754,13 @@ def sample_from_spec(spec: PopulationSpec, rng: random.Random) -> DemographicPro
     if spec.state_dist:
         state = _weighted_choice(spec.state_dist, rng)
 
+    education = _weighted_choice(spec.education_dist, rng)
     return DemographicProfile(
         age_bracket=_narrative_bucket(age),
         age=age,
         gender=_weighted_choice(spec.gender_dist, rng),
         race=_weighted_choice(spec.race_dist, rng),
-        education=_weighted_choice(spec.education_dist, rng),
+        education=education,
         income_bracket=_weighted_choice(spec.income_dist, rng),
         region=region,
         community=_weighted_choice(spec.community_dist, rng),
@@ -572,6 +768,7 @@ def sample_from_spec(spec: PopulationSpec, rng: random.Random) -> DemographicPro
         political_basket=basket,
         influences=influences,
         state=state,
+        industry=assign_industry(age, education, rng),
     )
 
 

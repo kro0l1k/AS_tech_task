@@ -2,7 +2,7 @@
   "method_name": "distribution_aware",
   "total_calls": 600,
   "failed_parses": 0,
-  "elapsed_seconds": 0.0009071826934814453,
+  "elapsed_seconds": 0.0007390975952148438,
   "responses": [
     {
       "persona_index": 0,

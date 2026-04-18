@@ -31,123 +31,7 @@ class SurveyQuestion:
 
 
 QUESTIONS: list[SurveyQuestion] = [
-    # SurveyQuestion(
-    #     id="gun_laws",
-    #     text=(
-    #         "In general, do you think gun laws in this country should be "
-    #         "made more strict, made less strict, or kept as they are now?"
-    #     ),
-    #     options=["More strict", "Less strict", "Kept as they are now"],
-    #     ground_truth={
-    #         "More strict": 0.56,
-    #         "Less strict": 0.10,
-    #         "Kept as they are now": 0.34,
-    #     },
-    #     source="Gallup, October 2024",
-    # ),
 
-    # SurveyQuestion(
-    #     id="climate_cause",
-    #     text=(
-    #         "From what you have heard or read, which of the following best "
-    #         "describes your view of climate change?"
-    #     ),
-    #     options=[
-    #         "Caused mostly by human activities",
-    #         "Caused mostly by natural changes in the environment",
-    #         "There is no solid evidence of climate change",
-    #         "Not sure",
-    #     ],
-    #     ground_truth={
-    #         "Caused mostly by human activities": 0.57,
-    #         "Caused mostly by natural changes in the environment": 0.26,
-    #         "There is no solid evidence of climate change": 0.14,
-    #         "Not sure": 0.03,
-    #     },
-    #     source="Pew Research Center, 2024",
-    # ),
-
-    # SurveyQuestion(
-    #     id="marijuana",
-    #     text="Do you think the use of marijuana should be…",
-    #     options=[
-    #         "Legal for recreational and medical use",
-    #         "Legal for medical use only",
-    #         "Not legal for any use",
-    #     ],
-    #     ground_truth={
-    #         "Legal for recreational and medical use": 0.64,
-    #         "Legal for medical use only": 0.26,
-    #         "Not legal for any use": 0.10,
-    #     },
-    #     source="Gallup, November 2024",
-    # ),
-
-    # SurveyQuestion(
-    #     id="immigration_level",
-    #     text=(
-    #         "Should immigration to this country be kept at its present level, "
-    #         "increased, or decreased?"
-    #     ),
-    #     options=["Increased", "Decreased", "Kept at present level", "Not sure"],
-    #     ground_truth={
-    #         "Increased": 0.21,
-    #         "Decreased": 0.41,
-    #         "Kept at present level": 0.33,
-    #         "Not sure": 0.05,
-    #     },
-    #     source="Gallup, February 2024",
-    # ),
-
-    # SurveyQuestion(
-    #     id="healthcare_govt",
-    #     text=(
-    #         "Do you think it is the responsibility of the federal government "
-    #         "to make sure all Americans have healthcare coverage, or is that "
-    #         "not the responsibility of the federal government?"
-    #     ),
-    #     options=[
-    #         "Yes, government responsibility",
-    #         "No, not government responsibility",
-    #     ],
-    #     ground_truth={
-    #         "Yes, government responsibility": 0.57,
-    #         "No, not government responsibility": 0.43,
-    #     },
-    #     source="Gallup, November 2024",
-    # ),
-
-    # SurveyQuestion(
-    #     id="abortion",
-    #     text="Do you think abortion should be…",
-    #     options=[
-    #         "Legal in all cases",
-    #         "Legal in most cases",
-    #         "Illegal in most cases",
-    #         "Illegal in all cases",
-    #     ],
-    #     ground_truth={
-    #         "Legal in all cases": 0.27,
-    #         "Legal in most cases": 0.33,
-    #         "Illegal in most cases": 0.25,
-    #         "Illegal in all cases": 0.15,
-    #     },
-    #     source="Pew Research Center, May 2024",
-    # ),
-
-    # SurveyQuestion(
-    #     id="death_penalty",
-    #     text=(
-    #         "Are you in favor of the death penalty for a person convicted "
-    #         "of murder?"
-    #     ),
-    #     options=["Favor", "Oppose"],
-    #     ground_truth={
-    #         "Favor": 0.53,
-    #         "Oppose": 0.47,
-    #     },
-    #     source="Gallup, October 2024",
-    # ),
     SurveyQuestion(
         id="gun_sales_laws",
         text=(
@@ -224,46 +108,9 @@ QUESTIONS: list[SurveyQuestion] = [
         source="Gallup, May 2025",
         url="https://news.gallup.com/poll/321143/americans-stand-abortion.aspx",
     ),
-    SurveyQuestion(
-        id="abortion_legal_all_or_most",
-        text=(
-            "When it comes to the legality of abortion, "
-            "do you think abortion should be legal in all cases, "
-            "legal in most cases, or illegal in all or most cases?"
-        ),
-        options=[
-            "Legal in all cases",
-            "Legal in most cases",
-            "Illegal in all or most cases",
-        ],
-        ground_truth={
-            "Legal in all cases": 0.28,
-            "Legal in most cases": 0.33,
-            "Illegal in all or most cases": 0.39,
-        },
-        source="The 19th/SurveyMonkey poll, 2025",
-        url="https://www.surveymonkey.com/curiosity/the-19th-surveymonkey-poll-september-2025/",
-    ),
 
-    # SurveyQuestion(
-    #     id="border_policy_biden",
-    #     text=(
-    #         "Do you think the Biden administration should keep its border policies the same "
-    #         "or make it tougher to get in the U.S. illegally?"
-    #     ),
-    #     options=[
-    #         "Keep border policies the same",
-    #         "Make it tougher to get in the U.S. illegally",
-    #     ],
-    #     ground_truth={
-    #         "Keep border policies the same": 0.27,
-    #         "Make it tougher to get in the U.S. illegally": 0.73,
-    #     },
-    #     source="Harris X / The Harris Poll, 2024",
-    #     url="https://cis.org/Arthur/Polls-Show-2024-Shaping-Be-Immigration-Election",
-    # ),
     SurveyQuestion(
-    id="_path_vs_deport",
+    id="path_vs_deport",
     text=(
         "Which of the following comes closer to your view about most undocumented immigrants "
         "in the United States: should they be given a pathway to legal status or "
@@ -282,42 +129,161 @@ QUESTIONS: list[SurveyQuestion] = [
     source="Quinnipiac University Poll, December 2024",
     url="https://poll.qu.edu/poll-release?releaseid=3926",
 ),
-    SurveyQuestion(
+SurveyQuestion(
     id="ai_job_automation",
     text=(
-        "Compared to today, do you think the use of artificial intelligence will lead "
-        "to more jobs, fewer jobs, or about the same number of jobs in the U.S.?"
+        "Do you think that AI (Artificial Intelligence) will increase, decrease, or not have any impact on the number of jobs available in the U.S.?"
     ),
     options=[
-        "More jobs",
-        "Fewer jobs",
-        "About the same number of jobs",
+        "Increase",
+        "Decrease",
+        "Have no effect",
     ],
     ground_truth={
-        "More jobs": 0.21,
-        "Fewer jobs": 0.51,
-        "About the same number of jobs": 0.28,
+        "Increase": 0.19,
+        "Decrease": 0.66,
+        "Have no effect": 0.15,
     },
-    source="CBS News/YouGov, March 2026",
+    source="CBS News/YouGov, March 16-19, 2026 (Q1 2026). Survey of 2,500 U.S. adults, margin of error ±2.2 points.",
     url="https://www.cbsnews.com/news/what-ai-artificial-intelligence-should-do-poll-analysis/",
 ),
-    SurveyQuestion(
+SurveyQuestion(
     id="ai_work_usage",
     text=(
-        "At your current or most recent job, how much of your work is done with AI tools?"
+        "Thinking of the tasks you do in your job, how much of your work is done with AI?"
     ),
     options=[
         "All or most of my work",
         "Some of my work",
-        "None of my work",
+        "Not much or none of my work",
+        "None of my work is done with AI / I don't know if any of my work is done with AI",
+        "Not sure",
     ],
     ground_truth={
         "All or most of my work": 0.02,
         "Some of my work": 0.19,
-        "None of my work": 0.79,
+        "Not much or none of my work": 0.27,  # 27% not much + 38% none
+        "None of my work is done with AI / I don't know if any of my work is done with AI": 0.38,
+        "Not sure": 0.14,
     },
-    source="Pew Research Center, September 2025",
+    source="Pew Research Center, Sept 2-8, 2025 (Q3 2025). Survey of 5,010 employed U.S. adults; note 12% had not heard of workplace AI use and are excluded here.",
     url="https://www.pewresearch.org/short-reads/2025/10/06/about-1-in-5-us-workers-now-use-ai-in-their-job-up-since-last-year/",
 ),
-    
+    ## NEW QUESTIONS, more up to date:
+
+## Healthcare Concern
+SurveyQuestion(
+    id="healthcare_worry",
+    text=(
+        "How much do you worry about healthcare availability and affordability, a great deal or fair amount?"
+    ),
+    options=[
+        "A great deal",
+        "Fair amount",
+        "Only a little",
+        "Not at all",
+    ],
+    ground_truth={
+        "A great deal": 0.61,
+        "Fair amount": 0.20,  
+        "Only a little": 0.12,
+        "Not at all": 0.07,
+    },
+    source="Gallup, March 2026 (Q1 2026)",
+    url="https://www.livenowfox.com/news/healthcare-concern-gallup-poll.amp",
+) ,
+
+
+## Democracy Satisfaction
+SurveyQuestion(
+    id="democracy_working",
+    text=(
+        "Are you satisfied or dissatisfied with the way democracy is working in the US?"
+    ),
+    options=[
+        "Satisfied",
+        "Dissatisfied",
+    ],
+    ground_truth={
+        "Satisfied": 0.31,
+        "Dissatisfied": 0.69,
+    },
+    source="Pew Research Center, March 23-29, 2026 (Q1 2026). Survey of 3,507 U.S. adults.",
+    url="https://www.pewresearch.org/short-reads/2026/04/15/multiple-indicators-show-a-decline-in-the-health-of-americas-democracy-in-2025/",
+),
+SurveyQuestion(
+    id="israel_sympathy",
+    text=(
+        "In the Middle East situation, are your sympathies more with the Israelis or more with the Palestinians?"
+    ),
+    options=[
+        "More with the Israelis",
+        "More with the Palestinians",
+        "Both equally / Neither / No opinion",
+    ],
+    ground_truth={
+        "More with the Israelis": 0.36,
+        "More with the Palestinians": 0.41,
+        "Both equally / Neither / No opinion": 0.23,
+    },
+    source="Gallup, Feb 2-16, 2026 (Q1 2026). Random sample of 1,001 U.S. adults.",
+    url="https://news.gallup.com/poll/702440/israelis-no-longer-ahead-americans-middle-east-sympathies.aspx",
+),
+
+## Drug Legalization (Marijuana)
+SurveyQuestion(
+    id="marijuana_legalization",
+    text=(
+        "Do you think the use of marijuana should be legal or not?"
+    ),
+    options=[
+        "Should be legal",
+        "Should not be legal",
+    ],
+    ground_truth={
+        "Should be legal": 0.64,
+        "Should not be legal": 0.36,
+    },
+    source="Gallup, October 2025 (Q4 2025). Based on telephone interviews with a random sample of 1,000 U.S. adults.",
+    url="https://news.gallup.com/poll/697445/americans-positive-progress-drugs.aspx",
+),
+
+## Mandatory Childhood Vaccines for School Attendance
+SurveyQuestion(
+    id="vaccine_school_mandate",
+    text=(
+        "Do you think the government should require healthy children to be vaccinated in order to attend public school?"
+    ),
+    options=[
+        "Yes, require vaccination",
+        "No, allow unvaccinated children in schools",
+    ],
+    ground_truth={
+        "Yes, require vaccination": 0.75,
+        "No, allow unvaccinated children in schools": 0.25,
+    },
+    source="Reuters/Ipsos, February 2026 (Q1 2026). Online poll of 4,638 U.S. adults, margin of error ±2 percentage points.",
+    url="https://www.reuters.com/business/healthcare-pharmaceuticals/americans-trust-vaccines-school-mandates-rejecting-trump-agenda-reutersipsos-poll-2026-02-25/",
+),
+
+## Taxes on the Wealthy
+SurveyQuestion(
+    id="raise_taxes_high_income",
+    text=(
+        "Do you think tax rates on households with annual incomes over $400,000 should be raised, kept the same, or lowered?"
+    ),
+    options=[
+        "Raised",
+        "Kept the same",
+        "Lowered",
+    ],
+    ground_truth={
+        "Raised": 0.62,
+        "Kept the same": 0.20,
+        "Lowered": 0.18,
+    },
+    source="Pew Research Center, January–February 2025 (Q1 2025). Survey of 5,086 U.S. adults conducted Jan. 27–Feb. 2, 2025.",
+    url="https://www.pewresearch.org/short-reads/2025/03/19/most-americans-continue-to-favor-raising-taxes-on-corporations-higher-income-households/",
+),
+
 ]
