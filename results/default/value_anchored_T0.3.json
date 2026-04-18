@@ -1,8 +1,8 @@
 {
-  "method_name": "distribution_aware",
-  "total_calls": 600,
+  "method_name": "value_anchored",
+  "total_calls": 800,
   "failed_parses": 0,
-  "elapsed_seconds": 0.0009071826934814453,
+  "elapsed_seconds": 0.0010247230529785156,
   "responses": [
     {
       "persona_index": 0,
@@ -1027,7 +1027,7 @@
     {
       "persona_index": 68,
       "question_id": "gun_sales_laws",
-      "chosen_option": "Less strict",
+      "chosen_option": "Kept as they are now",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -1035,8 +1035,8 @@
         "Kept as they are now",
         "Less strict"
       ],
-      "post_likelihood": 0.4169530649213691,
-      "argue_likelihood": 0.32238928616370294,
+      "post_likelihood": 0.3511034938342755,
+      "argue_likelihood": 0.28484422537556153,
       "debate_frequency": 0.0
     },
     {
@@ -1567,7 +1567,7 @@
     {
       "persona_index": 4,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes some",
+      "chosen_option": "Not too much or not at all",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -1575,9 +1575,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.7663317714793834,
-      "argue_likelihood": 0.06436814443939476,
-      "debate_frequency": 0.555829801232397
+      "post_likelihood": 0.6563456145358743,
+      "argue_likelihood": 0.11909129783920785,
+      "debate_frequency": 0.654499435054872
     },
     {
       "persona_index": 5,
@@ -1702,6 +1702,21 @@
     {
       "persona_index": 13,
       "question_id": "climate_human_contribution",
+      "chosen_option": "Not too much or not at all",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "Contributes a great deal",
+        "Contributes some",
+        "Not too much or not at all"
+      ],
+      "post_likelihood": 0.28066786782759306,
+      "argue_likelihood": 0.3280404608063443,
+      "debate_frequency": 0.05351925519628728
+    },
+    {
+      "persona_index": 14,
+      "question_id": "climate_human_contribution",
       "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
@@ -1710,24 +1725,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.39065402477110217,
-      "argue_likelihood": 0.2733173074065312,
-      "debate_frequency": 0.0
-    },
-    {
-      "persona_index": 14,
-      "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
-      "reasoning": "[dry run]",
-      "raw_response": "[dry run]",
-      "options_order": [
-        "Contributes a great deal",
-        "Contributes some",
-        "Not too much or not at all"
-      ],
-      "post_likelihood": 0.2796993370416061,
-      "argue_likelihood": 0.16638672619076145,
-      "debate_frequency": 0.22399959217157667
+      "post_likelihood": 0.6923554904905589,
+      "argue_likelihood": 0.08898028448855996,
+      "debate_frequency": 0.20275622554419664
     },
     {
       "persona_index": 15,
@@ -1777,7 +1777,7 @@
     {
       "persona_index": 18,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -1785,9 +1785,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.21501260879677667,
-      "argue_likelihood": 0.33411586156744144,
-      "debate_frequency": 0.39094399434249005
+      "post_likelihood": 0.6276687622457294,
+      "argue_likelihood": 0.25670941986524,
+      "debate_frequency": 0.36970062771511003
     },
     {
       "persona_index": 19,
@@ -1822,7 +1822,7 @@
     {
       "persona_index": 21,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -1830,9 +1830,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.12599363312439713,
-      "argue_likelihood": 0.19838545523208959,
-      "debate_frequency": 0.371819029440324
+      "post_likelihood": 0.5386497865733499,
+      "argue_likelihood": 0.1209790135298881,
+      "debate_frequency": 0.350575662812944
     },
     {
       "persona_index": 22,
@@ -2737,7 +2737,7 @@
     {
       "persona_index": 82,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -2746,13 +2746,13 @@
         "Not too much or not at all"
       ],
       "post_likelihood": 0.0,
-      "argue_likelihood": 0.11109508909490218,
-      "debate_frequency": 0.09288353436808976
+      "argue_likelihood": 0.033688647392700694,
+      "debate_frequency": 0.07164016774070973
     },
     {
       "persona_index": 83,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -2760,9 +2760,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.0,
-      "argue_likelihood": 0.22537809637939088,
-      "debate_frequency": 0.3739330971916558
+      "post_likelihood": 0.3365754682061849,
+      "argue_likelihood": 0.14797165467718937,
+      "debate_frequency": 0.35268973056427577
     },
     {
       "persona_index": 84,
@@ -2872,7 +2872,7 @@
     {
       "persona_index": 91,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -2880,9 +2880,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.33990810879365824,
-      "argue_likelihood": 0.34931114382939477,
-      "debate_frequency": 0.11519409462246138
+      "post_likelihood": 0.752564262242611,
+      "argue_likelihood": 0.27190470212719325,
+      "debate_frequency": 0.09395072799508136
     },
     {
       "persona_index": 92,
@@ -2962,7 +2962,7 @@
     {
       "persona_index": 97,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes some",
+      "chosen_option": "Not too much or not at all",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -2970,9 +2970,9 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.6296231262826399,
-      "argue_likelihood": 0.0,
-      "debate_frequency": 0.13781582566378306
+      "post_likelihood": 0.5196369693391308,
+      "argue_likelihood": 0.01934051839394177,
+      "debate_frequency": 0.23648545948625802
     },
     {
       "persona_index": 98,
@@ -2992,7 +2992,7 @@
     {
       "persona_index": 99,
       "question_id": "climate_human_contribution",
-      "chosen_option": "Contributes a great deal",
+      "chosen_option": "Contributes some",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -3000,7 +3000,7 @@
         "Contributes some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.0,
+      "post_likelihood": 0.20901044018637482,
       "argue_likelihood": 0.0,
       "debate_frequency": 0.0
     },
@@ -3247,7 +3247,7 @@
     {
       "persona_index": 16,
       "question_id": "climate_local_impact",
-      "chosen_option": "Some",
+      "chosen_option": "A great deal",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -3255,9 +3255,9 @@
         "Some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.06443893029999342,
-      "argue_likelihood": 0.547911330649328,
-      "debate_frequency": 0.17348986664806232
+      "post_likelihood": 0.13937604006943843,
+      "argue_likelihood": 0.7025984825989223,
+      "debate_frequency": 0.31953167150108547
     },
     {
       "persona_index": 17,
@@ -3292,7 +3292,7 @@
     {
       "persona_index": 19,
       "question_id": "climate_local_impact",
-      "chosen_option": "Some",
+      "chosen_option": "A great deal",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -3300,14 +3300,14 @@
         "Some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.394502553183135,
-      "argue_likelihood": 0.05215174979015352,
-      "debate_frequency": 0.05637616641724427
+      "post_likelihood": 0.46943966295258,
+      "argue_likelihood": 0.20683890173974784,
+      "debate_frequency": 0.20241797127026742
     },
     {
       "persona_index": 20,
       "question_id": "climate_local_impact",
-      "chosen_option": "Some",
+      "chosen_option": "Not too much or not at all",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -3315,9 +3315,9 @@
         "Some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.5251405920717567,
-      "argue_likelihood": 0.16058872333956734,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.6662094009717394,
+      "argue_likelihood": 0.10840111316202869,
+      "debate_frequency": 0.020707058842203252
     },
     {
       "persona_index": 21,
@@ -4492,7 +4492,7 @@
     {
       "persona_index": 99,
       "question_id": "climate_local_impact",
-      "chosen_option": "Some",
+      "chosen_option": "Not too much or not at all",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -4500,9 +4500,9 @@
         "Some",
         "Not too much or not at all"
       ],
-      "post_likelihood": 0.486478038510665,
-      "argue_likelihood": 0.09620999358944424,
-      "debate_frequency": 0.24938766058464087
+      "post_likelihood": 0.6275468474106478,
+      "argue_likelihood": 0.04402238341190559,
+      "debate_frequency": 0.3186362987683629
     },
     {
       "persona_index": 0,
@@ -4777,7 +4777,7 @@
     {
       "persona_index": 18,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Illegal in all circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -4785,9 +4785,9 @@
         "Legal under certain circumstances",
         "Illegal in all circumstances"
       ],
-      "post_likelihood": 0.2923852229228561,
-      "argue_likelihood": 0.22003031933678335,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.5530296134512613,
+      "argue_likelihood": 0.0511980311995311,
+      "debate_frequency": 0.1933309187059351
     },
     {
       "persona_index": 19,
@@ -4807,7 +4807,7 @@
     {
       "persona_index": 20,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Illegal in all circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -4815,9 +4815,9 @@
         "Legal under certain circumstances",
         "Illegal in all circumstances"
       ],
-      "post_likelihood": 0.29849759242473894,
+      "post_likelihood": 0.5591419829531442,
       "argue_likelihood": 0.0,
-      "debate_frequency": 0.16766471006100409
+      "debate_frequency": 0.4502407041429544
     },
     {
       "persona_index": 21,
@@ -4867,7 +4867,7 @@
     {
       "persona_index": 24,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Illegal in all circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -4875,9 +4875,9 @@
         "Legal under certain circumstances",
         "Illegal in all circumstances"
       ],
-      "post_likelihood": 0.0,
-      "argue_likelihood": 0.5755587527731237,
-      "debate_frequency": 0.26928153434712354
+      "post_likelihood": 0.22140692049382948,
+      "argue_likelihood": 0.4067264646358715,
+      "debate_frequency": 0.5518575284290739
     },
     {
       "persona_index": 25,
@@ -5002,7 +5002,7 @@
     {
       "persona_index": 33,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Illegal in all circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -5010,9 +5010,9 @@
         "Legal under certain circumstances",
         "Illegal in all circumstances"
       ],
-      "post_likelihood": 0.3285031270621659,
-      "argue_likelihood": 0.06598172439796582,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.5891475175905712,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.09471566776898294
     },
     {
       "persona_index": 34,
@@ -5602,7 +5602,7 @@
     {
       "persona_index": 73,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Legal under any circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -5611,8 +5611,8 @@
         "Illegal in all circumstances"
       ],
       "post_likelihood": 0.0,
-      "argue_likelihood": 0.21545842831933493,
-      "debate_frequency": 0.1238956072966273
+      "argue_likelihood": 0.037374643749913034,
+      "debate_frequency": 0.2815519993561663
     },
     {
       "persona_index": 74,
@@ -5707,7 +5707,7 @@
     {
       "persona_index": 80,
       "question_id": "abortion_legal_circumstances",
-      "chosen_option": "Legal under certain circumstances",
+      "chosen_option": "Illegal in all circumstances",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -5715,9 +5715,9 @@
         "Legal under certain circumstances",
         "Illegal in all circumstances"
       ],
-      "post_likelihood": 0.686611439678394,
-      "argue_likelihood": 0.46892576990820634,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.9472558302067993,
+      "argue_likelihood": 0.3000934817709541,
+      "debate_frequency": 0.22927356923792225
     },
     {
       "persona_index": 81,
@@ -6202,7 +6202,7 @@
     {
       "persona_index": 13,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Legal in most cases",
+      "chosen_option": "Legal in all cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6210,8 +6210,8 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.41864937671579705,
-      "argue_likelihood": 0.03081492891544227,
+      "post_likelihood": 0.5508302100862842,
+      "argue_likelihood": 0.11619120591790807,
       "debate_frequency": 0.0
     },
     {
@@ -6232,7 +6232,7 @@
     {
       "persona_index": 15,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6240,9 +6240,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.773975777861621,
-      "argue_likelihood": 0.311482006069072,
-      "debate_frequency": 0.6962358528115469
+      "post_likelihood": 0.5507392300258295,
+      "argue_likelihood": 0.22287521463286794,
+      "debate_frequency": 0.3660072364939034
     },
     {
       "persona_index": 16,
@@ -6382,7 +6382,7 @@
     {
       "persona_index": 25,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6390,9 +6390,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.48647589419105886,
-      "argue_likelihood": 0.04591432727609174,
-      "debate_frequency": 0.4363996931837621
+      "post_likelihood": 0.26323934635526736,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.1061710768661186
     },
     {
       "persona_index": 26,
@@ -6412,7 +6412,7 @@
     {
       "persona_index": 27,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Legal in most cases",
+      "chosen_option": "Legal in all cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6420,9 +6420,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.31961318471984856,
-      "argue_likelihood": 0.3078635794238018,
-      "debate_frequency": 0.014245207655392188
+      "post_likelihood": 0.4517940180903357,
+      "argue_likelihood": 0.3932398564262677,
+      "debate_frequency": 0.1862871970106889
     },
     {
       "persona_index": 28,
@@ -6472,7 +6472,7 @@
     {
       "persona_index": 31,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Legal in most cases",
+      "chosen_option": "Legal in all cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6480,9 +6480,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.28265334569951694,
-      "argue_likelihood": 0.46577979035388695,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.4148341790700041,
+      "argue_likelihood": 0.5511560673563527,
+      "debate_frequency": 0.11942868667957267
     },
     {
       "persona_index": 32,
@@ -6802,7 +6802,7 @@
     {
       "persona_index": 53,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Legal in most cases",
+      "chosen_option": "Legal in all cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -6810,9 +6810,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.34475079414216375,
-      "argue_likelihood": 0.1619382526138914,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.4769316275126509,
+      "argue_likelihood": 0.2473145296163572,
+      "debate_frequency": 0.07282877056722029
     },
     {
       "persona_index": 54,
@@ -7072,7 +7072,7 @@
     {
       "persona_index": 71,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7080,9 +7080,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.07611848053218784,
-      "argue_likelihood": 0.5489335353797324,
-      "debate_frequency": 0.11963269448111763
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.46032674394352846,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 72,
@@ -7102,7 +7102,7 @@
     {
       "persona_index": 73,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7110,9 +7110,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.31848568326473164,
-      "argue_likelihood": 0.2133899555255401,
-      "debate_frequency": 0.32328431711596795
+      "post_likelihood": 0.09524913542894015,
+      "argue_likelihood": 0.12478316408933607,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 74,
@@ -7267,7 +7267,7 @@
     {
       "persona_index": 84,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7275,9 +7275,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.7931784986337941,
-      "argue_likelihood": 0.21191466441062912,
-      "debate_frequency": 0.5261125876543036
+      "post_likelihood": 0.5699419507980026,
+      "argue_likelihood": 0.12330787297442507,
+      "debate_frequency": 0.19588397133666
     },
     {
       "persona_index": 85,
@@ -7327,7 +7327,7 @@
     {
       "persona_index": 88,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7335,9 +7335,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.49830099662781524,
-      "argue_likelihood": 0.31262960991980665,
-      "debate_frequency": 0.23461056527482185
+      "post_likelihood": 0.27506444879202374,
+      "argue_likelihood": 0.22402281848360261,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 89,
@@ -7402,7 +7402,7 @@
     {
       "persona_index": 93,
       "question_id": "abortion_legal_all_or_most",
-      "chosen_option": "Illegal in all or most cases",
+      "chosen_option": "Legal in most cases",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7410,9 +7410,9 @@
         "Legal in most cases",
         "Illegal in all or most cases"
       ],
-      "post_likelihood": 0.8806497750065974,
-      "argue_likelihood": 0.11367539675363303,
-      "debate_frequency": 0.6299780286998355
+      "post_likelihood": 0.6574132271708057,
+      "argue_likelihood": 0.025068605317428994,
+      "debate_frequency": 0.29974941238219205
     },
     {
       "persona_index": 94,
@@ -7702,7 +7702,7 @@
     {
       "persona_index": 13,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Not sure",
+      "chosen_option": "Deported from the U.S.",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7710,9 +7710,9 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.5641434141276066,
-      "argue_likelihood": 0.5890587052949826,
-      "debate_frequency": 0.3793491699061546
+      "post_likelihood": 0.329892455716205,
+      "argue_likelihood": 0.6015627972802738,
+      "debate_frequency": 0.1199561374067829
     },
     {
       "persona_index": 14,
@@ -7942,7 +7942,7 @@
     {
       "persona_index": 29,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Not sure",
+      "chosen_option": "Deported from the U.S.",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7950,14 +7950,14 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.49187931914050353,
-      "argue_likelihood": 0.2269781189304829,
-      "debate_frequency": 0.134519209091869
+      "post_likelihood": 0.257628360729102,
+      "argue_likelihood": 0.23948221091577412,
+      "debate_frequency": 0.0
     },
     {
       "persona_index": 30,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Not sure",
+      "chosen_option": "Deported from the U.S.",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -7965,9 +7965,9 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.7727472482281003,
-      "argue_likelihood": 0.32514661427039016,
-      "debate_frequency": 0.43076653085099414
+      "post_likelihood": 0.5384962898166987,
+      "argue_likelihood": 0.3376507062556814,
+      "debate_frequency": 0.1713734983516224
     },
     {
       "persona_index": 31,
@@ -8467,7 +8467,7 @@
     {
       "persona_index": 64,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Not sure",
+      "chosen_option": "Deported from the U.S.",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -8475,9 +8475,9 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.5669090700861603,
-      "argue_likelihood": 0.2723637455635786,
-      "debate_frequency": 0.3320958866689005
+      "post_likelihood": 0.3326581116747588,
+      "argue_likelihood": 0.28486783754886985,
+      "debate_frequency": 0.07270285416952878
     },
     {
       "persona_index": 65,
@@ -8617,7 +8617,7 @@
     {
       "persona_index": 74,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Deported from the U.S.",
+      "chosen_option": "Given a pathway to legal status",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -8625,9 +8625,9 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.4827202408865202,
-      "argue_likelihood": 0.24003954300838307,
-      "debate_frequency": 0.0
+      "post_likelihood": 0.4931370345827649,
+      "argue_likelihood": 0.17793156111114963,
+      "debate_frequency": 0.046458450386401784
     },
     {
       "persona_index": 75,
@@ -8842,7 +8842,7 @@
     {
       "persona_index": 89,
       "question_id": "_path_vs_deport",
-      "chosen_option": "Not sure",
+      "chosen_option": "Deported from the U.S.",
       "reasoning": "[dry run]",
       "raw_response": "[dry run]",
       "options_order": [
@@ -8850,9 +8850,9 @@
         "Deported from the U.S.",
         "Not sure"
       ],
-      "post_likelihood": 0.8408830680365134,
-      "argue_likelihood": 0.05099556808913286,
-      "debate_frequency": 0.3367184179192426
+      "post_likelihood": 0.6066321096251119,
+      "argue_likelihood": 0.06349966007442409,
+      "debate_frequency": 0.07732538541987094
     },
     {
       "persona_index": 90,
@@ -9003,6 +9003,3006 @@
       "post_likelihood": 0.22574437749741524,
       "argue_likelihood": 0.1313910157045464,
       "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 0,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3605574446454101,
+      "argue_likelihood": 0.5052676143197987,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 1,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.6433850850335825,
+      "argue_likelihood": 0.6269208112954714,
+      "debate_frequency": 0.24095924719987952
+    },
+    {
+      "persona_index": 2,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.4297351914207134,
+      "debate_frequency": 0.08173229868658625
+    },
+    {
+      "persona_index": 3,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.26240228309084135,
+      "argue_likelihood": 0.6505958538701533,
+      "debate_frequency": 0.2955298154001156
+    },
+    {
+      "persona_index": 4,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.131083781617572,
+      "debate_frequency": 0.16690324912624566
+    },
+    {
+      "persona_index": 5,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.10597077815953851,
+      "argue_likelihood": 0.2778097311925751,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 6,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.05653860789043556
+    },
+    {
+      "persona_index": 7,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.6900328814514223,
+      "debate_frequency": 0.14535416710084428
+    },
+    {
+      "persona_index": 8,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.27302935802158407,
+      "argue_likelihood": 0.3352265645817418,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 9,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.18832729538427367,
+      "argue_likelihood": 0.031034825190507737,
+      "debate_frequency": 0.44375149384517854
+    },
+    {
+      "persona_index": 10,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3616545057414315,
+      "argue_likelihood": 0.06422319436250708,
+      "debate_frequency": 0.29170474135061464
+    },
+    {
+      "persona_index": 11,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.35264024348561945,
+      "argue_likelihood": 0.03247259220838822,
+      "debate_frequency": 0.0332877786988271
+    },
+    {
+      "persona_index": 12,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.16599977826930312,
+      "argue_likelihood": 0.025010361799969016,
+      "debate_frequency": 0.4653036928519858
+    },
+    {
+      "persona_index": 13,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.45870373597515424,
+      "argue_likelihood": 0.3276381535292657,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 14,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2851203988364102,
+      "argue_likelihood": 0.36065023324328305,
+      "debate_frequency": 0.15365355691196647
+    },
+    {
+      "persona_index": 15,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3429741124140122,
+      "argue_likelihood": 0.6295295344795011,
+      "debate_frequency": 0.3275130999733782
+    },
+    {
+      "persona_index": 16,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3955730299987152,
+      "argue_likelihood": 0.2744977585995759,
+      "debate_frequency": 0.011681820888004887
+    },
+    {
+      "persona_index": 17,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2614022488014564,
+      "argue_likelihood": 0.5404031092940488,
+      "debate_frequency": 0.24036603387632338
+    },
+    {
+      "persona_index": 18,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2138689310615656,
+      "argue_likelihood": 0.08110670834161732,
+      "debate_frequency": 0.500865094922838
+    },
+    {
+      "persona_index": 19,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.11831088519032637,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.4434488659199105
+    },
+    {
+      "persona_index": 20,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.20470824661712872,
+      "argue_likelihood": 0.18362136182719396,
+      "debate_frequency": 0.3394606067219741
+    },
+    {
+      "persona_index": 21,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.09209102317831458,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.25881983521583357
+    },
+    {
+      "persona_index": 22,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.18928873076300548,
+      "argue_likelihood": 0.3028061193095923,
+      "debate_frequency": 0.14693340653277948
+    },
+    {
+      "persona_index": 23,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3866831131109699,
+      "argue_likelihood": 0.4604796461213197,
+      "debate_frequency": 0.22294643723293528
+    },
+    {
+      "persona_index": 24,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.19534835165932282,
+      "argue_likelihood": 0.3687332411142857,
+      "debate_frequency": 0.05506215387920717
+    },
+    {
+      "persona_index": 25,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.39984036418493857,
+      "argue_likelihood": 0.5398786262693878,
+      "debate_frequency": 0.41172680591295396
+    },
+    {
+      "persona_index": 26,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.28928994305438144,
+      "argue_likelihood": 0.1328554375626451,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 27,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2875456540681717,
+      "debate_frequency": 0.11962277799995172
+    },
+    {
+      "persona_index": 28,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.14423498372493446,
+      "argue_likelihood": 0.14681549104566938,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 29,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4276823161721428,
+      "argue_likelihood": 0.14068714971118482,
+      "debate_frequency": 0.33109200712932285
+    },
+    {
+      "persona_index": 30,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3149082925015907,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 31,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.32530847896340676,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.3908010996563027
+    },
+    {
+      "persona_index": 32,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.05993374112665906,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.21465795254241954
+    },
+    {
+      "persona_index": 33,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.24480622168899963,
+      "argue_likelihood": 0.42467330559396155,
+      "debate_frequency": 0.5100206208736774
+    },
+    {
+      "persona_index": 34,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.007499014396833981,
+      "argue_likelihood": 0.3373361546064879,
+      "debate_frequency": 0.3763725162026117
+    },
+    {
+      "persona_index": 35,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.08872297346436253,
+      "debate_frequency": 0.6567381881265972
+    },
+    {
+      "persona_index": 36,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1687662884273055,
+      "argue_likelihood": 0.2927757169904745,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 37,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.15053952056072464,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.5347803990289903
+    },
+    {
+      "persona_index": 38,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.11614733951230427,
+      "argue_likelihood": 0.27104450643653727,
+      "debate_frequency": 0.12856498093995575
+    },
+    {
+      "persona_index": 39,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4983217964482177,
+      "argue_likelihood": 0.260934224412709,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 40,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2648884053792737,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.38045469097610396
+    },
+    {
+      "persona_index": 41,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.08640727376851737,
+      "debate_frequency": 0.04415099185356666
+    },
+    {
+      "persona_index": 42,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.42814061676603243,
+      "argue_likelihood": 0.2712812683343006,
+      "debate_frequency": 0.5515728373384767
+    },
+    {
+      "persona_index": 43,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.07794085326059158,
+      "argue_likelihood": 0.3383241263196326,
+      "debate_frequency": 0.3763920077814575
+    },
+    {
+      "persona_index": 44,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.050817166904438424,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 45,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.33325771860069725,
+      "argue_likelihood": 0.3940240936232048,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 46,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.35456583340753495,
+      "argue_likelihood": 0.06869197672661169,
+      "debate_frequency": 0.5144200182809211
+    },
+    {
+      "persona_index": 47,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.46835905480095064,
+      "argue_likelihood": 0.5594151411622916,
+      "debate_frequency": 0.11895884825163636
+    },
+    {
+      "persona_index": 48,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.15911048475642947,
+      "argue_likelihood": 0.05546075271803702,
+      "debate_frequency": 0.1059439017907984
+    },
+    {
+      "persona_index": 49,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3085689315860102,
+      "argue_likelihood": 0.44813311822430474,
+      "debate_frequency": 0.17894093758991977
+    },
+    {
+      "persona_index": 50,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1221206556947495,
+      "argue_likelihood": 0.3727229373117214,
+      "debate_frequency": 0.1077238901704505
+    },
+    {
+      "persona_index": 51,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2528233918422543,
+      "argue_likelihood": 0.43160023786503104,
+      "debate_frequency": 0.09591697958693383
+    },
+    {
+      "persona_index": 52,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.11802692432027953
+    },
+    {
+      "persona_index": 53,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.11806033789203185,
+      "argue_likelihood": 0.1061725432368424,
+      "debate_frequency": 0.23587291751829645
+    },
+    {
+      "persona_index": 54,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.35925035842814895,
+      "argue_likelihood": 0.15442555469423574,
+      "debate_frequency": 0.11083671002326356
+    },
+    {
+      "persona_index": 55,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.6206088922113451,
+      "argue_likelihood": 0.274519527288241,
+      "debate_frequency": 0.24552958594539417
+    },
+    {
+      "persona_index": 56,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4786508652473266,
+      "argue_likelihood": 0.42107265580457676,
+      "debate_frequency": 0.5755874196002562
+    },
+    {
+      "persona_index": 57,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.23682238316764953,
+      "debate_frequency": 0.14026518305922794
+    },
+    {
+      "persona_index": 58,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0880394834230534,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.3828714245709348
+    },
+    {
+      "persona_index": 59,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.42886621086085863,
+      "argue_likelihood": 0.2582187974706707,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 60,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.19833549624215724,
+      "argue_likelihood": 0.3132748546281574,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 61,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4445906727876188,
+      "argue_likelihood": 0.4513252848227639,
+      "debate_frequency": 0.08121444197450618
+    },
+    {
+      "persona_index": 62,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.6157563039741752,
+      "argue_likelihood": 0.15497348755163826,
+      "debate_frequency": 0.23111340747481135
+    },
+    {
+      "persona_index": 63,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.06224197929535524,
+      "argue_likelihood": 0.08333038796795614,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.13533075472942743,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.2514888541097686
+    },
+    {
+      "persona_index": 65,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4500028959015133,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.07139860287754242
+    },
+    {
+      "persona_index": 66,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.29576017916769864,
+      "argue_likelihood": 0.1941890732795668,
+      "debate_frequency": 0.40363219574846265
+    },
+    {
+      "persona_index": 67,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5787007549872818,
+      "argue_likelihood": 0.05858627835342578,
+      "debate_frequency": 0.4146849003208333
+    },
+    {
+      "persona_index": 68,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2642467077283089,
+      "argue_likelihood": 0.35479187839371157,
+      "debate_frequency": 0.06779484453406742
+    },
+    {
+      "persona_index": 69,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2909688519476239,
+      "argue_likelihood": 0.38541140141012115,
+      "debate_frequency": 0.8085110083786873
+    },
+    {
+      "persona_index": 70,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.48704828930035804,
+      "argue_likelihood": 0.7052908416407757,
+      "debate_frequency": 0.3752043956955973
+    },
+    {
+      "persona_index": 71,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.3321953068526755,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 72,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5535897313605017,
+      "argue_likelihood": 0.22262989002480343,
+      "debate_frequency": 0.12522964755122426
+    },
+    {
+      "persona_index": 73,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4696828690909223,
+      "argue_likelihood": 0.4724534340954399,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 74,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4599477594315463,
+      "argue_likelihood": 0.1656837882923274,
+      "debate_frequency": 0.39477497107063625
+    },
+    {
+      "persona_index": 75,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1724037939750957,
+      "argue_likelihood": 0.08727827914833497,
+      "debate_frequency": 0.0917927224730547
+    },
+    {
+      "persona_index": 76,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3338087173052692,
+      "argue_likelihood": 0.23481889529569144,
+      "debate_frequency": 0.370256469103591
+    },
+    {
+      "persona_index": 77,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3358107394882189,
+      "argue_likelihood": 0.2658636328596392,
+      "debate_frequency": 0.05886382025343287
+    },
+    {
+      "persona_index": 78,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.31432756270176876,
+      "argue_likelihood": 0.29627447034490906,
+      "debate_frequency": 0.21150479329464272
+    },
+    {
+      "persona_index": 79,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2668413175300729,
+      "argue_likelihood": 0.26706338642044436,
+      "debate_frequency": 0.3888323787059209
+    },
+    {
+      "persona_index": 80,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.49094273892768225,
+      "argue_likelihood": 0.34990361569757433,
+      "debate_frequency": 0.10246883620444831
+    },
+    {
+      "persona_index": 81,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.22486032542735093,
+      "argue_likelihood": 0.43633130195551684,
+      "debate_frequency": 0.1531556295169007
+    },
+    {
+      "persona_index": 82,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4441863437678445,
+      "argue_likelihood": 0.11476329005830518,
+      "debate_frequency": 0.11320454014309064
+    },
+    {
+      "persona_index": 83,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.44158541206744945,
+      "argue_likelihood": 0.40238329686799595,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 84,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3638299241713435,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.3153241193294294
+    },
+    {
+      "persona_index": 85,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5414181301051526,
+      "argue_likelihood": 0.16857337506996434,
+      "debate_frequency": 0.1654800684882945
+    },
+    {
+      "persona_index": 86,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.2514117930127586,
+      "argue_likelihood": 0.19041053139223268,
+      "debate_frequency": 0.33390808605205863
+    },
+    {
+      "persona_index": 87,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.15431877629818153,
+      "argue_likelihood": 0.10759789186049867,
+      "debate_frequency": 0.2530857667201688
+    },
+    {
+      "persona_index": 88,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.16841655349412243,
+      "argue_likelihood": 0.3025463162143498,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 89,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.4833644113200236,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.04470569898834738
+    },
+    {
+      "persona_index": 90,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.32175320088102904,
+      "argue_likelihood": 0.29234782967215805,
+      "debate_frequency": 0.4431510526804639
+    },
+    {
+      "persona_index": 91,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.22703166007504988,
+      "argue_likelihood": 0.3938145354057984,
+      "debate_frequency": 0.10609230103267953
+    },
+    {
+      "persona_index": 92,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1741507736981612,
+      "argue_likelihood": 0.23260019665957282,
+      "debate_frequency": 0.37319969020874866
+    },
+    {
+      "persona_index": 93,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.5060410599845306,
+      "argue_likelihood": 0.42084803777018537,
+      "debate_frequency": 0.1552531086011607
+    },
+    {
+      "persona_index": 94,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.42589062638606795,
+      "argue_likelihood": 0.11584751711743482,
+      "debate_frequency": 0.2185751148753418
+    },
+    {
+      "persona_index": 95,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.3535355727580609,
+      "argue_likelihood": 0.26765755705749184,
+      "debate_frequency": 0.4031918095358644
+    },
+    {
+      "persona_index": 96,
+      "question_id": "ai_job_automation",
+      "chosen_option": "Fewer jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.12963318618238687,
+      "argue_likelihood": 0.27963234982844765,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 97,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.29564805099642305,
+      "argue_likelihood": 0.2004340152232053,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 98,
+      "question_id": "ai_job_automation",
+      "chosen_option": "About the same number of jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.20460404810079963,
+      "argue_likelihood": 0.18835439232426665,
+      "debate_frequency": 0.148582734683881
+    },
+    {
+      "persona_index": 99,
+      "question_id": "ai_job_automation",
+      "chosen_option": "More jobs",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "More jobs",
+        "Fewer jobs",
+        "About the same number of jobs"
+      ],
+      "post_likelihood": 0.1502296371829371,
+      "argue_likelihood": 0.2580217471076299,
+      "debate_frequency": 0.3186544008132832
+    },
+    {
+      "persona_index": 0,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.7136516197303708,
+      "argue_likelihood": 0.09218861180895896,
+      "debate_frequency": 0.4631980452329956
+    },
+    {
+      "persona_index": 1,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.6022028433579867,
+      "debate_frequency": 0.07655410708735322
+    },
+    {
+      "persona_index": 2,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.31446229892482475,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.15105502049309955
+    },
+    {
+      "persona_index": 3,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.20967827299701852,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 4,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.1260354419273086,
+      "argue_likelihood": 0.3724316266668818,
+      "debate_frequency": 0.7418420114458213
+    },
+    {
+      "persona_index": 5,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.20526720119511435,
+      "argue_likelihood": 0.3415415690870266,
+      "debate_frequency": 0.565834478425864
+    },
+    {
+      "persona_index": 6,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6007735047674176,
+      "argue_likelihood": 0.22080398118172542,
+      "debate_frequency": 0.2733379926683743
+    },
+    {
+      "persona_index": 7,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.23216244245234635,
+      "argue_likelihood": 0.44590868253983107,
+      "debate_frequency": 0.46183629217202854
+    },
+    {
+      "persona_index": 8,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5361793538008052,
+      "argue_likelihood": 0.24776426001870444,
+      "debate_frequency": 0.35413859160100913
+    },
+    {
+      "persona_index": 9,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2671760223689387,
+      "argue_likelihood": 0.6868646829652114,
+      "debate_frequency": 0.21668021981650887
+    },
+    {
+      "persona_index": 10,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5264971081757894,
+      "argue_likelihood": 0.06589018900333043,
+      "debate_frequency": 0.07008034113212946
+    },
+    {
+      "persona_index": 11,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5396013752136627,
+      "argue_likelihood": 0.5401720101817529,
+      "debate_frequency": 0.4615149809029504
+    },
+    {
+      "persona_index": 12,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.8278337352871394,
+      "argue_likelihood": 0.46172961281975566,
+      "debate_frequency": 0.3989022537772742
+    },
+    {
+      "persona_index": 13,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.6345792143676036,
+      "debate_frequency": 0.7921904456261479
+    },
+    {
+      "persona_index": 14,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.518707319358321,
+      "argue_likelihood": 0.2804702240158068,
+      "debate_frequency": 0.4112116576506286
+    },
+    {
+      "persona_index": 15,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.823624981776304,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.5374832206348104
+    },
+    {
+      "persona_index": 16,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.528793561098554,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.4501062267297823
+    },
+    {
+      "persona_index": 17,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.17641764093509746,
+      "argue_likelihood": 0.46241344794102723,
+      "debate_frequency": 0.3610177950387052
+    },
+    {
+      "persona_index": 18,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6477183561506231,
+      "argue_likelihood": 0.19298803654238583,
+      "debate_frequency": 0.4133082966124505
+    },
+    {
+      "persona_index": 19,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4618145871083046,
+      "argue_likelihood": 0.6061720195932491,
+      "debate_frequency": 0.6012016909432755
+    },
+    {
+      "persona_index": 20,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6954521457874293,
+      "argue_likelihood": 0.08300309148180805,
+      "debate_frequency": 0.3382090639232443
+    },
+    {
+      "persona_index": 21,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.1820675386917925,
+      "argue_likelihood": 0.17627201405718665,
+      "debate_frequency": 0.08297610513461307
+    },
+    {
+      "persona_index": 22,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2202468651605783,
+      "argue_likelihood": 0.5530954329195128,
+      "debate_frequency": 0.4972871642615257
+    },
+    {
+      "persona_index": 23,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6442740756420622,
+      "argue_likelihood": 0.27281923483134246,
+      "debate_frequency": 0.2813334921438484
+    },
+    {
+      "persona_index": 24,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6002677494157144,
+      "argue_likelihood": 0.3451696622636436,
+      "debate_frequency": 0.19558693249433137
+    },
+    {
+      "persona_index": 25,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.24089478189603214,
+      "argue_likelihood": 0.5826479114038234,
+      "debate_frequency": 0.4934346613326855
+    },
+    {
+      "persona_index": 26,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.07332375754324524,
+      "argue_likelihood": 0.19434610204084815,
+      "debate_frequency": 0.407785666605619
+    },
+    {
+      "persona_index": 27,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.2933582139150068,
+      "argue_likelihood": 0.37341884509466094,
+      "debate_frequency": 0.5225027963679316
+    },
+    {
+      "persona_index": 28,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.3314522673060656,
+      "argue_likelihood": 0.46673820754242423,
+      "debate_frequency": 0.1639008658738867
+    },
+    {
+      "persona_index": 29,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.43921499835195094,
+      "argue_likelihood": 0.4811531923251306,
+      "debate_frequency": 0.32351001900457727
+    },
+    {
+      "persona_index": 30,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.07707273051776359,
+      "argue_likelihood": 0.2819738814122159,
+      "debate_frequency": 0.7930294563019333
+    },
+    {
+      "persona_index": 31,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.670221099346542,
+      "argue_likelihood": 0.17604372312505565,
+      "debate_frequency": 0.2126956234050548
+    },
+    {
+      "persona_index": 32,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6192011987689225,
+      "argue_likelihood": 0.20738096491238406,
+      "debate_frequency": 0.1860853202544469
+    },
+    {
+      "persona_index": 33,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.4033112528818289,
+      "debate_frequency": 0.5167384753401004
+    },
+    {
+      "persona_index": 34,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.8101096177174718,
+      "argue_likelihood": 0.1669918231918488,
+      "debate_frequency": 0.33552118447419216
+    },
+    {
+      "persona_index": 35,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.14544520441326184,
+      "argue_likelihood": 0.28225152331339964,
+      "debate_frequency": 0.4371027867308633
+    },
+    {
+      "persona_index": 36,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.13616476887263373,
+      "argue_likelihood": 0.34658086588518766,
+      "debate_frequency": 0.47978137068314936
+    },
+    {
+      "persona_index": 37,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6047283853705421,
+      "argue_likelihood": 0.39694111586651903,
+      "debate_frequency": 0.4506775029838944
+    },
+    {
+      "persona_index": 38,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.42019353217162514,
+      "argue_likelihood": 0.22034824824144225,
+      "debate_frequency": 0.23817266237881465
+    },
+    {
+      "persona_index": 39,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.1665480225165497,
+      "argue_likelihood": 0.5664116706949741,
+      "debate_frequency": 0.7148479066402675
+    },
+    {
+      "persona_index": 40,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.10063630130979165,
+      "argue_likelihood": 0.46434853642378626,
+      "debate_frequency": 0.2452131058197688
+    },
+    {
+      "persona_index": 41,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6150676515095213,
+      "argue_likelihood": 0.37347896324878727,
+      "debate_frequency": 0.3934673365103012
+    },
+    {
+      "persona_index": 42,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.37510290538930013,
+      "argue_likelihood": 0.5020649884689398,
+      "debate_frequency": 0.0
+    },
+    {
+      "persona_index": 43,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.11010331754297976,
+      "argue_likelihood": 0.09164209895760134,
+      "debate_frequency": 0.25700827153887934
+    },
+    {
+      "persona_index": 44,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.03885348069782496,
+      "argue_likelihood": 0.5263924683585104,
+      "debate_frequency": 0.507951379734019
+    },
+    {
+      "persona_index": 45,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.08164502838878568,
+      "argue_likelihood": 0.34513491592258216,
+      "debate_frequency": 0.38188891543914294
+    },
+    {
+      "persona_index": 46,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.18598675436811402,
+      "argue_likelihood": 0.21007540701319388,
+      "debate_frequency": 0.6330313930182973
+    },
+    {
+      "persona_index": 47,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.04405834887521809,
+      "argue_likelihood": 0.3510058173975174,
+      "debate_frequency": 0.308545320517716
+    },
+    {
+      "persona_index": 48,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4750735786781677,
+      "argue_likelihood": 0.8766696398174958,
+      "debate_frequency": 0.6932985999656067
+    },
+    {
+      "persona_index": 49,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5300474614995587,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.5284652228956948
+    },
+    {
+      "persona_index": 50,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.48609694102280276,
+      "argue_likelihood": 0.41298979238048455,
+      "debate_frequency": 0.4411365013877915
+    },
+    {
+      "persona_index": 51,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.11320775173107024,
+      "argue_likelihood": 0.4748568298537201,
+      "debate_frequency": 0.3366142867557919
+    },
+    {
+      "persona_index": 52,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.10545792790309744,
+      "argue_likelihood": 0.5134696718900388,
+      "debate_frequency": 0.3383842258584936
+    },
+    {
+      "persona_index": 53,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.429838287764877,
+      "argue_likelihood": 0.4745668121384383,
+      "debate_frequency": 0.1262005301757793
+    },
+    {
+      "persona_index": 54,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.07030134438283159,
+      "argue_likelihood": 0.5074598621447186,
+      "debate_frequency": 0.5141096537370493
+    },
+    {
+      "persona_index": 55,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.42556841140787427,
+      "argue_likelihood": 0.7978493888876814,
+      "debate_frequency": 0.21941299721371335
+    },
+    {
+      "persona_index": 56,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.3522739600304804,
+      "argue_likelihood": 0.5049312010257155,
+      "debate_frequency": 0.20991875768037363
+    },
+    {
+      "persona_index": 57,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.19657449635798274,
+      "argue_likelihood": 0.2633468989363946,
+      "debate_frequency": 0.5101949474157921
+    },
+    {
+      "persona_index": 58,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.3737627317464302,
+      "argue_likelihood": 0.45102715323158915,
+      "debate_frequency": 0.5235613771145846
+    },
+    {
+      "persona_index": 59,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4269918257213524,
+      "argue_likelihood": 0.7840289851781155,
+      "debate_frequency": 0.4622093223248011
+    },
+    {
+      "persona_index": 60,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6102142867293138,
+      "argue_likelihood": 0.39204549651565646,
+      "debate_frequency": 0.6172052122715048
+    },
+    {
+      "persona_index": 61,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4038540531113256,
+      "argue_likelihood": 0.1579046696705986,
+      "debate_frequency": 0.14045162078781886
+    },
+    {
+      "persona_index": 62,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.3095295354391556,
+      "argue_likelihood": 0.10968449048062812,
+      "debate_frequency": 0.5758249361855508
+    },
+    {
+      "persona_index": 63,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.7969667415530213,
+      "argue_likelihood": 0.2872752685769855,
+      "debate_frequency": 0.24849158608135186
+    },
+    {
+      "persona_index": 64,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.21051230764363127,
+      "argue_likelihood": 0.6028576719036567,
+      "debate_frequency": 0.30017474459960086
+    },
+    {
+      "persona_index": 65,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4949693478690657,
+      "argue_likelihood": 0.22766311916447696,
+      "debate_frequency": 0.015435523394863315
+    },
+    {
+      "persona_index": 66,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.45749633312232,
+      "argue_likelihood": 0.16993011093383673,
+      "debate_frequency": 0.2656087241656346
+    },
+    {
+      "persona_index": 67,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.576843373776522,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.2757540827127941
+    },
+    {
+      "persona_index": 68,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.26494246579140723,
+      "argue_likelihood": 0.3873288130500153,
+      "debate_frequency": 0.49087630758160733
+    },
+    {
+      "persona_index": 69,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5519935065616254,
+      "argue_likelihood": 0.417964895090771,
+      "debate_frequency": 0.569796175761623
+    },
+    {
+      "persona_index": 70,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.19275981534198222,
+      "argue_likelihood": 0.27910117548489116,
+      "debate_frequency": 0.4661797536039898
+    },
+    {
+      "persona_index": 71,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.04212918151286288,
+      "argue_likelihood": 0.4492648197404571,
+      "debate_frequency": 0.4025281386242168
+    },
+    {
+      "persona_index": 72,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.13979174634535166,
+      "argue_likelihood": 0.3546227752428538,
+      "debate_frequency": 0.535407641624305
+    },
+    {
+      "persona_index": 73,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.05928678009146088,
+      "argue_likelihood": 0.6147151591805609,
+      "debate_frequency": 0.6977999758072827
+    },
+    {
+      "persona_index": 74,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.17799047131051565,
+      "argue_likelihood": 0.2806176303851912,
+      "debate_frequency": 0.28982632750827214
+    },
+    {
+      "persona_index": 75,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.3034559538026659,
+      "argue_likelihood": 0.7638150631578384,
+      "debate_frequency": 0.29340350456972486
+    },
+    {
+      "persona_index": 76,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.17072041369866758,
+      "argue_likelihood": 0.2892645825742268,
+      "debate_frequency": 0.34051125337312327
+    },
+    {
+      "persona_index": 77,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.25277101604639196,
+      "argue_likelihood": 0.4199801140530646,
+      "debate_frequency": 0.34712141125611534
+    },
+    {
+      "persona_index": 78,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.08657287354362256,
+      "argue_likelihood": 0.2222827897500789,
+      "debate_frequency": 0.5081371647099696
+    },
+    {
+      "persona_index": 79,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.24056105035630243,
+      "argue_likelihood": 0.25677339238527225,
+      "debate_frequency": 0.812989890751777
+    },
+    {
+      "persona_index": 80,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.07797695545723951,
+      "argue_likelihood": 0.4979228624612238,
+      "debate_frequency": 0.2913188742743753
+    },
+    {
+      "persona_index": 81,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.34488396834223456,
+      "argue_likelihood": 0.26906861719636826,
+      "debate_frequency": 0.06986183739358698
+    },
+    {
+      "persona_index": 82,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.4057209067775602,
+      "argue_likelihood": 0.546494909031521,
+      "debate_frequency": 0.18970200120383685
+    },
+    {
+      "persona_index": 83,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.2690118189611963,
+      "debate_frequency": 0.17390936219820582
+    },
+    {
+      "persona_index": 84,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.6378590393827346,
+      "argue_likelihood": 0.13613249944564576,
+      "debate_frequency": 0.5367218357973348
+    },
+    {
+      "persona_index": 85,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.21444869976708386,
+      "argue_likelihood": 0.39747803480404537,
+      "debate_frequency": 0.6539985695709376
+    },
+    {
+      "persona_index": 86,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.20230179533192613,
+      "argue_likelihood": 0.5151404362551073,
+      "debate_frequency": 0.4085130332986286
+    },
+    {
+      "persona_index": 87,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.49606384285583033,
+      "debate_frequency": 0.14042912729412177
+    },
+    {
+      "persona_index": 88,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.11199365566348511,
+      "argue_likelihood": 0.1564079293642296,
+      "debate_frequency": 0.02246575622264685
+    },
+    {
+      "persona_index": 89,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0712901161888636,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.3672813791625776
+    },
+    {
+      "persona_index": 90,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.525916507958924,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.38675281023230174
+    },
+    {
+      "persona_index": 91,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.856443148703776,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.21177286097642795
+    },
+    {
+      "persona_index": 92,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.13229434540037016,
+      "argue_likelihood": 0.2284469440631391,
+      "debate_frequency": 0.5656986732203462
+    },
+    {
+      "persona_index": 93,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.0,
+      "argue_likelihood": 0.4515349758932486,
+      "debate_frequency": 0.44510103961900943
+    },
+    {
+      "persona_index": 94,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.5692122796430407,
+      "argue_likelihood": 0.4217666760539046,
+      "debate_frequency": 0.28918330529146186
+    },
+    {
+      "persona_index": 95,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.1191739821748109,
+      "argue_likelihood": 0.3774306141527932,
+      "debate_frequency": 0.4378963738251561
+    },
+    {
+      "persona_index": 96,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.22765562059174915,
+      "argue_likelihood": 0.26324936982326264,
+      "debate_frequency": 0.4093217854958925
+    },
+    {
+      "persona_index": 97,
+      "question_id": "ai_work_usage",
+      "chosen_option": "Some of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.43010453300806845,
+      "argue_likelihood": 0.0,
+      "debate_frequency": 0.6178980608817852
+    },
+    {
+      "persona_index": 98,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.39238639326997304,
+      "argue_likelihood": 0.23999300498053897,
+      "debate_frequency": 0.4360374027531573
+    },
+    {
+      "persona_index": 99,
+      "question_id": "ai_work_usage",
+      "chosen_option": "None of my work",
+      "reasoning": "[dry run]",
+      "raw_response": "[dry run]",
+      "options_order": [
+        "All or most of my work",
+        "Some of my work",
+        "None of my work"
+      ],
+      "post_likelihood": 0.20954030841457366,
+      "argue_likelihood": 0.055430947359594696,
+      "debate_frequency": 0.3699553289317849
     }
   ]
 }

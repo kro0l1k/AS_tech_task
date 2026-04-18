@@ -310,18 +310,149 @@ def _print_panel_summary(panel, spec):
         print(f"  state      = {dict(state_counts)}")
 
 
+def _print_unified_poll_report(
+    method_name: str,
+    metrics: MethodMetrics,
+    questions: list[SurveyQuestion],
+    T: float,
+):
+    """
+    Print an aggregate poll-style report over ALL questions (no split).
+    Questions whose predicted-top option disagrees with ground truth are
+    visually highlighted with a red ✗ marker and an upfront mismatch list.
+    """
+    q_lookup = {q.id: q for q in questions}
+
+    # ANSI styling — suppressed if not a TTY (e.g. piped, teed to log).
+    _use_ansi = sys.stdout.isatty()
+    BOLD   = "\033[1m"     if _use_ansi else ""
+    RED    = "\033[91m"    if _use_ansi else ""
+    GREEN  = "\033[92m"    if _use_ansi else ""
+    YELLOW = "\033[93m"    if _use_ansi else ""
+    DIM    = "\033[2m"     if _use_ansi else ""
+    RESET  = "\033[0m"     if _use_ansi else ""
+    BG_MISS = "\033[41;97m" if _use_ansi else ""  # white on red
+
+    # Classify each question.
+    misses = []   # (qm, q, pred_top, true_top)
+    hits   = []
+    for qm in metrics.per_question:
+        q = q_lookup[qm.question_id]
+        if qm.n_valid == 0:
+            continue
+        pred_top = max(qm.predicted_dist, key=qm.predicted_dist.get)
+        true_top = max(q.ground_truth,    key=q.ground_truth.get)
+        row = (qm, q, pred_top, true_top)
+        (misses if pred_top != true_top else hits).append(row)
+
+    # Aggregate headline.
+    print(f"\n  Poll results  (method='{method_name}'  T={T}  "
+          f"questions={len(metrics.per_question)})")
+    print(f"\n  Mean JSD = {metrics.mean_jsd:.4f}   "
+          f"TVD = {metrics.mean_tvd:.4f}   "
+          f"MAE = {metrics.mean_mae_pp:.1f}pp   "
+          f"plurality = {metrics.plurality_accuracy:.0%}   "
+          f"valid = {metrics.valid_rate:.0%}")
+
+    # ---- Fixed-width column widths (visible chars only) -------------------
+    # IMPORTANT: pad the id to its visible width BEFORE wrapping in ANSI,
+    # otherwise the color escapes are counted in the format-spec width and
+    # the columns misalign between miss (colored) and hit (plain) rows.
+    ID_W   = 12   # trim question ids to this many visible chars
+    PRED_W = 30   # truncation width for the quoted option texts
+
+    def _fmt_id(qid: str, miss: bool) -> str:
+        """Truncate id to ID_W chars, pad, then optionally color. Always ID_W wide."""
+        padded = qid[:ID_W].ljust(ID_W)
+        return f"{BOLD}{RED}{padded}{RESET}" if miss else padded
+
+    def _fmt_opt(text: str) -> str:
+        """Truncate option text to PRED_W chars, single-quoted; no padding."""
+        t = text if len(text) <= PRED_W else text[: PRED_W - 1] + "…"
+        return f"'{t}'"
+
+    # Upfront mismatch list so bad cases are unmissable.
+    if misses:
+        banner = f" ⚠ {len(misses)} question(s) where predicted top ≠ ground-truth top "
+        line   = "═" * (len(banner) + 2)
+        print(f"\n  {BG_MISS}{line}{RESET}")
+        print(f"  {BG_MISS}{banner} {RESET}")
+        print(f"  {BG_MISS}{line}{RESET}")
+        for qm, q, pred_top, true_top in misses:
+            print(f"    {RED}✗{RESET} {_fmt_id(qm.question_id, True)}  "
+                  f"JSD={qm.jsd:.4f}  pred={_fmt_opt(pred_top)} vs true={_fmt_opt(true_top)}")
+    else:
+        print(f"\n  {GREEN}✓ All questions' predicted top matches ground truth.{RESET}")
+
+    # Compact one-line table across all questions, sorted worst JSD first.
+    print(f"\n  {DIM}─── All questions (sorted by JSD, worst first) ───{RESET}")
+    header = (
+        f"  {'Q-id':<{ID_W}}  {'JSD':>7}  {'TVD':>7}  {'MAE':>7}  "
+        f"{'':1}  {'pred-top':<{PRED_W+2}}  vs  true-top"
+    )
+    print(header)
+    print("  " + "-" * (len(header) - 2))
+    for qm in sorted(metrics.per_question, key=lambda m: -m.jsd):
+        q = q_lookup[qm.question_id]
+        if qm.n_valid == 0:
+            print(f"  {_fmt_id(qm.question_id, False)}  "
+                  f"{YELLOW}(no valid responses){RESET}")
+            continue
+        pred_top = max(qm.predicted_dist, key=qm.predicted_dist.get)
+        true_top = max(q.ground_truth,    key=q.ground_truth.get)
+        miss = pred_top != true_top
+        mark = f"{RED}✗{RESET}" if miss else f"{GREEN}✓{RESET}"
+        mae_str = f"{qm.mae_pp:.1f}pp"
+        # pred/true quoted strings — pad to PRED_W+2 (+2 for the quotes).
+        pred_cell = _fmt_opt(pred_top).ljust(PRED_W + 2)
+        print(f"  {_fmt_id(qm.question_id, miss)}  "
+              f"{qm.jsd:>7.4f}  {qm.tvd:>7.4f}  {mae_str:>7}  "
+              f"{mark}  {pred_cell}  vs  {_fmt_opt(true_top)}")
+
+    # Per-question detail blocks, misses highlighted, sorted by JSD desc so the
+    # worst ones lead.
+    print(f"\n  {DIM}─── Per-question breakdown ───{RESET}")
+    for qm in sorted(metrics.per_question, key=lambda m: -m.jsd):
+        q = q_lookup[qm.question_id]
+        is_miss = False
+        pred_top = true_top = None
+        if qm.n_valid > 0:
+            pred_top = max(qm.predicted_dist, key=qm.predicted_dist.get)
+            true_top = max(q.ground_truth,    key=q.ground_truth.get)
+            is_miss = pred_top != true_top
+
+        prefix   = f"{RED}★ {RESET}" if is_miss else "  "
+        # Header line uses the full id (detail blocks don't need to align).
+        qid_disp = f"{BOLD}{RED}{qm.question_id}{RESET}" if is_miss else qm.question_id
+        print(f"\n{prefix}[{qid_disp}]  JSD={qm.jsd:.4f}  TVD={qm.tvd:.4f}  "
+              f"MAE={qm.mae_pp:.1f}pp  n={qm.n_valid}")
+        print(f"{prefix}  {DIM}{q.text[:110]}…{RESET}")
+        if qm.n_valid == 0:
+            print(f"{prefix}  {YELLOW}(no valid responses — skipping detail){RESET}")
+            continue
+        mark_col = RED if is_miss else GREEN
+        mark     = "✗" if is_miss else "✓"
+        print(f"{prefix}  Predicted top: '{pred_top}'  |  True top: '{true_top}'  "
+              f"{mark_col}{mark}{RESET}")
+        for opt in q.options:
+            pred = qm.predicted_dist.get(opt, 0)
+            true = q.ground_truth.get(opt, 0)
+            bar  = "█" * int(pred * 30)
+            print(f"{prefix}  {opt:<40} pred={pred:5.1%}  true={true:5.1%}  "
+                  f"Δ={pred-true:+5.1%}  {bar}")
+
+
 async def _run_default_pipeline(
     panel,
-    train_qs: list[SurveyQuestion],
-    val_qs: list[SurveyQuestion],
-    test_qs: list[SurveyQuestion],
+    questions: list[SurveyQuestion],
     dry_run: bool,
     seed: int,
     population: str,
 ):
     """
     Skip method selection + temperature sweep. Run the hard-coded default
-    (DEFAULT_METHOD @ DEFAULT_TEMPERATURE) on train / val / test and report.
+    (DEFAULT_METHOD @ DEFAULT_TEMPERATURE) on ALL questions together — no
+    train/val/test split, since there's nothing being selected or tuned.
     """
     method_name = DEFAULT_METHOD
     T = DEFAULT_TEMPERATURE
@@ -340,69 +471,50 @@ async def _run_default_pipeline(
     print(f"\n[{method_name}] {method['description']}")
     print(f"  persona[0]: '{preview}…'")
 
-    # One SurveyTask per split → single batch submission.
-    tasks: list[SurveyTask] = []
-    paths: dict[str, str] = {}
-    for split_name, qs in [("train", train_qs), ("val", val_qs), ("test", test_qs)]:
-        if not qs:
-            continue
-        key = f"{split_name}_{method_name}_T{T}"
-        tasks.append(SurveyTask(
-            method_name=method_name,
-            descriptions=descriptions,
-            questions=qs,
-            temperature=T,
-            seed=seed,
-            run_key=key,
-        ))
-        paths[key] = os.path.join(
-            RESULTS_DIR, split_name, f"{method_name}_T{T}.json",
-        )
-
-    out = await _run_many(tasks, dry_run, paths)
-
-    train_results = out[f"train_{method_name}_T{T}"]
-    val_results   = out[f"val_{method_name}_T{T}"]
-    test_results  = out[f"test_{method_name}_T{T}"]
-
-    train_metrics = evaluate_method(train_results, train_qs)
-    val_metrics   = evaluate_method(val_results,   val_qs)
-    test_metrics  = evaluate_method(test_results,  test_qs)
-
-    _print_split_comparison(
-        method_name,
-        train_metrics, val_metrics, test_metrics,
-        train_qs, val_qs, test_qs,
-        best_T=T,
+    # Single task over ALL questions.
+    key = f"poll_{method_name}_T{T}"
+    task = SurveyTask(
+        method_name=method_name,
+        descriptions=descriptions,
+        questions=questions,
+        temperature=T,
+        seed=seed,
+        run_key=key,
     )
+    path = os.path.join(RESULTS_DIR, "default", f"{method_name}_T{T}.json")
+    out = await _run_many([task], dry_run, {key: path})
+    results = out[key]
+    metrics = evaluate_method(results, questions)
 
-    # Minimal report: no train-across-methods table, no temp sweep table.
+    _print_unified_poll_report(method_name, metrics, questions, T)
+
+    # Flat report over all questions — no splits.
     os.makedirs(RESULTS_DIR, exist_ok=True)
     report = {
         "population": population,
         "method": method_name,
         "temperature": T,
         "model_selection": False,
-        "splits": {
-            split: {
-                "mean_jsd": mm.mean_jsd,
-                "mean_tvd": mm.mean_tvd,
-                "mean_mae_pp": mm.mean_mae_pp,
-                "plurality_accuracy": mm.plurality_accuracy,
-                "per_question": {
-                    qm.question_id: {
-                        "jsd": qm.jsd, "tvd": qm.tvd, "mae_pp": qm.mae_pp,
-                        "predicted": qm.predicted_dist,
-                        "ground_truth": qm.ground_truth_dist,
-                    }
-                    for qm in mm.per_question
-                },
+        "aggregate": {
+            "mean_jsd": metrics.mean_jsd,
+            "mean_tvd": metrics.mean_tvd,
+            "mean_mae_pp": metrics.mean_mae_pp,
+            "plurality_accuracy": metrics.plurality_accuracy,
+            "valid_rate": metrics.valid_rate,
+        },
+        "per_question": {
+            qm.question_id: {
+                "jsd": qm.jsd, "tvd": qm.tvd, "mae_pp": qm.mae_pp,
+                "predicted": qm.predicted_dist,
+                "ground_truth": qm.ground_truth_dist,
+                "plurality_match": (
+                    qm.n_valid > 0 and
+                    max(qm.predicted_dist, key=qm.predicted_dist.get) ==
+                    max(q.ground_truth, key=q.ground_truth.get)
+                ),
             }
-            for split, mm in [
-                ("train", train_metrics),
-                ("val",   val_metrics),
-                ("test",  test_metrics),
-            ]
+            for qm in metrics.per_question
+            for q in [next(x for x in questions if x.id == qm.question_id)]
         },
     }
     report_path = os.path.join(RESULTS_DIR, "report_default.json")
@@ -410,23 +522,21 @@ async def _run_default_pipeline(
         json.dump(report, f, indent=2)
     print(f"\n  Report saved → {report_path}")
 
-    # Behavioral stats + R^3 scatter, same as the full pipeline.
+    # Behavioral stats + R^3 scatter over every question (no held-out set).
     print("\n" + "=" * 62)
-    print(f"  PHASE 5 — behavioral stats  (method: '{method_name}')")
+    print(f"  BEHAVIORAL stats  (method: '{method_name}')")
     print("=" * 62)
-    print_behavioral_summary(train_results, train_qs, header="TRAIN — behavioral")
-    print_behavioral_summary(val_results,   val_qs,   header="VAL   — behavioral")
-    print_behavioral_summary(test_results,  test_qs,  header="TEST  — behavioral")
+    print_behavioral_summary(results, questions, header="All questions — behavioral")
 
     plot_dir = os.path.join(RESULTS_DIR, "behavioral")
-    for q in test_qs:
-        path = os.path.join(plot_dir, f"r3_{q.id}.png")
+    for q in questions:
+        r3_path = os.path.join(plot_dir, f"r3_{q.id}.png")
         plot_behavioral_r3(
-            test_results, q, path,
-            title_suffix=f"[TEST · {method_name} · T={T}]",
+            results, q, r3_path,
+            title_suffix=f"[{method_name} · T={T}]",
         )
 
-    return train_results, val_results, test_results
+    return results
 
 
 async def run_experiment(
@@ -436,22 +546,35 @@ async def run_experiment(
     dry_run: bool = False,
     seed: int = 42,
 ):
+    banner = (
+        "  LLM SURVEY PERSONA EXPERIMENT  (train / val / test)"
+        if do_model_selection
+        else "  LLM SURVEY PERSONA EXPERIMENT  (unified poll)"
+    )
     print("=" * 62)
-    print("  LLM SURVEY PERSONA EXPERIMENT  (train / val / test)")
+    print(banner)
     print("=" * 62)
-
-    # --- Split questions ---
-    train_qs, val_qs, test_qs = split_questions(QUESTIONS)
-    print(f"\nQuestions  total={len(QUESTIONS)}"
-          f"  train={len(train_qs)}  val={len(val_qs)}  test={len(test_qs)}")
-    print("  TRAIN:", [q.id for q in train_qs])
-    print("  VAL:  ", [q.id for q in val_qs])
-    print("  TEST: ", [q.id for q in test_qs])
 
     # --- Sample panel from the chosen population spec.
     # Shared across all methods/splits/temps for fair comparison.
     spec = POPULATION_SPECS[population]
     panel = sample_population_panel(population, NUM_PERSONAS, seed=seed)
+
+    # Questions: split only when selecting a method/temp. Otherwise nothing is
+    # being tuned on TRAIN or held out in TEST, so the split has no meaning —
+    # run all questions together as one poll.
+    if do_model_selection:
+        train_qs, val_qs, test_qs = split_questions(QUESTIONS)
+        print(f"\nQuestions  total={len(QUESTIONS)}"
+              f"  train={len(train_qs)}  val={len(val_qs)}  test={len(test_qs)}")
+        print("  TRAIN:", [q.id for q in train_qs])
+        print("  VAL:  ", [q.id for q in val_qs])
+        print("  TEST: ", [q.id for q in test_qs])
+    else:
+        print(f"\nQuestions  total={len(QUESTIONS)}  (no split — default run)")
+        for q in QUESTIONS:
+            print(f"  · {q.id}")
+
     _print_panel_summary(panel, spec)
     print(f"Mode: {'DRY RUN' if dry_run else 'LIVE API'}")
     sel_str = (
@@ -461,13 +584,13 @@ async def run_experiment(
     )
     print(f"Model selection: {sel_str}\n")
 
-    # Fast path: no model selection. Run the default (method, T) on all splits
-    # directly and report. This skips Phase 1 (all methods), Phase 2 (ranking),
-    # and Phase 3 (temperature sweep).
+    # Fast path: no model selection. Run the default (method, T) on ALL
+    # questions together and report. Skips Phase 1 (all methods on TRAIN),
+    # Phase 2 (ranking), Phase 3 (temperature sweep), and the split entirely.
     if not do_model_selection:
         return await _run_default_pipeline(
             panel=panel,
-            train_qs=train_qs, val_qs=val_qs, test_qs=test_qs,
+            questions=QUESTIONS,
             dry_run=dry_run, seed=seed,
             population=population,
         )

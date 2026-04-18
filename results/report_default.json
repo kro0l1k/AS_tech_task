@@ -1,152 +1,143 @@
 {
-  "population": "seniors_south",
+  "population": "college_educated",
   "method": "value_anchored",
   "temperature": 0.3,
   "model_selection": false,
-  "splits": {
-    "train": {
-      "mean_jsd": 0.009100201637745498,
-      "mean_tvd": 0.07499999997750002,
-      "mean_mae_pp": 4.999999998500001,
-      "plurality_accuracy": 0.6666666666666666,
-      "per_question": {
-        "gun_sales_laws": {
-          "jsd": 0.0010092819547379197,
-          "tvd": 0.01999999999400006,
-          "mae_pp": 1.3333333329333374,
-          "predicted": {
-            "More strict": 0.56,
-            "Kept as they are now": 0.36,
-            "Less strict": 0.08
-          },
-          "ground_truth": {
-            "More strict": 0.56,
-            "Kept as they are now": 0.34,
-            "Less strict": 0.1
-          }
-        },
-        "climate_human_contribution": {
-          "jsd": 0.007533997522425754,
-          "tvd": 0.08999999997300001,
-          "mae_pp": 5.999999998200001,
-          "predicted": {
-            "Contributes a great deal": 0.36,
-            "Contributes some": 0.3,
-            "Not too much or not at all": 0.34
-          },
-          "ground_truth": {
-            "Contributes a great deal": 0.45,
-            "Contributes some": 0.29,
-            "Not too much or not at all": 0.26
-          }
-        },
-        "climate_local_impact": {
-          "jsd": 0.007261118554310025,
-          "tvd": 0.07999999997599999,
-          "mae_pp": 5.333333331733333,
-          "predicted": {
-            "A great deal": 0.34,
-            "Some": 0.3,
-            "Not too much or not at all": 0.36
-          },
-          "ground_truth": {
-            "A great deal": 0.26,
-            "Some": 0.38,
-            "Not too much or not at all": 0.36
-          }
-        },
-        "abortion_legal_circumstances": {
-          "jsd": 0.0008136758822299504,
-          "tvd": 0.029999999991000018,
-          "mae_pp": 1.9999999994000013,
-          "predicted": {
-            "Legal under any circumstances": 0.31,
-            "Legal under certain circumstances": 0.52,
-            "Illegal in all circumstances": 0.17
-          },
-          "ground_truth": {
-            "Legal under any circumstances": 0.3,
-            "Legal under certain circumstances": 0.55,
-            "Illegal in all circumstances": 0.15
-          }
-        },
-        "abortion_legal_all_or_most": {
-          "jsd": 0.01685746364184598,
-          "tvd": 0.139999999958,
-          "mae_pp": 9.333333330533334,
-          "predicted": {
-            "Legal in all cases": 0.32,
-            "Legal in most cases": 0.43,
-            "Illegal in all or most cases": 0.25
-          },
-          "ground_truth": {
-            "Legal in all cases": 0.28,
-            "Legal in most cases": 0.33,
-            "Illegal in all or most cases": 0.39
-          }
-        },
-        "_path_vs_deport": {
-          "jsd": 0.02112567227092335,
-          "tvd": 0.08999999997300001,
-          "mae_pp": 5.999999998200001,
-          "predicted": {
-            "Given a pathway to legal status": 0.53,
-            "Deported from the U.S.": 0.45,
-            "Not sure": 0.02
-          },
-          "ground_truth": {
-            "Given a pathway to legal status": 0.55,
-            "Deported from the U.S.": 0.36,
-            "Not sure": 0.09
-          }
-        }
-      }
+  "aggregate": {
+    "mean_jsd": 0.00993593704514937,
+    "mean_tvd": 0.07999999997600002,
+    "mean_mae_pp": 5.333333331733334,
+    "plurality_accuracy": 0.75,
+    "valid_rate": 1.0
+  },
+  "per_question": {
+    "gun_sales_laws": {
+      "jsd": 0.0010092819547379197,
+      "tvd": 0.01999999999400006,
+      "mae_pp": 1.3333333329333374,
+      "predicted": {
+        "More strict": 0.56,
+        "Kept as they are now": 0.36,
+        "Less strict": 0.08
+      },
+      "ground_truth": {
+        "More strict": 0.56,
+        "Kept as they are now": 0.34,
+        "Less strict": 0.1
+      },
+      "plurality_match": true
     },
-    "val": {
-      "mean_jsd": 0.010791073521461456,
-      "mean_tvd": 0.11999999996400001,
-      "mean_mae_pp": 7.999999997600001,
-      "plurality_accuracy": 1.0,
-      "per_question": {
-        "ai_job_automation": {
-          "jsd": 0.010791073521461456,
-          "tvd": 0.11999999996400001,
-          "mae_pp": 7.999999997600001,
-          "predicted": {
-            "More jobs": 0.15,
-            "Fewer jobs": 0.63,
-            "About the same number of jobs": 0.22
-          },
-          "ground_truth": {
-            "More jobs": 0.21,
-            "Fewer jobs": 0.51,
-            "About the same number of jobs": 0.28
-          }
-        }
-      }
+    "climate_human_contribution": {
+      "jsd": 0.007533997522425754,
+      "tvd": 0.08999999997300001,
+      "mae_pp": 5.999999998200001,
+      "predicted": {
+        "Contributes a great deal": 0.36,
+        "Contributes some": 0.3,
+        "Not too much or not at all": 0.34
+      },
+      "ground_truth": {
+        "Contributes a great deal": 0.45,
+        "Contributes some": 0.29,
+        "Not too much or not at all": 0.26
+      },
+      "plurality_match": true
     },
-    "test": {
-      "mean_jsd": 0.006821849003552424,
-      "mean_tvd": 0.06999999997899994,
-      "mean_mae_pp": 4.666666665266663,
-      "plurality_accuracy": 1.0,
-      "per_question": {
-        "ai_work_usage": {
-          "jsd": 0.006821849003552424,
-          "tvd": 0.06999999997899994,
-          "mae_pp": 4.666666665266663,
-          "predicted": {
-            "All or most of my work": 0.02,
-            "Some of my work": 0.12,
-            "None of my work": 0.86
-          },
-          "ground_truth": {
-            "All or most of my work": 0.02,
-            "Some of my work": 0.19,
-            "None of my work": 0.79
-          }
-        }
-      }
+    "climate_local_impact": {
+      "jsd": 0.007261118554310025,
+      "tvd": 0.07999999997599999,
+      "mae_pp": 5.333333331733333,
+      "predicted": {
+        "A great deal": 0.34,
+        "Some": 0.3,
+        "Not too much or not at all": 0.36
+      },
+      "ground_truth": {
+        "A great deal": 0.26,
+        "Some": 0.38,
+        "Not too much or not at all": 0.36
+      },
+      "plurality_match": false
+    },
+    "abortion_legal_circumstances": {
+      "jsd": 0.0008136758822299504,
+      "tvd": 0.029999999991000018,
+      "mae_pp": 1.9999999994000013,
+      "predicted": {
+        "Legal under any circumstances": 0.31,
+        "Legal under certain circumstances": 0.52,
+        "Illegal in all circumstances": 0.17
+      },
+      "ground_truth": {
+        "Legal under any circumstances": 0.3,
+        "Legal under certain circumstances": 0.55,
+        "Illegal in all circumstances": 0.15
+      },
+      "plurality_match": true
+    },
+    "abortion_legal_all_or_most": {
+      "jsd": 0.01685746364184598,
+      "tvd": 0.139999999958,
+      "mae_pp": 9.333333330533334,
+      "predicted": {
+        "Legal in all cases": 0.32,
+        "Legal in most cases": 0.43,
+        "Illegal in all or most cases": 0.25
+      },
+      "ground_truth": {
+        "Legal in all cases": 0.28,
+        "Legal in most cases": 0.33,
+        "Illegal in all or most cases": 0.39
+      },
+      "plurality_match": false
+    },
+    "_path_vs_deport": {
+      "jsd": 0.02112567227092335,
+      "tvd": 0.08999999997300001,
+      "mae_pp": 5.999999998200001,
+      "predicted": {
+        "Given a pathway to legal status": 0.53,
+        "Deported from the U.S.": 0.45,
+        "Not sure": 0.02
+      },
+      "ground_truth": {
+        "Given a pathway to legal status": 0.55,
+        "Deported from the U.S.": 0.36,
+        "Not sure": 0.09
+      },
+      "plurality_match": true
+    },
+    "ai_job_automation": {
+      "jsd": 0.007461047313991456,
+      "tvd": 0.09999999996999996,
+      "mae_pp": 6.666666664666663,
+      "predicted": {
+        "More jobs": 0.24,
+        "Fewer jobs": 0.41,
+        "About the same number of jobs": 0.35
+      },
+      "ground_truth": {
+        "More jobs": 0.21,
+        "Fewer jobs": 0.51,
+        "About the same number of jobs": 0.28
+      },
+      "plurality_match": true
+    },
+    "ai_work_usage": {
+      "jsd": 0.01742523922073052,
+      "tvd": 0.08999999997300004,
+      "mae_pp": 5.9999999982000025,
+      "predicted": {
+        "All or most of my work": 0.0,
+        "Some of my work": 0.28,
+        "None of my work": 0.72
+      },
+      "ground_truth": {
+        "All or most of my work": 0.02,
+        "Some of my work": 0.19,
+        "None of my work": 0.79
+      },
+      "plurality_match": true
     }
   }
 }

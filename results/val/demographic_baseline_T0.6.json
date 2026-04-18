@@ -2,7 +2,7 @@
   "method_name": "demographic_baseline",
   "total_calls": 100,
   "failed_parses": 0,
-  "elapsed_seconds": 0.00013899803161621094,
+  "elapsed_seconds": 0.00014901161193847656,
   "responses": [
     {
       "persona_index": 0,

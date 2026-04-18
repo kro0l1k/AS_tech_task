@@ -2,7 +2,7 @@
   "method_name": "value_anchored",
   "total_calls": 600,
   "failed_parses": 0,
-  "elapsed_seconds": 0.0007369518280029297,
+  "elapsed_seconds": 0.0007348060607910156,
   "responses": [
     {
       "persona_index": 0,
