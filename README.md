@@ -63,7 +63,7 @@ python main.py --dry-run                        # simulated responses, no API ca
 - `--dry-run` — simulate responses locally; no API key needed.
 - `--seed INT` — controls panel sampling and persona construction. Default 42.
 
-Results land in `results/`. Cached batch outputs in `cache/`.
+Results land in `results/`. Cached batch outputs in `cache/`. Every run's full console transcript is archived to `logs/output_<timestamp>.txt`.
 
 ## Layout
 

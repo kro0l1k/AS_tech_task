@@ -54,9 +54,79 @@ import json
 import math
 import os
 import random
+import re
 import sys
 import time
 from collections import Counter
+
+# Directory where every run's full console output is archived.
+LOG_DIR = "logs"
+
+# Strips ANSI color escapes before writing to the log file so the archive is
+# plain-text readable; the live terminal still sees the colors.
+_ANSI_RE = re.compile(r"\x1b\[[0-9;]*m")
+
+
+class _Tee:
+    """
+    File-like wrapper that fan-outs writes to multiple underlying streams.
+    Used to duplicate stdout/stderr to both the terminal and a log file so
+    every run leaves a full transcript on disk.
+    """
+
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for s in self.streams:
+            try:
+                is_tty = s.isatty()
+            except Exception:
+                is_tty = False
+            s.write(data if is_tty else _ANSI_RE.sub("", data))
+        return len(data)
+
+    def flush(self):
+        for s in self.streams:
+            try:
+                s.flush()
+            except Exception:
+                pass
+
+    def isatty(self):
+        # Forward from the first (terminal) stream so color logic still fires.
+        try:
+            return self.streams[0].isatty()
+        except Exception:
+            return False
+
+    def __getattr__(self, name):
+        # Fall back to the primary stream for anything else (encoding, etc).
+        return getattr(self.streams[0], name)
+
+
+def _start_logging() -> tuple[str, "object"]:
+    """Open logs/output_<timestamp>.txt and tee stdout/stderr into it."""
+    os.makedirs(LOG_DIR, exist_ok=True)
+    ts = time.strftime("%Y-%m-%d_%H-%M-%S")
+    log_path = os.path.join(LOG_DIR, f"output_{ts}.txt")
+    log_file = open(log_path, "w", buffering=1)  # line-buffered
+    sys.stdout = _Tee(sys.__stdout__, log_file)
+    sys.stderr = _Tee(sys.__stderr__, log_file)
+    return log_path, log_file
+
+
+def _stop_logging(log_path: str, log_file) -> None:
+    """Restore stdio and close the log file."""
+    try:
+        print(f"\n[log saved → {log_path}]")
+    finally:
+        sys.stdout = sys.__stdout__
+        sys.stderr = sys.__stderr__
+        try:
+            log_file.close()
+        except Exception:
+            pass
 
 from config import (
     NUM_PERSONAS, RESULTS_DIR, TEMPERATURE, TEMPERATURE_SWEEP,
@@ -796,6 +866,8 @@ def main():
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
 
+    # Pre-flight checks run BEFORE we open a log file, so bad invocations
+    # don't leave empty archives behind.
     if not args.dry_run and not os.getenv("ANTHROPIC_API_KEY"):
         print("ANTHROPIC_API_KEY not set. Use --dry-run or export the key.")
         sys.exit(1)
@@ -805,14 +877,19 @@ def main():
               f"(default path is fixed to '{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}).")
         sys.exit(1)
 
-    methods = [args.method] if args.method else None
-    asyncio.run(run_experiment(
-        population=args.population,
-        do_model_selection=args.model_selection,
-        methods_to_run=methods,
-        dry_run=args.dry_run,
-        seed=args.seed,
-    ))
+    # Archive the full run transcript to logs/output_<timestamp>.txt.
+    log_path, log_file = _start_logging()
+    try:
+        methods = [args.method] if args.method else None
+        asyncio.run(run_experiment(
+            population=args.population,
+            do_model_selection=args.model_selection,
+            methods_to_run=methods,
+            dry_run=args.dry_run,
+            seed=args.seed,
+        ))
+    finally:
+        _stop_logging(log_path, log_file)
 
 
 if __name__ == "__main__":
