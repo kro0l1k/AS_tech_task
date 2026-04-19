@@ -1,231 +1,267 @@
-==============================================================
-  LLM SURVEY PERSONA EXPERIMENT  (train / val / test)
-==============================================================
+$ python main.py --population general_us
 
-Questions  total=8  train=6  val=1  test=1
-  TRAIN: ['gun_sales_laws', 'climate_human_contribution', 'climate_local_impact', 'abortion_legal_circumstances', 'abortion_legal_all_or_most', '_path_vs_deport']
-  VAL:   ['ai_job_automation']
-  TEST:  ['ai_work_usage']
+==============================================================
+  LLM SURVEY PERSONA EXPERIMENT  (unified poll)
+==============================================================
+  [poststratify] marginal TVD  0.210 → 0.000 (n=100, pool=600)
 
-Panel: 100 personas   (all age=28)
-  education = {"Bachelor's degree": 79, 'Graduate or professional degree': 21}
-  party     = {'Republican or lean Republican': 25, 'Democrat or lean Democrat': 61, 'Independent, no lean': 14}
-  basket    = {'neo_liberal': 51, 'neo_conservative': 16, 'progressive': 19, 'maga': 9, 'alt_right': 5}
+Questions  total=13  (no split — default run)
+  · gun_sales_laws
+  · climate_human_contribution
+  · climate_local_impact
+  · abortion_legal_circumstances
+  · path_vs_deport
+  · ai_job_automation
+  · ai_work_usage
+  · healthcare_worry
+  · democracy_working
+  · israel_sympathy
+  · marijuana_legalization
+  · vaccine_school_mandate
+  · raise_taxes_high_income
+
+Panel: 100 personas
+  population: general_us  —  General US adult population — matches national poll sample frames
+  age        : min=18 max=79 mean=47.6
+  education  = {'High school diploma or less': 37, "Bachelor's degree": 22, "Some college or associate's degree": 25, 'Graduate or professional degree': 16}
+  race       = {'White': 59, 'Asian': 6, 'Other or multiracial': 3, 'Black or African American': 13, 'Hispanic or Latino': 19}
+  region     = {'South': 37, 'Midwest': 22, 'West': 22, 'Northeast': 19}
+  party      = {'Republican or lean Republican': 43, 'Democrat or lean Democrat': 45, 'Independent, no lean': 12}
+  basket     = {'neo_liberal': 30, 'progressive': 14, 'neo_conservative': 18, 'maga': 30, 'alt_right': 8}
+  status     = {'employed': 77, 'student': 5, 'retired': 16, 'unemployed': 2}
+  work tier  = {'services': 38, 'other': 7, 'knowledge': 39, 'physical': 16}
+  industry   = {'personal_other_services': 2, 'student': 5, 'retired_former_education': 1, 'healthcare_professional': 5, 'finance_insurance': 6, 'technology': 7, 'retail': 6, 'construction': 7, 'education': 6, 'retired_former_transportation_warehousing': 2, 'retired_former_healthcare_professional': 2, 'food_hospitality': 6, 'retired_former_finance_insurance': 2, 'government': 2, 'retired_former_food_hospitality': 2, 'healthcare_support': 6, 'manufacturing': 7, 'professional_services': 6, 'retired_former_healthcare_support': 2, 'retired_former_information_media': 1, 'transportation_warehousing': 8, 'agriculture_fishing': 1, 'unemployed': 2, 'real_estate': 2, 'retired_former_technology': 1, 'retired_former_construction': 1, 'retired_former_retail': 1, 'retired_former_personal_other_services': 1}
+  max marginal drift vs target: 0.0pp (party/race/education)
 Mode: LIVE API
+Model selection: OFF — using 'value_anchored' @ T=0.3
 
 ==============================================================
-  PHASE 1 — all methods on TRAIN questions
+  DEFAULT RUN — method='value_anchored'  T=0.3  population='general_us'
+  (pass --model_selection to run the full 4-phase pipeline)
 ==============================================================
-
-[demographic_baseline] Demographic + influence conditioning (baseline)
-  persona[0]: 'Demographic profile: | Age: 28 | Gender: Male | Race/Ethnicity: Hispanic or Latino | Education: Bachelor's degree | Household income: $50,000 to $75,000 | Region: South | Community type: Urban | P…'
-
-[narrative_backstory] Rich biographical backstory with media diet
-  persona[0]: 'William, 28, Hispanic or Latino male, works as a software developer. Lives in a rowhouse neighborhood in the South. Household income $50,000 to $75,000/year. Is living with roommat…'
 
 [value_anchored] Moral foundations + information sources
-  persona[0]: 'Moral values profile: | Caring for others / preventing harm: moderately important | Fairness, justice, equal rights: moderately important | Loyalty to community and country: very importa…'
+  persona[0]: '=== PARTISAN CONTEXT === | Party: Republican or lean Republican | Political basket: neo_liberal | Voting history: voted Trump in 2024, Trump in 2020, Trump in 2016 | Useful context for pol…'
+  Batch API: 260 request(s) across 1 task(s), 1 batch submission(s)
+  [chunk 1/1] submitted 260 requests → batch id msgbatch_01Rdz46QpC2eBZy8HH8pPbCh
+  [chunk 1] processing… proc=260 ok=0 err=0  (0s)
+  [chunk 1] processing… proc=260 ok=0 err=0  (10s)
+  [chunk 1] processing… proc=260 ok=0 err=0  (62s)
+  [chunk 1] processing… proc=260 ok=0 err=0  (90s)
+  [chunk 1] processing… proc=260 ok=0 err=0  (128s)
+  [chunk 1] ended. succeeded=260 errored=0 expired=0 canceled=0 (176s elapsed)
+  [value_anchored] 0/1300 parse failures
+  Batch API total wall-clock: 179.4s
 
-[distribution_aware] Meta-prompt: model knows its ensemble role
-  persona[0]: 'Panel respondent #1 of 100 (nationally representative sample). | Age: 28 | Gender: Male | Race/Ethnicity: Hispanic or Latino | Education: Bachelor's degree | Household income: $50,000 to $75…'
+  Poll results  (method='value_anchored'  T=0.3  questions=13)
 
-[cognitive_deliberation] Deliberation cues: recent sources + gut reaction
-  persona[0]: 'Age: 28 | Gender: Male | Race/Ethnicity: Hispanic or Latino | Education: Bachelor's degree | Household income: $50,000 to $75,000 | Region: South | Community type: Urban | Political identity: ne…'
-  Batch API: 600 request(s) across 5 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 600 requests → batch id msgbatch_01CbSn8yX4TmM6KbF8pc9tba
-  [chunk 1] processing… proc=600 ok=0 err=0  (0s)
-  [chunk 1] processing… proc=600 ok=0 err=0  (10s)
-  [chunk 1] processing… proc=600 ok=0 err=0  (62s)
-  [chunk 1] processing… proc=600 ok=0 err=0  (90s)
-  [chunk 1] processing… proc=600 ok=0 err=0  (128s)
-  [chunk 1] processing… proc=600 ok=0 err=0  (176s)
-  [chunk 1] ended. succeeded=600 errored=0 expired=0 canceled=0 (236s elapsed)
-  [demographic_baseline] 0/600 parse failures
-  [narrative_backstory] 0/600 parse failures
-  [value_anchored] 0/600 parse failures
-  [distribution_aware] 0/600 parse failures
-  [cognitive_deliberation] 0/600 parse failures
-  Batch API total wall-clock: 240.2s
+  Mean JSD = 0.0237   TVD = 0.1254   MAE = 8.7pp   plurality = 85%   valid = 100%
 
-==============================================================
-  PHASE 2 — method selection on TRAIN
-==============================================================
+  ══════════════════════════════════════════════════════════
+   ⚠ 2 question(s) where predicted top ≠ ground-truth top
+  ══════════════════════════════════════════════════════════
+    ✗ ai_work_usag  JSD=0.0668  pred='Some of my work' vs true='None of my work is done with …'
+    ✗ israel_sympa  JSD=0.0363  pred='More with the Israelis' vs true='More with the Palestinians'
 
-Method                            JSD      TVD  MAE(pp)  Plurality   Valid
--------------------------------------------------------------------------
-  distribution_aware           0.0279   0.1617    10.8       67%   100%
-  cognitive_deliberation       0.0305   0.1700    11.3       67%   100%
-  narrative_backstory          0.0338   0.1800    12.0       67%   100%
-  demographic_baseline         0.0350   0.1767    11.8       67%   100%
-  value_anchored               0.0376   0.1767    11.8       67%   100%
+  ─── All questions (sorted by JSD, worst first) ───
+  Q-id              JSD      TVD      MAE     pred-top                          vs  true-top
+  ------------------------------------------------------------------------------------------
+  healthcare_w   0.0668   0.1600    8.0pp  ✓  'A great deal'                    vs  'A great deal'
+  ai_work_usag   0.0668   0.2600   10.4pp  ✗  'Some of my work'                 vs  'None of my work is done with …'
+  vaccine_scho   0.0452   0.2400   24.0pp  ✓  'Yes, require vaccination'        vs  'Yes, require vaccination'
+  gun_sales_la   0.0431   0.1900   12.7pp  ✓  'More strict'                     vs  'More strict'
+  israel_sympa   0.0363   0.2000   13.3pp  ✗  'More with the Israelis'          vs  'More with the Palestinians'
+  raise_taxes_   0.0194   0.1600   10.7pp  ✓  'Raised'                          vs  'Raised'
+  marijuana_le   0.0085   0.1000   10.0pp  ✓  'Should be legal'                 vs  'Should be legal'
+  path_vs_depo   0.0065   0.0600    4.0pp  ✓  'Given a pathway to legal stat…'  vs  'Given a pathway to legal stat…'
+  democracy_wo   0.0044   0.0700    7.0pp  ✓  'Dissatisfied'                    vs  'Dissatisfied'
+  climate_huma   0.0043   0.0600    4.0pp  ✓  'Contributes a great deal'        vs  'Contributes a great deal'
+  climate_loca   0.0041   0.0700    4.7pp  ✓  'Some'                            vs  'Some'
+  ai_job_autom   0.0022   0.0400    2.7pp  ✓  'Decrease'                        vs  'Decrease'
+  abortion_leg   0.0006   0.0200    1.3pp  ✓  'Legal under certain circumsta…'  vs  'Legal under certain circumsta…'
 
-→ Best method: distribution_aware  (train JSD=0.0279, valid=100%)
+  ─── Per-question breakdown ───
 
-==============================================================
-  PHASE 3 — temperature sweep on VAL  (method: 'distribution_aware')
-  Sweep grid: [0.3, 0.6, 0.8, 1.0]
-==============================================================
-  Batch API: 80 request(s) across 4 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 80 requests → batch id msgbatch_01X2oW3JgTTdjRqP1GBLLCji
-  [chunk 1] processing… proc=80 ok=0 err=0  (0s)
-  [chunk 1] processing… proc=80 ok=0 err=0  (10s)
-  [chunk 1] processing… proc=80 ok=0 err=0  (62s)
-  [chunk 1] processing… proc=80 ok=0 err=0  (90s)
-  [chunk 1] processing… proc=80 ok=0 err=0  (128s)
-  [chunk 1] processing… proc=80 ok=0 err=0  (176s)
-  [chunk 1] ended. succeeded=80 errored=0 expired=0 canceled=0 (236s elapsed)
-  [distribution_aware] 0/100 parse failures
-  [distribution_aware] 0/100 parse failures
-  [distribution_aware] 0/100 parse failures
-  [distribution_aware] 0/100 parse failures
-  Batch API total wall-clock: 240.0s
+  [healthcare_worry]  JSD=0.0668  TVD=0.1600  MAE=8.0pp  n=100
+    How much do you worry about healthcare availability and affordability, a great deal or fair amount?…
+    Predicted top: 'A great deal'  |  True top: 'A great deal'  ✓
+    A great deal                             pred=60.0%  true=61.0%  Δ=-1.0%  ██████████████████
+    Fair amount                              pred=36.0%  true=20.0%  Δ=+16.0%  ██████████
+    Only a little                            pred= 4.0%  true=12.0%  Δ=-8.0%  █
+    Not at all                               pred= 0.0%  true= 7.0%  Δ=-7.0%
 
-   Temp      JSD      TVD  MAE(pp)  Plurality   Valid
-  ---------------------------------------------------
-   0.30   0.0060   0.0900     6.0      100%   100%
-   0.60   0.0104   0.1100     7.3      100%   100%
-   0.80   0.0104   0.1100     7.3      100%   100%
-   1.00   0.0031   0.0600     4.0      100%   100%
+★ [ai_work_usage]  JSD=0.0668  TVD=0.2600  MAE=10.4pp  n=100
+★   Thinking of the tasks you do in your job, how much of your work is done with AI?…
+★   Predicted top: 'Some of my work'  |  True top: 'None of my work is done with AI / I don't know if any of my work is done with AI'  ✗
+★   All or most of my work                   pred= 0.0%  true= 2.0%  Δ=-2.0%
+★   Some of my work                          pred=45.0%  true=19.0%  Δ=+26.0%  █████████████
+★   Not much or none of my work              pred=22.0%  true=27.0%  Δ=-5.0%  ██████
+★   None of my work is done with AI / I don't know if any of my work is done with AI pred=25.0%  true=38.0%  Δ=-13.0%  ███████
+★   Not sure                                 pred= 8.0%  true=14.0%  Δ=-6.0%  ██
 
-  → Best temperature: T=1.0  (val JSD=0.0031, valid=100%)
+  [vaccine_school_mandate]  JSD=0.0452  TVD=0.2400  MAE=24.0pp  n=100
+    Do you think the government should require healthy children to be vaccinated in order to attend public school?…
+    Predicted top: 'Yes, require vaccination'  |  True top: 'Yes, require vaccination'  ✓
+    Yes, require vaccination                 pred=51.0%  true=75.0%  Δ=-24.0%  ███████████████
+    No, allow unvaccinated children in schools pred=49.0%  true=25.0%  Δ=+24.0%  ██████████████
 
-==============================================================
-  PHASE 4 — TEST  (method='distribution_aware', T=1.0)
-==============================================================
-  [distribution_aware] 100 personas × 1 questions = 20 batch calls (batch_size=5, T=1.0)
-  Batch API: 20 request(s) across 1 task(s), 1 batch submission(s)
-  [chunk 1/1] submitted 20 requests → batch id msgbatch_018oaCtEdMejuP8c78SQU9c6
-  [chunk 1] processing… proc=20 ok=0 err=0  (0s)
-  [chunk 1] processing… proc=20 ok=0 err=0  (10s)
-  [chunk 1] processing… proc=20 ok=0 err=0  (62s)
-  [chunk 1] processing… proc=20 ok=0 err=0  (90s)
-  [chunk 1] ended. succeeded=20 errored=0 expired=0 canceled=0 (128s elapsed)
-  [distribution_aware] 0/100 parse failures
-  Batch API total wall-clock: 131.4s
-  [distribution_aware] Done. 0/100 parse failures. (131.4s)
-
-  Split comparison for 'distribution_aware' @ T=1.0
-
-  Split    Questions                           JSD      TVD  MAE(pp)  Plurality
-  --------------------------------------------------------------------
-  TRAIN    gun_sales_laws, climate_human_contribution, climate_local_impact, abortion_legal_circumstances, abortion_legal_all_or_most, _path_vs_deport   0.0279   0.1617    10.8       67%
-  VAL      ai_job_automation                0.0031   0.0600     4.0      100%
-  TEST     ai_work_usage                    0.1828   0.4900    32.7        0%
-
-  Generalisation gap (test JSD − train JSD): +0.1550  [tentative (only 1 test question)]
-
-  ─── TRAIN detail (6 questions) ─────────────────────────
-  [gun_sales_laws]  JSD=0.0316  TVD=0.1700  MAE=11.3pp  n=100
+  [gun_sales_laws]  JSD=0.0431  TVD=0.1900  MAE=12.7pp  n=100
+    Which of the following comes closest to your view about laws covering the sale of firearms in general?…
     Predicted top: 'More strict'  |  True top: 'More strict'  ✓
-    More strict                              pred=65.0%  true=56.0%  Δ=+9.0%  ███████████████████
-    Kept as they are now                     pred=17.0%  true=34.0%  Δ=-17.0%  █████
-    Less strict                              pred=18.0%  true=10.0%  Δ=+8.0%  █████
-  [climate_human_contribution]  JSD=0.0450  TVD=0.2400  MAE=16.0pp  n=100
+    More strict                              pred=43.0%  true=56.0%  Δ=-13.0%  ████████████
+    Kept as they are now                     pred=28.0%  true=34.0%  Δ=-6.0%  ████████
+    Less strict                              pred=29.0%  true=10.0%  Δ=+19.0%  ████████
+
+★ [israel_sympathy]  JSD=0.0363  TVD=0.2000  MAE=13.3pp  n=100
+★   In the Middle East situation, are your sympathies more with the Israelis or more with the Palestinians?…
+★   Predicted top: 'More with the Israelis'  |  True top: 'More with the Palestinians'  ✗
+★   More with the Israelis                   pred=43.0%  true=36.0%  Δ=+7.0%  ████████████
+★   More with the Palestinians               pred=21.0%  true=41.0%  Δ=-20.0%  ██████
+★   Both equally / Neither / No opinion      pred=36.0%  true=23.0%  Δ=+13.0%  ██████████
+
+  [raise_taxes_high_income]  JSD=0.0194  TVD=0.1600  MAE=10.7pp  n=100
+    Do you think tax rates on households with annual incomes over $400,000 should be raised, kept the same, or low…
+    Predicted top: 'Raised'  |  True top: 'Raised'  ✓
+    Raised                                   pred=46.0%  true=62.0%  Δ=-16.0%  █████████████
+    Kept the same                            pred=31.0%  true=20.0%  Δ=+11.0%  █████████
+    Lowered                                  pred=23.0%  true=18.0%  Δ=+5.0%  ██████
+
+  [marijuana_legalization]  JSD=0.0085  TVD=0.1000  MAE=10.0pp  n=100
+    Do you think the use of marijuana should be legal or not?…
+    Predicted top: 'Should be legal'  |  True top: 'Should be legal'  ✓
+    Should be legal                          pred=74.0%  true=64.0%  Δ=+10.0%  ██████████████████████
+    Should not be legal                      pred=26.0%  true=36.0%  Δ=-10.0%  ███████
+
+  [path_vs_deport]  JSD=0.0065  TVD=0.0600  MAE=4.0pp  n=100
+    Which of the following comes closer to your view about most undocumented immigrants in the United States: shou…
+    Predicted top: 'Given a pathway to legal status'  |  True top: 'Given a pathway to legal status'  ✓
+    Given a pathway to legal status          pred=53.0%  true=55.0%  Δ=-2.0%  ███████████████
+    Deported from the U.S.                   pred=32.0%  true=36.0%  Δ=-4.0%  █████████
+    Not sure                                 pred=15.0%  true= 9.0%  Δ=+6.0%  ████
+
+  [democracy_working]  JSD=0.0044  TVD=0.0700  MAE=7.0pp  n=100
+    Are you satisfied or dissatisfied with the way democracy is working in the US?…
+    Predicted top: 'Dissatisfied'  |  True top: 'Dissatisfied'  ✓
+    Satisfied                                pred=24.0%  true=31.0%  Δ=-7.0%  ███████
+    Dissatisfied                             pred=76.0%  true=69.0%  Δ=+7.0%  ██████████████████████
+
+  [climate_human_contribution]  JSD=0.0043  TVD=0.0600  MAE=4.0pp  n=100
+    From what you have heard or read, how much do you think human activity, such as the burning of fossil fuels, c…
     Predicted top: 'Contributes a great deal'  |  True top: 'Contributes a great deal'  ✓
-    Contributes a great deal                 pred=69.0%  true=45.0%  Δ=+24.0%  ████████████████████
-    Contributes some                         pred=19.0%  true=29.0%  Δ=-10.0%  █████
-    Not too much or not at all               pred=12.0%  true=26.0%  Δ=-14.0%  ███
-  [climate_local_impact]  JSD=0.0338  TVD=0.1800  MAE=12.0pp  n=100
-    Predicted top: 'A great deal'  |  True top: 'Some'  ✗
-    A great deal                             pred=44.0%  true=26.0%  Δ=+18.0%  █████████████
-    Some                                     pred=36.0%  true=38.0%  Δ=-2.0%  ██████████
-    Not too much or not at all               pred=20.0%  true=36.0%  Δ=-16.0%  ██████
-  [abortion_legal_circumstances]  JSD=0.0026  TVD=0.0400  MAE=2.7pp  n=100
+    Contributes a great deal                 pred=46.0%  true=45.0%  Δ=+1.0%  █████████████
+    Contributes some                         pred=34.0%  true=29.0%  Δ=+5.0%  ██████████
+    Not too much or not at all               pred=20.0%  true=26.0%  Δ=-6.0%  ██████
+
+  [climate_local_impact]  JSD=0.0041  TVD=0.0700  MAE=4.7pp  n=100
+    Have you heard or read about the effects of climate change? Do you think climate change is affecting your loca…
+    Predicted top: 'Some'  |  True top: 'Some'  ✓
+    A great deal                             pred=28.0%  true=26.0%  Δ=+2.0%  ████████
+    Some                                     pred=43.0%  true=38.0%  Δ=+5.0%  ████████████
+    Not too much or not at all               pred=29.0%  true=36.0%  Δ=-7.0%  ████████
+
+  [ai_job_automation]  JSD=0.0022  TVD=0.0400  MAE=2.7pp  n=100
+    Do you think that AI (Artificial Intelligence) will increase, decrease, or not have any impact on the number o…
+    Predicted top: 'Decrease'  |  True top: 'Decrease'  ✓
+    Increase                                 pred=19.0%  true=19.0%  Δ=+0.0%  █████
+    Decrease                                 pred=62.0%  true=66.0%  Δ=-4.0%  ██████████████████
+    Have no effect                           pred=19.0%  true=15.0%  Δ=+4.0%  █████
+
+  [abortion_legal_circumstances]  JSD=0.0006  TVD=0.0200  MAE=1.3pp  n=100
+    Thinking about the legality of abortion, do you think abortion should be legal under any circumstances, legal …
     Predicted top: 'Legal under certain circumstances'  |  True top: 'Legal under certain circumstances'  ✓
     Legal under any circumstances            pred=31.0%  true=30.0%  Δ=+1.0%  █████████
-    Legal under certain circumstances        pred=58.0%  true=55.0%  Δ=+3.0%  █████████████████
-    Illegal in all circumstances             pred=11.0%  true=15.0%  Δ=-4.0%  ███
-  [abortion_legal_all_or_most]  JSD=0.0276  TVD=0.1700  MAE=11.3pp  n=100
-    Predicted top: 'Legal in most cases'  |  True top: 'Illegal in all or most cases'  ✗
-    Legal in all cases                       pred=30.0%  true=28.0%  Δ=+2.0%  █████████
-    Legal in most cases                      pred=48.0%  true=33.0%  Δ=+15.0%  ██████████████
-    Illegal in all or most cases             pred=22.0%  true=39.0%  Δ=-17.0%  ██████
-  [_path_vs_deport]  JSD=0.0265  TVD=0.1700  MAE=11.3pp  n=100
-    Predicted top: 'Given a pathway to legal status'  |  True top: 'Given a pathway to legal status'  ✓
-    Given a pathway to legal status          pred=69.0%  true=55.0%  Δ=+14.0%  ████████████████████
-    Deported from the U.S.                   pred=19.0%  true=36.0%  Δ=-17.0%  █████
-    Not sure                                 pred=12.0%  true= 9.0%  Δ=+3.0%  ███
+    Legal under certain circumstances        pred=56.0%  true=55.0%  Δ=+1.0%  ████████████████
+    Illegal in all circumstances             pred=13.0%  true=15.0%  Δ=-2.0%  ███
 
-  ─── VAL detail (1 question) ─────────────────────────
-  [ai_job_automation]  JSD=0.0031  TVD=0.0600  MAE=4.0pp  n=100
-    Predicted top: 'Fewer jobs'  |  True top: 'Fewer jobs'  ✓
-    More jobs                                pred=20.0%  true=21.0%  Δ=-1.0%  ██████
-    Fewer jobs                               pred=46.0%  true=51.0%  Δ=-5.0%  █████████████
-    About the same number of jobs            pred=34.0%  true=28.0%  Δ=+6.0%  ██████████
-
-  ════════════════════════════════════════
-     ★ TEST — HELD OUT FROM SELECTION ★
-  ════════════════════════════════════════
-★ [ai_work_usage]  JSD=0.1828  TVD=0.4900  MAE=32.7pp  n=100
-★   Predicted top: 'Some of my work'  |  True top: 'None of my work'  ✗
-★   All or most of my work                   pred= 6.0%  true= 2.0%  Δ=+4.0%  █
-★   Some of my work                          pred=64.0%  true=19.0%  Δ=+45.0%  ███████████████████
-★   None of my work                          pred=30.0%  true=79.0%  Δ=-49.0%  █████████
-
-  Report saved → results/report_splits.json
+  Report saved → results/report_default.json
 
 ==============================================================
-  PHASE 5 — behavioral stats  (best method: 'distribution_aware')
+  BEHAVIORAL stats  (method: 'value_anchored')
 ==============================================================
 
 ────────────────────────────────────────────────────────────────────────────
-  TRAIN — behavioral
+  All questions — behavioral
 ────────────────────────────────────────────────────────────────────────────
   Dimensions: post | argue | debate   (all in [0, 1])
   Format: μ ± σ  (σ = sqrt(variance))
 ────────────────────────────────────────────────────────────────────────────
 
   gun_sales_laws
-    More strict                                 n= 65  post=0.36±0.19   argue=0.31±0.19   debate=0.29±0.12
-    Kept as they are now                        n= 17  post=0.21±0.09   argue=0.25±0.08   debate=0.26±0.08
-    Less strict                                 n= 18  post=0.54±0.19   argue=0.63±0.16   debate=0.41±0.12
+    More strict                                 n= 43  post=0.39±0.18   argue=0.43±0.15   debate=0.28±0.12
+    Kept as they are now                        n= 28  post=0.26±0.15   argue=0.36±0.16   debate=0.22±0.12
+    Less strict                                 n= 29  post=0.57±0.21   argue=0.65±0.19   debate=0.42±0.16
 
   climate_human_contribution
-    Contributes a great deal                    n= 69  post=0.35±0.22   argue=0.34±0.23   debate=0.30±0.13
-    Contributes some                            n= 19  post=0.20±0.09   argue=0.34±0.12   debate=0.25±0.07
-    Not too much or not at all                  n= 12  post=0.54±0.21   argue=0.67±0.17   debate=0.41±0.13
+    Contributes a great deal                    n= 46  post=0.40±0.22   argue=0.46±0.19   debate=0.30±0.15
+    Contributes some                            n= 34  post=0.18±0.08   argue=0.29±0.10   debate=0.17±0.08
+    Not too much or not at all                  n= 20  post=0.46±0.15   argue=0.58±0.15   debate=0.33±0.11
 
   climate_local_impact
-    A great deal                                n= 44  post=0.51±0.19   argue=0.46±0.21   debate=0.43±0.11
-    Some                                        n= 36  post=0.22±0.07   argue=0.24±0.12   debate=0.24±0.07
-    Not too much or not at all                  n= 20  post=0.39±0.23   argue=0.54±0.23   debate=0.34±0.11
+    A great deal                                n= 28  post=0.47±0.20   argue=0.51±0.17   debate=0.34±0.15
+    Some                                        n= 43  post=0.21±0.10   argue=0.30±0.09   debate=0.21±0.09
+    Not too much or not at all                  n= 29  post=0.27±0.11   argue=0.44±0.14   debate=0.26±0.10
 
   abortion_legal_circumstances
-    Legal under any circumstances               n= 31  post=0.61±0.16   argue=0.58±0.13   debate=0.40±0.08
-    Legal under certain circumstances           n= 58  post=0.21±0.07   argue=0.24±0.08   debate=0.23±0.06
-    Illegal in all circumstances                n= 11  post=0.43±0.20   argue=0.54±0.16   debate=0.37±0.13
+    Legal under any circumstances               n= 31  post=0.50±0.20   argue=0.57±0.19   debate=0.35±0.15
+    Legal under certain circumstances           n= 56  post=0.24±0.12   argue=0.34±0.13   debate=0.23±0.10
+    Illegal in all circumstances                n= 13  post=0.53±0.14   argue=0.65±0.10   debate=0.39±0.13
 
-  abortion_legal_all_or_most
-    Legal in all cases                          n= 30  post=0.56±0.18   argue=0.54±0.17   debate=0.41±0.11
-    Legal in most cases                         n= 48  post=0.21±0.11   argue=0.23±0.10   debate=0.24±0.08
-    Illegal in all or most cases                n= 22  post=0.37±0.21   argue=0.47±0.18   debate=0.36±0.10
-
-  _path_vs_deport
-    Given a pathway to legal status             n= 69  post=0.36±0.20   argue=0.35±0.20   debate=0.30±0.13
-    Deported from the U.S.                      n= 19  post=0.48±0.23   argue=0.56±0.16   debate=0.40±0.10
-    Not sure                                    n= 12  post=0.17±0.06   argue=0.23±0.10   debate=0.25±0.08
-
-────────────────────────────────────────────────────────────────────────────
-  VAL   — behavioral
-────────────────────────────────────────────────────────────────────────────
-  Dimensions: post | argue | debate   (all in [0, 1])
-  Format: μ ± σ  (σ = sqrt(variance))
-────────────────────────────────────────────────────────────────────────────
+  path_vs_deport
+    Given a pathway to legal status             n= 53  post=0.38±0.20   argue=0.45±0.17   debate=0.29±0.11
+    Deported from the U.S.                      n= 32  post=0.45±0.20   argue=0.57±0.19   debate=0.38±0.17
+    Not sure                                    n= 15  post=0.12±0.04   argue=0.20±0.06   debate=0.18±0.08
 
   ai_job_automation
-    More jobs                                   n= 20  post=0.23±0.07   argue=0.23±0.09   debate=0.28±0.10
-    Fewer jobs                                  n= 46  post=0.36±0.15   argue=0.38±0.19   debate=0.32±0.12
-    About the same number of jobs               n= 34  post=0.17±0.07   argue=0.17±0.10   debate=0.23±0.09
-
-────────────────────────────────────────────────────────────────────────────
-  TEST  — behavioral
-────────────────────────────────────────────────────────────────────────────
-  Dimensions: post | argue | debate   (all in [0, 1])
-  Format: μ ± σ  (σ = sqrt(variance))
-────────────────────────────────────────────────────────────────────────────
+    Increase                                    n= 19  post=0.17±0.06   argue=0.28±0.09   debate=0.21±0.07
+    Decrease                                    n= 62  post=0.32±0.15   argue=0.40±0.17   debate=0.26±0.10
+    Have no effect                              n= 19  post=0.14±0.05   argue=0.22±0.06   debate=0.14±0.06
 
   ai_work_usage
-    All or most of my work                      n=  6  post=0.28±0.03   argue=0.20±0.07   debate=0.28±0.04
-    Some of my work                             n= 64  post=0.19±0.08   argue=0.16±0.09   debate=0.19±0.10
-    None of my work                             n= 30  post=0.15±0.11   argue=0.17±0.16   debate=0.14±0.08
+    All or most of my work                      (no samples)
+    Some of my work                             n= 45  post=0.20±0.08   argue=0.21±0.07   debate=0.21±0.08
+    Not much or none of my work                 n= 22  post=0.16±0.10   argue=0.23±0.13   debate=0.17±0.11
+    None of my work is done with AI / I don't know if any of my work is done with AI  n= 25  post=0.09±0.04   argue=0.16±0.08   debate=0.12±0.07
+    Not sure                                    n=  8  post=0.11±0.05   argue=0.13±0.07   debate=0.09±0.07
+
+  healthcare_worry
+    A great deal                                n= 60  post=0.41±0.19   argue=0.49±0.16   debate=0.36±0.14
+    Fair amount                                 n= 36  post=0.20±0.09   argue=0.32±0.09   debate=0.25±0.08
+    Only a little                               n=  4  post=0.14±0.10   argue=0.24±0.16   debate=0.12±0.08
+    Not at all                                  (no samples)
+
+  democracy_working
+    Satisfied                                   n= 24  post=0.32±0.23   argue=0.39±0.20   debate=0.26±0.15
+    Dissatisfied                                n= 76  post=0.44±0.23   argue=0.51±0.20   debate=0.34±0.16
+
+  israel_sympathy
+    More with the Israelis                      n= 43  post=0.30±0.12   argue=0.42±0.13   debate=0.22±0.09
+    More with the Palestinians                  n= 21  post=0.47±0.20   argue=0.52±0.17   debate=0.32±0.13
+    Both equally / Neither / No opinion         n= 36  post=0.15±0.09   argue=0.22±0.10   debate=0.16±0.09
+
+  marijuana_legalization
+    Should be legal                             n= 74  post=0.28±0.17   argue=0.34±0.15   debate=0.23±0.11
+    Should not be legal                         n= 26  post=0.20±0.11   argue=0.31±0.14   debate=0.19±0.11
+
+  vaccine_school_mandate
+    Yes, require vaccination                    n= 51  post=0.23±0.09   argue=0.33±0.09   debate=0.20±0.07
+    No, allow unvaccinated children in schools  n= 49  post=0.42±0.23   argue=0.52±0.21   debate=0.35±0.16
+
+  raise_taxes_high_income
+    Raised                                      n= 46  post=0.37±0.20   argue=0.41±0.19   debate=0.27±0.14
+    Kept the same                               n= 31  post=0.18±0.09   argue=0.29±0.11   debate=0.17±0.10
+    Lowered                                     n= 23  post=0.41±0.18   argue=0.52±0.18   debate=0.30±0.14
+  R^3 scatter → results/behavioral/r3_gun_sales_laws.png
+  R^3 scatter → results/behavioral/r3_climate_human_contribution.png
+  R^3 scatter → results/behavioral/r3_climate_local_impact.png
+  R^3 scatter → results/behavioral/r3_abortion_legal_circumstances.png
+  R^3 scatter → results/behavioral/r3_path_vs_deport.png
+  R^3 scatter → results/behavioral/r3_ai_job_automation.png
   R^3 scatter → results/behavioral/r3_ai_work_usage.png
+  R^3 scatter → results/behavioral/r3_healthcare_worry.png
+  R^3 scatter → results/behavioral/r3_democracy_working.png
+  R^3 scatter → results/behavioral/r3_israel_sympathy.png
+  R^3 scatter → results/behavioral/r3_marijuana_legalization.png
+  R^3 scatter → results/behavioral/r3_vaccine_school_mandate.png
+  R^3 scatter → results/behavioral/r3_raise_taxes_high_income.png
+
+[log saved → logs/output_general_us_2026-04-19_01-49-28.txt]
