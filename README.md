@@ -6,7 +6,7 @@ Each response also carries three [0, 1] behavioral dials — willingness to **po
 
 ## Pipelines
 
-Two run modes, chosen by flag:
+Three run modes, chosen by flag:
 
 **Default — single unified poll** (no `--model_selection`):
 1. Sample a 100-persona panel of the chosen population.
@@ -25,6 +25,16 @@ The default method and temperature are `value_anchored @ T=0.3`, identified as t
 6. Behavioral rollup + R³ scatter of (post, argue, debate) per test question.
 
 Requests go through the Anthropic Message Batches API — one batch per phase, results streamed back and demultiplexed by `custom_id`.
+
+**Bayesian update** (`--bayesian`, mutually exclusive with `--model_selection`):
+
+1. Post-stratified panel (same as default).
+2. For every (persona, question) we feed the LLM the published **party-cell prior** (from `priors.py` — Pew/Gallup/Quinnipiac crosstabs, D/R/I conditioned) and ask for a **log-odds adjustment per option** rather than a letter.
+3. Posterior per persona: `softmax(log(prior) + α · clip(delta))` with `α = 0.65`, `clip = ±1.5` (regularisation tuned against a middle-option-squeeze / partisan-over-amplification error pattern seen un-regularised).
+4. Panel distribution = **mean of posteriors** — preserves tail mass that argmax sampling discards.
+5. Same unified-poll reporting as the default path.
+
+Decouples absolute frequency (anchored to real crosstabs) from within-persona adjustment (the only thing the LLM is asked to do). See `bayesian.py` for the math; `priors.py` for the crosstab sources.
 
 ## Populations
 
@@ -106,6 +116,7 @@ python main.py                                  # default: value_anchored @ T=0.
 python main.py --population seniors_south       # 65+ in FL/AL/LA/TX
 python main.py --population general_us          # national adult frame
 python main.py --model_selection                # full 4-phase pipeline
+python main.py --bayesian --population general_us  # prior + LLM delta → posterior
 python main.py --dry-run                        # simulated responses, no API calls
 ```
 
@@ -113,9 +124,12 @@ python main.py --dry-run                        # simulated responses, no API ca
 
 - `--population {college_educated | seniors_south | general_us}` — which underlying group the personas model. Default: `college_educated`.
 - `--model_selection` — opt in to the full 4-phase pipeline (all methods on TRAIN → pick best → temp sweep on VAL → TEST at best config). Off by default; the default run uses `value_anchored` @ T=0.3 directly. Off saves ~90% of API calls.
+- `--bayesian` — use the prior+LLM-delta→posterior architecture. Mutually exclusive with `--model_selection`.
+- `--shrinkage FLOAT` — bayesian only; α ∈ [0, 1] applied to clipped deltas before softmax. Default `0.65`.
+- `--delta-clip FLOAT` — bayesian only; clip log-odds deltas to `[-clip, +clip]`. Default `1.5`.
 - `--method NAME` — restrict the Phase-1 sweep to a single method. Requires `--model_selection`.
 - `--dry-run` — simulate responses locally; no API key needed. Does not write a log file.
-- `--seed INT` — controls panel sampling and persona construction. Default 42.
+- `--seed INT` — controls panel sampling and persona construction. **Default: a fresh random seed every run** (100 different personas per invocation). The chosen seed is printed in the run header so any panel can be reproduced by passing `--seed <that value>`.
 
 Results land in `results/`. Cached batch outputs in `cache/`. Every live run's full console transcript is archived to `logs/output_<population>_<timestamp>.txt` (dry runs skipped).
 
@@ -126,7 +140,9 @@ config.py          API + experiment knobs
 ground_truth.py    survey questions and published distributions
 demographics.py    cohort sampling, post-stratification, industry + media weights
 personas.py        the five persona methods + shared system prompt
-survey.py          batch / async runner, <thinking>-aware parser
+survey.py          batch / async runner, <thinking>-aware parser, posterior-aware aggregation
+priors.py          party-conditioned crosstab priors for every question (D/R/I cells)
+bayesian.py        prior + LLM log-odds delta → softmax posterior; batch runner
 metrics.py         JSD, TVD, MAE, chi-squared, behavioral stats
 analysis.py        tables, charts, R³ scatter
 main.py            CLI

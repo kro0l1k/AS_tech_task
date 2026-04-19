@@ -13,10 +13,11 @@ Can LLMs simulate a representative panel of humans well enough to reproduce real
 
 Build 100 LLM personas of a **chosen target population** — selectable via `--population` — and ask them 13 single-select survey questions drawn from recent Pew / Gallup / Quinnipiac / KFF polls with known ground-truth distributions. Evaluate five different persona-construction methods.
 
-Two run modes:
+Three run modes:
 
 - **Default** — single unified poll at the configuration that won prior sweeps (`value_anchored @ T=0.3`). One method, one temperature, all 13 questions, one batch. Produces a poll-style per-question report of predicted vs. ground-truth distributions.
 - **`--model_selection`** — the full 4-phase pipeline. Train/val/test split over questions, method selection on train, temperature sweep on val, held-out test evaluation, plus an R³ scatter of the three behavioural dials per test question.
+- **`--bayesian`** — prior + LLM-delta → posterior architecture (see the Bayesian-update section below). Mutually exclusive with `--model_selection`.
 
 Beyond the single-choice answer, we elicit **three behavioural signals per response** on continuous [0, 1] scales:
 
