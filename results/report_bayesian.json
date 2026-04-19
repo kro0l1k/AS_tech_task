@@ -1,0 +1,213 @@
+{
+  "population": "general_us",
+  "method": "bayesian_update",
+  "temperature": 0.3,
+  "architecture": "prior+llm-delta\u2192posterior",
+  "shrinkage": 0.65,
+  "delta_clip": 1.5,
+  "seed": 1674546622,
+  "aggregate": {
+    "mean_jsd": 0.0006271733448759727,
+    "mean_tvd": 0.02221502800470477,
+    "mean_mae_pp": 1.529065529289878,
+    "plurality_accuracy": 0.8461538461538461,
+    "valid_rate": 1.0
+  },
+  "per_question": {
+    "gun_sales_laws": {
+      "jsd": 0.00011807164046530524,
+      "tvd": 0.011405495786392474,
+      "mae_pp": 0.7603663857594982,
+      "predicted": {
+        "More strict": 0.5671934808983192,
+        "Kept as they are now": 0.328594504210186,
+        "Less strict": 0.10421201489149513
+      },
+      "ground_truth": {
+        "More strict": 0.56,
+        "Kept as they are now": 0.34,
+        "Less strict": 0.1
+      }
+    },
+    "climate_human_contribution": {
+      "jsd": 0.0013525706025270825,
+      "tvd": 0.038415406797876056,
+      "mae_pp": 2.561027119858404,
+      "predicted": {
+        "Contributes a great deal": 0.47632483874456033,
+        "Contributes some": 0.25158459319059934,
+        "Not too much or not at all": 0.27209056806484067
+      },
+      "ground_truth": {
+        "Contributes a great deal": 0.45,
+        "Contributes some": 0.29,
+        "Not too much or not at all": 0.26
+      }
+    },
+    "climate_local_impact": {
+      "jsd": 0.0014979242192634423,
+      "tvd": 0.039355155967741806,
+      "mae_pp": 2.6236770645161207,
+      "predicted": {
+        "A great deal": 0.29935515597954826,
+        "Some": 0.34956551667659413,
+        "Not too much or not at all": 0.35107932734385733
+      },
+      "ground_truth": {
+        "A great deal": 0.26,
+        "Some": 0.38,
+        "Not too much or not at all": 0.36
+      }
+    },
+    "abortion_legal_circumstances": {
+      "jsd": 0.0005527320802088179,
+      "tvd": 0.027573338189458715,
+      "mae_pp": 1.8382225459639145,
+      "predicted": {
+        "Legal under any circumstances": 0.3174814974005992,
+        "Legal under certain circumstances": 0.5224266618022695,
+        "Illegal in all circumstances": 0.16009184079713157
+      },
+      "ground_truth": {
+        "Legal under any circumstances": 0.3,
+        "Legal under certain circumstances": 0.55,
+        "Illegal in all circumstances": 0.15
+      }
+    },
+    "path_vs_deport": {
+      "jsd": 0.00019514234518704858,
+      "tvd": 0.009767660513635958,
+      "mae_pp": 0.6511773675757305,
+      "predicted": {
+        "Given a pathway to legal status": 0.5597676605165663,
+        "Deported from the U.S.": 0.35904438347552853,
+        "Not sure": 0.08118795600790525
+      },
+      "ground_truth": {
+        "Given a pathway to legal status": 0.55,
+        "Deported from the U.S.": 0.36,
+        "Not sure": 0.09
+      }
+    },
+    "ai_job_automation": {
+      "jsd": 0.00013015199786210697,
+      "tvd": 0.012396640987826252,
+      "mae_pp": 0.8264427325217502,
+      "predicted": {
+        "Increase": 0.18462991896855094,
+        "Decrease": 0.6723966409915453,
+        "Have no effect": 0.14297344003990387
+      },
+      "ground_truth": {
+        "Increase": 0.19,
+        "Decrease": 0.66,
+        "Have no effect": 0.15
+      }
+    },
+    "ai_work_usage": {
+      "jsd": 0.00034378365955410313,
+      "tvd": 0.017451391554180302,
+      "mae_pp": 0.698055662167212,
+      "predicted": {
+        "All or most of my work": 0.02074272894708933,
+        "Some of my work": 0.2067086626158167,
+        "Not much or none of my work": 0.2605084229286495,
+        "None of my work is done with AI / I don't know if any of my work is done with AI": 0.37323753228649315,
+        "Not sure": 0.13880265322195137
+      },
+      "ground_truth": {
+        "All or most of my work": 0.02,
+        "Some of my work": 0.19,
+        "Not much or none of my work": 0.27,
+        "None of my work is done with AI / I don't know if any of my work is done with AI": 0.38,
+        "Not sure": 0.14
+      }
+    },
+    "healthcare_worry": {
+      "jsd": 0.0009690424042940429,
+      "tvd": 0.02373646491092545,
+      "mae_pp": 1.1868232455462724,
+      "predicted": {
+        "A great deal": 0.63373646492042,
+        "Fair amount": 0.19724402365461244,
+        "Only a little": 0.11518383413460746,
+        "Not at all": 0.05383567729036012
+      },
+      "ground_truth": {
+        "A great deal": 0.61,
+        "Fair amount": 0.2,
+        "Only a little": 0.12,
+        "Not at all": 0.07
+      }
+    },
+    "democracy_working": {
+      "jsd": 0.00016645415527053416,
+      "tvd": 0.013961626966903534,
+      "mae_pp": 1.3961626966903533,
+      "predicted": {
+        "Satisfied": 0.29603837303030417,
+        "Dissatisfied": 0.7039616269696957
+      },
+      "ground_truth": {
+        "Satisfied": 0.31,
+        "Dissatisfied": 0.69
+      }
+    },
+    "israel_sympathy": {
+      "jsd": 0.0023496698973475283,
+      "tvd": 0.05437660794494539,
+      "mae_pp": 3.6251071963296932,
+      "predicted": {
+        "More with the Israelis": 0.41437660796125825,
+        "More with the Palestinians": 0.366627600136261,
+        "Both equally / Neither / No opinion": 0.21899579190248045
+      },
+      "ground_truth": {
+        "More with the Israelis": 0.36,
+        "More with the Palestinians": 0.41,
+        "Both equally / Neither / No opinion": 0.23
+      }
+    },
+    "marijuana_legalization": {
+      "jsd": 0.00019681024236368756,
+      "tvd": 0.01593098680421251,
+      "mae_pp": 1.593098680421251,
+      "predicted": {
+        "Should be legal": 0.6240690131926014,
+        "Should not be legal": 0.37593098680739884
+      },
+      "ground_truth": {
+        "Should be legal": 0.64,
+        "Should not be legal": 0.36
+      }
+    },
+    "vaccine_school_mandate": {
+      "jsd": 0.00020341190016178227,
+      "tvd": 0.014681560228419377,
+      "mae_pp": 1.4681560228419377,
+      "predicted": {
+        "Yes, require vaccination": 0.7353184397686447,
+        "No, allow unvaccinated children in schools": 0.26468156023135586
+      },
+      "ground_truth": {
+        "Yes, require vaccination": 0.75,
+        "No, allow unvaccinated children in schools": 0.25
+      }
+    },
+    "raise_taxes_high_income": {
+      "jsd": 7.748833888216474e-05,
+      "tvd": 0.009743027408644162,
+      "mae_pp": 0.6495351605762774,
+      "predicted": {
+        "Raised": 0.6102569725884329,
+        "Kept the same": 0.20344654719160446,
+        "Lowered": 0.1862964802199626
+      },
+      "ground_truth": {
+        "Raised": 0.62,
+        "Kept the same": 0.2,
+        "Lowered": 0.18
+      }
+    }
+  }
+}

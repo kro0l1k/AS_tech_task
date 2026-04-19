@@ -34,9 +34,23 @@ Flags:
       Simulate responses locally — no API key needed. Useful for testing the
       pipeline end-to-end.
 
+  --bayesian
+      Use the Bayesian-update architecture (prior + LLM log-odds delta →
+      posterior per persona). Mutually exclusive with --model_selection.
+
+  --shrinkage FLOAT   (bayesian only, default 0.65)
+      Shrinkage factor α ∈ [0, 1] on clipped deltas before softmax. Pulls
+      every posterior toward the party-cell prior; α=1 removes shrinkage,
+      α=0 collapses to the prior.
+
+  --delta-clip FLOAT  (bayesian only, default 1.5)
+      Clip LLM log-odds deltas to [-clip, +clip] before softmax.
+
   --seed INT
       Controls panel sampling and all stochastic persona construction.
-      Default: 42.
+      Default: a fresh random seed on every run (100 different personas
+      every time). The chosen seed is printed in the run header so any
+      specific panel can be reproduced by passing --seed <that value>.
 
 Question split: first 80% train, next 10% val, last 10% test (at least one
 question guaranteed in val and test).
@@ -139,6 +153,10 @@ from personas import METHODS
 from survey import (
     run_survey, run_surveys, SurveyTask,
     save_results, load_results, SurveyResults, SurveyResponse,
+)
+from bayesian import (
+    run_bayesian_survey, run_dry_bayesian_survey,
+    SHRINKAGE_DEFAULT, DELTA_CLIP_DEFAULT,
 )
 from metrics import evaluate_method, MethodMetrics
 from analysis import (
@@ -474,6 +492,95 @@ def _print_unified_poll_report(
                   f"Δ={pred-true:+5.1%}  {bar}")
 
 
+async def _run_bayesian_pipeline(
+    panel,
+    questions: list[SurveyQuestion],
+    dry_run: bool,
+    seed: int,
+    population: str,
+    temperature: float = DEFAULT_TEMPERATURE,
+    shrinkage: float = SHRINKAGE_DEFAULT,
+    delta_clip: float = DELTA_CLIP_DEFAULT,
+):
+    """
+    Bayesian-update architecture: prior (party-cell crosstab) + LLM delta
+    → posterior per persona. Aggregation averages posteriors across the
+    panel, preserving tail mass that sampled-argmax methods discard.
+
+    Uses the same unified-poll reporting as the default pipeline so
+    results are directly comparable against the letter-based methods.
+    """
+    print("=" * 62)
+    print(f"  BAYESIAN-UPDATE RUN — T={temperature}  population='{population}'")
+    print("  Architecture: party-cell prior + LLM log-odds delta → posterior")
+    print("  (priors: priors.py — Pew / Gallup / Quinnipiac crosstabs)")
+    print(f"  Regularisation: shrinkage α={shrinkage}  delta_clip=±{delta_clip}")
+    print("=" * 62)
+
+    if dry_run:
+        results = run_dry_bayesian_survey(
+            panel, questions, temperature=temperature, seed=seed,
+            shrinkage=shrinkage, delta_clip=delta_clip,
+        )
+    else:
+        results = await run_bayesian_survey(
+            panel, questions, temperature=temperature, seed=seed,
+            shrinkage=shrinkage, delta_clip=delta_clip,
+        )
+
+    path = os.path.join(RESULTS_DIR, "bayesian", f"bayesian_T{temperature}.json")
+    save_results(results, path)
+
+    metrics = evaluate_method(results, questions)
+    _print_unified_poll_report("bayesian_update", metrics, questions, temperature)
+
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    report = {
+        "population": population,
+        "method": "bayesian_update",
+        "temperature": temperature,
+        "architecture": "prior+llm-delta→posterior",
+        "shrinkage": shrinkage,
+        "delta_clip": delta_clip,
+        "seed": seed,
+        "aggregate": {
+            "mean_jsd": metrics.mean_jsd,
+            "mean_tvd": metrics.mean_tvd,
+            "mean_mae_pp": metrics.mean_mae_pp,
+            "plurality_accuracy": metrics.plurality_accuracy,
+            "valid_rate": metrics.valid_rate,
+        },
+        "per_question": {
+            qm.question_id: {
+                "jsd": qm.jsd, "tvd": qm.tvd, "mae_pp": qm.mae_pp,
+                "predicted": qm.predicted_dist,
+                "ground_truth": qm.ground_truth_dist,
+            }
+            for qm in metrics.per_question
+        },
+    }
+    report_path = os.path.join(RESULTS_DIR, "report_bayesian.json")
+    with open(report_path, "w") as f:
+        json.dump(report, f, indent=2)
+    print(f"\n  Report saved → {report_path}")
+
+    # Behavioral rollup + R^3 scatter — same shape as the default pipeline.
+    print("\n" + "=" * 62)
+    print("  BEHAVIORAL stats  (method: 'bayesian_update')")
+    print("=" * 62)
+    print_behavioral_summary(results, questions, header="All questions — behavioral")
+
+    plot_dir = os.path.join(RESULTS_DIR, "behavioral_bayesian")
+    for q in questions:
+        r3_path = os.path.join(plot_dir, f"r3_{q.id}.png")
+        plot_behavioral_r3(
+            results, q, r3_path,
+            title_suffix=f"[bayesian_update · T={temperature}]",
+        )
+
+    return results
+
+
 async def _run_default_pipeline(
     panel,
     questions: list[SurveyQuestion],
@@ -577,14 +684,19 @@ async def run_experiment(
     methods_to_run: list[str] | None = None,
     dry_run: bool = False,
     seed: int = 42,
+    bayesian: bool = False,
+    shrinkage: float = SHRINKAGE_DEFAULT,
+    delta_clip: float = DELTA_CLIP_DEFAULT,
 ):
-    banner = (
-        "  LLM SURVEY PERSONA EXPERIMENT  (train / val / test)"
-        if do_model_selection
-        else "  LLM SURVEY PERSONA EXPERIMENT  (unified poll)"
-    )
+    if bayesian:
+        banner = "  LLM SURVEY PERSONA EXPERIMENT  (bayesian update)"
+    elif do_model_selection:
+        banner = "  LLM SURVEY PERSONA EXPERIMENT  (train / val / test)"
+    else:
+        banner = "  LLM SURVEY PERSONA EXPERIMENT  (unified poll)"
     print("=" * 62)
     print(banner)
+    print(f"  seed={seed}  population={population}")
     print("=" * 62)
 
     # --- Sample panel from the chosen population spec.
@@ -621,6 +733,19 @@ async def run_experiment(
         else f"OFF — using '{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}"
     )
     print(f"Model selection: {sel_str}\n")
+
+    # Bayesian-update architecture: prior + LLM delta → posterior per
+    # persona. Different inference path; skips method selection / sweeps
+    # entirely and reports with the same unified-poll shape.
+    if bayesian:
+        return await _run_bayesian_pipeline(
+            panel=panel,
+            questions=QUESTIONS,
+            dry_run=dry_run, seed=seed,
+            population=population,
+            shrinkage=shrinkage,
+            delta_clip=delta_clip,
+        )
 
     # Fast path: no model selection. Run the default (method, T) on ALL
     # questions together and report. Skips Phase 1 (all methods on TRAIN),
@@ -1017,6 +1142,39 @@ def main():
             f"Default (off) uses method='{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}."
         ),
     )
+    parser.add_argument(
+        "--bayesian",
+        action="store_true",
+        help=(
+            "Use the Bayesian-update architecture instead of the standard "
+            "letter-picking methods. For each (persona, question) we feed the "
+            "LLM the published party-cell prior (from priors.py) and ask for a "
+            "log-odds ADJUSTMENT per option, then combine via softmax into a "
+            "per-persona posterior. Panel distribution = mean of posteriors — "
+            "preserves tail mass that argmax sampling would discard. Mutually "
+            "exclusive with --model_selection."
+        ),
+    )
+    parser.add_argument(
+        "--shrinkage",
+        type=float,
+        default=SHRINKAGE_DEFAULT,
+        help=(
+            "Bayesian only: shrinkage factor α ∈ [0, 1] applied to clipped "
+            "LLM deltas before softmax. Pulls every posterior toward the "
+            "party-cell prior. α=1 → un-regularised; α=0 → collapses to "
+            f"the prior. Default {SHRINKAGE_DEFAULT}."
+        ),
+    )
+    parser.add_argument(
+        "--delta-clip",
+        type=float,
+        default=DELTA_CLIP_DEFAULT,
+        help=(
+            "Bayesian only: clip LLM log-odds deltas to [-clip, +clip] "
+            f"before softmax. Default ±{DELTA_CLIP_DEFAULT}."
+        ),
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--method",
@@ -1024,8 +1182,28 @@ def main():
         default=None,
         help="Restrict model selection to a single method (requires --model_selection).",
     )
-    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=None,
+        help=(
+            "Integer seed for panel sampling + all stochastic persona "
+            "construction. Omit for a fresh random seed every run (100 "
+            "different personas on every invocation). The chosen seed is "
+            "printed in the run header so any specific panel can be "
+            "reproduced by passing --seed <that value>."
+        ),
+    )
     args = parser.parse_args()
+
+    # Default: fresh random seed per run (so every invocation samples a
+    # different 100-persona panel). Pulled from OS entropy so it's
+    # independent of Python's global random state. Printed in the banner
+    # below for reproducibility.
+    if args.seed is None:
+        args.seed = random.SystemRandom().randint(0, 2**31 - 1)
+        print(f"[seed] no --seed given → using random seed {args.seed} "
+              f"(pass --seed {args.seed} to reproduce this panel)")
 
     # Pre-flight checks run BEFORE we open a log file, so bad invocations
     # don't leave empty archives behind.
@@ -1036,6 +1214,24 @@ def main():
     if args.method and not args.model_selection:
         print("--method has no effect without --model_selection "
               f"(default path is fixed to '{DEFAULT_METHOD}' @ T={DEFAULT_TEMPERATURE}).")
+        sys.exit(1)
+
+    if args.bayesian and args.model_selection:
+        print("--bayesian and --model_selection are mutually exclusive "
+              "(Bayesian is a single-architecture path, no method sweep).")
+        sys.exit(1)
+
+    if not args.bayesian and (
+        args.shrinkage != SHRINKAGE_DEFAULT or args.delta_clip != DELTA_CLIP_DEFAULT
+    ):
+        print("--shrinkage and --delta-clip only apply with --bayesian.")
+        sys.exit(1)
+
+    if not (0.0 <= args.shrinkage <= 1.0):
+        print(f"--shrinkage must be in [0, 1], got {args.shrinkage}.")
+        sys.exit(1)
+    if args.delta_clip <= 0:
+        print(f"--delta-clip must be > 0, got {args.delta_clip}.")
         sys.exit(1)
 
     # Archive the full run transcript to logs/output_<timestamp>.txt.
@@ -1051,6 +1247,9 @@ def main():
             methods_to_run=methods,
             dry_run=args.dry_run,
             seed=args.seed,
+            bayesian=args.bayesian,
+            shrinkage=args.shrinkage,
+            delta_clip=args.delta_clip,
         ))
     finally:
         if log_file is not None:

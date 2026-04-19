@@ -64,6 +64,13 @@ class SurveyResponse:
     post_likelihood:   float | None = None
     argue_likelihood:  float | None = None
     debate_frequency:  float | None = None
+    # Per-persona posterior distribution over options — populated ONLY by the
+    # bayesian_update architecture, which asks the LLM for a log-odds
+    # adjustment to a published party-cell prior and emits the full
+    # posterior as the per-persona answer. When present, SurveyResults
+    # aggregates by averaging these distributions rather than counting
+    # argmax letters (preserves tail mass a sampled argmax would discard).
+    posterior: dict[str, float] | None = None
 
 
 @dataclass
@@ -75,15 +82,48 @@ class SurveyResults:
     elapsed_seconds: float = 0.0
 
     def get_distribution(self, question: SurveyQuestion) -> dict[str, float]:
-        counts = {opt: 0 for opt in question.options}
-        valid = 0
-        for r in self.responses:
-            if r.question_id == question.id and r.chosen_option is not None:
-                counts[r.chosen_option] += 1
-                valid += 1
-        if valid == 0:
+        """
+        Panel-level distribution over options for this question.
+
+        Two modes:
+          • Standard (letter-based): count chosen_option across valid
+            responses and normalise. This is what every method except
+            bayesian_update produces.
+          • Posterior-averaged: if *every* valid response for this question
+            carries a `posterior` dict (the bayesian_update architecture),
+            average those per-persona distributions instead. Preserves the
+            tail mass a single argmax sample would discard — a persona
+            whose posterior is 70/25/5 contributes that full vector, not
+            just a vote for option A.
+        """
+        matching = [
+            r for r in self.responses
+            if r.question_id == question.id and r.chosen_option is not None
+        ]
+        if not matching:
             return {opt: 0.0 for opt in question.options}
-        return {opt: counts[opt] / valid for opt in question.options}
+
+        # Posterior-averaged mode: every valid response has a posterior dict.
+        if all(r.posterior is not None for r in matching):
+            agg = {opt: 0.0 for opt in question.options}
+            n = 0
+            for r in matching:
+                # Defensive: skip responses whose posterior doesn't cover
+                # all options (shouldn't happen, but don't crash if it does).
+                if not all(opt in r.posterior for opt in question.options):
+                    continue
+                for opt in question.options:
+                    agg[opt] += r.posterior[opt]
+                n += 1
+            if n > 0:
+                return {opt: agg[opt] / n for opt in question.options}
+
+        # Standard letter-counting path.
+        counts = {opt: 0 for opt in question.options}
+        for r in matching:
+            counts[r.chosen_option] += 1
+        total = len(matching)
+        return {opt: counts[opt] / total for opt in question.options}
 
 
 @dataclass
@@ -752,6 +792,7 @@ def save_results(results: SurveyResults, path: str):
                 "post_likelihood":  r.post_likelihood,
                 "argue_likelihood": r.argue_likelihood,
                 "debate_frequency": r.debate_frequency,
+                "posterior":        r.posterior,
             }
             for r in results.responses
         ],
@@ -781,5 +822,6 @@ def load_results(path: str) -> SurveyResults:
             post_likelihood=r.get("post_likelihood"),
             argue_likelihood=r.get("argue_likelihood"),
             debate_frequency=r.get("debate_frequency"),
+            posterior=r.get("posterior"),
         ))
     return results

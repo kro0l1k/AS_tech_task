@@ -1,40 +1,40 @@
 {
-  "population": "seniors_south",
+  "population": "general_us",
   "method": "value_anchored",
   "temperature": 0.3,
   "model_selection": false,
   "aggregate": {
-    "mean_jsd": 0.028850196082799835,
-    "mean_tvd": 0.13384615380376924,
-    "mean_mae_pp": 9.002564099887179,
-    "plurality_accuracy": 0.7692307692307693,
+    "mean_jsd": 0.014880403618299077,
+    "mean_tvd": 0.08923076920330769,
+    "mean_mae_pp": 6.238461536676923,
+    "plurality_accuracy": 0.8461538461538461,
     "valid_rate": 1.0
   },
   "per_question": {
     "gun_sales_laws": {
-      "jsd": 0.0753337513107777,
-      "tvd": 0.25999999992199996,
-      "mae_pp": 17.333333328133328,
+      "jsd": 0.0010092819547379197,
+      "tvd": 0.01999999999400006,
+      "mae_pp": 1.3333333329333374,
       "predicted": {
-        "More strict": 0.35,
-        "Kept as they are now": 0.29,
-        "Less strict": 0.36
+        "More strict": 0.56,
+        "Kept as they are now": 0.36,
+        "Less strict": 0.08
       },
       "ground_truth": {
         "More strict": 0.56,
         "Kept as they are now": 0.34,
         "Less strict": 0.1
       },
-      "plurality_match": false
+      "plurality_match": true
     },
     "climate_human_contribution": {
-      "jsd": 0.0022595846335296496,
-      "tvd": 0.04999999998500004,
-      "mae_pp": 3.333333332333336,
+      "jsd": 0.007533997522425754,
+      "tvd": 0.08999999997300001,
+      "mae_pp": 5.999999998200001,
       "predicted": {
-        "Contributes a great deal": 0.43,
-        "Contributes some": 0.34,
-        "Not too much or not at all": 0.23
+        "Contributes a great deal": 0.36,
+        "Contributes some": 0.3,
+        "Not too much or not at all": 0.34
       },
       "ground_truth": {
         "Contributes a great deal": 0.45,
@@ -44,28 +44,28 @@
       "plurality_match": true
     },
     "climate_local_impact": {
-      "jsd": 0.00198290248386733,
-      "tvd": 0.04999999998499999,
-      "mae_pp": 3.3333333323333325,
+      "jsd": 0.007261118554310025,
+      "tvd": 0.07999999997599999,
+      "mae_pp": 5.333333331733333,
       "predicted": {
-        "A great deal": 0.23,
-        "Some": 0.43,
-        "Not too much or not at all": 0.34
+        "A great deal": 0.34,
+        "Some": 0.3,
+        "Not too much or not at all": 0.36
       },
       "ground_truth": {
         "A great deal": 0.26,
         "Some": 0.38,
         "Not too much or not at all": 0.36
       },
-      "plurality_match": true
+      "plurality_match": false
     },
     "abortion_legal_circumstances": {
-      "jsd": 0.0016113296032251251,
-      "tvd": 0.039999999987999954,
-      "mae_pp": 2.666666665866664,
+      "jsd": 0.0008136758822299504,
+      "tvd": 0.029999999991000018,
+      "mae_pp": 1.9999999994000013,
       "predicted": {
-        "Legal under any circumstances": 0.26,
-        "Legal under certain circumstances": 0.57,
+        "Legal under any circumstances": 0.31,
+        "Legal under certain circumstances": 0.52,
         "Illegal in all circumstances": 0.17
       },
       "ground_truth": {
@@ -76,13 +76,13 @@
       "plurality_match": true
     },
     "path_vs_deport": {
-      "jsd": 0.0026109386635287967,
-      "tvd": 0.05999999998200003,
-      "mae_pp": 3.9999999988000017,
+      "jsd": 0.027767464848877738,
+      "tvd": 0.07999999997599996,
+      "mae_pp": 5.333333331733331,
       "predicted": {
-        "Given a pathway to legal status": 0.49,
-        "Deported from the U.S.": 0.41,
-        "Not sure": 0.1
+        "Given a pathway to legal status": 0.6,
+        "Deported from the U.S.": 0.39,
+        "Not sure": 0.01
       },
       "ground_truth": {
         "Given a pathway to legal status": 0.55,
@@ -92,13 +92,13 @@
       "plurality_match": true
     },
     "ai_job_automation": {
-      "jsd": 0.009440677898641014,
-      "tvd": 0.09999999997,
-      "mae_pp": 6.666666664666667,
+      "jsd": 0.008840845032558432,
+      "tvd": 0.06999999997900001,
+      "mae_pp": 4.666666665266668,
       "predicted": {
-        "Increase": 0.21,
-        "Decrease": 0.56,
-        "Have no effect": 0.23
+        "Increase": 0.2,
+        "Decrease": 0.72,
+        "Have no effect": 0.08
       },
       "ground_truth": {
         "Increase": 0.19,
@@ -108,15 +108,15 @@
       "plurality_match": true
     },
     "ai_work_usage": {
-      "jsd": 0.040748364465625866,
-      "tvd": 0.17999999990999999,
-      "mae_pp": 7.1999999964,
+      "jsd": 0.011490592483512163,
+      "tvd": 0.08999999995499997,
+      "mae_pp": 3.5999999981999986,
       "predicted": {
-        "All or most of my work": 0.0,
-        "Some of my work": 0.37,
-        "Not much or none of my work": 0.26,
-        "None of my work is done with AI / I don't know if any of my work is done with AI": 0.28,
-        "Not sure": 0.09
+        "All or most of my work": 0.01,
+        "Some of my work": 0.11,
+        "Not much or none of my work": 0.29,
+        "None of my work is done with AI / I don't know if any of my work is done with AI": 0.41,
+        "Not sure": 0.18
       },
       "ground_truth": {
         "All or most of my work": 0.02,
@@ -125,17 +125,17 @@
         "None of my work is done with AI / I don't know if any of my work is done with AI": 0.38,
         "Not sure": 0.14
       },
-      "plurality_match": false
+      "plurality_match": true
     },
     "healthcare_worry": {
-      "jsd": 0.09068812930992667,
-      "tvd": 0.209999999916,
-      "mae_pp": 10.4999999958,
+      "jsd": 0.04394321840404744,
+      "tvd": 0.189999999924,
+      "mae_pp": 9.4999999962,
       "predicted": {
-        "A great deal": 0.57,
-        "Fair amount": 0.41,
-        "Only a little": 0.02,
-        "Not at all": 0.0
+        "A great deal": 0.47,
+        "Fair amount": 0.19,
+        "Only a little": 0.31,
+        "Not at all": 0.03
       },
       "ground_truth": {
         "A great deal": 0.61,
@@ -146,12 +146,12 @@
       "plurality_match": true
     },
     "democracy_working": {
-      "jsd": 0.007527615186950852,
-      "tvd": 0.08999999998200006,
-      "mae_pp": 8.999999998200007,
+      "jsd": 0.004441309411191811,
+      "tvd": 0.06999999998600007,
+      "mae_pp": 6.999999998600007,
       "predicted": {
-        "Satisfied": 0.22,
-        "Dissatisfied": 0.78
+        "Satisfied": 0.24,
+        "Dissatisfied": 0.76
       },
       "ground_truth": {
         "Satisfied": 0.31,
@@ -160,13 +160,13 @@
       "plurality_match": true
     },
     "israel_sympathy": {
-      "jsd": 0.06442816662559739,
-      "tvd": 0.24999999992499994,
-      "mae_pp": 16.666666661666664,
+      "jsd": 0.04185145532783276,
+      "tvd": 0.159999999952,
+      "mae_pp": 10.666666663466668,
       "predicted": {
-        "More with the Israelis": 0.61,
-        "More with the Palestinians": 0.16,
-        "Both equally / Neither / No opinion": 0.23
+        "More with the Israelis": 0.51,
+        "More with the Palestinians": 0.42,
+        "Both equally / Neither / No opinion": 0.07
       },
       "ground_truth": {
         "More with the Israelis": 0.36,
@@ -176,12 +176,12 @@
       "plurality_match": false
     },
     "marijuana_legalization": {
-      "jsd": 7.780871188040555e-05,
-      "tvd": 0.00999999999799997,
-      "mae_pp": 0.999999999799997,
+      "jsd": 0.030084518700671484,
+      "tvd": 0.17999999996399996,
+      "mae_pp": 17.999999996399996,
       "predicted": {
-        "Should be legal": 0.63,
-        "Should not be legal": 0.37
+        "Should be legal": 0.82,
+        "Should not be legal": 0.18
       },
       "ground_truth": {
         "Should be legal": 0.64,
@@ -190,12 +190,12 @@
       "plurality_match": true
     },
     "vaccine_school_mandate": {
-      "jsd": 0.026272124142155014,
-      "tvd": 0.17999999996400004,
-      "mae_pp": 17.999999996400003,
+      "jsd": 0.0009032962595491095,
+      "tvd": 0.02999999999400002,
+      "mae_pp": 2.999999999400002,
       "predicted": {
-        "Yes, require vaccination": 0.57,
-        "No, allow unvaccinated children in schools": 0.43
+        "Yes, require vaccination": 0.78,
+        "No, allow unvaccinated children in schools": 0.22
       },
       "ground_truth": {
         "Yes, require vaccination": 0.75,
@@ -204,13 +204,13 @@
       "plurality_match": true
     },
     "raise_taxes_high_income": {
-      "jsd": 0.05207115604069204,
-      "tvd": 0.259999999922,
-      "mae_pp": 17.333333328133335,
+      "jsd": 0.007504472655943456,
+      "tvd": 0.069999999979,
+      "mae_pp": 4.666666665266667,
       "predicted": {
-        "Raised": 0.36,
-        "Kept the same": 0.28,
-        "Lowered": 0.36
+        "Raised": 0.69,
+        "Kept the same": 0.2,
+        "Lowered": 0.11
       },
       "ground_truth": {
         "Raised": 0.62,
